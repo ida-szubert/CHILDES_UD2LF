@@ -1,0 +1,2746 @@
+0 [pool-1-thread-1] DEBUG: (l-nsubjpass w-3-tickled w-1-you)
+2 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1 _:<v,v>)))
+3 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-tickled:tv $1 $0 $2))))
+3 [pool-1-thread-1] DEBUG: w-1-you:<v,v>
+3 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-tickled:tv _:<v,v> w-1-you:<v,v> $0))
+4 [pool-1-thread-1] DEBUG: 
+
+4 [pool-1-thread-1] DEBUG: (l-auxpass (l-nsubjpass w-3-tickled w-1-you) w-2-got)
+4 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> $0))
+4 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-tickled:tv _:<v,v> w-1-you:<v,v> $0))
+4 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-got:aux ($0 $1) $1)))
+4 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-tickled:tv _:<v,v> w-1-you:<v,v> $0))
+4 [pool-1-thread-1] DEBUG: 
+
+4 [pool-1-thread-1] DEBUG: (l-punct (l-auxpass (l-nsubjpass w-3-tickled w-1-you) w-2-got) w-4-.)
+4 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+4 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-tickled:tv _:<v,v> w-1-you:<v,v> $0))
+4 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+4 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-tickled:tv _:<v,v> w-1-you:<v,v> $0))
+4 [pool-1-thread-1] DEBUG: 
+
+14 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+26 [pool-1-thread-1] DEBUG: (l-det w-2-duck w-1-the)
+27 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+27 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-duck:<v,v> $0))
+30 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+31 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-duck:<v,v> $0))
+31 [pool-1-thread-1] DEBUG: 
+
+31 [pool-1-thread-1] DEBUG: (l-nsubjpass w-4-seen (l-det w-2-duck w-1-the))
+31 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1 _:<v,v>)))
+31 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-seen:tv $1 $0 $2))))
+31 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-duck:<v,v> $0))
+31 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-seen:tv _:<v,v> (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+31 [pool-1-thread-1] DEBUG: 
+
+31 [pool-1-thread-1] DEBUG: (l-auxpass (l-nsubjpass w-4-seen (l-det w-2-duck w-1-the)) w-3-was)
+31 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> $0))
+31 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-seen:tv _:<v,v> (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+32 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-3-was:aux ($0 $1) $1)))
+32 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-seen:tv _:<v,v> (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+32 [pool-1-thread-1] DEBUG: 
+
+32 [pool-1-thread-1] DEBUG: (l-punct (l-auxpass (l-nsubjpass w-4-seen (l-det w-2-duck w-1-the)) w-3-was) w-5-.)
+32 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+32 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-seen:tv _:<v,v> (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+32 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+32 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-seen:tv _:<v,v> (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+32 [pool-1-thread-1] DEBUG: 
+
+32 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+51 [pool-1-thread-1] DEBUG: (l-nmod:poss w-2-bread w-1-my)
+51 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+51 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-bread:<v,v> $0))
+51 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-my:d $1:v ($0 $1)))
+51 [pool-1-thread-1] DEBUG: (w-1-my:d $0:v (w-2-bread:<v,v> $0))
+51 [pool-1-thread-1] DEBUG: 
+
+51 [pool-1-thread-1] DEBUG: (l-nsubjpass w-4-eaten (l-nmod:poss w-2-bread w-1-my))
+52 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1 _:<v,v>)))
+52 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-eaten:tv $1 $0 $2))))
+52 [pool-1-thread-1] DEBUG: (w-1-my:d $0:v (w-2-bread:<v,v> $0))
+52 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-eaten:tv _:<v,v> (w-1-my:d $1:v (w-2-bread:<v,v> $1)) $0))
+52 [pool-1-thread-1] DEBUG: 
+
+52 [pool-1-thread-1] DEBUG: (l-det w-7-duck w-6-the)
+52 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+52 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-duck:<v,v> $0))
+52 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-6-the:d $1:v ($0 $1)))
+52 [pool-1-thread-1] DEBUG: (w-6-the:d $0:v (w-7-duck:<v,v> $0))
+53 [pool-1-thread-1] DEBUG: 
+
+53 [pool-1-thread-1] DEBUG: (l-case (l-det w-7-duck w-6-the) w-5-by)
+53 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,t>> (lambda $2:v ($1 $0 $2))))
+53 [pool-1-thread-1] DEBUG: (w-6-the:d $0:v (w-7-duck:<v,v> $0))
+53 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-by:<<v,v>,<v,t>> $0 $1)))
+53 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-by:<<v,v>,<v,t>> (w-6-the:d $1:v (w-7-duck:<v,v> $1)) $0))
+53 [pool-1-thread-1] DEBUG: 
+
+53 [pool-1-thread-1] DEBUG: (l-nmod-verb (l-nsubjpass w-4-eaten (l-nmod:poss w-2-bread w-1-my)) (l-case (l-det w-7-duck w-6-the) w-5-by))
+58 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+58 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-eaten:tv _:<v,v> (w-1-my:d $1:v (w-2-bread:<v,v> $1)) $0))
+58 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-by:<<v,v>,<v,t>> (w-6-the:d $1:v (w-7-duck:<v,v> $1)) $0))
+58 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-4-eaten:tv _:<v,v> (w-1-my:d $1:v (w-2-bread:<v,v> $1)) $0) (w-5-by:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-duck:<v,v> $2)) $0)))
+58 [pool-1-thread-1] DEBUG: 
+
+58 [pool-1-thread-1] DEBUG: (l-auxpass (l-nmod-verb (l-nsubjpass w-4-eaten (l-nmod:poss w-2-bread w-1-my)) (l-case (l-det w-7-duck w-6-the) w-5-by)) w-3-was)
+58 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> $0))
+58 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-4-eaten:tv _:<v,v> (w-1-my:d $1:v (w-2-bread:<v,v> $1)) $0) (w-5-by:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-duck:<v,v> $2)) $0)))
+58 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-3-was:aux ($0 $1) $1)))
+59 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-4-eaten:tv _:<v,v> (w-1-my:d $1:v (w-2-bread:<v,v> $1)) $0) (w-5-by:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-duck:<v,v> $2)) $0)))
+59 [pool-1-thread-1] DEBUG: 
+
+59 [pool-1-thread-1] DEBUG: (l-punct (l-auxpass (l-nmod-verb (l-nsubjpass w-4-eaten (l-nmod:poss w-2-bread w-1-my)) (l-case (l-det w-7-duck w-6-the) w-5-by)) w-3-was) w-8-.)
+59 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+59 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-4-eaten:tv _:<v,v> (w-1-my:d $1:v (w-2-bread:<v,v> $1)) $0) (w-5-by:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-duck:<v,v> $2)) $0)))
+59 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+59 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-4-eaten:tv _:<v,v> (w-1-my:d $1:v (w-2-bread:<v,v> $1)) $0) (w-5-by:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-duck:<v,v> $2)) $0)))
+59 [pool-1-thread-1] DEBUG: 
+
+59 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+72 [pool-1-thread-1] DEBUG: (l-amod w-3-day w-2-good)
+72 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+72 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-day:<v,v> $0))
+73 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-good:<v,v> $0))
+73 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-2-good:<v,v> $0) (w-3-day:<v,v> $0)))
+73 [pool-1-thread-1] DEBUG: 
+
+73 [pool-1-thread-1] DEBUG: (l-dobj w-5-watch w-6-ducks)
+73 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+73 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-watch:tv _:<v,v> $0 $1)))
+73 [pool-1-thread-1] DEBUG: w-6-ducks:<v,v>
+73 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-watch:tv _:<v,v> w-6-ducks:<v,v> $0))
+73 [pool-1-thread-1] DEBUG: 
+
+73 [pool-1-thread-1] DEBUG: (l-mark (l-dobj w-5-watch w-6-ducks) w-4-to)
+73 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> $0))
+74 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-watch:tv _:<v,v> w-6-ducks:<v,v> $0))
+74 [pool-1-thread-1] DEBUG: w-4-to:prt
+74 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-watch:tv _:<v,v> w-6-ducks:<v,v> $0))
+74 [pool-1-thread-1] DEBUG: 
+
+74 [pool-1-thread-1] DEBUG: (l-acl (l-amod w-3-day w-2-good) (l-mark (l-dobj w-5-watch w-6-ducks) w-4-to))
+75 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,t> (lambda $2:v (rel:<v,<<v,t>,v>> ($0 $2) $1))))
+75 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-2-good:<v,v> $0) (w-3-day:<v,v> $0)))
+75 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-watch:tv _:<v,v> w-6-ducks:<v,v> $0))
+75 [pool-1-thread-1] DEBUG: (lambda $0:v (rel:<v,<<v,t>,v>> (and:<v,<v,v>> (w-2-good:<v,v> $0) (w-3-day:<v,v> $0)) (lambda $1:v (w-5-watch:tv _:<v,v> w-6-ducks:<v,v> $1))))
+75 [pool-1-thread-1] DEBUG: 
+
+75 [pool-1-thread-1] DEBUG: (l-det (l-acl (l-amod w-3-day w-2-good) (l-mark (l-dobj w-5-watch w-6-ducks) w-4-to)) w-1-a)
+75 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+75 [pool-1-thread-1] DEBUG: (lambda $0:v (rel:<v,<<v,t>,v>> (and:<v,<v,v>> (w-2-good:<v,v> $0) (w-3-day:<v,v> $0)) (lambda $1:v (w-5-watch:tv _:<v,v> w-6-ducks:<v,v> $1))))
+75 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-a:d $1:v ($0 $1)))
+76 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (rel:<v,<<v,t>,v>> (and:<v,<v,v>> (w-2-good:<v,v> $0) (w-3-day:<v,v> $0)) (lambda $1:v (w-5-watch:tv _:<v,v> w-6-ducks:<v,v> $1))))
+76 [pool-1-thread-1] DEBUG: 
+
+76 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+88 [pool-1-thread-1] DEBUG: (l-det w-5-smell w-4-the)
+88 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+88 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-smell:<v,v> $0))
+88 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-the:d $1:v ($0 $1)))
+88 [pool-1-thread-1] DEBUG: (w-4-the:d $0:v (w-5-smell:<v,v> $0))
+88 [pool-1-thread-1] DEBUG: 
+
+88 [pool-1-thread-1] DEBUG: (l-case (l-det w-5-smell w-4-the) w-3-by)
+88 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,t>> (lambda $2:v ($1 $0 $2))))
+88 [pool-1-thread-1] DEBUG: (w-4-the:d $0:v (w-5-smell:<v,v> $0))
+88 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-by:<<v,v>,<v,t>> $0 $1)))
+88 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-by:<<v,v>,<v,t>> (w-4-the:d $1:v (w-5-smell:<v,v> $1)) $0))
+89 [pool-1-thread-1] DEBUG: 
+
+89 [pool-1-thread-1] DEBUG: (l-nmod-verb w-2-attracted (l-case (l-det w-5-smell w-4-the) w-3-by))
+89 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,t> (lambda $2:<v,v> (lambda $3:<v,v> (lambda $4:v (and:<t,<t,t>> ($0 $2 $3 $4) ($1 $4)))))))
+89 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-attracted:tv $1 $0 $2))))
+89 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-by:<<v,v>,<v,t>> (w-4-the:d $1:v (w-5-smell:<v,v> $1)) $0))
+89 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<t,<t,t>> (w-2-attracted:tv $1 $0 $2) (w-3-by:<<v,v>,<v,t>> (w-4-the:d $3:v (w-5-smell:<v,v> $3)) $2)))))
+89 [pool-1-thread-1] DEBUG: 
+
+89 [pool-1-thread-1] DEBUG: (l-acl-rel w-1-ducks (l-nmod-verb w-2-attracted (l-case (l-det w-5-smell w-4-the) w-3-by)))
+90 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<u,<u,p>> (lambda $2:v (and:<v,<<v,t>,v>> ($0 $2) ($1 (cast:<v,<v,v>> $2) _:<v,v>)))))
+90 [pool-1-thread-1] DEBUG: (lambda $0:v (w-1-ducks:<v,v> $0))
+90 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<t,<t,t>> (w-2-attracted:tv $1 $0 $2) (w-3-by:<<v,v>,<v,t>> (w-4-the:d $3:v (w-5-smell:<v,v> $3)) $2)))))
+90 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-1-ducks:<v,v> $0) (lambda $1:v (and:<t,<t,t>> (w-2-attracted:tv _:<v,v> (cast:<v,<v,v>> $0) $1) (w-3-by:<<v,v>,<v,t>> (w-4-the:d $2:v (w-5-smell:<v,v> $2)) $1)))))
+90 [pool-1-thread-1] DEBUG: 
+
+90 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+100 [pool-1-thread-1] DEBUG: (l-det w-6-fish w-5-the)
+100 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+100 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-fish:<v,v> $0))
+100 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-5-the:d $1:v ($0 $1)))
+100 [pool-1-thread-1] DEBUG: (w-5-the:d $0:v (w-6-fish:<v,v> $0))
+101 [pool-1-thread-1] DEBUG: 
+
+101 [pool-1-thread-1] DEBUG: (l-dobj-tri w-3-selling (l-det w-6-fish w-5-the))
+101 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,<u,p>>> (lambda $1:<v,v> ($0 $1)))
+101 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-3-selling:dtv $2 $0 $1 $3)))))
+101 [pool-1-thread-1] DEBUG: (w-5-the:d $0:v (w-6-fish:<v,v> $0))
+101 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-selling:dtv $1 (w-5-the:d $3:v (w-6-fish:<v,v> $3)) $0 $2))))
+101 [pool-1-thread-1] DEBUG: 
+
+101 [pool-1-thread-1] DEBUG: (l-iobj-bi (l-dobj-tri w-3-selling (l-det w-6-fish w-5-the)) w-4-us)
+101 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+101 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-selling:dtv $1 (w-5-the:d $3:v (w-6-fish:<v,v> $3)) $0 $2))))
+102 [pool-1-thread-1] DEBUG: w-4-us:<v,v>
+102 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-selling:dtv $0 (w-5-the:d $2:v (w-6-fish:<v,v> $2)) w-4-us:<v,v> $1)))
+102 [pool-1-thread-1] DEBUG: 
+
+102 [pool-1-thread-1] DEBUG: (l-acl-rel w-2-people (l-iobj-bi (l-dobj-tri w-3-selling (l-det w-6-fish w-5-the)) w-4-us))
+102 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<u,p> (lambda $2:v (and:<v,<<v,t>,v>> ($0 $2) ($1 (cast:<v,<v,v>> $2))))))
+102 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-people:<v,v> $0))
+102 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-selling:dtv $0 (w-5-the:d $2:v (w-6-fish:<v,v> $2)) w-4-us:<v,v> $1)))
+102 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-people:<v,v> $0) (lambda $1:v (w-3-selling:dtv (cast:<v,<v,v>> $0) (w-5-the:d $2:v (w-6-fish:<v,v> $2)) w-4-us:<v,v> $1))))
+102 [pool-1-thread-1] DEBUG: 
+
+102 [pool-1-thread-1] DEBUG: (l-det (l-acl-rel w-2-people (l-iobj-bi (l-dobj-tri w-3-selling (l-det w-6-fish w-5-the)) w-4-us)) w-1-the)
+102 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+102 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-people:<v,v> $0) (lambda $1:v (w-3-selling:dtv (cast:<v,<v,v>> $0) (w-5-the:d $2:v (w-6-fish:<v,v> $2)) w-4-us:<v,v> $1))))
+103 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+103 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (and:<v,<<v,t>,v>> (w-2-people:<v,v> $0) (lambda $1:v (w-3-selling:dtv (cast:<v,<v,v>> $0) (w-5-the:d $2:v (w-6-fish:<v,v> $2)) w-4-us:<v,v> $1))))
+103 [pool-1-thread-1] DEBUG: 
+
+103 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+111 [pool-1-thread-1] DEBUG: (l-nmod:poss w-5-day w-4-my)
+111 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+111 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-day:<v,v> $0))
+111 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-my:d $1:v ($0 $1)))
+111 [pool-1-thread-1] DEBUG: (w-4-my:d $0:v (w-5-day:<v,v> $0))
+111 [pool-1-thread-1] DEBUG: 
+
+111 [pool-1-thread-1] DEBUG: (l-dobj-bi w-3-describing (l-nmod:poss w-5-day w-4-my))
+111 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+111 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-describing:tv $1 $0 $2))))
+112 [pool-1-thread-1] DEBUG: (w-4-my:d $0:v (w-5-day:<v,v> $0))
+112 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-describing:tv $0 (w-4-my:d $2:v (w-5-day:<v,v> $2)) $1)))
+112 [pool-1-thread-1] DEBUG: 
+
+112 [pool-1-thread-1] DEBUG: (l-acl-rel w-2-letter (l-dobj-bi w-3-describing (l-nmod:poss w-5-day w-4-my)))
+112 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<u,p> (lambda $2:v (and:<v,<<v,t>,v>> ($0 $2) ($1 (cast:<v,<v,v>> $2))))))
+112 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-letter:<v,v> $0))
+112 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-describing:tv $0 (w-4-my:d $2:v (w-5-day:<v,v> $2)) $1)))
+112 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-letter:<v,v> $0) (lambda $1:v (w-3-describing:tv (cast:<v,<v,v>> $0) (w-4-my:d $2:v (w-5-day:<v,v> $2)) $1))))
+112 [pool-1-thread-1] DEBUG: 
+
+112 [pool-1-thread-1] DEBUG: (l-det (l-acl-rel w-2-letter (l-dobj-bi w-3-describing (l-nmod:poss w-5-day w-4-my))) w-1-a)
+113 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+113 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-letter:<v,v> $0) (lambda $1:v (w-3-describing:tv (cast:<v,<v,v>> $0) (w-4-my:d $2:v (w-5-day:<v,v> $2)) $1))))
+113 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-a:d $1:v ($0 $1)))
+113 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (and:<v,<<v,t>,v>> (w-2-letter:<v,v> $0) (lambda $1:v (w-3-describing:tv (cast:<v,<v,v>> $0) (w-4-my:d $2:v (w-5-day:<v,v> $2)) $1))))
+113 [pool-1-thread-1] DEBUG: 
+
+113 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+122 [pool-1-thread-1] DEBUG: (l-cop w-6-tired w-5-is)
+123 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> (lambda $3:v ($0 $2 $3)))))
+123 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-6-tired:<<v,v>,<v,t>> $0 $1)))
+123 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-is:<v,t> $0))
+123 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-6-tired:<<v,v>,<v,t>> $0 $1)))
+123 [pool-1-thread-1] DEBUG: 
+
+123 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop w-6-tired w-5-is) w-4-he)
+123 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+123 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-6-tired:<<v,v>,<v,t>> $0 $1)))
+123 [pool-1-thread-1] DEBUG: w-4-he:<v,v>
+123 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-tired:<<v,v>,<v,t>> w-4-he:<v,v> $0))
+123 [pool-1-thread-1] DEBUG: 
+
+123 [pool-1-thread-1] DEBUG: (l-mark (l-nsubj (l-cop w-6-tired w-5-is) w-4-he) w-3-that)
+123 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> $0))
+124 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-tired:<<v,v>,<v,t>> w-4-he:<v,v> $0))
+124 [pool-1-thread-1] DEBUG: w-3-that:prt
+124 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-tired:<<v,v>,<v,t>> w-4-he:<v,v> $0))
+124 [pool-1-thread-1] DEBUG: 
+
+124 [pool-1-thread-1] DEBUG: (l-acl-that w-2-sign (l-mark (l-nsubj (l-cop w-6-tired w-5-is) w-4-he) w-3-that))
+124 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,t> (lambda $2:v (rel:<v,<<v,t>,v>> ($0 $2) $1))))
+124 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-sign:<v,v> $0))
+124 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-tired:<<v,v>,<v,t>> w-4-he:<v,v> $0))
+124 [pool-1-thread-1] DEBUG: (lambda $0:v (rel:<v,<<v,t>,v>> (w-2-sign:<v,v> $0) (lambda $1:v (w-6-tired:<<v,v>,<v,t>> w-4-he:<v,v> $1))))
+124 [pool-1-thread-1] DEBUG: 
+
+124 [pool-1-thread-1] DEBUG: (l-det (l-acl-that w-2-sign (l-mark (l-nsubj (l-cop w-6-tired w-5-is) w-4-he) w-3-that)) w-1-a)
+124 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+124 [pool-1-thread-1] DEBUG: (lambda $0:v (rel:<v,<<v,t>,v>> (w-2-sign:<v,v> $0) (lambda $1:v (w-6-tired:<<v,v>,<v,t>> w-4-he:<v,v> $1))))
+124 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-a:d $1:v ($0 $1)))
+124 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (rel:<v,<<v,t>,v>> (w-2-sign:<v,v> $0) (lambda $1:v (w-6-tired:<<v,v>,<v,t>> w-4-he:<v,v> $1))))
+124 [pool-1-thread-1] DEBUG: 
+
+125 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+130 [pool-1-thread-1] DEBUG: (l-aux w-3-raining w-2-is)
+130 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+130 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-raining:<v,t> $0))
+138 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-is:aux ($0 $1) $1)))
+138 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:aux (w-3-raining:<v,t> $0) $0))
+138 [pool-1-thread-1] DEBUG: 
+
+138 [pool-1-thread-1] DEBUG: (l-punct (l-aux w-3-raining w-2-is) w-4-.)
+138 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+138 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:aux (w-3-raining:<v,t> $0) $0))
+138 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+138 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:aux (w-3-raining:<v,t> $0) $0))
+138 [pool-1-thread-1] DEBUG: 
+
+138 [pool-1-thread-1] DEBUG: (l-expl (l-punct (l-aux w-3-raining w-2-is) w-4-.) w-1-it)
+138 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> ($0)))
+138 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:aux (w-3-raining:<v,t> $0) $0))
+138 [pool-1-thread-1] DEBUG: w-1-it:<v,v>
+138 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:aux (w-3-raining:<v,t> $0) $0))
+138 [pool-1-thread-1] DEBUG: 
+
+139 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+142 [pool-1-thread-1] DEBUG: (l-cop w-3-sunny w-2-is)
+142 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> ($0)))
+142 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-sunny:<v,t> $0))
+142 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:<v,t> $0))
+142 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-sunny:<v,t> $0))
+142 [pool-1-thread-1] DEBUG: 
+
+142 [pool-1-thread-1] DEBUG: (l-punct (l-cop w-3-sunny w-2-is) w-4-.)
+142 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+142 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-sunny:<v,t> $0))
+142 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+142 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-sunny:<v,t> $0))
+142 [pool-1-thread-1] DEBUG: 
+
+143 [pool-1-thread-1] DEBUG: (l-expl (l-punct (l-cop w-3-sunny w-2-is) w-4-.) w-1-it)
+143 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> ($0)))
+143 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-sunny:<v,t> $0))
+143 [pool-1-thread-1] DEBUG: w-1-it:<v,v>
+143 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-sunny:<v,t> $0))
+143 [pool-1-thread-1] DEBUG: 
+
+143 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+156 [pool-1-thread-1] DEBUG: (l-det w-4-duck w-3-a)
+157 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+157 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<v,v> $0))
+157 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+157 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+157 [pool-1-thread-1] DEBUG: 
+
+157 [pool-1-thread-1] DEBUG: (l-nsubj w-2-is (l-det w-4-duck w-3-a))
+157 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+157 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-is:iv $0 $1)))
+157 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+157 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:iv (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0))
+157 [pool-1-thread-1] DEBUG: 
+
+157 [pool-1-thread-1] DEBUG: (l-det w-7-picture w-6-the)
+157 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+157 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-picture:<v,v> $0))
+158 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-6-the:d $1:v ($0 $1)))
+158 [pool-1-thread-1] DEBUG: (w-6-the:d $0:v (w-7-picture:<v,v> $0))
+158 [pool-1-thread-1] DEBUG: 
+
+158 [pool-1-thread-1] DEBUG: (l-case (l-det w-7-picture w-6-the) w-5-on)
+158 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,t>> (lambda $2:v ($1 $0 $2))))
+158 [pool-1-thread-1] DEBUG: (w-6-the:d $0:v (w-7-picture:<v,v> $0))
+158 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-on:<<v,v>,<v,t>> $0 $1)))
+158 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-on:<<v,v>,<v,t>> (w-6-the:d $1:v (w-7-picture:<v,v> $1)) $0))
+158 [pool-1-thread-1] DEBUG: 
+
+158 [pool-1-thread-1] DEBUG: (l-nmod-verb (l-nsubj w-2-is (l-det w-4-duck w-3-a)) (l-case (l-det w-7-picture w-6-the) w-5-on))
+158 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+158 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:iv (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0))
+158 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-on:<<v,v>,<v,t>> (w-6-the:d $1:v (w-7-picture:<v,v> $1)) $0))
+158 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-is:iv (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0) (w-5-on:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-picture:<v,v> $2)) $0)))
+158 [pool-1-thread-1] DEBUG: 
+
+158 [pool-1-thread-1] DEBUG: (l-punct (l-nmod-verb (l-nsubj w-2-is (l-det w-4-duck w-3-a)) (l-case (l-det w-7-picture w-6-the) w-5-on)) w-8-.)
+158 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+158 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-is:iv (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0) (w-5-on:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-picture:<v,v> $2)) $0)))
+158 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+158 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-is:iv (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0) (w-5-on:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-picture:<v,v> $2)) $0)))
+158 [pool-1-thread-1] DEBUG: 
+
+158 [pool-1-thread-1] DEBUG: (l-expl (l-punct (l-nmod-verb (l-nsubj w-2-is (l-det w-4-duck w-3-a)) (l-case (l-det w-7-picture w-6-the) w-5-on)) w-8-.) w-1-there)
+158 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> ($0)))
+159 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-is:iv (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0) (w-5-on:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-picture:<v,v> $2)) $0)))
+159 [pool-1-thread-1] DEBUG: w-1-there:<v,v>
+159 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-is:iv (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0) (w-5-on:<<v,v>,<v,t>> (w-6-the:d $2:v (w-7-picture:<v,v> $2)) $0)))
+159 [pool-1-thread-1] DEBUG: 
+
+159 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+165 [pool-1-thread-1] DEBUG: (l-cc w-3-needle w-4-and)
+165 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<<v,v>,<v,v>>> ($1 $0)))
+165 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-needle:<v,v> $0))
+165 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (w-4-and:<<v,v>,<<v,v>,<v,v>>> $0 $1)))
+166 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $1:v (w-3-needle:<v,v> $1)) $0))
+166 [pool-1-thread-1] DEBUG: 
+
+166 [pool-1-thread-1] DEBUG: (l-conj-np (l-cc w-3-needle w-4-and) w-5-thread)
+166 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,v>> (lambda $1:<v,v> ($0 $1)))
+166 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $1:v (w-3-needle:<v,v> $1)) $0))
+166 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-thread:<v,v> $0))
+166 [pool-1-thread-1] DEBUG: (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $0:v (w-3-needle:<v,v> $0)) (lambda $1:v (w-5-thread:<v,v> $1)))
+166 [pool-1-thread-1] DEBUG: 
+
+166 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-need (l-conj-np (l-cc w-3-needle w-4-and) w-5-thread))
+166 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+166 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-need:tv $1 $0 $2))))
+166 [pool-1-thread-1] DEBUG: (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $0:v (w-3-needle:<v,v> $0)) (lambda $1:v (w-5-thread:<v,v> $1)))
+166 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-need:tv $0 (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $2:v (w-3-needle:<v,v> $2)) (lambda $3:v (w-5-thread:<v,v> $3))) $1)))
+166 [pool-1-thread-1] DEBUG: 
+
+166 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-need (l-conj-np (l-cc w-3-needle w-4-and) w-5-thread)) w-1-we)
+166 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+167 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-need:tv $0 (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $2:v (w-3-needle:<v,v> $2)) (lambda $3:v (w-5-thread:<v,v> $3))) $1)))
+167 [pool-1-thread-1] DEBUG: w-1-we:<v,v>
+167 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-need:tv w-1-we:<v,v> (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $1:v (w-3-needle:<v,v> $1)) (lambda $2:v (w-5-thread:<v,v> $2))) $0))
+167 [pool-1-thread-1] DEBUG: 
+
+167 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-need (l-conj-np (l-cc w-3-needle w-4-and) w-5-thread)) w-1-we) w-6-.)
+167 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+167 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-need:tv w-1-we:<v,v> (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $1:v (w-3-needle:<v,v> $1)) (lambda $2:v (w-5-thread:<v,v> $2))) $0))
+167 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+167 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-need:tv w-1-we:<v,v> (w-4-and:<<v,v>,<<v,v>,<v,v>>> (lambda $1:v (w-3-needle:<v,v> $1)) (lambda $2:v (w-5-thread:<v,v> $2))) $0))
+167 [pool-1-thread-1] DEBUG: 
+
+167 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+176 [pool-1-thread-1] DEBUG: (l-cc w-3-green w-4-or)
+176 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<<v,v>,<v,v>>> ($1 $0)))
+176 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-green:<v,v> $0))
+176 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-or:<v,<v,v>> ($0 $2) ($1 $2)))))
+176 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-or:<v,<v,v>> (w-3-green:<v,v> $1) ($0 $1))))
+176 [pool-1-thread-1] DEBUG: 
+
+176 [pool-1-thread-1] DEBUG: (l-conj-adj (l-cc w-3-green w-4-or) w-5-red)
+176 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,v>> (lambda $1:<v,v> ($0 $1)))
+176 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-or:<v,<v,v>> (w-3-green:<v,v> $1) ($0 $1))))
+176 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-red:<v,v> $0))
+176 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-or:<v,<v,v>> (w-3-green:<v,v> $0) (w-5-red:<v,v> $0)))
+177 [pool-1-thread-1] DEBUG: 
+
+177 [pool-1-thread-1] DEBUG: (l-amod w-6-thread (l-conj-adj (l-cc w-3-green w-4-or) w-5-red))
+177 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+177 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-thread:<v,v> $0))
+177 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-or:<v,<v,v>> (w-3-green:<v,v> $0) (w-5-red:<v,v> $0)))
+177 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-4-or:<v,<v,v>> (w-3-green:<v,v> $0) (w-5-red:<v,v> $0)) (w-6-thread:<v,v> $0)))
+177 [pool-1-thread-1] DEBUG: 
+
+177 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-need (l-amod w-6-thread (l-conj-adj (l-cc w-3-green w-4-or) w-5-red)))
+177 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+177 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-need:tv $1 $0 $2))))
+177 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-4-or:<v,<v,v>> (w-3-green:<v,v> $0) (w-5-red:<v,v> $0)) (w-6-thread:<v,v> $0)))
+177 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-need:tv $0 (lambda $2:v (and:<v,<v,v>> (w-4-or:<v,<v,v>> (w-3-green:<v,v> $2) (w-5-red:<v,v> $2)) (w-6-thread:<v,v> $2))) $1)))
+177 [pool-1-thread-1] DEBUG: 
+
+177 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-need (l-amod w-6-thread (l-conj-adj (l-cc w-3-green w-4-or) w-5-red))) w-1-we)
+177 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+177 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-need:tv $0 (lambda $2:v (and:<v,<v,v>> (w-4-or:<v,<v,v>> (w-3-green:<v,v> $2) (w-5-red:<v,v> $2)) (w-6-thread:<v,v> $2))) $1)))
+177 [pool-1-thread-1] DEBUG: w-1-we:<v,v>
+177 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-need:tv w-1-we:<v,v> (lambda $1:v (and:<v,<v,v>> (w-4-or:<v,<v,v>> (w-3-green:<v,v> $1) (w-5-red:<v,v> $1)) (w-6-thread:<v,v> $1))) $0))
+177 [pool-1-thread-1] DEBUG: 
+
+178 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-need (l-amod w-6-thread (l-conj-adj (l-cc w-3-green w-4-or) w-5-red))) w-1-we) w-7-.)
+179 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+179 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-need:tv w-1-we:<v,v> (lambda $1:v (and:<v,<v,v>> (w-4-or:<v,<v,v>> (w-3-green:<v,v> $1) (w-5-red:<v,v> $1)) (w-6-thread:<v,v> $1))) $0))
+179 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+179 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-need:tv w-1-we:<v,v> (lambda $1:v (and:<v,<v,v>> (w-4-or:<v,<v,v>> (w-3-green:<v,v> $1) (w-5-red:<v,v> $1)) (w-6-thread:<v,v> $1))) $0))
+179 [pool-1-thread-1] DEBUG: 
+
+179 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+191 [pool-1-thread-1] DEBUG: (l-cc w-4-green w-5-and)
+191 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<<v,v>,<v,t>>,<<<v,v>,<v,t>>,<<v,v>,<v,t>>>> ($1 $0)))
+191 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-green:<<v,v>,<v,t>> $0 $1)))
+191 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,t>> (lambda $2:<v,v> (lambda $3:v (w-5-and:<t,<t,t>> ($0 $2 $3) ($1 $2 $3))))))
+191 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,v> (lambda $2:v (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $1 $2) ($0 $1 $2)))))
+191 [pool-1-thread-1] DEBUG: 
+
+191 [pool-1-thread-1] DEBUG: (l-conj-adj (l-cc w-4-green w-5-and) w-6-red)
+191 [pool-1-thread-1] DEBUG: (lambda $0:<<<v,v>,<v,t>>,<<v,v>,<v,t>>> (lambda $1:<<v,v>,<v,t>> ($0 $1)))
+191 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,v> (lambda $2:v (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $1 $2) ($0 $1 $2)))))
+191 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-6-red:<<v,v>,<v,t>> $0 $1)))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $0 $1) (w-6-red:<<v,v>,<v,t>> $0 $1))))
+192 [pool-1-thread-1] DEBUG: 
+
+192 [pool-1-thread-1] DEBUG: (l-amod w-7-thread (l-conj-adj (l-cc w-4-green w-5-and) w-6-red))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,t>> (lambda $2:<v,v> (lambda $3:v (and:<t,<t,t>> ($0 $2 $3) ($1 $2 $3))))))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-7-thread:<<v,v>,<v,t>> $0 $1)))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $0 $1) (w-6-red:<<v,v>,<v,t>> $0 $1))))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> $0 $1) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $0 $1) (w-6-red:<<v,v>,<v,t>> $0 $1)))))
+192 [pool-1-thread-1] DEBUG: 
+
+192 [pool-1-thread-1] DEBUG: (l-det (l-amod w-7-thread (l-conj-adj (l-cc w-4-green w-5-and) w-6-red)) w-3-a)
+192 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,v>> ($0)))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> $0 $1) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $0 $1) (w-6-red:<<v,v>,<v,t>> $0 $1)))))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> $0 $1) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $0 $1) (w-6-red:<<v,v>,<v,t>> $0 $1)))))
+192 [pool-1-thread-1] DEBUG: 
+
+192 [pool-1-thread-1] DEBUG: (l-cop (l-det (l-amod w-7-thread (l-conj-adj (l-cc w-4-green w-5-and) w-6-red)) w-3-a) w-2-is)
+192 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> ($0 $2))))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> $0 $1) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $0 $1) (w-6-red:<<v,v>,<v,t>> $0 $1)))))
+192 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:<v,t> $0))
+192 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> $0 $1) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $0 $1) (w-6-red:<<v,v>,<v,t>> $0 $1)))))
+193 [pool-1-thread-1] DEBUG: 
+
+193 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop (l-det (l-amod w-7-thread (l-conj-adj (l-cc w-4-green w-5-and) w-6-red)) w-3-a) w-2-is) w-1-this)
+193 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+193 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> $0 $1) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> $0 $1) (w-6-red:<<v,v>,<v,t>> $0 $1)))))
+193 [pool-1-thread-1] DEBUG: w-1-this:<v,v>
+193 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-6-red:<<v,v>,<v,t>> w-1-this:<v,v> $0))))
+193 [pool-1-thread-1] DEBUG: 
+
+193 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop (l-det (l-amod w-7-thread (l-conj-adj (l-cc w-4-green w-5-and) w-6-red)) w-3-a) w-2-is) w-1-this) w-8-.)
+193 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+193 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-6-red:<<v,v>,<v,t>> w-1-this:<v,v> $0))))
+193 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+193 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-7-thread:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-5-and:<t,<t,t>> (w-4-green:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-6-red:<<v,v>,<v,t>> w-1-this:<v,v> $0))))
+193 [pool-1-thread-1] DEBUG: 
+
+193 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+200 [pool-1-thread-1] DEBUG: (l-cc w-3-green w-4-and)
+200 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<<v,v>,<v,t>>,<<<v,v>,<v,t>>,<<v,v>,<v,t>>>> ($1 $0)))
+200 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-green:<<v,v>,<v,t>> $0 $1)))
+200 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,t>> (lambda $2:<v,v> (lambda $3:v (w-4-and:<t,<t,t>> ($0 $2 $3) ($1 $2 $3))))))
+200 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,v> (lambda $2:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> $1 $2) ($0 $1 $2)))))
+200 [pool-1-thread-1] DEBUG: 
+
+200 [pool-1-thread-1] DEBUG: (l-conj-adj (l-cc w-3-green w-4-and) w-5-sparkly)
+200 [pool-1-thread-1] DEBUG: (lambda $0:<<<v,v>,<v,t>>,<<v,v>,<v,t>>> (lambda $1:<<v,v>,<v,t>> ($0 $1)))
+200 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,v> (lambda $2:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> $1 $2) ($0 $1 $2)))))
+200 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-sparkly:<<v,v>,<v,t>> $0 $1)))
+200 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> $0 $1) (w-5-sparkly:<<v,v>,<v,t>> $0 $1))))
+200 [pool-1-thread-1] DEBUG: 
+
+200 [pool-1-thread-1] DEBUG: (l-cop (l-conj-adj (l-cc w-3-green w-4-and) w-5-sparkly) w-2-is)
+200 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> (lambda $3:v ($0 $2 $3)))))
+200 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> $0 $1) (w-5-sparkly:<<v,v>,<v,t>> $0 $1))))
+201 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:<v,t> $0))
+201 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> $0 $1) (w-5-sparkly:<<v,v>,<v,t>> $0 $1))))
+201 [pool-1-thread-1] DEBUG: 
+
+201 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop (l-conj-adj (l-cc w-3-green w-4-and) w-5-sparkly) w-2-is) w-1-this)
+201 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+201 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> $0 $1) (w-5-sparkly:<<v,v>,<v,t>> $0 $1))))
+201 [pool-1-thread-1] DEBUG: w-1-this:<v,v>
+201 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-5-sparkly:<<v,v>,<v,t>> w-1-this:<v,v> $0)))
+201 [pool-1-thread-1] DEBUG: 
+
+201 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop (l-conj-adj (l-cc w-3-green w-4-and) w-5-sparkly) w-2-is) w-1-this) w-6-.)
+201 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+201 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-5-sparkly:<<v,v>,<v,t>> w-1-this:<v,v> $0)))
+201 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+201 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-and:<t,<t,t>> (w-3-green:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-5-sparkly:<<v,v>,<v,t>> w-1-this:<v,v> $0)))
+201 [pool-1-thread-1] DEBUG: 
+
+201 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+206 [pool-1-thread-1] DEBUG: (l-cc w-2-fought w-3-and)
+206 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<iv,<iv,iv>> ($1 $0)))
+206 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-fought:iv $0 $1)))
+206 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<u,p> (lambda $2:<v,v> (lambda $3:v (w-3-and:<t,<t,t>> ($0 $2 $3) ($1 $2 $3))))))
+206 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> (lambda $2:v (w-3-and:<t,<t,t>> (w-2-fought:iv $1 $2) ($0 $1 $2)))))
+206 [pool-1-thread-1] DEBUG: 
+
+207 [pool-1-thread-1] DEBUG: (l-conj-verb (l-cc w-2-fought w-3-and) w-4-won)
+207 [pool-1-thread-1] DEBUG: (lambda $0:<iv,iv> (lambda $1:<u,p> ($0 $1)))
+207 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> (lambda $2:v (w-3-and:<t,<t,t>> (w-2-fought:iv $1 $2) ($0 $1 $2)))))
+207 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-won:iv $0 $1)))
+207 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-and:<t,<t,t>> (w-2-fought:iv $0 $1) (w-4-won:iv $0 $1))))
+207 [pool-1-thread-1] DEBUG: 
+
+207 [pool-1-thread-1] DEBUG: (l-nsubj (l-conj-verb (l-cc w-2-fought w-3-and) w-4-won) w-1-we)
+207 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+207 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-and:<t,<t,t>> (w-2-fought:iv $0 $1) (w-4-won:iv $0 $1))))
+207 [pool-1-thread-1] DEBUG: w-1-we:<v,v>
+207 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-and:<t,<t,t>> (w-2-fought:iv w-1-we:<v,v> $0) (w-4-won:iv w-1-we:<v,v> $0)))
+207 [pool-1-thread-1] DEBUG: 
+
+208 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-conj-verb (l-cc w-2-fought w-3-and) w-4-won) w-1-we) w-5-.)
+208 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+208 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-and:<t,<t,t>> (w-2-fought:iv w-1-we:<v,v> $0) (w-4-won:iv w-1-we:<v,v> $0)))
+208 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+208 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-and:<t,<t,t>> (w-2-fought:iv w-1-we:<v,v> $0) (w-4-won:iv w-1-we:<v,v> $0)))
+208 [pool-1-thread-1] DEBUG: 
+
+208 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+216 [pool-1-thread-1] DEBUG: (l-cc w-2-sought w-3-and)
+216 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<tv,<tv,tv>> ($1 $0)))
+217 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-sought:tv $1 $0 $2))))
+217 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<u,<u,p>> (lambda $2:<v,v> (lambda $3:<v,v> (lambda $4:v (w-3-and:<t,<t,t>> ($0 $2 $3 $4) ($1 $2 $3 $4)))))))
+217 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-3-and:<t,<t,t>> (w-2-sought:tv $2 $1 $3) ($0 $1 $2 $3))))))
+217 [pool-1-thread-1] DEBUG: 
+
+217 [pool-1-thread-1] DEBUG: (l-conj-verb (l-cc w-2-sought w-3-and) w-4-found)
+217 [pool-1-thread-1] DEBUG: (lambda $0:<tv,tv> (lambda $1:<u,<u,p>> ($0 $1)))
+217 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-3-and:<t,<t,t>> (w-2-sought:tv $2 $1 $3) ($0 $1 $2 $3))))))
+217 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-found:tv $1 $0 $2))))
+217 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-and:<t,<t,t>> (w-2-sought:tv $1 $0 $2) (w-4-found:tv $1 $0 $2)))))
+217 [pool-1-thread-1] DEBUG: 
+
+217 [pool-1-thread-1] DEBUG: (l-amod w-7-duck w-6-perfect)
+217 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+217 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-duck:<v,v> $0))
+217 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-perfect:<v,v> $0))
+217 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-6-perfect:<v,v> $0) (w-7-duck:<v,v> $0)))
+217 [pool-1-thread-1] DEBUG: 
+
+217 [pool-1-thread-1] DEBUG: (l-det (l-amod w-7-duck w-6-perfect) w-5-a)
+217 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+217 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-6-perfect:<v,v> $0) (w-7-duck:<v,v> $0)))
+217 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-5-a:d $1:v ($0 $1)))
+217 [pool-1-thread-1] DEBUG: (w-5-a:d $0:v (and:<v,<v,v>> (w-6-perfect:<v,v> $0) (w-7-duck:<v,v> $0)))
+217 [pool-1-thread-1] DEBUG: 
+
+217 [pool-1-thread-1] DEBUG: (l-dobj-bi (l-conj-verb (l-cc w-2-sought w-3-and) w-4-found) (l-det (l-amod w-7-duck w-6-perfect) w-5-a))
+218 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+218 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-and:<t,<t,t>> (w-2-sought:tv $1 $0 $2) (w-4-found:tv $1 $0 $2)))))
+218 [pool-1-thread-1] DEBUG: (w-5-a:d $0:v (and:<v,<v,v>> (w-6-perfect:<v,v> $0) (w-7-duck:<v,v> $0)))
+218 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-and:<t,<t,t>> (w-2-sought:tv $0 (w-5-a:d $2:v (and:<v,<v,v>> (w-6-perfect:<v,v> $2) (w-7-duck:<v,v> $2))) $1) (w-4-found:tv $0 (w-5-a:d $2 (and:<v,<v,v>> (w-6-perfect:<v,v> $2) (w-7-duck:<v,v> $2))) $1))))
+218 [pool-1-thread-1] DEBUG: 
+
+218 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi (l-conj-verb (l-cc w-2-sought w-3-and) w-4-found) (l-det (l-amod w-7-duck w-6-perfect) w-5-a)) w-1-we)
+218 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+218 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-and:<t,<t,t>> (w-2-sought:tv $0 (w-5-a:d $2:v (and:<v,<v,v>> (w-6-perfect:<v,v> $2) (w-7-duck:<v,v> $2))) $1) (w-4-found:tv $0 (w-5-a:d $2 (and:<v,<v,v>> (w-6-perfect:<v,v> $2) (w-7-duck:<v,v> $2))) $1))))
+218 [pool-1-thread-1] DEBUG: w-1-we:<v,v>
+218 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-and:<t,<t,t>> (w-2-sought:tv w-1-we:<v,v> (w-5-a:d $1:v (and:<v,<v,v>> (w-6-perfect:<v,v> $1) (w-7-duck:<v,v> $1))) $0) (w-4-found:tv w-1-we:<v,v> (w-5-a:d $1 (and:<v,<v,v>> (w-6-perfect:<v,v> $1) (w-7-duck:<v,v> $1))) $0)))
+218 [pool-1-thread-1] DEBUG: 
+
+218 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi (l-conj-verb (l-cc w-2-sought w-3-and) w-4-found) (l-det (l-amod w-7-duck w-6-perfect) w-5-a)) w-1-we) w-8-,)
+218 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+218 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-and:<t,<t,t>> (w-2-sought:tv w-1-we:<v,v> (w-5-a:d $1:v (and:<v,<v,v>> (w-6-perfect:<v,v> $1) (w-7-duck:<v,v> $1))) $0) (w-4-found:tv w-1-we:<v,v> (w-5-a:d $1 (and:<v,<v,v>> (w-6-perfect:<v,v> $1) (w-7-duck:<v,v> $1))) $0)))
+218 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+218 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-and:<t,<t,t>> (w-2-sought:tv w-1-we:<v,v> (w-5-a:d $1:v (and:<v,<v,v>> (w-6-perfect:<v,v> $1) (w-7-duck:<v,v> $1))) $0) (w-4-found:tv w-1-we:<v,v> (w-5-a:d $1 (and:<v,<v,v>> (w-6-perfect:<v,v> $1) (w-7-duck:<v,v> $1))) $0)))
+218 [pool-1-thread-1] DEBUG: 
+
+218 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+225 [pool-1-thread-1] DEBUG: (l-cc w-3-promise w-4-and)
+225 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,<u,p>>> (lambda $1:<dtv,<dtv,dtv>> ($1 $0)))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-3-promise:dtv $2 $0 $1 $3)))))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,<u,p>>> (lambda $1:<u,<u,<u,p>>> (lambda $2:<v,v> (lambda $3:<v,v> (lambda $4:<v,v> (lambda $5:v (w-4-and:<t,<t,t>> ($0 $2 $3 $4 $5) ($1 $2 $3 $4 $5))))))))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,<u,p>>> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:<v,v> (lambda $4:v (w-4-and:<t,<t,t>> (w-3-promise:dtv $3 $1 $2 $4) ($0 $1 $2 $3 $4)))))))
+225 [pool-1-thread-1] DEBUG: 
+
+225 [pool-1-thread-1] DEBUG: (l-conj-verb (l-cc w-3-promise w-4-and) w-5-buy)
+225 [pool-1-thread-1] DEBUG: (lambda $0:<dtv,dtv> (lambda $1:<u,<u,<u,p>>> ($0 $1)))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,<u,p>>> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:<v,v> (lambda $4:v (w-4-and:<t,<t,t>> (w-3-promise:dtv $3 $1 $2 $4) ($0 $1 $2 $3 $4)))))))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-5-buy:dtv $2 $0 $1 $3)))))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-4-and:<t,<t,t>> (w-3-promise:dtv $2 $0 $1 $3) (w-5-buy:dtv $2 $0 $1 $3))))))
+225 [pool-1-thread-1] DEBUG: 
+
+225 [pool-1-thread-1] DEBUG: (l-dobj-tri (l-conj-verb (l-cc w-3-promise w-4-and) w-5-buy) w-7-gifts)
+225 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,<u,p>>> (lambda $1:<v,v> ($0 $1)))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-4-and:<t,<t,t>> (w-3-promise:dtv $2 $0 $1 $3) (w-5-buy:dtv $2 $0 $1 $3))))))
+225 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-gifts:<v,v> $0))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-and:<t,<t,t>> (w-3-promise:dtv $1 (lambda $3:v (w-7-gifts:<v,v> $3)) $0 $2) (w-5-buy:dtv $1 (lambda $4:v (w-7-gifts:<v,v> $4)) $0 $2)))))
+225 [pool-1-thread-1] DEBUG: 
+
+225 [pool-1-thread-1] DEBUG: (l-iobj-bi (l-dobj-tri (l-conj-verb (l-cc w-3-promise w-4-and) w-5-buy) w-7-gifts) w-6-you)
+225 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+225 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-and:<t,<t,t>> (w-3-promise:dtv $1 (lambda $3:v (w-7-gifts:<v,v> $3)) $0 $2) (w-5-buy:dtv $1 (lambda $4:v (w-7-gifts:<v,v> $4)) $0 $2)))))
+225 [pool-1-thread-1] DEBUG: w-6-you:<v,v>
+225 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-and:<t,<t,t>> (w-3-promise:dtv $0 (lambda $2:v (w-7-gifts:<v,v> $2)) w-6-you:<v,v> $1) (w-5-buy:dtv $0 (lambda $3:v (w-7-gifts:<v,v> $3)) w-6-you:<v,v> $1))))
+226 [pool-1-thread-1] DEBUG: 
+
+226 [pool-1-thread-1] DEBUG: (l-nsubj (l-iobj-bi (l-dobj-tri (l-conj-verb (l-cc w-3-promise w-4-and) w-5-buy) w-7-gifts) w-6-you) w-1-i)
+226 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+226 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-and:<t,<t,t>> (w-3-promise:dtv $0 (lambda $2:v (w-7-gifts:<v,v> $2)) w-6-you:<v,v> $1) (w-5-buy:dtv $0 (lambda $3:v (w-7-gifts:<v,v> $3)) w-6-you:<v,v> $1))))
+226 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+226 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-and:<t,<t,t>> (w-3-promise:dtv w-1-i:<v,v> (lambda $1:v (w-7-gifts:<v,v> $1)) w-6-you:<v,v> $0) (w-5-buy:dtv w-1-i:<v,v> (lambda $2:v (w-7-gifts:<v,v> $2)) w-6-you:<v,v> $0)))
+226 [pool-1-thread-1] DEBUG: 
+
+226 [pool-1-thread-1] DEBUG: (l-aux (l-nsubj (l-iobj-bi (l-dobj-tri (l-conj-verb (l-cc w-3-promise w-4-and) w-5-buy) w-7-gifts) w-6-you) w-1-i) w-2-will)
+226 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+226 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-and:<t,<t,t>> (w-3-promise:dtv w-1-i:<v,v> (lambda $1:v (w-7-gifts:<v,v> $1)) w-6-you:<v,v> $0) (w-5-buy:dtv w-1-i:<v,v> (lambda $2:v (w-7-gifts:<v,v> $2)) w-6-you:<v,v> $0)))
+226 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-will:aux ($0 $1) $1)))
+226 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-will:aux (w-4-and:<t,<t,t>> (w-3-promise:dtv w-1-i:<v,v> (lambda $1:v (w-7-gifts:<v,v> $1)) w-6-you:<v,v> $0) (w-5-buy:dtv w-1-i:<v,v> (lambda $2:v (w-7-gifts:<v,v> $2)) w-6-you:<v,v> $0)) $0))
+226 [pool-1-thread-1] DEBUG: 
+
+226 [pool-1-thread-1] DEBUG: (l-punct (l-aux (l-nsubj (l-iobj-bi (l-dobj-tri (l-conj-verb (l-cc w-3-promise w-4-and) w-5-buy) w-7-gifts) w-6-you) w-1-i) w-2-will) w-8-.)
+226 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+226 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-will:aux (w-4-and:<t,<t,t>> (w-3-promise:dtv w-1-i:<v,v> (lambda $1:v (w-7-gifts:<v,v> $1)) w-6-you:<v,v> $0) (w-5-buy:dtv w-1-i:<v,v> (lambda $2:v (w-7-gifts:<v,v> $2)) w-6-you:<v,v> $0)) $0))
+226 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+226 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-will:aux (w-4-and:<t,<t,t>> (w-3-promise:dtv w-1-i:<v,v> (lambda $1:v (w-7-gifts:<v,v> $1)) w-6-you:<v,v> $0) (w-5-buy:dtv w-1-i:<v,v> (lambda $2:v (w-7-gifts:<v,v> $2)) w-6-you:<v,v> $0)) $0))
+226 [pool-1-thread-1] DEBUG: 
+
+226 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+234 [pool-1-thread-1] DEBUG: (l-det w-4-duck w-3-a)
+234 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+234 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<v,v> $0))
+234 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+234 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+234 [pool-1-thread-1] DEBUG: 
+
+234 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-wanted (l-det w-4-duck w-3-a))
+234 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+234 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-wanted:tv $1 $0 $2))))
+234 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+234 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-wanted:tv $0 (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1)))
+234 [pool-1-thread-1] DEBUG: 
+
+234 [pool-1-thread-1] DEBUG: (l-cc-vp (l-dobj-bi w-2-wanted (l-det w-4-duck w-3-a)) w-5-but)
+234 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<iv,<iv,iv>> ($1 $0)))
+234 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-wanted:tv $0 (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1)))
+234 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<u,p> (lambda $2:<v,v> (lambda $3:v (w-5-but:<t,<t,t>> ($1 $2 $3) ($0 $2 $3))))))
+234 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> (lambda $2:v (w-5-but:<t,<t,t>> ($0 $1 $2) (w-2-wanted:tv $1 (w-3-a:d $3:v (w-4-duck:<v,v> $3)) $2)))))
+234 [pool-1-thread-1] DEBUG: 
+
+235 [pool-1-thread-1] DEBUG: (l-det w-8-pigeon w-7-a)
+235 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+235 [pool-1-thread-1] DEBUG: (lambda $0:v (w-8-pigeon:<v,v> $0))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-7-a:d $1:v ($0 $1)))
+235 [pool-1-thread-1] DEBUG: (w-7-a:d $0:v (w-8-pigeon:<v,v> $0))
+235 [pool-1-thread-1] DEBUG: 
+
+235 [pool-1-thread-1] DEBUG: (l-dobj-bi w-6-got (l-det w-8-pigeon w-7-a))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-6-got:tv $1 $0 $2))))
+235 [pool-1-thread-1] DEBUG: (w-7-a:d $0:v (w-8-pigeon:<v,v> $0))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-6-got:tv $0 (w-7-a:d $2:v (w-8-pigeon:<v,v> $2)) $1)))
+235 [pool-1-thread-1] DEBUG: 
+
+235 [pool-1-thread-1] DEBUG: (l-conj-vp (l-cc-vp (l-dobj-bi w-2-wanted (l-det w-4-duck w-3-a)) w-5-but) (l-dobj-bi w-6-got (l-det w-8-pigeon w-7-a)))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<iv,iv> (lambda $1:<u,p> ($0 $1)))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> (lambda $2:v (w-5-but:<t,<t,t>> ($0 $1 $2) (w-2-wanted:tv $1 (w-3-a:d $3:v (w-4-duck:<v,v> $3)) $2)))))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-6-got:tv $0 (w-7-a:d $2:v (w-8-pigeon:<v,v> $2)) $1)))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-but:<t,<t,t>> (w-6-got:tv $0 (w-7-a:d $2:v (w-8-pigeon:<v,v> $2)) $1) (w-2-wanted:tv $0 (w-3-a:d $3:v (w-4-duck:<v,v> $3)) $1))))
+235 [pool-1-thread-1] DEBUG: 
+
+235 [pool-1-thread-1] DEBUG: (l-nsubj (l-conj-vp (l-cc-vp (l-dobj-bi w-2-wanted (l-det w-4-duck w-3-a)) w-5-but) (l-dobj-bi w-6-got (l-det w-8-pigeon w-7-a))) w-1-i)
+235 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+235 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-but:<t,<t,t>> (w-6-got:tv $0 (w-7-a:d $2:v (w-8-pigeon:<v,v> $2)) $1) (w-2-wanted:tv $0 (w-3-a:d $3:v (w-4-duck:<v,v> $3)) $1))))
+235 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+235 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-but:<t,<t,t>> (w-6-got:tv w-1-i:<v,v> (w-7-a:d $1:v (w-8-pigeon:<v,v> $1)) $0) (w-2-wanted:tv w-1-i:<v,v> (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $0)))
+235 [pool-1-thread-1] DEBUG: 
+
+235 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-conj-vp (l-cc-vp (l-dobj-bi w-2-wanted (l-det w-4-duck w-3-a)) w-5-but) (l-dobj-bi w-6-got (l-det w-8-pigeon w-7-a))) w-1-i) w-9-.)
+236 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+236 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-but:<t,<t,t>> (w-6-got:tv w-1-i:<v,v> (w-7-a:d $1:v (w-8-pigeon:<v,v> $1)) $0) (w-2-wanted:tv w-1-i:<v,v> (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $0)))
+236 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+236 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-but:<t,<t,t>> (w-6-got:tv w-1-i:<v,v> (w-7-a:d $1:v (w-8-pigeon:<v,v> $1)) $0) (w-2-wanted:tv w-1-i:<v,v> (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $0)))
+236 [pool-1-thread-1] DEBUG: 
+
+236 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+240 [pool-1-thread-1] DEBUG: (l-nsubj-rel w-4-saw w-3-i)
+240 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,<v,t>>> (lambda $1:<v,v> ($0 $1)))
+240 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (lambda $2:v (w-4-saw:tv $0 (cast:<v,<v,v>> $1) $2))))
+240 [pool-1-thread-1] DEBUG: w-3-i:<v,v>
+240 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1)))
+240 [pool-1-thread-1] DEBUG: 
+
+240 [pool-1-thread-1] DEBUG: (l-cc-vp (l-nsubj-rel w-4-saw w-3-i) w-5-and)
+240 [pool-1-thread-1] DEBUG: (lambda $0:<v,<v,t>> (lambda $1:<<v,<v,t>>,<<v,<v,t>>,<v,<v,t>>>> ($1 $0)))
+240 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1)))
+240 [pool-1-thread-1] DEBUG: (lambda $0:<v,<v,t>> (lambda $1:<v,<v,t>> (lambda $2:v (lambda $3:v (w-5-and:<t,<t,t>> ($0 $2 $3) ($1 $2 $3))))))
+240 [pool-1-thread-1] DEBUG: (lambda $0:<v,<v,t>> (lambda $1:v (lambda $2:v (w-5-and:<t,<t,t>> (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $1) $2) ($0 $1 $2)))))
+240 [pool-1-thread-1] DEBUG: 
+
+240 [pool-1-thread-1] DEBUG: (l-nsubj-rel w-7-bough w-6-he)
+241 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,<v,t>>> (lambda $1:<v,v> ($0 $1)))
+241 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (lambda $2:v (w-7-bough:tv $0 (cast:<v,<v,v>> $1) $2))))
+241 [pool-1-thread-1] DEBUG: w-6-he:<v,v>
+241 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-7-bough:tv w-6-he:<v,v> (cast:<v,<v,v>> $0) $1)))
+241 [pool-1-thread-1] DEBUG: 
+
+241 [pool-1-thread-1] DEBUG: (l-conj-vp (l-cc-vp (l-nsubj-rel w-4-saw w-3-i) w-5-and) (l-nsubj-rel w-7-bough w-6-he))
+241 [pool-1-thread-1] DEBUG: (lambda $0:<<v,<v,t>>,<v,<v,t>>> (lambda $1:<v,<v,t>> ($0 $1)))
+241 [pool-1-thread-1] DEBUG: (lambda $0:<v,<v,t>> (lambda $1:v (lambda $2:v (w-5-and:<t,<t,t>> (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $1) $2) ($0 $1 $2)))))
+241 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-7-bough:tv w-6-he:<v,v> (cast:<v,<v,v>> $0) $1)))
+241 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-5-and:<t,<t,t>> (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1) (w-7-bough:tv w-6-he:<v,v> (cast:<v,<v,v>> $0) $1))))
+241 [pool-1-thread-1] DEBUG: 
+
+241 [pool-1-thread-1] DEBUG: (l-acl:relcl w-2-book (l-conj-vp (l-cc-vp (l-nsubj-rel w-4-saw w-3-i) w-5-and) (l-nsubj-rel w-7-bough w-6-he)))
+241 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,<v,t>> (lambda $2:v (and:<v,<<v,t>,v>> ($0 $2) ($1 $2)))))
+241 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-book:<v,v> $0))
+241 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-5-and:<t,<t,t>> (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1) (w-7-bough:tv w-6-he:<v,v> (cast:<v,<v,v>> $0) $1))))
+241 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-book:<v,v> $0) (lambda $1:v (w-5-and:<t,<t,t>> (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1) (w-7-bough:tv w-6-he:<v,v> (cast:<v,<v,v>> $0) $1)))))
+241 [pool-1-thread-1] DEBUG: 
+
+241 [pool-1-thread-1] DEBUG: (l-det (l-acl:relcl w-2-book (l-conj-vp (l-cc-vp (l-nsubj-rel w-4-saw w-3-i) w-5-and) (l-nsubj-rel w-7-bough w-6-he))) w-1-the)
+241 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+241 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-book:<v,v> $0) (lambda $1:v (w-5-and:<t,<t,t>> (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1) (w-7-bough:tv w-6-he:<v,v> (cast:<v,<v,v>> $0) $1)))))
+241 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+241 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (and:<v,<<v,t>,v>> (w-2-book:<v,v> $0) (lambda $1:v (w-5-and:<t,<t,t>> (w-4-saw:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1) (w-7-bough:tv w-6-he:<v,v> (cast:<v,<v,v>> $0) $1)))))
+241 [pool-1-thread-1] DEBUG: 
+
+241 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+246 [pool-1-thread-1] DEBUG: (l-det w-4-duck w-3-a)
+246 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+246 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<v,v> $0))
+246 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+246 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+246 [pool-1-thread-1] DEBUG: 
+
+246 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-drew (l-det w-4-duck w-3-a))
+246 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+246 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-drew:tv $1 $0 $2))))
+246 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+246 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-drew:tv $0 (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1)))
+246 [pool-1-thread-1] DEBUG: 
+
+246 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-drew (l-det w-4-duck w-3-a)) w-1-i)
+246 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+246 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-drew:tv $0 (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1)))
+246 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+246 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-drew:tv w-1-i:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0))
+246 [pool-1-thread-1] DEBUG: 
+
+247 [pool-1-thread-1] DEBUG: (l-cc-sent (l-nsubj (l-dobj-bi w-2-drew (l-det w-4-duck w-3-a)) w-1-i) w-5-and)
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<<v,t>,<v,t>>> ($1 $0)))
+247 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-drew:tv w-1-i:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (w-5-and:<t,<t,t>> ($1 $2) ($0 $2)))))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-5-and:<t,<t,t>> ($0 $1) (w-2-drew:tv w-1-i:<v,v> (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1))))
+247 [pool-1-thread-1] DEBUG: 
+
+247 [pool-1-thread-1] DEBUG: (l-det w-9-pigeon w-8-a)
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+247 [pool-1-thread-1] DEBUG: (lambda $0:v (w-9-pigeon:<v,v> $0))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-8-a:d $1:v ($0 $1)))
+247 [pool-1-thread-1] DEBUG: (w-8-a:d $0:v (w-9-pigeon:<v,v> $0))
+247 [pool-1-thread-1] DEBUG: 
+
+247 [pool-1-thread-1] DEBUG: (l-dobj-bi w-7-drew (l-det w-9-pigeon w-8-a))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-7-drew:tv $1 $0 $2))))
+247 [pool-1-thread-1] DEBUG: (w-8-a:d $0:v (w-9-pigeon:<v,v> $0))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-7-drew:tv $0 (w-8-a:d $2:v (w-9-pigeon:<v,v> $2)) $1)))
+247 [pool-1-thread-1] DEBUG: 
+
+247 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-7-drew (l-det w-9-pigeon w-8-a)) w-6-henry)
+247 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-7-drew:tv $0 (w-8-a:d $2:v (w-9-pigeon:<v,v> $2)) $1)))
+247 [pool-1-thread-1] DEBUG: w-6-henry:<v,v>
+247 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-drew:tv w-6-henry:<v,v> (w-8-a:d $1:v (w-9-pigeon:<v,v> $1)) $0))
+247 [pool-1-thread-1] DEBUG: 
+
+247 [pool-1-thread-1] DEBUG: (l-conj-sent (l-cc-sent (l-nsubj (l-dobj-bi w-2-drew (l-det w-4-duck w-3-a)) w-1-i) w-5-and) (l-nsubj (l-dobj-bi w-7-drew (l-det w-9-pigeon w-8-a)) w-6-henry))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<<v,t>,<v,t>> (lambda $1:<v,t> ($0 $1)))
+247 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-5-and:<t,<t,t>> ($0 $1) (w-2-drew:tv w-1-i:<v,v> (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1))))
+248 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-drew:tv w-6-henry:<v,v> (w-8-a:d $1:v (w-9-pigeon:<v,v> $1)) $0))
+248 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-and:<t,<t,t>> (w-7-drew:tv w-6-henry:<v,v> (w-8-a:d $1:v (w-9-pigeon:<v,v> $1)) $0) (w-2-drew:tv w-1-i:<v,v> (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $0)))
+248 [pool-1-thread-1] DEBUG: 
+
+248 [pool-1-thread-1] DEBUG: (l-punct (l-conj-sent (l-cc-sent (l-nsubj (l-dobj-bi w-2-drew (l-det w-4-duck w-3-a)) w-1-i) w-5-and) (l-nsubj (l-dobj-bi w-7-drew (l-det w-9-pigeon w-8-a)) w-6-henry)) w-10-.)
+248 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+248 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-and:<t,<t,t>> (w-7-drew:tv w-6-henry:<v,v> (w-8-a:d $1:v (w-9-pigeon:<v,v> $1)) $0) (w-2-drew:tv w-1-i:<v,v> (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $0)))
+248 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+248 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-and:<t,<t,t>> (w-7-drew:tv w-6-henry:<v,v> (w-8-a:d $1:v (w-9-pigeon:<v,v> $1)) $0) (w-2-drew:tv w-1-i:<v,v> (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $0)))
+248 [pool-1-thread-1] DEBUG: 
+
+248 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+253 [pool-1-thread-1] DEBUG: (l-det w-4-song w-3-a)
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+253 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-song:<v,v> $0))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+253 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-song:<v,v> $0))
+253 [pool-1-thread-1] DEBUG: 
+
+253 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-sung (l-det w-4-song w-3-a))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-sung:tv $1 $0 $2))))
+253 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-song:<v,v> $0))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-sung:tv $0 (w-3-a:d $2:v (w-4-song:<v,v> $2)) $1)))
+253 [pool-1-thread-1] DEBUG: 
+
+253 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-sung (l-det w-4-song w-3-a)) w-1-he)
+253 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-sung:tv $0 (w-3-a:d $2:v (w-4-song:<v,v> $2)) $1)))
+253 [pool-1-thread-1] DEBUG: w-1-he:<v,v>
+253 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-sung:tv w-1-he:<v,v> (w-3-a:d $1:v (w-4-song:<v,v> $1)) $0))
+253 [pool-1-thread-1] DEBUG: 
+
+253 [pool-1-thread-1] DEBUG: (l-cc-sent (l-nsubj (l-dobj-bi w-2-sung (l-det w-4-song w-3-a)) w-1-he) w-5-and)
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<<v,t>,<v,t>>> ($1 $0)))
+253 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-sung:tv w-1-he:<v,v> (w-3-a:d $1:v (w-4-song:<v,v> $1)) $0))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (w-5-and:<t,<t,t>> ($1 $2) ($0 $2)))))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-5-and:<t,<t,t>> ($0 $1) (w-2-sung:tv w-1-he:<v,v> (w-3-a:d $2:v (w-4-song:<v,v> $2)) $1))))
+253 [pool-1-thread-1] DEBUG: 
+
+253 [pool-1-thread-1] DEBUG: (l-nsubj w-7-danced w-6-i)
+253 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-7-danced:iv $0 $1)))
+253 [pool-1-thread-1] DEBUG: w-6-i:<v,v>
+253 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-danced:iv w-6-i:<v,v> $0))
+253 [pool-1-thread-1] DEBUG: 
+
+253 [pool-1-thread-1] DEBUG: (l-conj-sent (l-cc-sent (l-nsubj (l-dobj-bi w-2-sung (l-det w-4-song w-3-a)) w-1-he) w-5-and) (l-nsubj w-7-danced w-6-i))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<<v,t>,<v,t>> (lambda $1:<v,t> ($0 $1)))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-5-and:<t,<t,t>> ($0 $1) (w-2-sung:tv w-1-he:<v,v> (w-3-a:d $2:v (w-4-song:<v,v> $2)) $1))))
+253 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-danced:iv w-6-i:<v,v> $0))
+253 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-and:<t,<t,t>> (w-7-danced:iv w-6-i:<v,v> $0) (w-2-sung:tv w-1-he:<v,v> (w-3-a:d $1:v (w-4-song:<v,v> $1)) $0)))
+253 [pool-1-thread-1] DEBUG: 
+
+253 [pool-1-thread-1] DEBUG: (l-punct (l-conj-sent (l-cc-sent (l-nsubj (l-dobj-bi w-2-sung (l-det w-4-song w-3-a)) w-1-he) w-5-and) (l-nsubj w-7-danced w-6-i)) w-8-.)
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+253 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-and:<t,<t,t>> (w-7-danced:iv w-6-i:<v,v> $0) (w-2-sung:tv w-1-he:<v,v> (w-3-a:d $1:v (w-4-song:<v,v> $1)) $0)))
+253 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+253 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-and:<t,<t,t>> (w-7-danced:iv w-6-i:<v,v> $0) (w-2-sung:tv w-1-he:<v,v> (w-3-a:d $1:v (w-4-song:<v,v> $1)) $0)))
+254 [pool-1-thread-1] DEBUG: 
+
+254 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+257 [pool-1-thread-1] DEBUG: (l-nsubj-rel w-6-find w-4-you)
+257 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,<v,t>>> (lambda $1:<v,v> ($0 $1)))
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (lambda $2:v (w-6-find:tv $0 (cast:<v,<v,v>> $1) $2))))
+257 [pool-1-thread-1] DEBUG: w-4-you:<v,v>
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $0) $1)))
+257 [pool-1-thread-1] DEBUG: 
+
+257 [pool-1-thread-1] DEBUG: (l-aux-rel (l-nsubj-rel w-6-find w-4-you) w-5-can)
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,<v,t>> (lambda $1:<<v,<v,t>>,<v,<v,t>>> ($1 $0)))
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $0) $1)))
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,<v,t>> (lambda $1:v (lambda $2:v (w-5-can:aux ($0 $1 $2) $2))))
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $0) $1) $1)))
+257 [pool-1-thread-1] DEBUG: 
+
+257 [pool-1-thread-1] DEBUG: (l-acl:relcl w-3-what (l-aux-rel (l-nsubj-rel w-6-find w-4-you) w-5-can))
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,<v,t>> (lambda $2:v (and:<v,<<v,t>,v>> ($0 $2) ($1 $2)))))
+257 [pool-1-thread-1] DEBUG: w-3-what:<v,v>
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $0) $1) $1)))
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-3-what:<v,v> $0) (lambda $1:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $0) $1) $1))))
+257 [pool-1-thread-1] DEBUG: 
+
+257 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-take (l-acl:relcl w-3-what (l-aux-rel (l-nsubj-rel w-6-find w-4-you) w-5-can)))
+257 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-take:tv $1 $0 $2))))
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-3-what:<v,v> $0) (lambda $1:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $0) $1) $1))))
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-take:tv $0 (lambda $2:v (and:<v,<<v,t>,v>> (w-3-what:<v,v> $2) (lambda $3:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $2) $3) $3)))) $1)))
+257 [pool-1-thread-1] DEBUG: 
+
+257 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-take (l-acl:relcl w-3-what (l-aux-rel (l-nsubj-rel w-6-find w-4-you) w-5-can))) w-1-you)
+257 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-take:tv $0 (lambda $2:v (and:<v,<<v,t>,v>> (w-3-what:<v,v> $2) (lambda $3:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $2) $3) $3)))) $1)))
+257 [pool-1-thread-1] DEBUG: w-1-you:<v,v>
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-take:tv w-1-you:<v,v> (lambda $1:v (and:<v,<<v,t>,v>> (w-3-what:<v,v> $1) (lambda $2:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $1) $2) $2)))) $0))
+257 [pool-1-thread-1] DEBUG: 
+
+257 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-take (l-acl:relcl w-3-what (l-aux-rel (l-nsubj-rel w-6-find w-4-you) w-5-can))) w-1-you) w-7-.)
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-take:tv w-1-you:<v,v> (lambda $1:v (and:<v,<<v,t>,v>> (w-3-what:<v,v> $1) (lambda $2:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $1) $2) $2)))) $0))
+257 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+257 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-take:tv w-1-you:<v,v> (lambda $1:v (and:<v,<<v,t>,v>> (w-3-what:<v,v> $1) (lambda $2:v (w-5-can:aux (w-6-find:tv w-4-you:<v,v> (cast:<v,<v,v>> $1) $2) $2)))) $0))
+257 [pool-1-thread-1] DEBUG: 
+
+258 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+259 [pool-1-thread-1] DEBUG: (l-nsubj-rel w-4-know w-3-i)
+259 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,<v,t>>> (lambda $1:<v,v> ($0 $1)))
+259 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (lambda $2:v (w-4-know:tv $0 (cast:<v,<v,v>> $1) $2))))
+259 [pool-1-thread-1] DEBUG: w-3-i:<v,v>
+259 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-4-know:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1)))
+259 [pool-1-thread-1] DEBUG: 
+
+259 [pool-1-thread-1] DEBUG: (l-acl:relcl w-2-duck (l-nsubj-rel w-4-know w-3-i))
+259 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,<v,t>> (lambda $2:v (and:<v,<<v,t>,v>> ($0 $2) ($1 $2)))))
+259 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-duck:<v,v> $0))
+259 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-4-know:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1)))
+259 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-4-know:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1))))
+259 [pool-1-thread-1] DEBUG: 
+
+259 [pool-1-thread-1] DEBUG: (l-det (l-acl:relcl w-2-duck (l-nsubj-rel w-4-know w-3-i)) w-1-a)
+259 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+259 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-4-know:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1))))
+259 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-a:d $1:v ($0 $1)))
+259 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-4-know:tv w-3-i:<v,v> (cast:<v,<v,v>> $0) $1))))
+259 [pool-1-thread-1] DEBUG: 
+
+259 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+261 [pool-1-thread-1] DEBUG: (l-nmod:poss w-6-lunch w-5-my)
+261 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+261 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-lunch:<v,v> $0))
+261 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-5-my:d $1:v ($0 $1)))
+261 [pool-1-thread-1] DEBUG: (w-5-my:d $0:v (w-6-lunch:<v,v> $0))
+261 [pool-1-thread-1] DEBUG: 
+
+261 [pool-1-thread-1] DEBUG: (l-dobj-bi w-4-ate (l-nmod:poss w-6-lunch w-5-my))
+261 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+261 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-ate:tv $1 $0 $2))))
+261 [pool-1-thread-1] DEBUG: (w-5-my:d $0:v (w-6-lunch:<v,v> $0))
+261 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-ate:tv $0 (w-5-my:d $2:v (w-6-lunch:<v,v> $2)) $1)))
+261 [pool-1-thread-1] DEBUG: 
+
+261 [pool-1-thread-1] DEBUG: (l-nsubj-empty (l-dobj-bi w-4-ate (l-nmod:poss w-6-lunch w-5-my)) w-3-who)
+261 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> (lambda $2:v ($0 (cast:<v,<v,v>> $2)))))
+261 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-ate:tv $0 (w-5-my:d $2:v (w-6-lunch:<v,v> $2)) $1)))
+261 [pool-1-thread-1] DEBUG: w-3-who:<v,v>
+261 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-4-ate:tv (cast:<v,<v,v>> $0) (w-5-my:d $2:v (w-6-lunch:<v,v> $2)) $1)))
+261 [pool-1-thread-1] DEBUG: 
+
+261 [pool-1-thread-1] DEBUG: (l-acl:relcl w-2-duck (l-nsubj-empty (l-dobj-bi w-4-ate (l-nmod:poss w-6-lunch w-5-my)) w-3-who))
+261 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,<v,t>> (lambda $2:v (and:<v,<<v,t>,v>> ($0 $2) ($1 $2)))))
+262 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-duck:<v,v> $0))
+262 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-4-ate:tv (cast:<v,<v,v>> $0) (w-5-my:d $2:v (w-6-lunch:<v,v> $2)) $1)))
+262 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-4-ate:tv (cast:<v,<v,v>> $0) (w-5-my:d $2:v (w-6-lunch:<v,v> $2)) $1))))
+262 [pool-1-thread-1] DEBUG: 
+
+262 [pool-1-thread-1] DEBUG: (l-det (l-acl:relcl w-2-duck (l-nsubj-empty (l-dobj-bi w-4-ate (l-nmod:poss w-6-lunch w-5-my)) w-3-who)) w-1-a)
+262 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+262 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-4-ate:tv (cast:<v,<v,v>> $0) (w-5-my:d $2:v (w-6-lunch:<v,v> $2)) $1))))
+262 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-a:d $1:v ($0 $1)))
+262 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-4-ate:tv (cast:<v,<v,v>> $0) (w-5-my:d $2:v (w-6-lunch:<v,v> $2)) $1))))
+262 [pool-1-thread-1] DEBUG: 
+
+262 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+264 [pool-1-thread-1] DEBUG: (l-dobj-bi-empty w-5-feed w-3-whom)
+264 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v ($0 (cast:<v,<v,v>> $3) $2)))))
+264 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-5-feed:tv $1 $0 $2))))
+264 [pool-1-thread-1] DEBUG: w-3-whom:<v,v>
+264 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (lambda $2:v (w-5-feed:tv $0 (cast:<v,<v,v>> $1) $2))))
+264 [pool-1-thread-1] DEBUG: 
+
+264 [pool-1-thread-1] DEBUG: (l-nsubj-rel (l-dobj-bi-empty w-5-feed w-3-whom) w-4-i)
+264 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,<v,t>>> (lambda $1:<v,v> ($0 $1)))
+264 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (lambda $2:v (w-5-feed:tv $0 (cast:<v,<v,v>> $1) $2))))
+264 [pool-1-thread-1] DEBUG: w-4-i:<v,v>
+264 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-5-feed:tv w-4-i:<v,v> (cast:<v,<v,v>> $0) $1)))
+264 [pool-1-thread-1] DEBUG: 
+
+264 [pool-1-thread-1] DEBUG: (l-acl:relcl w-2-duck (l-nsubj-rel (l-dobj-bi-empty w-5-feed w-3-whom) w-4-i))
+264 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,<v,t>> (lambda $2:v (and:<v,<<v,t>,v>> ($0 $2) ($1 $2)))))
+264 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-duck:<v,v> $0))
+264 [pool-1-thread-1] DEBUG: (lambda $0:v (lambda $1:v (w-5-feed:tv w-4-i:<v,v> (cast:<v,<v,v>> $0) $1)))
+264 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-5-feed:tv w-4-i:<v,v> (cast:<v,<v,v>> $0) $1))))
+264 [pool-1-thread-1] DEBUG: 
+
+264 [pool-1-thread-1] DEBUG: (l-det (l-acl:relcl w-2-duck (l-nsubj-rel (l-dobj-bi-empty w-5-feed w-3-whom) w-4-i)) w-1-a)
+264 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+264 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-5-feed:tv w-4-i:<v,v> (cast:<v,<v,v>> $0) $1))))
+264 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-a:d $1:v ($0 $1)))
+264 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (and:<v,<<v,t>,v>> (w-2-duck:<v,v> $0) (lambda $1:v (w-5-feed:tv w-4-i:<v,v> (cast:<v,<v,v>> $0) $1))))
+264 [pool-1-thread-1] DEBUG: 
+
+264 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+266 [pool-1-thread-1] DEBUG: (l-det w-4-book w-3-that)
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-book:<v,v> $0))
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-that:d $1:v ($0 $1)))
+267 [pool-1-thread-1] DEBUG: (w-3-that:d $0:v (w-4-book:<v,v> $0))
+267 [pool-1-thread-1] DEBUG: 
+
+267 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-read (l-det w-4-book w-3-that))
+267 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-read:tv $1 $0 $2))))
+267 [pool-1-thread-1] DEBUG: (w-3-that:d $0:v (w-4-book:<v,v> $0))
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-read:tv $0 (w-3-that:d $2:v (w-4-book:<v,v> $2)) $1)))
+267 [pool-1-thread-1] DEBUG: 
+
+267 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-read (l-det w-4-book w-3-that)) w-1-you)
+267 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-read:tv $0 (w-3-that:d $2:v (w-4-book:<v,v> $2)) $1)))
+267 [pool-1-thread-1] DEBUG: w-1-you:<v,v>
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-read:tv w-1-you:<v,v> (w-3-that:d $1:v (w-4-book:<v,v> $1)) $0))
+267 [pool-1-thread-1] DEBUG: 
+
+267 [pool-1-thread-1] DEBUG: (l-amod w-6-time w-5-last)
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-time:<v,v> $0))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-last:<v,v> $0))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-5-last:<v,v> $0) (w-6-time:<v,v> $0)))
+267 [pool-1-thread-1] DEBUG: 
+
+267 [pool-1-thread-1] DEBUG: (l-nmod:npmod (l-nsubj (l-dobj-bi w-2-read (l-det w-4-book w-3-that)) w-1-you) (l-amod w-6-time w-5-last))
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> (lambda $2:v (and:<t,<v,t>> ($0 $2) ($1 $2)))))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-read:tv w-1-you:<v,v> (w-3-that:d $1:v (w-4-book:<v,v> $1)) $0))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-5-last:<v,v> $0) (w-6-time:<v,v> $0)))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-2-read:tv w-1-you:<v,v> (w-3-that:d $1:v (w-4-book:<v,v> $1)) $0) (and:<v,<v,v>> (w-5-last:<v,v> $0) (w-6-time:<v,v> $0))))
+267 [pool-1-thread-1] DEBUG: 
+
+267 [pool-1-thread-1] DEBUG: (l-punct (l-nmod:npmod (l-nsubj (l-dobj-bi w-2-read (l-det w-4-book w-3-that)) w-1-you) (l-amod w-6-time w-5-last)) w-7-.)
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-2-read:tv w-1-you:<v,v> (w-3-that:d $1:v (w-4-book:<v,v> $1)) $0) (and:<v,<v,v>> (w-5-last:<v,v> $0) (w-6-time:<v,v> $0))))
+267 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+267 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-2-read:tv w-1-you:<v,v> (w-3-that:d $1:v (w-4-book:<v,v> $1)) $0) (and:<v,<v,v>> (w-5-last:<v,v> $0) (w-6-time:<v,v> $0))))
+267 [pool-1-thread-1] DEBUG: 
+
+267 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+269 [pool-1-thread-1] DEBUG: (l-nsubj w-2-cried w-1-he)
+269 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+269 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-cried:iv $0 $1)))
+269 [pool-1-thread-1] DEBUG: w-1-he:<v,v>
+269 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-cried:iv w-1-he:<v,v> $0))
+269 [pool-1-thread-1] DEBUG: 
+
+269 [pool-1-thread-1] DEBUG: (l-det w-4-bit w-3-a)
+269 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+269 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-bit:<v,v> $0))
+269 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+269 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-bit:<v,v> $0))
+269 [pool-1-thread-1] DEBUG: 
+
+269 [pool-1-thread-1] DEBUG: (l-nmod:npmod (l-nsubj w-2-cried w-1-he) (l-det w-4-bit w-3-a))
+270 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> (lambda $2:v (and:<t,<v,t>> ($0 $2) ($1 $2)))))
+270 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-cried:iv w-1-he:<v,v> $0))
+270 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-bit:<v,v> $0))
+270 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-2-cried:iv w-1-he:<v,v> $0) (w-3-a:d $1:v (w-4-bit:<v,v> $1) $0)))
+270 [pool-1-thread-1] DEBUG: 
+
+270 [pool-1-thread-1] DEBUG: (l-punct (l-nmod:npmod (l-nsubj w-2-cried w-1-he) (l-det w-4-bit w-3-a)) w-5-.)
+270 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+270 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-2-cried:iv w-1-he:<v,v> $0) (w-3-a:d $1:v (w-4-bit:<v,v> $1) $0)))
+270 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+270 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-2-cried:iv w-1-he:<v,v> $0) (w-3-a:d $1:v (w-4-bit:<v,v> $1) $0)))
+270 [pool-1-thread-1] DEBUG: 
+
+270 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+272 [pool-1-thread-1] DEBUG: (l-det w-2-ducks w-1-the)
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-ducks:<v,v> $0))
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+272 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-ducks:<v,v> $0))
+272 [pool-1-thread-1] DEBUG: 
+
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+272 [pool-1-thread-1] DEBUG: w-2-ducks:<v,v>
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+272 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-ducks:<v,v> $0))
+272 [pool-1-thread-1] DEBUG: 
+
+272 [pool-1-thread-1] DEBUG: (l-nsubj w-3-arrived (l-det w-2-ducks w-1-the))
+272 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-arrived:iv $0 $1)))
+272 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-ducks:<v,v> $0))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0))
+272 [pool-1-thread-1] DEBUG: 
+
+272 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-arrived:iv $0 $1)))
+272 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-ducks:<v,v> $0))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0))
+272 [pool-1-thread-1] DEBUG: 
+
+272 [pool-1-thread-1] DEBUG: (l-nmod:npmod w-5-later w-4-months)
+272 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,v>> (lambda $1:<v,v> ($0 $1)))
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-later:<v,<<v,v>,v>> $1 $0)))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-months:<v,v> $0))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-later:<v,<<v,v>,v>> $0 (lambda $1:v (w-4-months:<v,v> $1))))
+272 [pool-1-thread-1] DEBUG: 
+
+272 [pool-1-thread-1] DEBUG: (l-advmod (l-nsubj w-3-arrived (l-det w-2-ducks w-1-the)) (l-nmod:npmod w-5-later w-4-months))
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> (lambda $2:v (and:<t,<v,t>> ($0 $2) ($1 $2)))))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-later:<v,<<v,v>,v>> $0 (lambda $1:v (w-4-months:<v,v> $1))))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0) (w-5-later:<v,<<v,v>,v>> $0 (lambda $2:v (w-4-months:<v,v> $2)))))
+272 [pool-1-thread-1] DEBUG: 
+
+272 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> (lambda $2:v (and:<t,<v,t>> ($0 $2) ($1 $2)))))
+272 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0))
+273 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-later:<v,<<v,v>,v>> $0 (lambda $1:v (w-4-months:<v,v> $1))))
+273 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0) (w-5-later:<v,<<v,v>,v>> $0 (lambda $2:v (w-4-months:<v,v> $2)))))
+273 [pool-1-thread-1] DEBUG: 
+
+273 [pool-1-thread-1] DEBUG: (l-punct (l-advmod (l-nsubj w-3-arrived (l-det w-2-ducks w-1-the)) (l-nmod:npmod w-5-later w-4-months)) w-6-.)
+273 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+273 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0) (w-5-later:<v,<<v,v>,v>> $0 (lambda $2:v (w-4-months:<v,v> $2)))))
+273 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+273 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0) (w-5-later:<v,<<v,v>,v>> $0 (lambda $2:v (w-4-months:<v,v> $2)))))
+273 [pool-1-thread-1] DEBUG: 
+
+273 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+273 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0) (w-5-later:<v,<<v,v>,v>> $0 (lambda $2:v (w-4-months:<v,v> $2)))))
+273 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+273 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-arrived:iv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) $0) (w-5-later:<v,<<v,v>,v>> $0 (lambda $2:v (w-4-months:<v,v> $2)))))
+273 [pool-1-thread-1] DEBUG: 
+
+273 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+275 [pool-1-thread-1] DEBUG: (l-det w-2-lot w-1-a)
+275 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+275 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-lot:<v,v> $0))
+275 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-a:d $1:v ($0 $1)))
+275 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (w-2-lot:<v,v> $0))
+275 [pool-1-thread-1] DEBUG: 
+
+275 [pool-1-thread-1] DEBUG: (l-nmod:npmod w-3-more (l-det w-2-lot w-1-a))
+275 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,v>> (lambda $1:<v,v> ($0 $1)))
+275 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-more:<v,<<v,v>,v>> $1 $0)))
+275 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (w-2-lot:<v,v> $0))
+275 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-more:<v,<<v,v>,v>> $0 (w-1-a:d $1:v (w-2-lot:<v,v> $1))))
+275 [pool-1-thread-1] DEBUG: 
+
+275 [pool-1-thread-1] DEBUG: (l-amod w-4-ducks (l-nmod:npmod w-3-more (l-det w-2-lot w-1-a)))
+275 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+275 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-ducks:<v,v> $0))
+275 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-more:<v,<<v,v>,v>> $0 (w-1-a:d $1:v (w-2-lot:<v,v> $1))))
+275 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-3-more:<v,<<v,v>,v>> $0 (w-1-a:d $1:v (w-2-lot:<v,v> $1))) (w-4-ducks:<v,v> $0)))
+275 [pool-1-thread-1] DEBUG: 
+
+275 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+277 [pool-1-thread-1] DEBUG: (l-amod w-4-duck w-3-green)
+277 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+277 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<v,v> $0))
+277 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-green:<v,v> $0))
+277 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-3-green:<v,v> $0) (w-4-duck:<v,v> $0)))
+277 [pool-1-thread-1] DEBUG: 
+
+277 [pool-1-thread-1] DEBUG: (l-det (l-amod w-4-duck w-3-green) w-2-a)
+277 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+278 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-3-green:<v,v> $0) (w-4-duck:<v,v> $0)))
+278 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-2-a:d $1:v ($0 $1)))
+278 [pool-1-thread-1] DEBUG: (w-2-a:d $0:v (and:<v,<v,v>> (w-3-green:<v,v> $0) (w-4-duck:<v,v> $0)))
+278 [pool-1-thread-1] DEBUG: 
+
+278 [pool-1-thread-1] DEBUG: (l-det:predet (l-det (l-amod w-4-duck w-3-green) w-2-a) w-1-such)
+278 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+278 [pool-1-thread-1] DEBUG: (w-2-a:d $0:v (and:<v,<v,v>> (w-3-green:<v,v> $0) (w-4-duck:<v,v> $0)))
+278 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-such:<<v,v>,<v,v>> $0))
+278 [pool-1-thread-1] DEBUG: (w-1-such:<<v,v>,<v,v>> (w-2-a:d $0:v (and:<v,<v,v>> (w-3-green:<v,v> $0) (w-4-duck:<v,v> $0))))
+278 [pool-1-thread-1] DEBUG: 
+
+278 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+281 [pool-1-thread-1] DEBUG: (l-det w-4-duck w-3-a)
+281 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+281 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<v,v> $0))
+281 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+282 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+282 [pool-1-thread-1] DEBUG: 
+
+282 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-saw (l-det w-4-duck w-3-a))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-saw:tv $1 $0 $2))))
+282 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1)))
+282 [pool-1-thread-1] DEBUG: 
+
+282 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-saw (l-det w-4-duck w-3-a)) w-1-you)
+282 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1)))
+282 [pool-1-thread-1] DEBUG: w-1-you:<v,v>
+282 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-you:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0))
+282 [pool-1-thread-1] DEBUG: 
+
+282 [pool-1-thread-1] DEBUG: (l-nsubj w-7-woke_w-8-up w-6-you)
+282 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-7-woke_w-8-up:iv $0 $1)))
+282 [pool-1-thread-1] DEBUG: w-6-you:<v,v>
+282 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-woke_w-8-up:iv w-6-you:<v,v> $0))
+282 [pool-1-thread-1] DEBUG: 
+
+282 [pool-1-thread-1] DEBUG: (l-mark (l-nsubj w-7-woke_w-8-up w-6-you) w-5-when)
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<<v,t>,<v,t>>> ($1 $0)))
+282 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-woke_w-8-up:iv w-6-you:<v,v> $0))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (w-5-when:<t,<t,t>> ($0 $2) ($1 $2)))))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-5-when:<t,<t,t>> (w-7-woke_w-8-up:iv w-6-you:<v,v> $1) ($0 $1))))
+282 [pool-1-thread-1] DEBUG: 
+
+282 [pool-1-thread-1] DEBUG: (l-advcl (l-nsubj (l-dobj-bi w-2-saw (l-det w-4-duck w-3-a)) w-1-you) (l-mark (l-nsubj w-7-woke_w-8-up w-6-you) w-5-when))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+282 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-you:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-5-when:<t,<t,t>> (w-7-woke_w-8-up:iv w-6-you:<v,v> $1) ($0 $1))))
+282 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-when:<t,<t,t>> (w-7-woke_w-8-up:iv w-6-you:<v,v> $0) (w-2-saw:tv w-1-you:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0)))
+282 [pool-1-thread-1] DEBUG: 
+
+282 [pool-1-thread-1] DEBUG: (l-punct (l-advcl (l-nsubj (l-dobj-bi w-2-saw (l-det w-4-duck w-3-a)) w-1-you) (l-mark (l-nsubj w-7-woke_w-8-up w-6-you) w-5-when)) w-9-.)
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+282 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-when:<t,<t,t>> (w-7-woke_w-8-up:iv w-6-you:<v,v> $0) (w-2-saw:tv w-1-you:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0)))
+282 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+282 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-when:<t,<t,t>> (w-7-woke_w-8-up:iv w-6-you:<v,v> $0) (w-2-saw:tv w-1-you:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0)))
+282 [pool-1-thread-1] DEBUG: 
+
+282 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+284 [pool-1-thread-1] DEBUG: (l-det w-4-duck w-3-a)
+284 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+284 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<v,v> $0))
+284 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+285 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+285 [pool-1-thread-1] DEBUG: 
+
+285 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-saw (l-det w-4-duck w-3-a))
+285 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+285 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-saw:tv $1 $0 $2))))
+285 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (w-4-duck:<v,v> $0))
+285 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1)))
+285 [pool-1-thread-1] DEBUG: 
+
+285 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-saw (l-det w-4-duck w-3-a)) w-1-i)
+285 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+285 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (w-3-a:d $2:v (w-4-duck:<v,v> $2)) $1)))
+285 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+285 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0))
+285 [pool-1-thread-1] DEBUG: 
+
+285 [pool-1-thread-1] DEBUG: (l-nmod:tmod-verb (l-nsubj (l-dobj-bi w-2-saw (l-det w-4-duck w-3-a)) w-1-i) w-5-yesterday)
+285 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+285 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0))
+285 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-yesterday:<v,t> $0))
+285 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-saw:tv w-1-i:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0) (w-5-yesterday:<v,t> $0)))
+285 [pool-1-thread-1] DEBUG: 
+
+285 [pool-1-thread-1] DEBUG: (l-punct (l-nmod:tmod-verb (l-nsubj (l-dobj-bi w-2-saw (l-det w-4-duck w-3-a)) w-1-i) w-5-yesterday) w-6-.)
+285 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+285 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-saw:tv w-1-i:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0) (w-5-yesterday:<v,t> $0)))
+285 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+285 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-saw:tv w-1-i:<v,v> (w-3-a:d $1:v (w-4-duck:<v,v> $1)) $0) (w-5-yesterday:<v,t> $0)))
+285 [pool-1-thread-1] DEBUG: 
+
+285 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+288 [pool-1-thread-1] DEBUG: (l-nsubj w-2-went w-1-she)
+288 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+288 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-went:iv $0 $1)))
+288 [pool-1-thread-1] DEBUG: w-1-she:<v,v>
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-went:iv w-1-she:<v,v> $0))
+288 [pool-1-thread-1] DEBUG: 
+
+288 [pool-1-thread-1] DEBUG: (l-advmod (l-nsubj w-2-went w-1-she) w-3-home)
+288 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> (lambda $2:v (and:<t,<v,t>> ($0 $2) ($1 $2)))))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-went:iv w-1-she:<v,v> $0))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-home:<v,v> $0))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-2-went:iv w-1-she:<v,v> $0) (w-3-home:<v,v> $0)))
+288 [pool-1-thread-1] DEBUG: 
+
+288 [pool-1-thread-1] DEBUG: (l-case w-5-july w-4-in)
+288 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,t>> (lambda $2:v ($1 $0 $2))))
+288 [pool-1-thread-1] DEBUG: w-5-july:<v,v>
+288 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-in:<<v,v>,<v,t>> $0 $1)))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-in:<<v,v>,<v,t>> w-5-july:<v,v> $0))
+288 [pool-1-thread-1] DEBUG: 
+
+288 [pool-1-thread-1] DEBUG: (l-nmod-verb (l-advmod (l-nsubj w-2-went w-1-she) w-3-home) (l-case w-5-july w-4-in))
+288 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-2-went:iv w-1-she:<v,v> $0) (w-3-home:<v,v> $0)))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-in:<<v,v>,<v,t>> w-5-july:<v,v> $0))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (and:<t,<v,t>> (w-2-went:iv w-1-she:<v,v> $0) (w-3-home:<v,v> $0)) (w-4-in:<<v,v>,<v,t>> w-5-july:<v,v> $0)))
+288 [pool-1-thread-1] DEBUG: 
+
+288 [pool-1-thread-1] DEBUG: (l-punct (l-nmod-verb (l-advmod (l-nsubj w-2-went w-1-she) w-3-home) (l-case w-5-july w-4-in)) w-6-.)
+288 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (and:<t,<v,t>> (w-2-went:iv w-1-she:<v,v> $0) (w-3-home:<v,v> $0)) (w-4-in:<<v,v>,<v,t>> w-5-july:<v,v> $0)))
+288 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+288 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (and:<t,<v,t>> (w-2-went:iv w-1-she:<v,v> $0) (w-3-home:<v,v> $0)) (w-4-in:<<v,v>,<v,t>> w-5-july:<v,v> $0)))
+288 [pool-1-thread-1] DEBUG: 
+
+289 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+292 [pool-1-thread-1] DEBUG: (l-nsubj w-2-cried w-1-he)
+292 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+292 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-cried:iv $0 $1)))
+292 [pool-1-thread-1] DEBUG: w-1-he:<v,v>
+292 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-cried:iv w-1-he:<v,v> $0))
+292 [pool-1-thread-1] DEBUG: 
+
+292 [pool-1-thread-1] DEBUG: (l-case w-5-you w-3-because_w-4-of)
+292 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,t>> (lambda $2:v ($1 $0 $2))))
+292 [pool-1-thread-1] DEBUG: w-5-you:<v,v>
+292 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-because_w-4-of:<<v,v>,<v,t>> $0 $1)))
+292 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-because_w-4-of:<<v,v>,<v,t>> w-5-you:<v,v> $0))
+292 [pool-1-thread-1] DEBUG: 
+
+292 [pool-1-thread-1] DEBUG: (l-nmod-verb (l-nsubj w-2-cried w-1-he) (l-case w-5-you w-3-because_w-4-of))
+292 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+292 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-cried:iv w-1-he:<v,v> $0))
+292 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-because_w-4-of:<<v,v>,<v,t>> w-5-you:<v,v> $0))
+292 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-cried:iv w-1-he:<v,v> $0) (w-3-because_w-4-of:<<v,v>,<v,t>> w-5-you:<v,v> $0)))
+292 [pool-1-thread-1] DEBUG: 
+
+292 [pool-1-thread-1] DEBUG: (l-punct (l-nmod-verb (l-nsubj w-2-cried w-1-he) (l-case w-5-you w-3-because_w-4-of)) w-6-.)
+292 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+292 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-cried:iv w-1-he:<v,v> $0) (w-3-because_w-4-of:<<v,v>,<v,t>> w-5-you:<v,v> $0)))
+292 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+292 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-cried:iv w-1-he:<v,v> $0) (w-3-because_w-4-of:<<v,v>,<v,t>> w-5-you:<v,v> $0)))
+292 [pool-1-thread-1] DEBUG: 
+
+292 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+294 [pool-1-thread-1] DEBUG: (l-dobj-bi w-3-likes w-4-ducks)
+294 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+294 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-likes:tv $1 $0 $2))))
+294 [pool-1-thread-1] DEBUG: w-4-ducks:<v,v>
+294 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-likes:tv $0 w-4-ducks:<v,v> $1)))
+294 [pool-1-thread-1] DEBUG: 
+
+294 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-3-likes w-4-ducks) w-2-chomsky_w-1-noam)
+294 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+294 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-likes:tv $0 w-4-ducks:<v,v> $1)))
+294 [pool-1-thread-1] DEBUG: w-2-chomsky_w-1-noam:<v,v>
+294 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-likes:tv w-2-chomsky_w-1-noam:<v,v> w-4-ducks:<v,v> $0))
+294 [pool-1-thread-1] DEBUG: 
+
+294 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-3-likes w-4-ducks) w-2-chomsky_w-1-noam) w-5-.)
+294 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+294 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-likes:tv w-2-chomsky_w-1-noam:<v,v> w-4-ducks:<v,v> $0))
+294 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+294 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-likes:tv w-2-chomsky_w-1-noam:<v,v> w-4-ducks:<v,v> $0))
+294 [pool-1-thread-1] DEBUG: 
+
+294 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+296 [pool-1-thread-1] DEBUG: (l-nsubj w-2-run w-1-i)
+296 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+296 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-run:iv $0 $1)))
+296 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+296 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-run:iv w-1-i:<v,v> $0))
+296 [pool-1-thread-1] DEBUG: 
+
+296 [pool-1-thread-1] DEBUG: (l-amod w-6-days w-5-rainy)
+296 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+296 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-days:<v,v> $0))
+296 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-rainy:<v,v> $0))
+296 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-5-rainy:<v,v> $0) (w-6-days:<v,v> $0)))
+296 [pool-1-thread-1] DEBUG: 
+
+296 [pool-1-thread-1] DEBUG: (l-case (l-amod w-6-days w-5-rainy) w-4-on)
+296 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,t>> (lambda $2:v ($1 $0 $2))))
+296 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-5-rainy:<v,v> $0) (w-6-days:<v,v> $0)))
+296 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-on:<<v,v>,<v,t>> $0 $1)))
+297 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-on:<<v,v>,<v,t>> (lambda $1:v (and:<v,<v,v>> (w-5-rainy:<v,v> $1) (w-6-days:<v,v> $1))) $0))
+297 [pool-1-thread-1] DEBUG: 
+
+297 [pool-1-thread-1] DEBUG: (l-advmod (l-case (l-amod w-6-days w-5-rainy) w-4-on) w-3-even)
+297 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+297 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-on:<<v,v>,<v,t>> (lambda $1:v (and:<v,<v,v>> (w-5-rainy:<v,v> $1) (w-6-days:<v,v> $1))) $0))
+297 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-3-even:<t,t> ($0 $1))))
+297 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-even:<t,t> (w-4-on:<<v,v>,<v,t>> (lambda $1:v (and:<v,<v,v>> (w-5-rainy:<v,v> $1) (w-6-days:<v,v> $1))) $0)))
+297 [pool-1-thread-1] DEBUG: 
+
+297 [pool-1-thread-1] DEBUG: (l-nmod-verb (l-nsubj w-2-run w-1-i) (l-advmod (l-case (l-amod w-6-days w-5-rainy) w-4-on) w-3-even))
+297 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+297 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-run:iv w-1-i:<v,v> $0))
+297 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-even:<t,t> (w-4-on:<<v,v>,<v,t>> (lambda $1:v (and:<v,<v,v>> (w-5-rainy:<v,v> $1) (w-6-days:<v,v> $1))) $0)))
+297 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-run:iv w-1-i:<v,v> $0) (w-3-even:<t,t> (w-4-on:<<v,v>,<v,t>> (lambda $1:v (and:<v,<v,v>> (w-5-rainy:<v,v> $1) (w-6-days:<v,v> $1))) $0))))
+297 [pool-1-thread-1] DEBUG: 
+
+297 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+302 [pool-1-thread-1] DEBUG: (l-amod w-7-people w-6-few)
+302 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+302 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-people:<v,v> $0))
+302 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-few:<v,v> $0))
+302 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-6-few:<v,v> $0) (w-7-people:<v,v> $0)))
+302 [pool-1-thread-1] DEBUG: 
+
+302 [pool-1-thread-1] DEBUG: (l-det (l-amod w-7-people w-6-few) w-5-a)
+302 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+303 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-6-few:<v,v> $0) (w-7-people:<v,v> $0)))
+303 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-5-a:d $1:v ($0 $1)))
+303 [pool-1-thread-1] DEBUG: (w-5-a:d $0:v (and:<v,<v,v>> (w-6-few:<v,v> $0) (w-7-people:<v,v> $0)))
+303 [pool-1-thread-1] DEBUG: 
+
+303 [pool-1-thread-1] DEBUG: (l-case (l-det (l-amod w-7-people w-6-few) w-5-a) w-3-with)
+303 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,t> ($1 $0)))
+303 [pool-1-thread-1] DEBUG: (w-5-a:d $0:v (and:<v,<v,v>> (w-6-few:<v,v> $0) (w-7-people:<v,v> $0)))
+303 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-with:<<v,v>,t> $0))
+303 [pool-1-thread-1] DEBUG: (w-3-with:<<v,v>,t> (w-5-a:d $0:v (and:<v,<v,v>> (w-6-few:<v,v> $0) (w-7-people:<v,v> $0))))
+303 [pool-1-thread-1] DEBUG: 
+
+303 [pool-1-thread-1] DEBUG: (l-advmod (l-case (l-det (l-amod w-7-people w-6-few) w-5-a) w-3-with) w-4-just)
+303 [pool-1-thread-1] DEBUG: (lambda $0:t (lambda $1:<t,t> ($1 $0)))
+303 [pool-1-thread-1] DEBUG: (w-3-with:<<v,v>,t> (w-5-a:d $0:v (and:<v,<v,v>> (w-6-few:<v,v> $0) (w-7-people:<v,v> $0))))
+303 [pool-1-thread-1] DEBUG: (lambda $0:t (w-4-just:<t,t> $0))
+303 [pool-1-thread-1] DEBUG: (w-4-just:<t,t> (w-3-with:<<v,v>,t> (w-5-a:d $0:v (and:<v,<v,v>> (w-6-few:<v,v> $0) (w-7-people:<v,v> $0)))))
+303 [pool-1-thread-1] DEBUG: 
+
+303 [pool-1-thread-1] DEBUG: (l-nmod w-2-meeting (l-advmod (l-case (l-det (l-amod w-7-people w-6-few) w-5-a) w-3-with) w-4-just))
+303 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:t (lambda $2:v (att:<v,<t,v>> ($0 $2) $1))))
+303 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-meeting:<v,v> $0))
+303 [pool-1-thread-1] DEBUG: (w-4-just:<t,t> (w-3-with:<<v,v>,t> (w-5-a:d $0:v (and:<v,<v,v>> (w-6-few:<v,v> $0) (w-7-people:<v,v> $0)))))
+303 [pool-1-thread-1] DEBUG: (lambda $0:v (att:<v,<t,v>> (w-2-meeting:<v,v> $0) (w-4-just:<t,t> (w-3-with:<<v,v>,t> (w-5-a:d $1:v (and:<v,<v,v>> (w-6-few:<v,v> $1) (w-7-people:<v,v> $1)))))))
+303 [pool-1-thread-1] DEBUG: 
+
+303 [pool-1-thread-1] DEBUG: (l-det (l-nmod w-2-meeting (l-advmod (l-case (l-det (l-amod w-7-people w-6-few) w-5-a) w-3-with) w-4-just)) w-1-a)
+303 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+303 [pool-1-thread-1] DEBUG: (lambda $0:v (att:<v,<t,v>> (w-2-meeting:<v,v> $0) (w-4-just:<t,t> (w-3-with:<<v,v>,t> (w-5-a:d $1:v (and:<v,<v,v>> (w-6-few:<v,v> $1) (w-7-people:<v,v> $1)))))))
+303 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-a:d $1:v ($0 $1)))
+303 [pool-1-thread-1] DEBUG: (w-1-a:d $0:v (att:<v,<t,v>> (w-2-meeting:<v,v> $0) (w-4-just:<t,t> (w-3-with:<<v,v>,t> (w-5-a:d $1:v (and:<v,<v,v>> (w-6-few:<v,v> $1) (w-7-people:<v,v> $1)))))))
+303 [pool-1-thread-1] DEBUG: 
+
+303 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+306 [pool-1-thread-1] DEBUG: (l-nummod w-6-chance w-5-one)
+306 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v ($1 ($0 $2)))))
+306 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-chance:<v,v> $0))
+306 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-one:<v,v> $0))
+306 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-one:<v,v> (w-6-chance:<v,v> $0)))
+306 [pool-1-thread-1] DEBUG: 
+
+306 [pool-1-thread-1] DEBUG: (l-advmod (l-nummod w-6-chance w-5-one) w-4-only)
+306 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+306 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-one:<v,v> (w-6-chance:<v,v> $0)))
+306 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-only:<<v,v>,<v,v>> $0))
+306 [pool-1-thread-1] DEBUG: (w-4-only:<<v,v>,<v,v>> (lambda $0:v (w-5-one:<v,v> (w-6-chance:<v,v> $0))))
+306 [pool-1-thread-1] DEBUG: 
+
+306 [pool-1-thread-1] DEBUG: (l-dobj-tri w-2-give (l-advmod (l-nummod w-6-chance w-5-one) w-4-only))
+306 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,<u,p>>> (lambda $1:<v,v> ($0 $1)))
+306 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-2-give:dtv $2 $0 $1 $3)))))
+306 [pool-1-thread-1] DEBUG: (w-4-only:<<v,v>,<v,v>> (lambda $0:v (w-5-one:<v,v> (w-6-chance:<v,v> $0))))
+306 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-give:dtv $1 (w-4-only:<<v,v>,<v,v>> (lambda $3:v (w-5-one:<v,v> (w-6-chance:<v,v> $3)))) $0 $2))))
+306 [pool-1-thread-1] DEBUG: 
+
+306 [pool-1-thread-1] DEBUG: (l-iobj-bi (l-dobj-tri w-2-give (l-advmod (l-nummod w-6-chance w-5-one) w-4-only)) w-3-you)
+306 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+306 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-give:dtv $1 (w-4-only:<<v,v>,<v,v>> (lambda $3:v (w-5-one:<v,v> (w-6-chance:<v,v> $3)))) $0 $2))))
+306 [pool-1-thread-1] DEBUG: w-3-you:<v,v>
+306 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-give:dtv $0 (w-4-only:<<v,v>,<v,v>> (lambda $2:v (w-5-one:<v,v> (w-6-chance:<v,v> $2)))) w-3-you:<v,v> $1)))
+306 [pool-1-thread-1] DEBUG: 
+
+306 [pool-1-thread-1] DEBUG: (l-nsubj (l-iobj-bi (l-dobj-tri w-2-give (l-advmod (l-nummod w-6-chance w-5-one) w-4-only)) w-3-you) w-1-i)
+306 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+306 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-give:dtv $0 (w-4-only:<<v,v>,<v,v>> (lambda $2:v (w-5-one:<v,v> (w-6-chance:<v,v> $2)))) w-3-you:<v,v> $1)))
+306 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+307 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-give:dtv w-1-i:<v,v> (w-4-only:<<v,v>,<v,v>> (lambda $1:v (w-5-one:<v,v> (w-6-chance:<v,v> $1)))) w-3-you:<v,v> $0))
+307 [pool-1-thread-1] DEBUG: 
+
+307 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+309 [pool-1-thread-1] DEBUG: (l-advmod w-5-pretty w-4-very)
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v ($1 ($0 $2)))))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-pretty:<v,v> $0))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-very:<v,v> $0))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-very:<v,v> (w-5-pretty:<v,v> $0)))
+309 [pool-1-thread-1] DEBUG: 
+
+309 [pool-1-thread-1] DEBUG: (l-amod w-6-duck (l-advmod w-5-pretty w-4-very))
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-duck:<v,v> $0))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-very:<v,v> (w-5-pretty:<v,v> $0)))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $0)) (w-6-duck:<v,v> $0)))
+309 [pool-1-thread-1] DEBUG: 
+
+309 [pool-1-thread-1] DEBUG: (l-det (l-amod w-6-duck (l-advmod w-5-pretty w-4-very)) w-3-a)
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $0)) (w-6-duck:<v,v> $0)))
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+309 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $0)) (w-6-duck:<v,v> $0)))
+309 [pool-1-thread-1] DEBUG: 
+
+309 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-saw (l-det (l-amod w-6-duck (l-advmod w-5-pretty w-4-very)) w-3-a))
+309 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-saw:tv $1 $0 $2))))
+309 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $0)) (w-6-duck:<v,v> $0)))
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (w-3-a:d $2:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $2)) (w-6-duck:<v,v> $2))) $1)))
+309 [pool-1-thread-1] DEBUG: 
+
+309 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-saw (l-det (l-amod w-6-duck (l-advmod w-5-pretty w-4-very)) w-3-a)) w-1-i)
+309 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (w-3-a:d $2:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $2)) (w-6-duck:<v,v> $2))) $1)))
+309 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (w-3-a:d $1:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $1)) (w-6-duck:<v,v> $1))) $0))
+309 [pool-1-thread-1] DEBUG: 
+
+309 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-saw (l-det (l-amod w-6-duck (l-advmod w-5-pretty w-4-very)) w-3-a)) w-1-i) w-7-.)
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (w-3-a:d $1:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $1)) (w-6-duck:<v,v> $1))) $0))
+309 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+309 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (w-3-a:d $1:v (and:<v,<v,v>> (w-4-very:<v,v> (w-5-pretty:<v,v> $1)) (w-6-duck:<v,v> $1))) $0))
+309 [pool-1-thread-1] DEBUG: 
+
+309 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+311 [pool-1-thread-1] DEBUG: (l-nsubj w-3-draw w-1-he)
+311 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+311 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-draw:iv $0 $1)))
+311 [pool-1-thread-1] DEBUG: w-1-he:<v,v>
+311 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-draw:iv w-1-he:<v,v> $0))
+311 [pool-1-thread-1] DEBUG: 
+
+311 [pool-1-thread-1] DEBUG: (l-advmod (l-nsubj w-3-draw w-1-he) w-4-too)
+311 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> (lambda $2:v (and:<t,<v,t>> ($0 $2) ($1 $2)))))
+311 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-draw:iv w-1-he:<v,v> $0))
+311 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-too:<v,v> $0))
+311 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-draw:iv w-1-he:<v,v> $0) (w-4-too:<v,v> $0)))
+311 [pool-1-thread-1] DEBUG: 
+
+311 [pool-1-thread-1] DEBUG: (l-aux (l-advmod (l-nsubj w-3-draw w-1-he) w-4-too) w-2-can)
+311 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+311 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-draw:iv w-1-he:<v,v> $0) (w-4-too:<v,v> $0)))
+311 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-can:aux ($0 $1) $1)))
+311 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (and:<t,<v,t>> (w-3-draw:iv w-1-he:<v,v> $0) (w-4-too:<v,v> $0)) $0))
+311 [pool-1-thread-1] DEBUG: 
+
+311 [pool-1-thread-1] DEBUG: (l-punct (l-aux (l-advmod (l-nsubj w-3-draw w-1-he) w-4-too) w-2-can) w-5-.)
+311 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+311 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (and:<t,<v,t>> (w-3-draw:iv w-1-he:<v,v> $0) (w-4-too:<v,v> $0)) $0))
+311 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+311 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (and:<t,<v,t>> (w-3-draw:iv w-1-he:<v,v> $0) (w-4-too:<v,v> $0)) $0))
+311 [pool-1-thread-1] DEBUG: 
+
+311 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+314 [pool-1-thread-1] DEBUG: (l-nsubj w-3-sing w-1-he)
+314 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+314 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-sing:iv $0 $1)))
+314 [pool-1-thread-1] DEBUG: w-1-he:<v,v>
+314 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-sing:iv w-1-he:<v,v> $0))
+314 [pool-1-thread-1] DEBUG: 
+
+314 [pool-1-thread-1] DEBUG: (l-advmod w-5-well w-4-so)
+314 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v ($1 ($0 $2)))))
+314 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-well:<v,v> $0))
+314 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-so:<v,v> $0))
+314 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-so:<v,v> (w-5-well:<v,v> $0)))
+314 [pool-1-thread-1] DEBUG: 
+
+314 [pool-1-thread-1] DEBUG: (l-advmod (l-nsubj w-3-sing w-1-he) (l-advmod w-5-well w-4-so))
+314 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,v> (lambda $2:v (and:<t,<v,t>> ($0 $2) ($1 $2)))))
+314 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-sing:iv w-1-he:<v,v> $0))
+314 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-so:<v,v> (w-5-well:<v,v> $0)))
+314 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-sing:iv w-1-he:<v,v> $0) (w-4-so:<v,v> (w-5-well:<v,v> $0))))
+314 [pool-1-thread-1] DEBUG: 
+
+315 [pool-1-thread-1] DEBUG: (l-aux (l-advmod (l-nsubj w-3-sing w-1-he) (l-advmod w-5-well w-4-so)) w-2-can)
+315 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+315 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<v,t>> (w-3-sing:iv w-1-he:<v,v> $0) (w-4-so:<v,v> (w-5-well:<v,v> $0))))
+315 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-can:aux ($0 $1) $1)))
+315 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (and:<t,<v,t>> (w-3-sing:iv w-1-he:<v,v> $0) (w-4-so:<v,v> (w-5-well:<v,v> $0))) $0))
+315 [pool-1-thread-1] DEBUG: 
+
+315 [pool-1-thread-1] DEBUG: (l-punct (l-aux (l-advmod (l-nsubj w-3-sing w-1-he) (l-advmod w-5-well w-4-so)) w-2-can) w-6-.)
+315 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+315 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (and:<t,<v,t>> (w-3-sing:iv w-1-he:<v,v> $0) (w-4-so:<v,v> (w-5-well:<v,v> $0))) $0))
+315 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+315 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (and:<t,<v,t>> (w-3-sing:iv w-1-he:<v,v> $0) (w-4-so:<v,v> (w-5-well:<v,v> $0))) $0))
+315 [pool-1-thread-1] DEBUG: 
+
+315 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+316 [pool-1-thread-1] DEBUG: (l-det w-2-duck w-1-the)
+316 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+316 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-duck:<v,v> $0))
+316 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+316 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-duck:<v,v> $0))
+316 [pool-1-thread-1] DEBUG: 
+
+316 [pool-1-thread-1] DEBUG: (l-nsubj w-3-stands_w-4-up (l-det w-2-duck w-1-the))
+316 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+316 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-stands_w-4-up:iv $0 $1)))
+316 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-duck:<v,v> $0))
+316 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-stands_w-4-up:iv (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+316 [pool-1-thread-1] DEBUG: 
+
+316 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj w-3-stands_w-4-up (l-det w-2-duck w-1-the)) w-5-.)
+316 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+316 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-stands_w-4-up:iv (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+316 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+316 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-stands_w-4-up:iv (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+316 [pool-1-thread-1] DEBUG: 
+
+316 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+318 [pool-1-thread-1] DEBUG: (l-det w-5-seeds w-4-the)
+318 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+318 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-seeds:<v,v> $0))
+318 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-the:d $1:v ($0 $1)))
+318 [pool-1-thread-1] DEBUG: (w-4-the:d $0:v (w-5-seeds:<v,v> $0))
+318 [pool-1-thread-1] DEBUG: 
+
+318 [pool-1-thread-1] DEBUG: (l-dobj-bi w-3-hand (l-det w-5-seeds w-4-the))
+318 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+318 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-hand:tv $1 $0 $2))))
+318 [pool-1-thread-1] DEBUG: (w-4-the:d $0:v (w-5-seeds:<v,v> $0))
+318 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-hand:tv $0 (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $1)))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: (l-det w-2-ducks w-1-the)
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-ducks:<v,v> $0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+319 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-ducks:<v,v> $0))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+319 [pool-1-thread-1] DEBUG: w-2-ducks:<v,v>
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+319 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-ducks:<v,v> $0))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-3-hand (l-det w-5-seeds w-4-the)) (l-det w-2-ducks w-1-the))
+319 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-hand:tv $0 (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $1)))
+319 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-ducks:<v,v> $0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-hand:tv $0 (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $1)))
+319 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-ducks:<v,v> $0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: (l-compound:prt (l-nsubj (l-dobj-bi w-3-hand (l-det w-5-seeds w-4-the)) (l-det w-2-ducks w-1-the)) w-6-over)
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-over:prt $0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0) (w-6-over:prt $0)))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-over:prt $0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0) (w-6-over:prt $0)))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: (l-punct (l-compound:prt (l-nsubj (l-dobj-bi w-3-hand (l-det w-5-seeds w-4-the)) (l-det w-2-ducks w-1-the)) w-6-over) w-7-.)
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0) (w-6-over:prt $0)))
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0) (w-6-over:prt $0)))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0) (w-6-over:prt $0)))
+319 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+319 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-3-hand:tv (w-1-the:d $1:v (w-2-ducks:<v,v> $1)) (w-4-the:d $2:v (w-5-seeds:<v,v> $2)) $0) (w-6-over:prt $0)))
+319 [pool-1-thread-1] DEBUG: 
+
+319 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+321 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-call w-3-her)
+321 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+321 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-call:tv $1 $0 $2))))
+321 [pool-1-thread-1] DEBUG: w-3-her:<v,v>
+321 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-call:tv $0 w-3-her:<v,v> $1)))
+321 [pool-1-thread-1] DEBUG: 
+
+321 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-call w-3-her) w-1-i)
+321 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+321 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-call:tv $0 w-3-her:<v,v> $1)))
+321 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+321 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-call:tv w-1-i:<v,v> w-3-her:<v,v> $0))
+321 [pool-1-thread-1] DEBUG: 
+
+321 [pool-1-thread-1] DEBUG: (l-compound:prt (l-nsubj (l-dobj-bi w-2-call w-3-her) w-1-i) w-4-up)
+321 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+321 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-call:tv w-1-i:<v,v> w-3-her:<v,v> $0))
+321 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-up:prt $0))
+321 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-call:tv w-1-i:<v,v> w-3-her:<v,v> $0) (w-4-up:prt $0)))
+321 [pool-1-thread-1] DEBUG: 
+
+321 [pool-1-thread-1] DEBUG: (l-punct (l-compound:prt (l-nsubj (l-dobj-bi w-2-call w-3-her) w-1-i) w-4-up) w-5-.)
+321 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+321 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-call:tv w-1-i:<v,v> w-3-her:<v,v> $0) (w-4-up:prt $0)))
+321 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+321 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-call:tv w-1-i:<v,v> w-3-her:<v,v> $0) (w-4-up:prt $0)))
+321 [pool-1-thread-1] DEBUG: 
+
+321 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+324 [pool-1-thread-1] DEBUG: (l-dobj-bi w-4-use w-5-it)
+324 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-use:tv $1 $0 $2))))
+324 [pool-1-thread-1] DEBUG: w-5-it:<v,v>
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-use:tv $0 w-5-it:<v,v> $1)))
+324 [pool-1-thread-1] DEBUG: 
+
+324 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-4-use w-5-it) w-1-you)
+324 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-use:tv $0 w-5-it:<v,v> $1)))
+324 [pool-1-thread-1] DEBUG: w-1-you:<v,v>
+324 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-use:tv w-1-you:<v,v> w-5-it:<v,v> $0))
+324 [pool-1-thread-1] DEBUG: 
+
+324 [pool-1-thread-1] DEBUG: (l-aux (l-nsubj (l-dobj-bi w-4-use w-5-it) w-1-you) w-2-can)
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+324 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-use:tv w-1-you:<v,v> w-5-it:<v,v> $0))
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-can:aux ($0 $1) $1)))
+324 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-4-use:tv w-1-you:<v,v> w-5-it:<v,v> $0) $0))
+324 [pool-1-thread-1] DEBUG: 
+
+324 [pool-1-thread-1] DEBUG: (l-neg (l-aux (l-nsubj (l-dobj-bi w-4-use w-5-it) w-1-you) w-2-can) w-3-not)
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+324 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-4-use:tv w-1-you:<v,v> w-5-it:<v,v> $0) $0))
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (not:<t,<v,t>> ($0 $1) $1)))
+324 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-2-can:aux (w-4-use:tv w-1-you:<v,v> w-5-it:<v,v> $0) $0) $0))
+324 [pool-1-thread-1] DEBUG: 
+
+324 [pool-1-thread-1] DEBUG: (l-punct (l-neg (l-aux (l-nsubj (l-dobj-bi w-4-use w-5-it) w-1-you) w-2-can) w-3-not) w-6-.)
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+324 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-2-can:aux (w-4-use:tv w-1-you:<v,v> w-5-it:<v,v> $0) $0) $0))
+324 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+324 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-2-can:aux (w-4-use:tv w-1-you:<v,v> w-5-it:<v,v> $0) $0) $0))
+324 [pool-1-thread-1] DEBUG: 
+
+324 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+326 [pool-1-thread-1] DEBUG: (l-cop w-4-straight w-2-is)
+326 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> (lambda $3:v ($0 $2 $3)))))
+326 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-straight:<<v,v>,<v,t>> $0 $1)))
+326 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:<v,t> $0))
+326 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-straight:<<v,v>,<v,t>> $0 $1)))
+326 [pool-1-thread-1] DEBUG: 
+
+326 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop w-4-straight w-2-is) w-1-it)
+326 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+326 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-straight:<<v,v>,<v,t>> $0 $1)))
+326 [pool-1-thread-1] DEBUG: w-1-it:<v,v>
+326 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-straight:<<v,v>,<v,t>> w-1-it:<v,v> $0))
+326 [pool-1-thread-1] DEBUG: 
+
+326 [pool-1-thread-1] DEBUG: (l-neg (l-nsubj (l-cop w-4-straight w-2-is) w-1-it) w-3-not)
+326 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+326 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-straight:<<v,v>,<v,t>> w-1-it:<v,v> $0))
+326 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (not:<t,<v,t>> ($0 $1) $1)))
+326 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-4-straight:<<v,v>,<v,t>> w-1-it:<v,v> $0) $0))
+326 [pool-1-thread-1] DEBUG: 
+
+326 [pool-1-thread-1] DEBUG: (l-punct (l-neg (l-nsubj (l-cop w-4-straight w-2-is) w-1-it) w-3-not) w-5-.)
+326 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+326 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-4-straight:<<v,v>,<v,t>> w-1-it:<v,v> $0) $0))
+326 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+326 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-4-straight:<<v,v>,<v,t>> w-1-it:<v,v> $0) $0))
+326 [pool-1-thread-1] DEBUG: 
+
+326 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+328 [pool-1-thread-1] DEBUG: (l-det w-5-boy w-4-a)
+328 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,v>> ($0)))
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-boy:<<v,v>,<v,t>> $0 $1)))
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-a:d $1:v ($0 $1)))
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-boy:<<v,v>,<v,t>> $0 $1)))
+328 [pool-1-thread-1] DEBUG: 
+
+328 [pool-1-thread-1] DEBUG: (l-cop (l-det w-5-boy w-4-a) w-2-am)
+328 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> ($0 $2))))
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-boy:<<v,v>,<v,t>> $0 $1)))
+328 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-am:<v,t> $0))
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-boy:<<v,v>,<v,t>> $0 $1)))
+328 [pool-1-thread-1] DEBUG: 
+
+328 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop (l-det w-5-boy w-4-a) w-2-am) w-1-i)
+328 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-boy:<<v,v>,<v,t>> $0 $1)))
+328 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+328 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-boy:<<v,v>,<v,t>> w-1-i:<v,v> $0))
+328 [pool-1-thread-1] DEBUG: 
+
+328 [pool-1-thread-1] DEBUG: (l-neg (l-nsubj (l-cop (l-det w-5-boy w-4-a) w-2-am) w-1-i) w-3-not)
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+328 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-boy:<<v,v>,<v,t>> w-1-i:<v,v> $0))
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (not:<t,<v,t>> ($0 $1) $1)))
+328 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-5-boy:<<v,v>,<v,t>> w-1-i:<v,v> $0) $0))
+328 [pool-1-thread-1] DEBUG: 
+
+328 [pool-1-thread-1] DEBUG: (l-punct (l-neg (l-nsubj (l-cop (l-det w-5-boy w-4-a) w-2-am) w-1-i) w-3-not) w-6-.)
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+328 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-5-boy:<<v,v>,<v,t>> w-1-i:<v,v> $0) $0))
+328 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+328 [pool-1-thread-1] DEBUG: (lambda $0:v (not:<t,<v,t>> (w-5-boy:<<v,v>,<v,t>> w-1-i:<v,v> $0) $0))
+328 [pool-1-thread-1] DEBUG: 
+
+328 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+330 [pool-1-thread-1] DEBUG: (l-case w-5-china w-4-from)
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<<v,v>,<v,t>>> ($1 $0)))
+330 [pool-1-thread-1] DEBUG: w-5-china:<v,v>
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-4-from:<<v,v>,<<v,v>,<v,t>>> $0 $1 $2))))
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-from:<<v,v>,<<v,v>,<v,t>>> w-5-china:<v,v> $0 $1)))
+330 [pool-1-thread-1] DEBUG: 
+
+330 [pool-1-thread-1] DEBUG: (l-cop (l-case w-5-china w-4-from) w-3-is)
+330 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> (lambda $3:v ($0 $2 $3)))))
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-from:<<v,v>,<<v,v>,<v,t>>> w-5-china:<v,v> $0 $1)))
+330 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-is:<v,t> $0))
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-from:<<v,v>,<<v,v>,<v,t>>> w-5-china:<v,v> $0 $1)))
+330 [pool-1-thread-1] DEBUG: 
+
+330 [pool-1-thread-1] DEBUG: (l-det w-2-duck w-1-this)
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+330 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-duck:<v,v> $0))
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-this:d $1:v ($0 $1)))
+330 [pool-1-thread-1] DEBUG: (w-1-this:d $0:v (w-2-duck:<v,v> $0))
+330 [pool-1-thread-1] DEBUG: 
+
+330 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop (l-case w-5-china w-4-from) w-3-is) (l-det w-2-duck w-1-this))
+330 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-from:<<v,v>,<<v,v>,<v,t>>> w-5-china:<v,v> $0 $1)))
+330 [pool-1-thread-1] DEBUG: (w-1-this:d $0:v (w-2-duck:<v,v> $0))
+330 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-from:<<v,v>,<<v,v>,<v,t>>> w-5-china:<v,v> (w-1-this:d $1:v (w-2-duck:<v,v> $1)) $0))
+330 [pool-1-thread-1] DEBUG: 
+
+330 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop (l-case w-5-china w-4-from) w-3-is) (l-det w-2-duck w-1-this)) w-6-.)
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+330 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-from:<<v,v>,<<v,v>,<v,t>>> w-5-china:<v,v> (w-1-this:d $1:v (w-2-duck:<v,v> $1)) $0))
+330 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+330 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-from:<<v,v>,<<v,v>,<v,t>>> w-5-china:<v,v> (w-1-this:d $1:v (w-2-duck:<v,v> $1)) $0))
+330 [pool-1-thread-1] DEBUG: 
+
+331 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+332 [pool-1-thread-1] DEBUG: (l-cop w-4-enraging w-3-is)
+332 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> (lambda $3:v ($0 $2 $3)))))
+332 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-enraging:<<v,v>,<v,t>> $0 $1)))
+332 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-is:<v,t> $0))
+332 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-enraging:<<v,v>,<v,t>> $0 $1)))
+332 [pool-1-thread-1] DEBUG: 
+
+332 [pool-1-thread-1] DEBUG: (l-det w-2-incident w-1-this)
+332 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+332 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-incident:<v,v> $0))
+332 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-this:d $1:v ($0 $1)))
+332 [pool-1-thread-1] DEBUG: (w-1-this:d $0:v (w-2-incident:<v,v> $0))
+332 [pool-1-thread-1] DEBUG: 
+
+333 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop w-4-enraging w-3-is) (l-det w-2-incident w-1-this))
+333 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+333 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-enraging:<<v,v>,<v,t>> $0 $1)))
+333 [pool-1-thread-1] DEBUG: (w-1-this:d $0:v (w-2-incident:<v,v> $0))
+333 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-enraging:<<v,v>,<v,t>> (w-1-this:d $1:v (w-2-incident:<v,v> $1)) $0))
+333 [pool-1-thread-1] DEBUG: 
+
+333 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop w-4-enraging w-3-is) (l-det w-2-incident w-1-this)) w-5-.)
+333 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+333 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-enraging:<<v,v>,<v,t>> (w-1-this:d $1:v (w-2-incident:<v,v> $1)) $0))
+333 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+333 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-enraging:<<v,v>,<v,t>> (w-1-this:d $1:v (w-2-incident:<v,v> $1)) $0))
+333 [pool-1-thread-1] DEBUG: 
+
+333 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+334 [pool-1-thread-1] DEBUG: (l-amod w-5-incident w-4-enraging)
+335 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,t>> (lambda $2:<v,v> (lambda $3:v (and:<t,<t,t>> ($0 $2 $3) ($1 $2 $3))))))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-incident:<<v,v>,<v,t>> $0 $1)))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-enraging:<<v,v>,<v,t>> $0 $1)))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> $0 $1) (w-4-enraging:<<v,v>,<v,t>> $0 $1))))
+335 [pool-1-thread-1] DEBUG: 
+
+335 [pool-1-thread-1] DEBUG: (l-det (l-amod w-5-incident w-4-enraging) w-3-an)
+335 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,v>> ($0)))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> $0 $1) (w-4-enraging:<<v,v>,<v,t>> $0 $1))))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-an:d $1:v ($0 $1)))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> $0 $1) (w-4-enraging:<<v,v>,<v,t>> $0 $1))))
+335 [pool-1-thread-1] DEBUG: 
+
+335 [pool-1-thread-1] DEBUG: (l-cop (l-det (l-amod w-5-incident w-4-enraging) w-3-an) w-2-is)
+335 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> ($0 $2))))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> $0 $1) (w-4-enraging:<<v,v>,<v,t>> $0 $1))))
+335 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:<v,t> $0))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> $0 $1) (w-4-enraging:<<v,v>,<v,t>> $0 $1))))
+335 [pool-1-thread-1] DEBUG: 
+
+335 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop (l-det (l-amod w-5-incident w-4-enraging) w-3-an) w-2-is) w-1-this)
+335 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> $0 $1) (w-4-enraging:<<v,v>,<v,t>> $0 $1))))
+335 [pool-1-thread-1] DEBUG: w-1-this:<v,v>
+335 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-4-enraging:<<v,v>,<v,t>> w-1-this:<v,v> $0)))
+335 [pool-1-thread-1] DEBUG: 
+
+335 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop (l-det (l-amod w-5-incident w-4-enraging) w-3-an) w-2-is) w-1-this) w-6-.)
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+335 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-4-enraging:<<v,v>,<v,t>> w-1-this:<v,v> $0)))
+335 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+335 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-5-incident:<<v,v>,<v,t>> w-1-this:<v,v> $0) (w-4-enraging:<<v,v>,<v,t>> w-1-this:<v,v> $0)))
+335 [pool-1-thread-1] DEBUG: 
+
+336 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+337 [pool-1-thread-1] DEBUG: (l-nsubj w-2-play w-1-you)
+337 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+337 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-play:iv $0 $1)))
+337 [pool-1-thread-1] DEBUG: w-1-you:<v,v>
+337 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-play:iv w-1-you:<v,v> $0))
+337 [pool-1-thread-1] DEBUG: 
+
+337 [pool-1-thread-1] DEBUG: (l-det w-5-garden w-4-the)
+337 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+337 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-garden:<v,v> $0))
+337 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-the:d $1:v ($0 $1)))
+337 [pool-1-thread-1] DEBUG: (w-4-the:d $0:v (w-5-garden:<v,v> $0))
+337 [pool-1-thread-1] DEBUG: 
+
+337 [pool-1-thread-1] DEBUG: (l-case (l-det w-5-garden w-4-the) w-3-in)
+337 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,t>> (lambda $2:v ($1 $0 $2))))
+338 [pool-1-thread-1] DEBUG: (w-4-the:d $0:v (w-5-garden:<v,v> $0))
+338 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-in:<<v,v>,<v,t>> $0 $1)))
+338 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-in:<<v,v>,<v,t>> (w-4-the:d $1:v (w-5-garden:<v,v> $1)) $0))
+338 [pool-1-thread-1] DEBUG: 
+
+338 [pool-1-thread-1] DEBUG: (l-nmod-verb (l-nsubj w-2-play w-1-you) (l-case (l-det w-5-garden w-4-the) w-3-in))
+338 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<v,t> (lambda $2:v (and:<t,<t,t>> ($0 $2) ($1 $2)))))
+338 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-play:iv w-1-you:<v,v> $0))
+338 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-in:<<v,v>,<v,t>> (w-4-the:d $1:v (w-5-garden:<v,v> $1)) $0))
+338 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-play:iv w-1-you:<v,v> $0) (w-3-in:<<v,v>,<v,t>> (w-4-the:d $1:v (w-5-garden:<v,v> $1)) $0)))
+338 [pool-1-thread-1] DEBUG: 
+
+338 [pool-1-thread-1] DEBUG: (l-punct (l-nmod-verb (l-nsubj w-2-play w-1-you) (l-case (l-det w-5-garden w-4-the) w-3-in)) w-6-.)
+338 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+338 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-play:iv w-1-you:<v,v> $0) (w-3-in:<<v,v>,<v,t>> (w-4-the:d $1:v (w-5-garden:<v,v> $1)) $0)))
+338 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+338 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-2-play:iv w-1-you:<v,v> $0) (w-3-in:<<v,v>,<v,t>> (w-4-the:d $1:v (w-5-garden:<v,v> $1)) $0)))
+338 [pool-1-thread-1] DEBUG: 
+
+338 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+339 [pool-1-thread-1] DEBUG: (l-cop w-4-green w-3-is)
+339 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> (lambda $3:v ($0 $2 $3)))))
+339 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-green:<<v,v>,<v,t>> $0 $1)))
+339 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-is:<v,t> $0))
+339 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-green:<<v,v>,<v,t>> $0 $1)))
+339 [pool-1-thread-1] DEBUG: 
+
+339 [pool-1-thread-1] DEBUG: (l-det w-2-duck w-1-the)
+339 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+339 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-duck:<v,v> $0))
+339 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-1-the:d $1:v ($0 $1)))
+339 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-duck:<v,v> $0))
+339 [pool-1-thread-1] DEBUG: 
+
+339 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop w-4-green w-3-is) (l-det w-2-duck w-1-the))
+339 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+339 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-green:<<v,v>,<v,t>> $0 $1)))
+339 [pool-1-thread-1] DEBUG: (w-1-the:d $0:v (w-2-duck:<v,v> $0))
+339 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-green:<<v,v>,<v,t>> (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+339 [pool-1-thread-1] DEBUG: 
+
+339 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop w-4-green w-3-is) (l-det w-2-duck w-1-the)) w-5-.)
+339 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+339 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-green:<<v,v>,<v,t>> (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+339 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+339 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-green:<<v,v>,<v,t>> (w-1-the:d $1:v (w-2-duck:<v,v> $1)) $0))
+339 [pool-1-thread-1] DEBUG: 
+
+339 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+341 [pool-1-thread-1] DEBUG: (l-det w-4-duck w-3-a)
+341 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,v>> ($0)))
+341 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-duck:<<v,v>,<v,t>> $0 $1)))
+341 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+341 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-duck:<<v,v>,<v,t>> $0 $1)))
+341 [pool-1-thread-1] DEBUG: 
+
+341 [pool-1-thread-1] DEBUG: (l-cop (l-det w-4-duck w-3-a) w-2-is)
+341 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> ($0 $2))))
+341 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-duck:<<v,v>,<v,t>> $0 $1)))
+341 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:<v,t> $0))
+341 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-duck:<<v,v>,<v,t>> $0 $1)))
+341 [pool-1-thread-1] DEBUG: 
+
+341 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop (l-det w-4-duck w-3-a) w-2-is) w-1-eugene)
+341 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+341 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-duck:<<v,v>,<v,t>> $0 $1)))
+341 [pool-1-thread-1] DEBUG: w-1-eugene:<v,v>
+341 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0))
+341 [pool-1-thread-1] DEBUG: 
+
+341 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop (l-det w-4-duck w-3-a) w-2-is) w-1-eugene) w-5-.)
+341 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+341 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0))
+341 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+341 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0))
+341 [pool-1-thread-1] DEBUG: 
+
+341 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+343 [pool-1-thread-1] DEBUG: (l-amod w-5-duck w-4-green)
+343 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,t>> (lambda $2:<v,v> (lambda $3:v (and:<t,<t,t>> ($0 $2 $3) ($1 $2 $3))))))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-5-duck:<<v,v>,<v,t>> $0 $1)))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-green:<<v,v>,<v,t>> $0 $1)))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> $0 $1) (w-4-green:<<v,v>,<v,t>> $0 $1))))
+343 [pool-1-thread-1] DEBUG: 
+
+343 [pool-1-thread-1] DEBUG: (l-det (l-amod w-5-duck w-4-green) w-3-a)
+343 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,v>> ($0)))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> $0 $1) (w-4-green:<<v,v>,<v,t>> $0 $1))))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> $0 $1) (w-4-green:<<v,v>,<v,t>> $0 $1))))
+343 [pool-1-thread-1] DEBUG: 
+
+343 [pool-1-thread-1] DEBUG: (l-cop (l-det (l-amod w-5-duck w-4-green) w-3-a) w-2-is)
+343 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> ($0 $2))))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> $0 $1) (w-4-green:<<v,v>,<v,t>> $0 $1))))
+343 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:<v,t> $0))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> $0 $1) (w-4-green:<<v,v>,<v,t>> $0 $1))))
+343 [pool-1-thread-1] DEBUG: 
+
+343 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop (l-det (l-amod w-5-duck w-4-green) w-3-a) w-2-is) w-1-eugene)
+343 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+343 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> $0 $1) (w-4-green:<<v,v>,<v,t>> $0 $1))))
+343 [pool-1-thread-1] DEBUG: w-1-eugene:<v,v>
+343 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0) (w-4-green:<<v,v>,<v,t>> w-1-eugene:<v,v> $0)))
+343 [pool-1-thread-1] DEBUG: 
+
+344 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop (l-det (l-amod w-5-duck w-4-green) w-3-a) w-2-is) w-1-eugene) w-6-.)
+344 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+344 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0) (w-4-green:<<v,v>,<v,t>> w-1-eugene:<v,v> $0)))
+344 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+344 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<t,<t,t>> (w-5-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0) (w-4-green:<<v,v>,<v,t>> w-1-eugene:<v,v> $0)))
+344 [pool-1-thread-1] DEBUG: 
+
+344 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+346 [pool-1-thread-1] DEBUG: (l-case w-6-china w-5-from)
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,t> ($1 $0)))
+347 [pool-1-thread-1] DEBUG: w-6-china:<v,v>
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-5-from:<<v,v>,t> $0))
+347 [pool-1-thread-1] DEBUG: (w-5-from:<<v,v>,t> w-6-china:<v,v>)
+347 [pool-1-thread-1] DEBUG: 
+
+347 [pool-1-thread-1] DEBUG: (l-nmod w-4-duck (l-case w-6-china w-5-from))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:t (lambda $2:<v,v> (lambda $3:v (att:<t,<t,t>> ($0 $2 $3) $1)))))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-4-duck:<<v,v>,<v,t>> $0 $1)))
+347 [pool-1-thread-1] DEBUG: (w-5-from:<<v,v>,t> w-6-china:<v,v>)
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> $0 $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))))
+347 [pool-1-thread-1] DEBUG: 
+
+347 [pool-1-thread-1] DEBUG: (l-det (l-nmod w-4-duck (l-case w-6-china w-5-from)) w-3-a)
+347 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<<v,v>,<v,v>> ($0)))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> $0 $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> $0 $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))))
+347 [pool-1-thread-1] DEBUG: 
+
+347 [pool-1-thread-1] DEBUG: (l-cop (l-det (l-nmod w-4-duck (l-case w-6-china w-5-from)) w-3-a) w-2-is)
+347 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,t>> (lambda $1:<v,t> (lambda $2:<v,v> ($0 $2))))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> $0 $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))))
+347 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-is:<v,t> $0))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> $0 $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))))
+347 [pool-1-thread-1] DEBUG: 
+
+347 [pool-1-thread-1] DEBUG: (l-nsubj (l-cop (l-det (l-nmod w-4-duck (l-case w-6-china w-5-from)) w-3-a) w-2-is) w-1-eugene)
+347 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> $0 $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))))
+347 [pool-1-thread-1] DEBUG: w-1-eugene:<v,v>
+347 [pool-1-thread-1] DEBUG: (lambda $0:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0) (w-5-from:<<v,v>,t> w-6-china:<v,v>)))
+347 [pool-1-thread-1] DEBUG: 
+
+347 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-cop (l-det (l-nmod w-4-duck (l-case w-6-china w-5-from)) w-3-a) w-2-is) w-1-eugene) w-7-.)
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+347 [pool-1-thread-1] DEBUG: (lambda $0:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0) (w-5-from:<<v,v>,t> w-6-china:<v,v>)))
+347 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+347 [pool-1-thread-1] DEBUG: (lambda $0:v (att:<t,<t,t>> (w-4-duck:<<v,v>,<v,t>> w-1-eugene:<v,v> $0) (w-5-from:<<v,v>,t> w-6-china:<v,v>)))
+347 [pool-1-thread-1] DEBUG: 
+
+347 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+348 [pool-1-thread-1] DEBUG: (l-compound w-5-hotel w-4-hilton)
+349 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and_comp:<v,<v,v>> ($1 $2) ($0 $2)))))
+349 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-hotel:<v,v> $0))
+349 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-hilton:<v,v> $0))
+349 [pool-1-thread-1] DEBUG: (lambda $0:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $0) (w-5-hotel:<v,v> $0)))
+349 [pool-1-thread-1] DEBUG: 
+
+349 [pool-1-thread-1] DEBUG: (l-det (l-compound w-5-hotel w-4-hilton) w-3-the)
+349 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+349 [pool-1-thread-1] DEBUG: (lambda $0:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $0) (w-5-hotel:<v,v> $0)))
+349 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-the:d $1:v ($0 $1)))
+349 [pool-1-thread-1] DEBUG: (w-3-the:d $0:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $0) (w-5-hotel:<v,v> $0)))
+349 [pool-1-thread-1] DEBUG: 
+
+349 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-like (l-det (l-compound w-5-hotel w-4-hilton) w-3-the))
+349 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+349 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-like:tv $1 $0 $2))))
+349 [pool-1-thread-1] DEBUG: (w-3-the:d $0:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $0) (w-5-hotel:<v,v> $0)))
+349 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-like:tv $0 (w-3-the:d $2:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $2) (w-5-hotel:<v,v> $2))) $1)))
+349 [pool-1-thread-1] DEBUG: 
+
+349 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-like (l-det (l-compound w-5-hotel w-4-hilton) w-3-the)) w-1-i)
+349 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+349 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-like:tv $0 (w-3-the:d $2:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $2) (w-5-hotel:<v,v> $2))) $1)))
+349 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+349 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-like:tv w-1-i:<v,v> (w-3-the:d $1:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $1) (w-5-hotel:<v,v> $1))) $0))
+349 [pool-1-thread-1] DEBUG: 
+
+349 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-like (l-det (l-compound w-5-hotel w-4-hilton) w-3-the)) w-1-i) w-6-.)
+349 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+349 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-like:tv w-1-i:<v,v> (w-3-the:d $1:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $1) (w-5-hotel:<v,v> $1))) $0))
+349 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+349 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-like:tv w-1-i:<v,v> (w-3-the:d $1:v (and_comp:<v,<v,v>> (w-4-hilton:<v,v> $1) (w-5-hotel:<v,v> $1))) $0))
+349 [pool-1-thread-1] DEBUG: 
+
+349 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+351 [pool-1-thread-1] DEBUG: (l-compound w-5-sandwich w-4-cheese)
+351 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and_comp:<v,<v,v>> ($1 $2) ($0 $2)))))
+352 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-sandwich:<v,v> $0))
+352 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-cheese:<v,v> $0))
+352 [pool-1-thread-1] DEBUG: (lambda $0:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $0) (w-5-sandwich:<v,v> $0)))
+352 [pool-1-thread-1] DEBUG: 
+
+352 [pool-1-thread-1] DEBUG: (l-det (l-compound w-5-sandwich w-4-cheese) w-3-a)
+352 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+352 [pool-1-thread-1] DEBUG: (lambda $0:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $0) (w-5-sandwich:<v,v> $0)))
+352 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+352 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $0) (w-5-sandwich:<v,v> $0)))
+352 [pool-1-thread-1] DEBUG: 
+
+352 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-made (l-det (l-compound w-5-sandwich w-4-cheese) w-3-a))
+352 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+352 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-made:tv $1 $0 $2))))
+352 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $0) (w-5-sandwich:<v,v> $0)))
+352 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-made:tv $0 (w-3-a:d $2:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $2) (w-5-sandwich:<v,v> $2))) $1)))
+352 [pool-1-thread-1] DEBUG: 
+
+352 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-made (l-det (l-compound w-5-sandwich w-4-cheese) w-3-a)) w-1-i)
+352 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+352 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-made:tv $0 (w-3-a:d $2:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $2) (w-5-sandwich:<v,v> $2))) $1)))
+352 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+352 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-made:tv w-1-i:<v,v> (w-3-a:d $1:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $1) (w-5-sandwich:<v,v> $1))) $0))
+352 [pool-1-thread-1] DEBUG: 
+
+352 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-made (l-det (l-compound w-5-sandwich w-4-cheese) w-3-a)) w-1-i) w-6-.)
+352 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+352 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-made:tv w-1-i:<v,v> (w-3-a:d $1:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $1) (w-5-sandwich:<v,v> $1))) $0))
+352 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+352 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-made:tv w-1-i:<v,v> (w-3-a:d $1:v (and_comp:<v,<v,v>> (w-4-cheese:<v,v> $1) (w-5-sandwich:<v,v> $1))) $0))
+352 [pool-1-thread-1] DEBUG: 
+
+352 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+354 [pool-1-thread-1] DEBUG: (l-case w-6-china w-5-from)
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,t> ($1 $0)))
+354 [pool-1-thread-1] DEBUG: w-6-china:<v,v>
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-5-from:<<v,v>,t> $0))
+354 [pool-1-thread-1] DEBUG: (w-5-from:<<v,v>,t> w-6-china:<v,v>)
+354 [pool-1-thread-1] DEBUG: 
+
+354 [pool-1-thread-1] DEBUG: (l-nmod w-4-duck (l-case w-6-china w-5-from))
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:t (lambda $2:v (att:<v,<t,v>> ($0 $2) $1))))
+354 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-duck:<v,v> $0))
+354 [pool-1-thread-1] DEBUG: (w-5-from:<<v,v>,t> w-6-china:<v,v>)
+354 [pool-1-thread-1] DEBUG: (lambda $0:v (att:<v,<t,v>> (w-4-duck:<v,v> $0) (w-5-from:<<v,v>,t> w-6-china:<v,v>)))
+354 [pool-1-thread-1] DEBUG: 
+
+354 [pool-1-thread-1] DEBUG: (l-det (l-nmod w-4-duck (l-case w-6-china w-5-from)) w-3-a)
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+354 [pool-1-thread-1] DEBUG: (lambda $0:v (att:<v,<t,v>> (w-4-duck:<v,v> $0) (w-5-from:<<v,v>,t> w-6-china:<v,v>)))
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-a:d $1:v ($0 $1)))
+354 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (att:<v,<t,v>> (w-4-duck:<v,v> $0) (w-5-from:<<v,v>,t> w-6-china:<v,v>)))
+354 [pool-1-thread-1] DEBUG: 
+
+354 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-see (l-det (l-nmod w-4-duck (l-case w-6-china w-5-from)) w-3-a))
+354 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-see:tv $1 $0 $2))))
+354 [pool-1-thread-1] DEBUG: (w-3-a:d $0:v (att:<v,<t,v>> (w-4-duck:<v,v> $0) (w-5-from:<<v,v>,t> w-6-china:<v,v>)))
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-see:tv $0 (w-3-a:d $2:v (att:<v,<t,v>> (w-4-duck:<v,v> $2) (w-5-from:<<v,v>,t> w-6-china:<v,v>))) $1)))
+354 [pool-1-thread-1] DEBUG: 
+
+354 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-see (l-det (l-nmod w-4-duck (l-case w-6-china w-5-from)) w-3-a)) w-1-i)
+354 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-see:tv $0 (w-3-a:d $2:v (att:<v,<t,v>> (w-4-duck:<v,v> $2) (w-5-from:<<v,v>,t> w-6-china:<v,v>))) $1)))
+354 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+354 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (w-3-a:d $1:v (att:<v,<t,v>> (w-4-duck:<v,v> $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))) $0))
+354 [pool-1-thread-1] DEBUG: 
+
+354 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-see (l-det (l-nmod w-4-duck (l-case w-6-china w-5-from)) w-3-a)) w-1-i) w-7-.)
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+354 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (w-3-a:d $1:v (att:<v,<t,v>> (w-4-duck:<v,v> $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))) $0))
+354 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+354 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (w-3-a:d $1:v (att:<v,<t,v>> (w-4-duck:<v,v> $1) (w-5-from:<<v,v>,t> w-6-china:<v,v>))) $0))
+354 [pool-1-thread-1] DEBUG: 
+
+354 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+356 [pool-1-thread-1] DEBUG: (l-case w-5-accounting w-4-from)
+356 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,t> ($1 $0)))
+356 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-accounting:<v,v> $0))
+356 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-from:<<v,v>,t> $0))
+356 [pool-1-thread-1] DEBUG: (w-4-from:<<v,v>,t> (lambda $0:v (w-5-accounting:<v,v> $0)))
+356 [pool-1-thread-1] DEBUG: 
+
+356 [pool-1-thread-1] DEBUG: (l-nmod w-3-john (l-case w-5-accounting w-4-from))
+356 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:t (att:<<v,v>,<t,<v,v>>> $0 $1)))
+356 [pool-1-thread-1] DEBUG: w-3-john:<v,v>
+356 [pool-1-thread-1] DEBUG: (w-4-from:<<v,v>,t> (lambda $0:v (w-5-accounting:<v,v> $0)))
+356 [pool-1-thread-1] DEBUG: (att:<<v,v>,<t,<v,v>>> w-3-john:<v,v> (w-4-from:<<v,v>,t> (lambda $0:v (w-5-accounting:<v,v> $0))))
+356 [pool-1-thread-1] DEBUG: 
+
+356 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-see (l-nmod w-3-john (l-case w-5-accounting w-4-from)))
+356 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+357 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-see:tv $1 $0 $2))))
+357 [pool-1-thread-1] DEBUG: (att:<<v,v>,<t,<v,v>>> w-3-john:<v,v> (w-4-from:<<v,v>,t> (lambda $0:v (w-5-accounting:<v,v> $0))))
+357 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-see:tv $0 (att:<<v,v>,<t,<v,v>>> w-3-john:<v,v> (w-4-from:<<v,v>,t> (lambda $2:v (w-5-accounting:<v,v> $2)))) $1)))
+357 [pool-1-thread-1] DEBUG: 
+
+357 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-see (l-nmod w-3-john (l-case w-5-accounting w-4-from))) w-1-i)
+357 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+357 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-see:tv $0 (att:<<v,v>,<t,<v,v>>> w-3-john:<v,v> (w-4-from:<<v,v>,t> (lambda $2:v (w-5-accounting:<v,v> $2)))) $1)))
+357 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+357 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (att:<<v,v>,<t,<v,v>>> w-3-john:<v,v> (w-4-from:<<v,v>,t> (lambda $1:v (w-5-accounting:<v,v> $1)))) $0))
+357 [pool-1-thread-1] DEBUG: 
+
+357 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-see (l-nmod w-3-john (l-case w-5-accounting w-4-from))) w-1-i) w-6-.)
+357 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+357 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (att:<<v,v>,<t,<v,v>>> w-3-john:<v,v> (w-4-from:<<v,v>,t> (lambda $1:v (w-5-accounting:<v,v> $1)))) $0))
+357 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+357 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (att:<<v,v>,<t,<v,v>>> w-3-john:<v,v> (w-4-from:<<v,v>,t> (lambda $1:v (w-5-accounting:<v,v> $1)))) $0))
+357 [pool-1-thread-1] DEBUG: 
+
+357 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+359 [pool-1-thread-1] DEBUG: (l-amod:pro w-5-jane w-3-polite)
+359 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> $0 $1)))
+359 [pool-1-thread-1] DEBUG: w-5-jane:<v,v>
+359 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-polite:<v,v> $0))
+359 [pool-1-thread-1] DEBUG: (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $0:v (w-3-polite:<v,v> $0)))
+359 [pool-1-thread-1] DEBUG: 
+
+359 [pool-1-thread-1] DEBUG: (l-amod:pro (l-amod:pro w-5-jane w-3-polite) w-4-nice)
+359 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> $0 $1)))
+359 [pool-1-thread-1] DEBUG: (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $0:v (w-3-polite:<v,v> $0)))
+359 [pool-1-thread-1] DEBUG: (lambda $0:v (w-4-nice:<v,v> $0))
+359 [pool-1-thread-1] DEBUG: (att:<<v,v>,<<v,v>,<v,v>>> (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $0:v (w-3-polite:<v,v> $0))) (lambda $1:v (w-4-nice:<v,v> $1)))
+359 [pool-1-thread-1] DEBUG: 
+
+359 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-saw (l-amod:pro (l-amod:pro w-5-jane w-3-polite) w-4-nice))
+359 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+359 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-saw:tv $1 $0 $2))))
+359 [pool-1-thread-1] DEBUG: (att:<<v,v>,<<v,v>,<v,v>>> (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $0:v (w-3-polite:<v,v> $0))) (lambda $1:v (w-4-nice:<v,v> $1)))
+359 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (att:<<v,v>,<<v,v>,<v,v>>> (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $2:v (w-3-polite:<v,v> $2))) (lambda $3:v (w-4-nice:<v,v> $3))) $1)))
+359 [pool-1-thread-1] DEBUG: 
+
+359 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-saw (l-amod:pro (l-amod:pro w-5-jane w-3-polite) w-4-nice)) w-1-i)
+359 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+359 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (att:<<v,v>,<<v,v>,<v,v>>> (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $2:v (w-3-polite:<v,v> $2))) (lambda $3:v (w-4-nice:<v,v> $3))) $1)))
+359 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+359 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $1:v (w-3-polite:<v,v> $1))) (lambda $2:v (w-4-nice:<v,v> $2))) $0))
+360 [pool-1-thread-1] DEBUG: 
+
+360 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-saw (l-amod:pro (l-amod:pro w-5-jane w-3-polite) w-4-nice)) w-1-i) w-6-.)
+360 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+360 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $1:v (w-3-polite:<v,v> $1))) (lambda $2:v (w-4-nice:<v,v> $2))) $0))
+360 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+360 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> (att:<<v,v>,<<v,v>,<v,v>>> w-5-jane:<v,v> (lambda $1:v (w-3-polite:<v,v> $1))) (lambda $2:v (w-4-nice:<v,v> $2))) $0))
+360 [pool-1-thread-1] DEBUG: 
+
+360 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+361 [pool-1-thread-1] DEBUG: (l-amod:pro w-4-mary w-3-pretty)
+361 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> $0 $1)))
+361 [pool-1-thread-1] DEBUG: w-4-mary:<v,v>
+361 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-pretty:<v,v> $0))
+361 [pool-1-thread-1] DEBUG: (att:<<v,v>,<<v,v>,<v,v>>> w-4-mary:<v,v> (lambda $0:v (w-3-pretty:<v,v> $0)))
+361 [pool-1-thread-1] DEBUG: 
+
+361 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-saw (l-amod:pro w-4-mary w-3-pretty))
+361 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+361 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-saw:tv $1 $0 $2))))
+361 [pool-1-thread-1] DEBUG: (att:<<v,v>,<<v,v>,<v,v>>> w-4-mary:<v,v> (lambda $0:v (w-3-pretty:<v,v> $0)))
+361 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (att:<<v,v>,<<v,v>,<v,v>>> w-4-mary:<v,v> (lambda $2:v (w-3-pretty:<v,v> $2))) $1)))
+361 [pool-1-thread-1] DEBUG: 
+
+361 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-saw (l-amod:pro w-4-mary w-3-pretty)) w-1-i)
+361 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+361 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-saw:tv $0 (att:<<v,v>,<<v,v>,<v,v>>> w-4-mary:<v,v> (lambda $2:v (w-3-pretty:<v,v> $2))) $1)))
+361 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+361 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> w-4-mary:<v,v> (lambda $1:v (w-3-pretty:<v,v> $1))) $0))
+361 [pool-1-thread-1] DEBUG: 
+
+361 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-saw (l-amod:pro w-4-mary w-3-pretty)) w-1-i) w-5-.)
+361 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+361 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> w-4-mary:<v,v> (lambda $1:v (w-3-pretty:<v,v> $1))) $0))
+361 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+361 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-saw:tv w-1-i:<v,v> (att:<<v,v>,<<v,v>,<v,v>>> w-4-mary:<v,v> (lambda $1:v (w-3-pretty:<v,v> $1))) $0))
+361 [pool-1-thread-1] DEBUG: 
+
+361 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+364 [pool-1-thread-1] DEBUG: (l-amod w-7-duck w-5-small)
+364 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+364 [pool-1-thread-1] DEBUG: (lambda $0:v (w-7-duck:<v,v> $0))
+364 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-small:<v,v> $0))
+364 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-5-small:<v,v> $0) (w-7-duck:<v,v> $0)))
+364 [pool-1-thread-1] DEBUG: 
+
+364 [pool-1-thread-1] DEBUG: (l-amod (l-amod w-7-duck w-5-small) w-6-green)
+364 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+364 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-5-small:<v,v> $0) (w-7-duck:<v,v> $0)))
+364 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-green:<v,v> $0))
+364 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-6-green:<v,v> $0) (and:<v,<v,v>> (w-5-small:<v,v> $0) (w-7-duck:<v,v> $0))))
+364 [pool-1-thread-1] DEBUG: 
+
+365 [pool-1-thread-1] DEBUG: (l-det (l-amod (l-amod w-7-duck w-5-small) w-6-green) w-4-a)
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+365 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-6-green:<v,v> $0) (and:<v,<v,v>> (w-5-small:<v,v> $0) (w-7-duck:<v,v> $0))))
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-a:d $1:v ($0 $1)))
+365 [pool-1-thread-1] DEBUG: (w-4-a:d $0:v (and:<v,<v,v>> (w-6-green:<v,v> $0) (and:<v,<v,v>> (w-5-small:<v,v> $0) (w-7-duck:<v,v> $0))))
+365 [pool-1-thread-1] DEBUG: 
+
+365 [pool-1-thread-1] DEBUG: (l-dobj-bi w-3-see (l-det (l-amod (l-amod w-7-duck w-5-small) w-6-green) w-4-a))
+365 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-see:tv $1 $0 $2))))
+365 [pool-1-thread-1] DEBUG: (w-4-a:d $0:v (and:<v,<v,v>> (w-6-green:<v,v> $0) (and:<v,<v,v>> (w-5-small:<v,v> $0) (w-7-duck:<v,v> $0))))
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-see:tv $0 (w-4-a:d $2:v (and:<v,<v,v>> (w-6-green:<v,v> $2) (and:<v,<v,v>> (w-5-small:<v,v> $2) (w-7-duck:<v,v> $2)))) $1)))
+365 [pool-1-thread-1] DEBUG: 
+
+365 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-3-see (l-det (l-amod (l-amod w-7-duck w-5-small) w-6-green) w-4-a)) w-1-i)
+365 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-see:tv $0 (w-4-a:d $2:v (and:<v,<v,v>> (w-6-green:<v,v> $2) (and:<v,<v,v>> (w-5-small:<v,v> $2) (w-7-duck:<v,v> $2)))) $1)))
+365 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+365 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-6-green:<v,v> $1) (and:<v,<v,v>> (w-5-small:<v,v> $1) (w-7-duck:<v,v> $1)))) $0))
+365 [pool-1-thread-1] DEBUG: 
+
+365 [pool-1-thread-1] DEBUG: (l-aux (l-nsubj (l-dobj-bi w-3-see (l-det (l-amod (l-amod w-7-duck w-5-small) w-6-green) w-4-a)) w-1-i) w-2-can)
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+365 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-6-green:<v,v> $1) (and:<v,<v,v>> (w-5-small:<v,v> $1) (w-7-duck:<v,v> $1)))) $0))
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-can:aux ($0 $1) $1)))
+365 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-6-green:<v,v> $1) (and:<v,<v,v>> (w-5-small:<v,v> $1) (w-7-duck:<v,v> $1)))) $0) $0))
+365 [pool-1-thread-1] DEBUG: 
+
+365 [pool-1-thread-1] DEBUG: (l-punct (l-aux (l-nsubj (l-dobj-bi w-3-see (l-det (l-amod (l-amod w-7-duck w-5-small) w-6-green) w-4-a)) w-1-i) w-2-can) w-8-.)
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+365 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-6-green:<v,v> $1) (and:<v,<v,v>> (w-5-small:<v,v> $1) (w-7-duck:<v,v> $1)))) $0) $0))
+365 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+365 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-6-green:<v,v> $1) (and:<v,<v,v>> (w-5-small:<v,v> $1) (w-7-duck:<v,v> $1)))) $0) $0))
+365 [pool-1-thread-1] DEBUG: 
+
+365 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+367 [pool-1-thread-1] DEBUG: (l-amod w-6-duck w-5-green)
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (and:<v,<v,v>> ($1 $2) ($0 $2)))))
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-duck:<v,v> $0))
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-green:<v,v> $0))
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-5-green:<v,v> $0) (w-6-duck:<v,v> $0)))
+367 [pool-1-thread-1] DEBUG: 
+
+367 [pool-1-thread-1] DEBUG: (l-det (l-amod w-6-duck w-5-green) w-4-a)
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (and:<v,<v,v>> (w-5-green:<v,v> $0) (w-6-duck:<v,v> $0)))
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-a:d $1:v ($0 $1)))
+367 [pool-1-thread-1] DEBUG: (w-4-a:d $0:v (and:<v,<v,v>> (w-5-green:<v,v> $0) (w-6-duck:<v,v> $0)))
+367 [pool-1-thread-1] DEBUG: 
+
+367 [pool-1-thread-1] DEBUG: (l-dobj-bi w-3-see (l-det (l-amod w-6-duck w-5-green) w-4-a))
+367 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-see:tv $1 $0 $2))))
+367 [pool-1-thread-1] DEBUG: (w-4-a:d $0:v (and:<v,<v,v>> (w-5-green:<v,v> $0) (w-6-duck:<v,v> $0)))
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-see:tv $0 (w-4-a:d $2:v (and:<v,<v,v>> (w-5-green:<v,v> $2) (w-6-duck:<v,v> $2))) $1)))
+367 [pool-1-thread-1] DEBUG: 
+
+367 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-3-see (l-det (l-amod w-6-duck w-5-green) w-4-a)) w-1-i)
+367 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-see:tv $0 (w-4-a:d $2:v (and:<v,<v,v>> (w-5-green:<v,v> $2) (w-6-duck:<v,v> $2))) $1)))
+367 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-5-green:<v,v> $1) (w-6-duck:<v,v> $1))) $0))
+367 [pool-1-thread-1] DEBUG: 
+
+367 [pool-1-thread-1] DEBUG: (l-aux (l-nsubj (l-dobj-bi w-3-see (l-det (l-amod w-6-duck w-5-green) w-4-a)) w-1-i) w-2-can)
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-5-green:<v,v> $1) (w-6-duck:<v,v> $1))) $0))
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-can:aux ($0 $1) $1)))
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-5-green:<v,v> $1) (w-6-duck:<v,v> $1))) $0) $0))
+367 [pool-1-thread-1] DEBUG: 
+
+367 [pool-1-thread-1] DEBUG: (l-punct (l-aux (l-nsubj (l-dobj-bi w-3-see (l-det (l-amod w-6-duck w-5-green) w-4-a)) w-1-i) w-2-can) w-7-.)
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-5-green:<v,v> $1) (w-6-duck:<v,v> $1))) $0) $0))
+367 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+367 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-a:d $1:v (and:<v,<v,v>> (w-5-green:<v,v> $1) (w-6-duck:<v,v> $1))) $0) $0))
+367 [pool-1-thread-1] DEBUG: 
+
+367 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+369 [pool-1-thread-1] DEBUG: (l-case:poss w-4-duck w-5-'s)
+369 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,v>> (lambda $1:<v,t> ($0)))
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-duck's:d $1:v ($0 $1)))
+369 [pool-1-thread-1] DEBUG: w-5-'s:prt
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-duck's:d $1:v ($0 $1)))
+369 [pool-1-thread-1] DEBUG: 
+
+369 [pool-1-thread-1] DEBUG: (l-nmod:poss w-6-beak (l-case:poss w-4-duck w-5-'s))
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+369 [pool-1-thread-1] DEBUG: (lambda $0:v (w-6-beak:<v,v> $0))
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-duck's:d $1:v ($0 $1)))
+369 [pool-1-thread-1] DEBUG: (w-4-duck's:d $0:v (w-6-beak:<v,v> $0))
+369 [pool-1-thread-1] DEBUG: 
+
+369 [pool-1-thread-1] DEBUG: (l-dobj-bi w-3-see (l-nmod:poss w-6-beak (l-case:poss w-4-duck w-5-'s)))
+369 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-see:tv $1 $0 $2))))
+369 [pool-1-thread-1] DEBUG: (w-4-duck's:d $0:v (w-6-beak:<v,v> $0))
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-see:tv $0 (w-4-duck's:d $2:v (w-6-beak:<v,v> $2)) $1)))
+369 [pool-1-thread-1] DEBUG: 
+
+369 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-3-see (l-nmod:poss w-6-beak (l-case:poss w-4-duck w-5-'s))) w-1-i)
+369 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-see:tv $0 (w-4-duck's:d $2:v (w-6-beak:<v,v> $2)) $1)))
+369 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+369 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-see:tv w-1-i:<v,v> (w-4-duck's:d $1:v (w-6-beak:<v,v> $1)) $0))
+369 [pool-1-thread-1] DEBUG: 
+
+369 [pool-1-thread-1] DEBUG: (l-aux (l-nsubj (l-dobj-bi w-3-see (l-nmod:poss w-6-beak (l-case:poss w-4-duck w-5-'s))) w-1-i) w-2-can)
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+369 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-see:tv w-1-i:<v,v> (w-4-duck's:d $1:v (w-6-beak:<v,v> $1)) $0))
+369 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-can:aux ($0 $1) $1)))
+369 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-duck's:d $1:v (w-6-beak:<v,v> $1)) $0) $0))
+369 [pool-1-thread-1] DEBUG: 
+
+369 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+370 [pool-1-thread-1] DEBUG: (l-case:poss w-3-mary w-4-'s)
+370 [pool-1-thread-1] DEBUG: (lambda $0:<<v,v>,<v,v>> (lambda $1:<v,t> ($0)))
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-mary's:d $1:v ($0 $1)))
+371 [pool-1-thread-1] DEBUG: w-4-'s:prt
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-mary's:d $1:v ($0 $1)))
+371 [pool-1-thread-1] DEBUG: 
+
+371 [pool-1-thread-1] DEBUG: (l-nmod:poss w-5-book (l-case:poss w-3-mary w-4-'s))
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+371 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-book:<v,v> $0))
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-3-mary's:d $1:v ($0 $1)))
+371 [pool-1-thread-1] DEBUG: (w-3-mary's:d $0:v (w-5-book:<v,v> $0))
+371 [pool-1-thread-1] DEBUG: 
+
+371 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-see (l-nmod:poss w-5-book (l-case:poss w-3-mary w-4-'s)))
+371 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-see:tv $1 $0 $2))))
+371 [pool-1-thread-1] DEBUG: (w-3-mary's:d $0:v (w-5-book:<v,v> $0))
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-see:tv $0 (w-3-mary's:d $2:v (w-5-book:<v,v> $2)) $1)))
+371 [pool-1-thread-1] DEBUG: 
+
+371 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-see (l-nmod:poss w-5-book (l-case:poss w-3-mary w-4-'s))) w-1-i)
+371 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-see:tv $0 (w-3-mary's:d $2:v (w-5-book:<v,v> $2)) $1)))
+371 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+371 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (w-3-mary's:d $1:v (w-5-book:<v,v> $1)) $0))
+371 [pool-1-thread-1] DEBUG: 
+
+371 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-see (l-nmod:poss w-5-book (l-case:poss w-3-mary w-4-'s))) w-1-i) w-6-.)
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+371 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (w-3-mary's:d $1:v (w-5-book:<v,v> $1)) $0))
+371 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+371 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (w-3-mary's:d $1:v (w-5-book:<v,v> $1)) $0))
+371 [pool-1-thread-1] DEBUG: 
+
+371 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+372 [pool-1-thread-1] DEBUG: (l-nmod:poss w-5-cows w-4-your)
+372 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+372 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-cows:<v,v> $0))
+372 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-your:d $1:v ($0 $1)))
+372 [pool-1-thread-1] DEBUG: (w-4-your:d $0:v (w-5-cows:<v,v> $0))
+372 [pool-1-thread-1] DEBUG: 
+
+372 [pool-1-thread-1] DEBUG: (l-dobj-bi w-3-see (l-nmod:poss w-5-cows w-4-your))
+372 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+372 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-3-see:tv $1 $0 $2))))
+372 [pool-1-thread-1] DEBUG: (w-4-your:d $0:v (w-5-cows:<v,v> $0))
+372 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-see:tv $0 (w-4-your:d $2:v (w-5-cows:<v,v> $2)) $1)))
+372 [pool-1-thread-1] DEBUG: 
+
+372 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-3-see (l-nmod:poss w-5-cows w-4-your)) w-1-i)
+372 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+372 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-3-see:tv $0 (w-4-your:d $2:v (w-5-cows:<v,v> $2)) $1)))
+372 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+372 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-see:tv w-1-i:<v,v> (w-4-your:d $1:v (w-5-cows:<v,v> $1)) $0))
+372 [pool-1-thread-1] DEBUG: 
+
+372 [pool-1-thread-1] DEBUG: (l-aux (l-nsubj (l-dobj-bi w-3-see (l-nmod:poss w-5-cows w-4-your)) w-1-i) w-2-can)
+372 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+372 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-see:tv w-1-i:<v,v> (w-4-your:d $1:v (w-5-cows:<v,v> $1)) $0))
+372 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:v (w-2-can:aux ($0 $1) $1)))
+372 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-your:d $1:v (w-5-cows:<v,v> $1)) $0) $0))
+372 [pool-1-thread-1] DEBUG: 
+
+372 [pool-1-thread-1] DEBUG: (l-punct (l-aux (l-nsubj (l-dobj-bi w-3-see (l-nmod:poss w-5-cows w-4-your)) w-1-i) w-2-can) w-6-.)
+373 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+373 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-your:d $1:v (w-5-cows:<v,v> $1)) $0) $0))
+373 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+373 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-can:aux (w-3-see:tv w-1-i:<v,v> (w-4-your:d $1:v (w-5-cows:<v,v> $1)) $0) $0))
+373 [pool-1-thread-1] DEBUG: 
+
+373 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+374 [pool-1-thread-1] DEBUG: (l-dobj-bi w-2-see w-3-ducks)
+374 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+374 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-see:tv $1 $0 $2))))
+374 [pool-1-thread-1] DEBUG: (lambda $0:v (w-3-ducks:<v,v> $0))
+374 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-see:tv $0 (lambda $2:v (w-3-ducks:<v,v> $2)) $1)))
+374 [pool-1-thread-1] DEBUG: 
+
+374 [pool-1-thread-1] DEBUG: (l-nsubj (l-dobj-bi w-2-see w-3-ducks) w-1-i)
+374 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+374 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-see:tv $0 (lambda $2:v (w-3-ducks:<v,v> $2)) $1)))
+374 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+374 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (lambda $1:v (w-3-ducks:<v,v> $1)) $0))
+374 [pool-1-thread-1] DEBUG: 
+
+375 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-dobj-bi w-2-see w-3-ducks) w-1-i) w-4-.)
+375 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+375 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (lambda $1:v (w-3-ducks:<v,v> $1)) $0))
+375 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+375 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-see:tv w-1-i:<v,v> (lambda $1:v (w-3-ducks:<v,v> $1)) $0))
+375 [pool-1-thread-1] DEBUG: 
+
+375 [pool-1-thread-1] DEBUG: 
+#####################
+
+
+376 [pool-1-thread-1] DEBUG: (l-det w-5-duck w-4-a)
+376 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<<v,v>,<v,v>> ($1 $0)))
+376 [pool-1-thread-1] DEBUG: (lambda $0:v (w-5-duck:<v,v> $0))
+376 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (w-4-a:d $1:v ($0 $1)))
+376 [pool-1-thread-1] DEBUG: (w-4-a:d $0:v (w-5-duck:<v,v> $0))
+376 [pool-1-thread-1] DEBUG: 
+
+376 [pool-1-thread-1] DEBUG: (l-dobj-tri w-2-give (l-det w-5-duck w-4-a))
+376 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,<u,p>>> (lambda $1:<v,v> ($0 $1)))
+376 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:<v,v> (lambda $3:v (w-2-give:dtv $2 $0 $1 $3)))))
+376 [pool-1-thread-1] DEBUG: (w-4-a:d $0:v (w-5-duck:<v,v> $0))
+376 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-give:dtv $1 (w-4-a:d $3:v (w-5-duck:<v,v> $3)) $0 $2))))
+376 [pool-1-thread-1] DEBUG: 
+
+376 [pool-1-thread-1] DEBUG: (l-iobj-bi (l-dobj-tri w-2-give (l-det w-5-duck w-4-a)) w-3-you)
+376 [pool-1-thread-1] DEBUG: (lambda $0:<u,<u,p>> (lambda $1:<v,v> ($0 $1)))
+376 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:<v,v> (lambda $2:v (w-2-give:dtv $1 (w-4-a:d $3:v (w-5-duck:<v,v> $3)) $0 $2))))
+376 [pool-1-thread-1] DEBUG: w-3-you:<v,v>
+376 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-give:dtv $0 (w-4-a:d $2:v (w-5-duck:<v,v> $2)) w-3-you:<v,v> $1)))
+376 [pool-1-thread-1] DEBUG: 
+
+376 [pool-1-thread-1] DEBUG: (l-nsubj (l-iobj-bi (l-dobj-tri w-2-give (l-det w-5-duck w-4-a)) w-3-you) w-1-i)
+376 [pool-1-thread-1] DEBUG: (lambda $0:<u,p> (lambda $1:<v,v> ($0 $1)))
+376 [pool-1-thread-1] DEBUG: (lambda $0:<v,v> (lambda $1:v (w-2-give:dtv $0 (w-4-a:d $2:v (w-5-duck:<v,v> $2)) w-3-you:<v,v> $1)))
+376 [pool-1-thread-1] DEBUG: w-1-i:<v,v>
+376 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-give:dtv w-1-i:<v,v> (w-4-a:d $1:v (w-5-duck:<v,v> $1)) w-3-you:<v,v> $0))
+376 [pool-1-thread-1] DEBUG: 
+
+376 [pool-1-thread-1] DEBUG: (l-punct (l-nsubj (l-iobj-bi (l-dobj-tri w-2-give (l-det w-5-duck w-4-a)) w-3-you) w-1-i) w-6-.)
+376 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> (lambda $1:<<v,t>,<v,t>> ($1 $0)))
+377 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-give:dtv w-1-i:<v,v> (w-4-a:d $1:v (w-5-duck:<v,v> $1)) w-3-you:<v,v> $0))
+377 [pool-1-thread-1] DEBUG: (lambda $0:<v,t> ($0))
+377 [pool-1-thread-1] DEBUG: (lambda $0:v (w-2-give:dtv w-1-i:<v,v> (w-4-a:d $1:v (w-5-duck:<v,v> $1)) w-3-you:<v,v> $0))
+377 [pool-1-thread-1] DEBUG: 
+
+377 [pool-1-thread-1] DEBUG: 
+#####################
+
+
