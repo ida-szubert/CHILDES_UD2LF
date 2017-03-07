@@ -1,3 +1,47 @@
+*** WH questions ***
+"Why are you singing?"
+	lambda $1_{e}.lambda $0_{ev}.are(and(singing(you,$0),$1($0)),$0)
+"What did you give her?"
+	lambda $1_{e}.lambda $0_{ev}.did(give(you,$1,her,$0),$0)
+"When did you see the ball?"
+	lambda $2_{e}.lambda $0_{ev}.did(and(see(you,the($1,ball($1)),$0),$2($0)),$0)
+"Where did the ball go?"
+	lambda $2_{e}.lambda $0_{ev}.did(and(go(the($1,ball($1)),$0),$2($0)),$0)
+"Who uses the pillow?"
+	lambda $1_{e}.lambda $0_{ev}.uses($1,the($2,pillow($2)),$0)
+"which cake is tasty?"
+	lambda $1_{e}.lambda $0_{ev}.tasty($1($2,cake($2)),$0)
+"How old are you?"
+	lambda $1_{e}.lambda $0_{ev}.$1(old(you,$0))
+"Whose ball did you borrow?"
+	lambda $1_{e}.lambda $0_{ev}.did(borrow(you,$1($2,ball($2)),$0),$0)
+"Whom have we seen?"
+	lambda $1_{e}.lambda $0_{ev}.have(seen(we,$1,$0),$0)
+
+*** parataxis ***
+"Excuse me, I will go home."
+	lambda $0_{ev}.and(will(and(go(i,$0),home($0)),$0),excuse(you,me,$0))
+
+*** discourse ***
+"Oh, you will read it."
+	lambda $0_{ev}.and(will(read(you,it,$0),$0),oh($0))
+
+*** xcomp ***
+"I want you to sing a carol."
+	lambda $0_{ev}.want(i,lambda $1_{ev}.sing(you,a($2,carol($2)),$1),$0)
+"I want to sing a carol."
+	lambda $0_{ev}.want(i,lambda $1_{ev}.sing(i,a($2,carol($2)),$1),$0)
+"I am happy to sing a carol."
+	lambda $0_{ev}.happy(i,lambda $1_{ev}.sing(i,a($2,carol($2)),$1),$0)
+
+*** ccomp ***
+"They say that ducks like bread."
+	lambda $0_{ev}.say(they,lambda $1_{ev}.like(lambda $2_{ev}.ducks($2),lambda $3_{ev}.bread($3),$1),$0)
+"They say ducks like bread."
+	lambda $0_{ev}.say(they,lambda $1_{ev}.like(lambda $2_{ev}.ducks($2),lambda $3_{ev}.bread($3),$1),$0)
+"She said to buy oranges."
+	lambda $0_{ev}.said(she,lambda $1_{ev}.buy(_,lambda $2_{ev}.oranges($2),$1),$0)
+
 *** passive ***
 "You got tickled."
 	lambda $0_{ev}.tickled(_,you,$0)
@@ -10,11 +54,11 @@
 "a good day to watch ducks"
 	a($0,rel(and(good($0),day($0)),lambda $1_{ev}.watch(_,ducks,$1)))
 "ducks attracted by the smell"
-	lambda $0_{ev}.and(ducks($0),lambda $1_{ev}.and(attracted(_,cast($0),$1),by(the($2,smell($2)),$1)))
+	lambda $0_{ev}.and(ducks($0),lambda $1_{ev}.and(attracted(_,$0,$1),by(the($2,smell($2)),$1)))
 "the people selling us the fish"
-	the($0,and(people($0),lambda $1_{ev}.selling(cast($0),the($2,fish($2)),us,$1)))
+	the($0,and(people($0),lambda $1_{ev}.selling($0,the($2,fish($2)),us,$1)))
 "a letter describing my day"
-	a($0,and(letter($0),lambda $1_{ev}.describing(cast($0),my($2,day($2)),$1)))
+	a($0,and(letter($0),lambda $1_{ev}.describing($0,my($2,day($2)),$1)))
 "a sign that he is tired"
 	a($0,rel(sign($0),lambda $1_{ev}.tired(he,$1)))
 
@@ -50,7 +94,7 @@
 "I wanted a duck but got a pigeon."
 	lambda $0_{ev}.but(got(i,a($1,pigeon($1)),$0),wanted(i,a($2,duck($2)),$0))
 "the book I saw and he bough"
-	the($0,and(book($0),lambda $1_{ev}.and(saw(i,cast($0),$1),bough(he,cast($0),$1))))
+	the($0,and(book($0),lambda $1_{ev}.and(saw(i,$0,$1),bough(he,$0,$1))))
 
 *** sentence conjunction ***
 "I drew a duck and Henry drew a pigeon."
@@ -60,17 +104,17 @@
 
 *** acl:relcl with relativizer as an object ***
 "you take what you can find."
-	lambda $0_{ev}.take(you,lambda $1_{ev}.and(what($1),lambda $2_{ev}.can(find(you,cast($1),$2),$2)),$0)
+	lambda $1_{e}.lambda $0_{ev}.take(you,$1,$0)
 
 *** acl:relcl without relativizer ***
 "a duck I know"
-	a($0,and(duck($0),lambda $1_{ev}.know(i,cast($0),$1)))
+	a($0,and(duck($0),lambda $1_{ev}.know(i,$0,$1)))
 
 *** acl:relcl with relativizer ***
 "a duck who ate my lunch"
-	a($0,and(duck($0),lambda $1_{ev}.ate(cast($0),my($2,lunch($2)),$1)))
+	a($0,and(duck($0),lambda $1_{ev}.ate($0,my($2,lunch($2)),$1)))
 "a duck whom I feed"
-	a($0,and(duck($0),lambda $1_{ev}.feed(i,cast($0),$1)))
+	a($0,and(duck($0),lambda $1_{ev}.feed(i,$0,$1)))
 
 *** nmod:npmod modifying a verb ***
 "You read that book last time."

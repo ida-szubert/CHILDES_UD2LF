@@ -1,0 +1,60 @@
+Sent: big what ?
+Sem: att(what,lambda $0_{ev}.big($0))
+example_end
+
+Sent: do you want Mommy to stand up ?
+Sem: lambda $0_{ev}.Q(mod|do(v|want(pro:per|you,lambda $1_{ev}.and(v|stand(n:prop|mommy,$1),adv|up($1)),$0),$0))
+example_end
+
+Sent: whose rug is it Adam ?
+Sem: lambda $0_{ev}.Q(pro:rel|whose(pro:per|it,n|rug(pro:per|it,$0)))
+example_end
+
+Sent: what else ?
+Sem: else(what)
+example_end
+
+Sent: you don 't play with matches either do you ?
+Sem: lambda $0_{ev}.Q(and(not(mod|do(and(v|play(pro:per|you,lambda $1_{ev}.n|match-pl($1),$0),coord|either($0)),$0),$0),v|do(pro:per|you,$0)))
+example_end
+
+Sent: one leg ?
+Sem: lambda $0_{ev}.Q(n|leg($0))
+example_end
+
+Sent: you didn 't kick Perro .
+Sem: lambda $0_{ev}.not(mod|do(v|kick(pro:per|you,n:prop|perro,$0),$0),$0)
+example_end
+
+Sent: no it didn 't .
+Sem: lambda $0_{ev}.co|no($0)
+example_end
+
+Sent: what did you do in the kitchen ?
+Sem: lambda $0_{ev}.Q(mod|do-past(and(v|do(pro:per|you,pro:int|what,$0),prep|in(det:art|the($1,n|kitchen($1)),$0)),$0))
+example_end
+
+Sent: her be be .
+Sem: lambda $0_{ev}._(_(_,$0),$0)
+example_end
+
+Sent: no you march .
+Sem: lambda $0_{ev}.and(v|march(pro:per|you,$0),co|no($0))
+example_end
+
+Sent: do you know this one ?
+Sem: lambda $0_{ev}.Q(mod|do(v|know(pro:per|you,pro:dem|this($1,pro:indef|one($1)),$0),$0))
+example_end
+
+Sent: and the last car on a train is called the what ?
+Sem: lambda $0_{ev}.Q(aux|be-3s(part|call-pastp(det:art|the($1,att(and(adj|last($1),n|car($1)),prep|on(det:art|a($2,n|train($2))))),det:art|the($3,pro:int|what($3)),$0),$0))
+example_end
+
+Sent: use the eraser and then the writing is all_gone .
+Sem: lambda $0_{ev}.v|use(you,det:art|the($1,n|erase-dv($1)),$0)
+example_end
+
+Sent: how many pencils ?
+Sem: lambda $0_{ev}.Q(and(adv:int|how(qn|many($0)),n|pencil-pl($0)))
+example_end
+
