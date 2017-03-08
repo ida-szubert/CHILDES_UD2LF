@@ -1,0 +1,83 @@
+1	pro;per|you	you	PRON	pro	_	2	nsubj	_	_
+2	v|finish-PAST	finished	VERB	v	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	qn|all	all	DET	qn	_	2	quant	_	_
+2	n|set	set	NOUN	n	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	n;prop|Butch	Butch	PROPN	n:prop	_	2	nsubj	_	_
+2	pro;rel|who	who	PRON	rel	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	pro;per|you	you	PRON	pro	_	3	nsubj	_	_
+2	aux|~be	're	AUX	aux	_	3	aux	_	_
+3	part|exercise-PRESP	exercising	VERB	part	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	qn|more	more	DET	qn	_	2	quant	_	_
+2	n|juice	juice	NOUN	n	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	qn|more	more	DET	qn	_	2	quant	_	_
+2	n|coffee	coffee	NOUN	n	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	det;num|two	two	NUM	det:num	_	2	quant	_	_
+2	n;prop|Adam	Adam	PROPN	n:prop	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	det;num|one	one	NUM	det:num	_	2	quant	_	_
+2	n|leg	leg	NOUN	n	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	pro;int|what	what	PRON	pro:wh	_	4	nsubj	_	_
+2	cop|~be	's	AUX	aux	_	4	aux	_	_
+3	pro;dem|that	that	DET	det	_	4	det	_	_
+4	n|noise	noise	NOUN	n	_	0	root	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;sub|I	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|think	think	VERB	v	_	0	root	_	_
+3	pro;sub|they	they	PRON	pro:sub	_	5	nsubj	_	_
+4	aux|~be	're	AUX	aux	_	5	aux	_	_
+5	co|okay	okay	ADJ	adj	_	2	comp	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	mod|do	don	AUX	mod	_	3	aux	_	_
+2	neg|~not	't	PART	neg	_	1	neg	_	_
+3	v|whisper	whisper	VERB	v	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	qn|more	more	DET	qn	_	2	quant	_	_
+2	n|gas	gas	NOUN	n	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	pro;sub|I	I	PRON	pro:sub	_	4	nsubj	_	_
+2	aux|be	wasn	AUX	aux	_	4	aux	_	_
+3	neg|~not	't	PART	neg	_	2	neg	_	_
+4	part|smile-PRESP	smiling	VERB	part	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;sub|I	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|know	know	VERB	v	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;per|it	it	PRON	pro	_	3	nsubj	_	_
+2	aux|~be	's	AUX	aux	_	3	aux	_	_
+3	part|attach-PASTP	attached	VERB	part	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	det;num|three	three	NUM	det:num	_	2	quant	_	_
+2	det;num|six	six	NUM	det:num	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	det;num|three	three	NUM	det:num	_	3	quant	_	_
+2	det;num|six	six	NUM	det:num	_	3	quant	_	_
+3	n|ear-PL	ears	NOUN	n	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	pro;dem|that	that	PRON	pro:dem	_	2	nsubj	_	_
+2	v|hurt-3S	hurts	VERB	v	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
