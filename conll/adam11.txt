@@ -1,3 +1,17 @@
+1	n|penguin-PL	penguins	NOUN	n	_	4	nsubj	_	_
+2	mod|can	can	AUX	mod	_	4	aux	_	_
+3	neg|~not	't	PART	neg	_	4	neg	_	_
+4	v|fly	fly	VERB	v	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+root	_	_
+6	pro;rel|that	that	PRON	rel	_	10	mark	_	_
+7	n|penguin-PL	penguins	NOUN	n	_	10	nsubj	_	_
+8	mod|can	can	AUX	mod	_	10	aux	_	_
+9	neg|~not	't	PART	neg	_	10	neg	_	_
+10	v|fly	fly	VERB	v	_	1	acl:relcl	_	_
+11	?	?	PUNCT	?	_	5	punct	_	_
+
 1	aux|be-1S	am	AUX	cop	_	3	aux	_	_
 2	pro;sub|I	I	PRON	pro:sub	_	3	nsubj	_	_
 3	part|go-PRESP	going	VERB	part	_	0	root	_	_

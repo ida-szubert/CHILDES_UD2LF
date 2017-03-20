@@ -1,5 +1,6 @@
 import optparse
 import json
+import re
 
 optparser = optparse.OptionParser()
 optparser.add_option("-i", "--input", dest="in_file", default="./Adam.lf.json", help="output of DepLambda")
@@ -70,7 +71,7 @@ def parse(expression, index, lambdas_to_add):
     else:
         pred = expression[index+1].split(":")[0]
         if '-' in pred:
-            pred = pred.split("-", 2)[2]
+            pred = extract_word(pred)
             pred = pred.replace(';', ':')
         args, next_index = parse_arguments(expression, [], index+2, lambdas_to_add)
         if pred == "cast":
@@ -92,7 +93,7 @@ def parse_arguments(arg_string, args, next_index, lambdas_to_add):
     elif next_piece != "(":
         arg = next_piece.split(':')[0]
         if "-" in arg:
-            arg = arg.split(':')[0].split("-", 2)[2]
+            arg = extract_word(arg)
             arg = arg.replace(';', ':')
         args.append(arg)
         return parse_arguments(arg_string, args, next_index+1, lambdas_to_add)
@@ -100,6 +101,15 @@ def parse_arguments(arg_string, args, next_index, lambdas_to_add):
         arg, new_next_index, new_lambdas = parse(arg_string, next_index, lambdas_to_add)
         args.append(arg)
         return parse_arguments(arg_string, args, new_next_index, new_lambdas)
+
+
+def extract_word(arg):
+    token = arg.split(':')[0]
+    word_signature = "w-\d+-"
+    parts = re.split(word_signature, token)[1:]
+    for i in range(1, len(parts)):
+        parts[i] = parts[i].split("|")[1]
+    return ''.join(parts)
 
 
 def separate_parens(expression):
@@ -129,7 +139,6 @@ def read_in_lfs_json(converted, original, succces_suffix, failed_suffix, unreada
     # categorize output into successes and failures
     success = []
     failure = []
-    # with open("./conversion_errors.txt", "w") as f:
     for line in open(converted, "r"):
         try:
             data = json.loads(line)
@@ -174,94 +183,3 @@ def read_in_lfs_json(converted, original, succces_suffix, failed_suffix, unreada
 exp_list, failed, unreadable = read_in_lfs_json(opts.in_file, opts.comp_file, "./working", "./failed", "./unreadable")
 if opts.write_out:
     reformat_json(exp_list, opts.out_file)
-
-
-# def parse(expression, index):
-#     # expression can be a lambda expression or a function application
-#     # returns an expression an the index of the first element after the closing ) of the expression
-#     if expression[index+1] == "lambda":
-#         lam_var = "lambda " + expression[index+2].split(":")[0] + "_{ev}."
-#         body, next_index = parse(expression, index+3)
-#         return [lam_var, [body]], next_index+1
-#     else:
-#         pred = expression[index+1].split(":")[0]
-#         if '-' in pred:
-#             pred = pred.split("-")[2]
-#         if pred == "cast":
-#             if expression[index+2] != "(":
-#                 return expression[index+2], index+3
-#             else:
-#                 return parse(expression, index+2)
-#         else:
-#             args, next_index = parse_arguments(expression, [], index+2)
-#             return [pred, args], next_index
-
-# def read_in_lfs_txt(in_file):
-#     expressions = []
-#     last_expression = ''
-#     for line in open(in_file, "r"):
-#         if line:
-#             split_line = line.split()
-#             if len(split_line) > 3:
-#                 last_expression = ' '.join(split_line[3:])
-#             if line == "#####################\n":
-#                 expressions.append(last_expression)
-#                 last_expression = ''
-#     return expressions
-
-
-#def reformat_txt(expressions, out_file, verbose=False, source_file=None):
-#     exp_dict = {}
-#     for i in range(len(expressions)):
-#         exp = expressions[i]
-#         split = separate_parens(exp).split()
-#         exp_list = full_parse(split)
-#         expression = list_to_string(exp_list)
-#         exp_dict[i] = expression
-#     if verbose:
-#         with open(out_file, "w") as out_f:
-#             with open(source_file, "r") as source:
-#                 sent_counter = 0
-#                 for l in source:
-#                     line = l.strip("\n")
-#                     if "{" in line:
-#                         sent = '"' + json.loads(line.lstrip("#"))['sentence'] + '"'
-#                         lf = exp_dict[sent_counter]
-#                         sent_counter += 1
-#                         out_f.write(sent)
-#                         out_f.write("\n\t")
-#                         out_f.write(lf)
-#                         out_f.write("\n")
-#                     elif line:
-#                         dscpt = "***" + line.lstrip("#") + " ***"
-#                         out_f.write(dscpt)
-#                         out_f.write("\n")
-#                     else:
-#                         out_f.write("\n")
-#     else:
-#         with open(out_file, "w") as out_f:
-#             for exp in exp_dict.values():
-#                 out_f.write(exp)
-#                 out_f.write("\n\n")
-
-# def extract_failed_inputs(successful, failed, input_file, output_file1, output_file2):
-#     readable = [x[0] for x in successful]
-#     readable.extend(failed)
-#     input_dict = {}
-#     for line in open(input_file, "r"):
-#         sent = json.loads(line)["sentence"]
-#         input_dict[sent] = line
-#     with open(output_file1+".txt", "w") as f1_out:
-#         with open(output_file1+"_sentences.txt", "w") as f2_out:
-#             for f in failed:
-#                 f1_out.write(input_dict[f])
-#                 f2_out.write(f+"\n")
-#     unreadable_count = 0
-#     with open(output_file2+".txt", "w") as f3_out:
-#         with open(output_file2+"_sentences.txt", "w") as f4_out:
-#             for s in input_dict.keys():
-#                 if s not in readable:
-#                     unreadable_count += 1
-#                     f3_out.write(input_dict[s])
-#                     f4_out.write(s+"\n")
-#     return len(input_dict), unreadable_count

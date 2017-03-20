@@ -1,3 +1,11 @@
+1	n;prop|Adam	Adam	PROPN	n:prop	_	2	nsubj	_	_
+2	v|do	do	VERB	v	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+det	_	4	det	_	_
+4	n;prop|Adam	Adam	PROPN	n:prop	_	0	root	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
 1	cop|be-PRES	are	VERB	cop	_	3	aux	_	_
 2	pro;per|you	you	PRON	pro	_	3	nsubj	_	_
 3	part|cook-PRESP	cooking	VERB	part	_	0	root	_	_
