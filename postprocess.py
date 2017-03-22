@@ -65,7 +65,9 @@ def parse(expression, index, lambdas_to_add):
     # if len(expression) < index+1:
     #     pass
     if expression[index+1] == "lambda":
-        lam_var = "lambda " + expression[index+2].split(":")[0] + "_{ev}."
+        variable, type = expression[index+2].split(":")
+        signature = "_{ev}." if type == "ev" else "_{e}."
+        lam_var = "lambda " + variable + signature
         body, next_index, next_lambdas = parse(expression, index+3, lambdas_to_add)
         return [lam_var, [body]], next_index+1, next_lambdas
     else:

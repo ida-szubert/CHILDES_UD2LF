@@ -1,37 +1,19 @@
 import optparse
-from nltk.corpus.reader.childes import CHILDESCorpusReader
+from childes_reader import CHILDESCorpusReader
 from os import listdir
 from os.path import isfile, join
-
-parser = optparse.OptionParser()
-parser.add_option('-c', '--childes', dest="childes",
-                  default='/usr/local/share/nltk_data/corpora/childes/data-xml/Eng-NA-MOR/Brown/Adam',
-                  help="directory with CHILDES xml files")
-parser.add_option('-i', '--input', dest="in_file",
-                  default="./Adam.0x.adults.uniq.sgibbon.valid..complete.conll10",
-                  help="raw annotation filee in CoNLL format")
-parser.add_option("-o", "--output", dest="out_file", default="./Adam.conll.txt",
-                  help="destination file for preprocessed UD annotation")
-parser.add_option("-d", "--output_dir", dest="out_dir", default="./conll",
-                  help="destination directory for preprocessed UD annotations split to match CHILDES files")
-parser.add_option("-s", "--split", dest="split", default=False,
-                  help="if True, annotations are saved to files matching CHILDES files;"
-                       "if False, one annotation file is used")
-parser.add_option("-v", "--invalid", dest="invalid_file", default="./Adam.conll.invalid.txt",
-                  help="storage file for invalid parses")
-(opts, _) = parser.parse_args()
 
 
 flatten = lambda l: [item for sublist in l for item in sublist]
 
 
-def add_childes_pos(split=False):
+def add_childes_pos(childes_dir, out_file, out_dir, split=False):
     seen = set()
-    childes_files = [f for f in listdir(opts.childes) if isfile(join(opts.childes, f))]
-    with open("./Adam.conll.txt", "w") as one_out_file:
+    childes_files = [f for f in listdir(childes_dir) if isfile(join(childes_dir, f))]
+    with open(out_file, "w") as one_out_file:
         for ch_file in childes_files:
 
-            data = CHILDESCorpusReader(opts.childes, ch_file)
+            data = CHILDESCorpusReader(childes_dir, ch_file)
             adults = set(flatten([file_inf.keys() for file_inf in data.participants()]))
             adults.remove('CHI')
             tagged_sents = data.tagged_sents(data.fileids()[0], speaker=adults, stem=True)
@@ -67,7 +49,7 @@ def add_childes_pos(split=False):
                         if not split:
                             out = one_out_file
                         else:
-                            out = open(join(opts.out_dir, ''.join([ch_file.rstrip('xml'), 'txt'])), "a")
+                            out = open(join(out_dir, ''.join([ch_file.rstrip('xml'), 'txt'])), "a")
                         for i, (wPOS, w_o) in enumerate(zip(sentPOS, split_word_list)):
                             sentence_buffer[i][1] = wPOS
                             sentence_buffer[i][2] = w_o
@@ -169,8 +151,8 @@ def read_in_parses(out_file, in_file, invalid_parse_file, addPOS=True):
                 invalid_parse_count += 1
             valid_parse = True
             sentence_buffer = []
-    print(sent_count)
-    print(invalid_parse_count)
+    print("Number of sentences: {0:d}".format(sent_count))
+    print("Invalid parses: {0:d}".format(invalid_parse_count))
     return annotation_dict
 
 
@@ -182,5 +164,23 @@ def change_s_be(word):
     else:
         return word
 
+parser = optparse.OptionParser()
+parser.add_option('-c', '--childes', dest="childes",
+                  default='/usr/local/share/nltk_data/corpora/childes/data-xml/Eng-NA-MOR/Brown/Adam',
+                  help="directory with CHILDES xml files")
+parser.add_option('-i', '--input', dest="in_file",
+                  default="./Adam.0x.adults.uniq.sgibbon.valid..complete.conll10",
+                  help="raw annotation filee in CoNLL format")
+parser.add_option("-o", "--output", dest="out_file", default="./Adam.conll.test.txt",
+                  help="destination file for preprocessed UD annotation")
+parser.add_option("-d", "--output_dir", dest="out_dir", default="./conll",
+                  help="destination directory for preprocessed UD annotations split to match CHILDES files")
+parser.add_option("-s", "--split", dest="split", default=False,
+                  help="if True, annotations are saved to files matching CHILDES files;"
+                       "if False, one annotation file is used")
+parser.add_option("-v", "--invalid", dest="invalid_file", default="./Adam.conll.invalid.txt",
+                  help="storage file for invalid parses")
+(opts, _) = parser.parse_args()
+
 parse_dict = read_in_parses(opts.out_file, opts.in_file, opts.invalid_file)
-add_childes_pos(split=opts.split)
+add_childes_pos(opts.childes, opts.out_file, opts.out_dir, split=opts.split)
