@@ -1,0 +1,1979 @@
+1	pro;int|what_1	what	PRON	pro:int	_	4	ccomp	_	_
+2	mod|do-PAST_2	did	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|say_4	say	VERB	v	_	0	root	_	_
+5	pro;per|you_5	you	PRON	pro:per	_	1	nsubj	_	_
+6	cop|be-PAST_6	were	VERB	cop	_	1	cop	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	cop|be-PAST_1	were	AUX	cop	_	4	cop	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	4	nsubj	_	_
+3	det;art|a_3	a	DET	det:art	_	4	det	_	_
+4	n|pirate_4	pirate	NOUN	n	_	0	root	_	_
+5	post|too_5	too	ADV	post	_	2	advmod	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;sub|he_1	he	PRON	pro:sub	_	4	nsubj	_	_
+2	cop|be-PAST_2	was	AUX	cop	_	4	cop	_	_
+3	det;art|a_3	a	DET	det:art	_	4	det	_	_
+4	n|tiger_4	tiger	NOUN	n	_	0	root	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	2	nsubj	_	_
+2	v|want_2	want	VERB	v	_	0	root	_	_
+3	det;num|one_3	one	NUM	det:num	_	4	nummod	_	_
+4	pro;int|what_4	what	PRON	pro:int	_	2	dobj	_	_
+5	?	?	PUNCT	?	_	2	punct	_	_
+
+1	v;obj|let_1	let	VERB	v	_	0	root	_	_
+2	pro;obj|~us_2	's	PRON	pro:obj	_	1	dobj	_	_
+3	v|wait_3	wait	VERB	v	_	1	xcomp	_	_
+4	prep|for_4	for	ADP	prep	_	7	case	_	_
+5	det;art|a_5	a	DET	det:art	_	7	det	_	_
+6	qn|few_6	few	ADJ	qn	_	7	amod	_	_
+7	n|minute-PL_7	minutes	NOUN	n	_	3	nmod	_	_
+8	adj|alright_8	alright	INTJ	adj	_	3	discourse	_	_
+9	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	4	nsubj	_	_
+2	mod|will_2	won	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|eat_4	eat	VERB	v	_	0	root	_	_
+5	!	!	PUNCT	!	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	5	dobj	_	_
+2	mod|will_2	won	AUX	mod	_	5	aux	_	_
+3	neg|~not_3	't	PART	neg	_	5	neg	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|eat_5	eat	VERB	v	_	0	root	_	_
+6	?	?	PUNCT	?	_	5	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	4	nsubj	_	_
+2	mod|will_2	won	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|eat_4	eat	VERB	v	_	0	root	_	_
+5	n|tiger-PL_5	tigers	NOUN	n	_	4	dobj	_	_
+6	!	!	PUNCT	!	_	4	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	3	nsubj	_	_
+2	mod|should_2	should	AUX	mod	_	3	aux	_	_
+3	v|hope_3	hope	VERB	v	_	0	root	_	_
+4	neg|not_4	not	PART	neg	_	3	ccomp	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro	_	2	nsubj	_	_
+2	mod|will_2	will	AUX	mod	_	0	root:promoted	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	co|awoh_1	awoh	INTJ	co	_	3	discourse	_	_
+2	neg|not_2	not	PART	neg	_	3	neg	_	_
+3	adv|yet_3	yet	ADV	adv	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	dobj	_	_
+2	cop|be-PAST_2	were	AUX	cop	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	part|do-PRESP_4	doing	VERB	part	_	0	root	_	_
+5	adv;tem|then_5	then	ADV	adv:tem	_	4	advmod	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;rel|who_1	who	PRON	pro:rel	_	3	nsubj	_	_
+2	cop|be-PAST_2	was	VERB	cop	_	3	cop	_	_
+3	pro;per|it_3	it	PRON	pro:per	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	3	discourse	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	3	nsubj	_	_
+3	cop|be-PAST_3	was	VERB	cop	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	adv;int|where_1	where	ADV	adv:int	_	4	advmod	_	_
+2	v|do-3S_2	does	AUX	v	_	4	aux	_	_
+3	pro;sub|he_3	he	PRON	pro:sub	_	4	nsubj	_	_
+4	v|come_4	come	VERB	v	_	0	root	_	_
+5	prep|from_5	from	ADP	prep	_	1	case	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
+
+1	adv;int|where_1	where	ADV	adv:int	_	0	root	_	_
+2	cop|~be_2	's	VERB	cop	_	1	cop	_	_
+3	det;art|the_3	the	DET	det:art	_	5	det	_	_
+4	adj|real_4	real	ADJ	adj	_	5	amod	_	_
+5	n;prop|Ursula_5	Ursula	PROPN	n:prop	_	1	nsubj	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
+
+1	n;prop|Adam_1	Adam	PROPN	n:prop	_	6	vocative	_	_
+2	n;prop|Smith_2	Smith	PROPN	n:prop	_	1	name	_	_
+3	pro;int|what_3	what	PRON	pro:int	_	6	dobj	_	_
+4	aux|~be_4	're	AUX	aux	_	6	aux	_	_
+5	pro;per|you_5	you	PRON	pro:per	_	6	nsubj	_	_
+6	part|do-PRESP_6	doing	VERB	part	_	0	root	_	_
+7	?	?	PUNCT	?	_	6	punct	_	_
+
+1	co|yes_1	yes	INTJ	co	_	2	discourse	_	_
+2	pro;int|what_2	what	PRON	pro:wh	_	0	root	_	_
+3	cop|be-3S_3	is	VERB	cop	_	2	cop	_	_
+4	pro;dem|that_4	that	PRON	pro:dem	_	2	nsubj	_	_
+5	?	?	PUNCT	?	_	2	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	4	advmod	_	_
+2	mod|do-3S_2	does	AUX	mod	_	4	aux	_	_
+3	pro;dem|that_3	that	PRON	pro:dem	_	4	nsubj	_	_
+4	mod;aux|have_to_4	have_to	VERB	X	_	0	root	_	_
+6	aux|be_6	be	AUX	aux	_	7	aux	_	_
+7	v|attach-PAST_7	attached	VERB	v	_	4	xcomp	_	_
+8	prep|to_8	to	ADP	prep	_	9	case	_	_
+9	pro;dem|that_9	that	PRON	pro:dem	_	7	nmod	_	_
+10	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	3	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	3	cop	_	_
+3	n|part_3	part	NOUN	n	_	0	root	_	_
+4	prep|of_4	of	ADP	prep	_	5	case	_	_
+5	pro;per|it_5	it	PRON	pro:per	_	3	nmod	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+1	v|tell_1	tell	VERB	v	_	0	root	_	_
+2	n;prop|Ursula_2	Ursula	PROPN	n:prop	_	1	iobj	_	_
+3	pro;int|what_3	what	PRON	pro:int	_	4	dobj	_	_
+4	v|happen-PAST_4	happened	VERB	v	_	1	ccomp	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	2	det	_	_
+2	n|toy_2	toy	NOUN	n	_	5	dobj	_	_
+3	mod|do-PAST_3	did	AUX	mod	_	5	aux	_	_
+4	pro;sub|she_4	she	PRON	pro:sub	_	5	nsubj	_	_
+5	v|leave_5	leave	VERB	v	_	0	root	_	_
+6	?	?	PUNCT	?	_	5	punct	_	_
+
+1	coord|and_1	and	CONJ	coord	_	3	cc	_	_
+2	pro;int|what_2	what	PRON	pro:int	_	3	nsubj	_	_
+3	v|happen-PAST_3	happened	VERB	v	_	0	root	_	_
+4	prep|to_4	to	ADP	prep	_	5	case	_	_
+5	pro;per|it_5	it	PRON	pro:per	_	3	nmod	_	_
+6	?	?	PUNCT	?	_	3	punct	_	_
+
+1	post|all_1	all	ADV	post	_	0	root	_	_
+2	prep|by_2	by	ADP	prep	_	3	case	_	_
+3	pro;refl|itself_3	itself	PRON	pro:refl	_	1	nmod	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	5	discourse	_	_
+2	pro;sub|I_2	I	PRON	pro:sub	_	5	nsubj	_	_
+3	mod|do_3	don	AUX	mod	_	5	aux	_	_
+4	neg|~not_4	't	PART	neg	_	5	neg	_	_
+5	v|think_5	think	VERB	v	_	0	root	_	_
+6	co|so_6	so	ADV	co	_	5	advmod	_	_
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+1	v|tell_1	tell	VERB	v	_	0	root	_	_
+2	pro;obj|her_2	her	PRON	pro:obj	_	1	iobj	_	_
+3	pro;int|what_3	what	PRON	pro:int	_	4	nsubj	_	_
+4	v|happen-PAST_4	happened	VERB	v	_	1	ccomp	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|will_2	won	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|bite_4	bite	VERB	v	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	dobj	_	_
+2	mod|do_2	d	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|have_4	have	VERB	v	_	0	root	_	_
+5	prep|in_5	in	ADP	prep	_	7	case	_	_
+6	det;poss|your_6	your	PRON	det:poss	_	7	nmod:poss	_	_
+7	n|pocket_7	pocket	NOUN	n	_	4	nmod	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	2	nsubj	_	_
+2	v|turn_2	turn	VERB	v	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	n;prop|Adam_1	Adam	PROPN	n:prop	_	6	vocative	_	_
+2	adv;int|why_2	why	ADV	adv:int	_	6	advmod	_	_
+3	mod|do_3	don	AUX	mod	_	6	aux	_	_
+4	neg|~not_4	't	PART	neg	_	6	neg	_	_
+5	pro;per|you_5	you	PRON	pro:per	_	6	nsubj	_	_
+6	v|sit_6	sit	VERB	v	_	0	root	_	_
+7	adv|down_7	down	ADP	adv	_	6	compound:prt	_	_
+8	?	?	PUNCT	?	_	6	punct	_	_
+
+1	pro;exist|there_1	there	PRON	pro:exist	_	2	expl	_	_
+2	aux|~be_2	're	VERB	aux	_	0	root	_	_
+3	qn|some_3	some	DET	qn	_	4	det	_	_
+4	n|toy-PL_4	toys	NOUN	n	_	2	nsubj	_	_
+5	adv|right_5	right	ADV	adv	_	6	advmod	_	_
+6	adv|there_6	there	ADV	adv	_	2	advmod	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	6	dobj	_	_
+2	mod|do_2	d	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|think_4	think	VERB	v	_	0	root	_	_
+5	pro;per|it_5	it	PRON	pro:per	_	6	nsubj	_	_
+6	v|say-3S_6	says	VERB	v	_	4	ccomp	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	v;obj|let_1	let	VERB	v	_	0	root	_	_
+2	pro;obj|~us_2	's	PRON	pro:obj	_	1	dobj	_	_
+3	v|take_3	take	VERB	v	_	1	xcomp	_	_
+4	pro;indef|one_4	one	NUM	pro:indef	_	3	dobj:promoted	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+1	adv|now_1	now	ADV	adv	_	3	advmod	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|do_3	do	VERB	v	_	0	root	_	_
+4	det;art|the_4	the	DET	det:art	_	5	det	_	_
+5	n|rest_5	rest	NOUN	n	_	3	dobj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+1	cop|be-3S_1	is	VERB	cop	_	6	cop	_	_
+2	n;prop|Smokey_2	Smokey	PROPN	n:prop	_	6	nsubj	_	_
+3	prep|in_3	in	ADP	prep	_	6	case	_	_
+4	det;art|a_4	a	DET	det:art	_	6	det	_	_
+5	adj|real_5	real	ADJ	adj	_	6	amod	_	_
+6	n|forest_6	forest	NOUN	n	_	0	root	_	_
+7	?	?	PUNCT	?	_	6	punct	_	_
+
+1	pro;sub|they_1	they	PRON	pro:sub	_	3	nsubj	_	_
+2	aux|~be_2	're	VERB	aux	_	3	cop	_	_
+3	n|bear-PL_3	bears	NOUN	n	_	0	root	_	_
+4	prep|in_4	in	ADP	prep	_	6	case	_	_
+5	adj|real_5	real	ADJ	adj	_	6	amod	_	_
+6	n|forest-PL_6	forests	NOUN	n	_	3	nmod	_	_
+7	co|yes_7	yes	INTJ	co	_	3	discourse	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;sub|she_1	she	PRON	pro:sub	_	2	nsubj	_	_
+2	v|leave-PAST_2	left	VERB	v	_	0	root	_	_
+3	pro;per|it_3	it	PRON	pro:per	_	2	dobj	_	_
+4	prep|for_4	for	ADP	prep	_	5	case	_	_
+5	pro;obj|me_5	me	PRON	pro:obj	_	2	nmod	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	3	discourse	_	_
+2	pro;sub|I_2	I	PRON	pro:sub	_	3	nsubj	_	_
+3	v|let-ZERO_3	let	VERB	v	_	0	root	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	3	dobj	_	_
+5	cop|look_5	look	VERB	cop	_	3	xcomp	_	_
+6	prep|at_6	at	ADP	prep	_	7	case	_	_
+7	pro;per|it_7	it	PRON	pro:per	_	5	nmod	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	5	discourse	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	5	nsubj	_	_
+3	mod|do_3	doesn	AUX	mod	_	5	aux	_	_
+4	neg|~not_4	't	PART	neg	_	5	neg	_	_
+5	adj|mean_5	mean	ADJ	adj	_	0	root	_	_
+6	pro;rel|that_6	that	SCONJ	pro:rel	_	10	mark	_	_
+7	pro;per|you_7	you	PRON	pro:per	_	10	nsubj	_	_
+8	mod|do_8	don	AUX	mod	_	10	aux	_	_
+9	neg|~not_9	't	PART	neg	_	10	neg	_	_
+10	v|like_10	like	VERB	v	_	5	ccomp	_	_
+11	pro;per|it_11	it	PRON	pro:per	_	10	dobj	_	_
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	2	nsubj	_	_
+2	v|mean-3S_2	means	VERB	v	_	0	root	_	_
+3	pro;rel|that_3	that	SCONJ	pro:rel	_	5	mark	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|like_5	like	VERB	v	_	2	ccomp	_	_
+6	pro;per|it_6	it	PRON	pro:per	_	5	dobj	_	_
+7	coord|and_7	and	CONJ	coord	_	8	cc	_	_
+8	co|like_8	like	VERB	co	_	5	conj	_	_
+9	prep|to_9	to	PART	prep	_	10	mark	_	_
+10	n|share_10	share	VERB	n	_	8	xcomp	_	_
+11	pro;per|it_11	it	PRON	pro:per	_	10	dobj	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|share-PAST_2	shared	VERB	v	_	0	root	_	_
+3	det;poss|my_3	my	PRON	det:poss	_	4	nmod:poss	_	_
+4	n|book_4	book	NOUN	n	_	2	dobj	_	_
+5	prep|with_5	with	ADP	prep	_	6	case	_	_
+6	pro;per|you_6	you	PRON	pro:per	_	2	nmod	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	4	nsubj	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|have_4	have	VERB	v	_	0	root	_	_
+5	det;art|a_5	a	DET	det:art	_	7	det	_	_
+6	n|knight_6	knight	NOUN	n	_	7	nmod	_	_
+7	n|book_7	book	NOUN	n	_	4	dobj	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	dobj	_	_
+2	aux|~be_2	're	AUX	aux	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	part|do-PRESP_4	doing	VERB	part	_	0	root	_	_
+5	adv|over_5	over	ADV	adv	_	6	advmod	_	_
+6	adv|there_6	there	ADV	adv	_	4	advmod	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	5	advmod	_	_
+2	mod|do_2	don	AUX	mod	_	5	aux	_	_
+3	neg|~not_3	't	PART	neg	_	5	neg	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|start_5	start	VERB	v	_	0	root	_	_
+6	adv|down_6	down	ADV	adv	_	7	advmod	_	_
+7	adv|here_7	here	ADV	adv	_	5	advmod	_	_
+8	?	?	PUNCT	?	_	5	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	3	nsubj	_	_
+2	aux|be-PAST_2	was	AUX	aux	_	3	aux	_	_
+3	part|look-PRESP_3	looking	VERB	part	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	5	discourse	_	_
+2	pro;sub|I_2	I	PRON	pro:sub	_	5	nsubj	_	_
+3	cop|~be_3	'm	AUX	cop	_	5	aux	_	_
+4	neg|not_4	not	PART	neg	_	5	neg	_	_
+5	part|go-PRESP_5	going	VERB	part	_	0	root	_	_
+6	inf|to_6	to	PART	inf	_	7	mark	_	_
+7	v|do_7	do	VERB	v	_	5	xcomp	_	_
+8	pro;per|it_8	it	PRON	pro:per	_	7	dobj	_	_
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	2	nsubj	_	_
+2	mod;aux|have_to_2	have_to	VERB	X	_	0	root	_	_
+4	v|come_4	come	VERB	v	_	2	xcomp	_	_
+5	adv|back_5	back	ADP	adv	_	4	compound:prt	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;sub|we_1	we	PRON	pro:sub	_	2	nsubj	_	_
+2	mod;aux|have_to_2	have_to	VERB	X	_	0	root	_	_
+4	v|go_4	go	VERB	v	_	2	xcomp	_	_
+5	det;num|one_5	one	NUM	det:num	_	4	amod	_	_
+6	prep|after_6	after	ADP	prep	_	7	case	_	_
+7	qn|another_7	another	DET	qn	_	5	nmod	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+1	v|put-ZERO_1	put	VERB	v	_	0	root	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	1	dobj	_	_
+3	prep|in_3	in	ADP	prep	_	1	compound:prt	_	_
+4	prep|from_4	from	ADP	prep	_	6	case	_	_
+5	det;art|the_5	the	DET	det:art	_	6	det	_	_
+6	adj|back_6	back	ADJ	adj	_	1	nmod	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	0	root	_	_
+2	adv|about_2	about	ADP	adv	_	3	case	_	_
+3	part|try-PRESP_3	trying	NOUN	part	_	1	nmod	_	_
+4	inf|to_4	to	PART	inf	_	5	mark	_	_
+5	v|do_5	do	VERB	v	_	3	xcomp	_	_
+6	det;art|the_6	the	DET	det:art	_	7	det	_	_
+7	pro;indef|one_7	one	PRON	pro:indef	_	5	dobj	_	_
+8	pro;per|you_8	you	PRON	pro:per	_	9	nsubj	_	_
+9	v|have-PAST_9	had	VERB	v	_	7	acl:relcl:obj	_	_
+10	?	?	PUNCT	?	_	1	punct	_	_
+
+1	det;poss|his_1	his	PRON	det:poss	_	2	nmod:poss	_	_
+2	n|name_2	name	NOUN	n	_	4	nsubj	_	_
+3	cop|be-3S_3	is	VERB	cop	_	4	cop	_	_
+4	n;prop|Leonard_4	Leonard	PROPN	n:prop	_	0	root	_	_
+5	n;prop|Lion_5	Lion	PROPN	n:prop	_	4	name	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+1	n;prop|Zelda_1	Zelda	PROPN	n:prop	_	2	name	_	_
+2	n;prop|Zebra_2	Zebra	PROPN	n:prop	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	v|put-ZERO_1	put	VERB	v	_	0	root	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	1	dobj	_	_
+3	prep|through_3	through	ADP	prep	_	5	case	_	_
+4	det;art|the_4	the	DET	det:art	_	5	det	_	_
+5	n|back_5	back	NOUN	n	_	1	nmod	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+1	n;prop|Paul_1	Paul	PROPN	n:prop	_	4	vocative	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|knock_4	knock	VERB	v	_	0	root	_	_
+5	prep|on_5	on	ADP	prep	_	7	case	_	_
+6	det;art|the_6	the	DET	det:art	_	7	det	_	_
+7	n|window_7	window	NOUN	n	_	4	nmod	_	_
+8	co|please_8	please	INTJ	co	_	4	discourse	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;rel|who_1	who	PRON	pro:rel	_	3	nsubj	_	_
+2	aux|~be_2	's	AUX	aux	_	3	cop	_	_
+3	adj|sleep-dn_3	sleepy	ADJ	adj	_	0	root	_	_
+4	n;prop|Adam_4	Adam	PROPN	n:prop	_	3	vocative	_	_
+5	?	?	PUNCT	?	_	3	punct	_	_
+
+1	n;prop|Paul_1	Paul	PROPN	n:prop	_	2	vocative	_	_
+2	co|no_2	no	INTJ	co	_	0	root	_	_
+3	!	!	PUNCT	!	_	2	punct	_	_
+
+1	co|yes_1	yes	INTJ	co	_	3	discourse	_	_
+2	pro;sub|we_2	we	PRON	pro:sub	_	3	nsubj	_	_
+3	cop|be-PRES_3	are	AUX	cop	_	0	root	_	_
+4	aux|be_4	aren	AUX	aux	_	3	parataxis	_	_
+5	neg|~not_5	't	PART	neg	_	4	neg	_	_
+6	pro;sub|we_6	we	PRON	pro:sub	_	4	nsubj	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	2	nsubj	_	_
+2	v|miss-PAST_2	missed	VERB	v	_	0	root	_	_
+3	pro;dem|these_3	these	PRON	pro:dem	_	2	dobj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+1	n;prop|Adam_1	Adam	PROPN	n:prop	_	3	vocative	_	_
+2	co|please_2	please	INTJ	co	_	3	discourse	_	_
+3	v|come_3	come	VERB	v	_	0	root	_	_
+4	coord|and_4	and	CONJ	coord	_	5	cc	_	_
+5	v|visit_5	visit	VERB	v	_	3	conj	_	_
+6	pro;obj|me_6	me	PRON	pro:obj	_	5	dobj	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+1	det;art|the_1	the	DET	det:art	_	2	det	_	_
+2	n|hole-PL_2	holes	NOUN	n	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	v|do-PAST_1	did	AUX	v	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	n|miss_3	miss	VERB	n	_	0	root	_	_
+4	pro;indef|one_4	one	PRON	pro:indef	_	3	dobj	_	_
+5	?	?	PUNCT	?	_	3	punct	_	_
+
+1	v|do-3S_1	does	AUX	v	_	4	aux	_	_
+2	det;art|a_2	a	DET	det:art	_	3	det	_	_
+3	n|hippopotamus_3	hippopotamus	NOUN	n	_	4	nsubj	_	_
+4	v|have_4	have	VERB	v	_	0	root	_	_
+5	det;art|a_5	a	DET	det:art	_	8	det	_	_
+6	adj|big_6	big	ADJ	adj	_	8	amod	_	_
+7	adj|wide_7	wide	ADJ	adj	_	8	amod	_	_
+8	n|mouth_8	mouth	NOUN	n	_	4	dobj	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|think_2	think	VERB	v	_	0	root	_	_
+3	pro;per|it_3	it	PRON	pro:per	_	6	nsubj	_	_
+4	cop|~be_4	's	AUX	cop	_	6	cop	_	_
+5	det;art|a_5	a	DET	det:art	_	6	det	_	_
+6	n|rhinoceros_6	rhinoceros	NOUN	n	_	2	ccomp	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+1	v|do_1	do	VERB	v	_	0	root	_	_
+2	det;art|the_2	the	DET	det:art	_	3	det	_	_
+3	pro;int|what_3	what	PRON	pro:int	_	1	dobj	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	5	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	5	cop	_	_
+3	neg|not_3	not	PART	neg	_	5	neg	_	_
+4	det;art|a_4	a	DET	det:art	_	5	det	_	_
+5	n|ball_5	ball	NOUN	n	_	0	root	_	_
+6	inf|to_6	to	PART	inf	_	7	mark	_	_
+7	v|throw_7	throw	VERB	v	_	5	xcomp	_	_
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	6	discourse	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	6	nsubj	_	_
+3	cop|~be_3	's	VERB	cop	_	6	cop	_	_
+4	neg|not_4	not	PART	neg	_	6	neg	_	_
+5	prep|for_5	for	ADP	prep	_	6	case	_	_
+6	pro;per|you_6	you	PRON	pro:per	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+1	det;poss|your_1	your	PRON	det:poss	_	4	nmod:poss	_	_
+2	adj|busy_2	busy	ADJ	adj	_	4	amod	_	_
+3	adj|little_3	little	ADJ	adj	_	4	amod	_	_
+4	n|horse_4	horse	NOUN	n	_	0	root	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
+1	n|stop_1	stop	VERB	n	_	0	root	_	_
+2	n;prop|Diandra_2	Diandra	PROPN	n:prop	_	1	vocative	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+1	det;poss|your_1	your	PRON	det:poss	_	4	nmod:poss	_	_
+2	adj|busy_2	busy	ADJ	adj	_	4	amod	_	_
+3	adj|little_3	little	ADJ	adj	_	4	amod	_	_
+4	n|bull_4	bull	NOUN	n	_	6	nsubj	_	_
+5	aux|be-3S_5	is	AUX	aux	_	6	aux	_	_
+6	part|take-PRESP_6	taking	VERB	part	_	0	root	_	_
+7	n|care_7	care	NOUN	n	_	6	compound:prt	_	_
+8	prep|of_8	of	ADP	prep	_	10	case	_	_
+9	det;art|the_9	the	DET	det:art	_	10	det	_	_
+10	n|dog-PL_10	dogs	NOUN	n	_	6	nmod	_	_
+11	?	?	PUNCT	?	_	6	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	didn	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|think_4	think	VERB	v	_	0	root	_	_
+5	n|dog-PL_5	dogs	NOUN	n	_	11	nsubj	_	_
+6	coord|and_6	and	CONJ	coord	_	7	cc	_	_
+7	n|bull-PL_7	bulls	NOUN	n	_	5	conj	_	_
+8	cop|be-PAST_8	were	VERB	cop	_	11	cop	_	_
+9	qn|such_9	such	DET	qn	_	11	det:predet	_	_
+10	adj|good_10	good	ADJ	adj	_	11	amod	_	_
+11	n|friend-PL_11	friends	NOUN	n	_	4	ccomp	_	_
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	4	nsubj	_	_
+2	cop|be-PAST_2	was	AUX	cop	_	4	cop	_	_
+3	det;poss|your_3	your	PRON	det:poss	_	4	nmod:poss	_	_
+4	n|horse_4	horse	NOUN	n	_	0	root	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;sub|he_1	he	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	doesn	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|know_4	know	VERB	v	_	0	root	_	_
+5	n|dog-PL_5	dogs	NOUN	n	_	4	dobj	_	_
+6	coord|and_6	and	CONJ	coord	_	7	cc	_	_
+7	n|boy-PL_7	boys	NOUN	n	_	5	conj	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	0	root	_	_
+2	cop|~be_2	's	AUX	cop	_	1	cop	_	_
+3	det;poss|your_3	your	PRON	det:poss	_	4	nmod:poss	_	_
+4	n|horse_4	horse	NOUN	n	_	6	nmod:poss	_	_
+5	poss|~s_5	's	PART	poss	_	4	case	_	_
+6	n|name_6	name	NOUN	n	_	1	nsubj	_	_
+7	?	?	PUNCT	?	_	1	punct	_	_
+
+1	mod|do_1	d	AUX	mod	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|think_3	think	VERB	v	_	0	root	_	_
+4	det;art|the_4	the	DET	det:art	_	6	det	_	_
+5	n|baby_5	baby	NOUN	n	_	6	compound	_	_
+6	n|whale_6	whale	NOUN	n	_	8	nsubj	_	_
+7	mod|might_7	might	AUX	mod	_	8	aux	_	_
+8	v|want_8	want	VERB	v	_	3	ccomp	_	_
+9	qn|some_9	some	DET	qn	_	10	det	_	_
+10	n|milk_10	milk	NOUN	n	_	8	dobj	_	_
+11	?	?	PUNCT	?	_	3	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	6	discourse	_	_
+2	cop|be-PAST_2	was	AUX	cop	_	6	cop	_	_
+3	pro;rel|that_3	that	PRON	pro:rel	_	6	nsubj	_	_
+4	det;art|a_4	a	DET	det:art	_	6	det	_	_
+5	n|police_5	police	NOUN	n	_	6	compound	_	_
+6	n|whistle_6	whistle	NOUN	n	_	0	root	_	_
+7	?	?	PUNCT	?	_	6	punct	_	_
+
+1	pro;exist|there_1	there	PRON	pro:exist	_	2	expl	_	_
+2	cop|~be_2	's	VERB	cop	_	0	root	_	_
+3	pro;indef|one_3	one	NUM	pro:indef	_	2	nsubj:promoted	_	_
+4	adv|right_4	right	ADV	adv	_	7	advmod	_	_
+5	prep|at_5	at	ADP	prep	_	7	case	_	_
+6	det;poss|your_6	your	PRON	det:poss	_	7	nmod:poss	_	_
+7	n|finger_7	finger	NOUN	n	_	2	nmod	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+1	n;prop|Paul_1	Paul	PROPN	n:prop	_	2	nsubj	_	_
+2	aux|have-3S_2	has	VERB	aux	_	0	root	_	_
+3	det;poss|his_3	his	PRON	det:poss	_	2	dobj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+1	qn|no_1	no	DET	qn	_	2	neg	_	_
+2	n|thank_you_2	thank_you	NOUN	n	_	0	root	_	_
+3	!	!	PUNCT	!	_	2	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	6	discourse	_	_
+2	pro;dem|that_2	that	PRON	pro:dem	_	6	nsubj	_	_
+3	cop|~be_3	's	AUX	cop	_	6	cop	_	_
+4	qn|such_4	such	ADJ	qn	_	5	amod	_	_
+5	adj|good_5	good	ADJ	adj	_	6	amod	_	_
+6	n|juice_6	juice	NOUN	n	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+1	det;art|a_1	a	DET	det:art	_	2	det	_	_
+2	n|syrup_2	syrup	NOUN	n	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;int|what_1	what	DET	pro:int	_	2	det	_	_
+2	n|kind_2	kind	NOUN	n	_	0	root	_	_
+3	prep|of_3	of	ADP	prep	_	4	case	_	_
+4	n|syrup_4	syrup	NOUN	n	_	2	nmod	_	_
+5	?	?	PUNCT	?	_	2	punct	_	_
+
+1	n;prop|Adam_1	Adam	PROPN	n:prop	_	2	vocative	_	_
+2	v|come_2	come	VERB	v	_	0	root	_	_
+3	adv|back_3	back	ADV	adv	_	2	compound:prt	_	_
+4	prep|in_4	in	ADP	prep	_	5	case	_	_
+5	adv|here_5	here	ADV	adv	_	2	advmod	_	_
+6	co|please_6	please	INTJ	co	_	2	discourse	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|have_4	have	VERB	v	_	0	root	_	_
+5	qn|no_5	no	DET	qn	_	7	neg	_	_
+6	qn|many_6	many	DET	qn	_	7	det	_	_
+7	n|baby-PL_7	babies	NOUN	n	_	4	dobj	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+1	det;art|a_1	a	DET	det:art	_	2	det	_	_
+2	n|funnel_2	funnel	NOUN	n	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	3	nsubj	_	_
+2	mod|can_2	can	AUX	mod	_	3	aux	_	_
+3	v|pour_3	pour	VERB	v	_	0	root	_	_
+4	n|thing-PL_4	things	NOUN	n	_	3	dobj	_	_
+5	adv|through_5	through	ADV	adv	_	6	advmod	_	_
+6	adv|here_6	here	ADV	adv	_	3	advmod	_	_
+7	prep|into_7	into	ADP	prep	_	10	case	_	_
+8	det;art|a_8	a	DET	det:art	_	10	det	_	_
+9	adj|small_9	small	ADJ	adj	_	10	amod	_	_
+10	n|bottle_10	bottle	NOUN	n	_	3	nmod	_	_
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	5	discourse	_	_
+2	adv;int|why_2	why	ADV	adv:int	_	5	advmod	_	_
+3	mod|do_3	d	AUX	mod	_	5	aux	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|want_5	want	VERB	v	_	0	root	_	_
+6	prep|to_6	to	PART	prep	_	5	xcomp:promoted	_	_
+7	?	?	PUNCT	?	_	5	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	6	advmod	_	_
+2	mod|do_2	don	AUX	mod	_	6	aux	_	_
+3	neg|~not_3	't	PART	neg	_	6	neg	_	_
+4	pro;sub|we_4	we	PRON	pro:sub	_	6	nsubj	_	_
+5	neg|not_5	not	PART	neg	_	6	neg	_	_
+6	v|do_6	do	VERB	v	_	0	root	_	_
+7	pro;dem|that_7	that	PRON	pro:dem	_	6	dobj	_	_
+8	adv;tem|today_8	today	ADV	adv:tem	_	6	advmod	_	_
+9	?	?	PUNCT	?	_	6	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|know_2	know	VERB	v	_	0	root	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	mod|will_4	won	AUX	mod	_	2	ccomp	_	_
+5	neg|~not_5	't	PART	neg	_	4	neg	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	conj|but_1	but	CONJ	conj	_	8	cc	_	_
+2	adv;int|why_2	why	ADV	adv:int	_	8	advmod	_	_
+3	mod|do_3	don	AUX	mod	_	8	aux	_	_
+4	neg|~not_4	't	PART	neg	_	8	neg	_	_
+5	pro;sub|we_5	we	PRON	pro:sub	_	8	nsubj	_	_
+6	neg|not_6	not	PART	neg	_	8	neg	_	_
+7	neg|not_7	not	PART	neg	_	8	reparandum	_	_
+8	v|do_8	do	VERB	v	_	0	root	_	_
+9	pro;dem|that_9	that	PRON	pro:dem	_	8	dobj	_	_
+10	adv;tem|today_10	today	ADV	adv:tem	_	8	advmod	_	_
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|think_4	think	VERB	v	_	0	root	_	_
+5	pro;per|you_5	you	PRON	pro:per	_	7	nsubj	_	_
+6	mod|~genmod_6	'd	AUX	mod	_	7	aux	_	_
+7	co|like_7	like	VERB	co	_	4	ccomp	_	_
+8	prep|for_8	for	SCONJ	prep	_	11	mark	_	_
+9	n;prop|Rinny_9	Rinny	PROPN	n:prop	_	11	nsubj	_	_
+10	inf|to_10	to	PART	inf	_	11	mark	_	_
+11	v|bite_11	bite	VERB	v	_	7	advcl	_	_
+12	pro;per|you_12	you	PRON	pro:per	_	11	dobj	_	_
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+1	co|wait_1	wait	VERB	co	_	0	root	_	_
+2	adv|here_2	here	ADV	adv	_	1	advmod	_	_
+3	n;prop|Adam_3	Adam	PROPN	n:prop	_	1	vocative	_	_
+4	pro;sub|I_4	I	PRON	pro:sub	_	6	nsubj	_	_
+5	mod|~will_5	'll	AUX	mod	_	6	aux	_	_
+6	v|get_6	get	VERB	v	_	1	parataxis	_	_
+7	qn|some_7	some	DET	qn	_	6	dobj:promoted	_	_
+8	prep|for_8	for	ADP	prep	_	9	case	_	_
+9	pro;per|you_9	you	PRON	pro:per	_	6	nmod	_	_
+10	co|dear_10	dear	NOUN	co	_	6	vocative	_	_
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+1	v|spill_1	spill	VERB	v	_	0	root	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	1	dobj	_	_
+3	coord|or_3	or	CONJ	coord	_	4	cc	_	_
+4	v|pour_4	pour	VERB	v	_	1	conj	_	_
+5	pro;per|it_5	it	PRON	pro:per	_	4	dobj	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	3	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	3	cop	_	_
+3	adj|patient_3	patient	ADJ	adj	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|think_2	think	VERB	v	_	0	root	_	_
+3	pro;dem|that_3	that	PRON	pro:dem	_	5	nsubj	_	_
+4	cop|~be_4	's	AUX	cop	_	5	cop	_	_
+5	adv|enough_5	enough	ADV	adv	_	2	ccomp	_	_
+6	prep|for_6	for	ADP	prep	_	8	case	_	_
+7	pro;dem|that_7	that	DET	pro:dem	_	8	det	_	_
+8	n|bottle_8	bottle	NOUN	n	_	5	nmod	_	_
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+1	adv;int|where_1	where	ADV	adv:int	_	0	root	_	_
+2	cop|~be_2	's	AUX	cop	_	1	cop	_	_
+3	det;art|the_3	the	DET	det:art	_	4	det	_	_
+4	n|nipple_4	nipple	NOUN	n	_	1	nsubj	_	_
+5	prep|for_5	for	ADP	prep	_	7	case	_	_
+6	pro;dem|that_6	that	DET	pro:dem	_	7	det	_	_
+7	n|bottle_7	bottle	NOUN	n	_	4	nmod	_	_
+8	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;sub|she_1	she	PRON	pro:sub	_	2	nsubj	_	_
+2	v|do-3S_2	does	AUX	v	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	4	advmod	_	_
+2	mod|do-PAST_2	did	AUX	mod	_	4	aux	_	_
+3	pro;sub|she_3	she	PRON	pro:sub	_	4	nsubj	_	_
+4	v|swallow_4	swallow	VERB	v	_	0	root	_	_
+5	pro;per|it_5	it	PRON	pro:per	_	4	dobj	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;sub|she_1	she	PRON	pro:sub	_	2	nsubj	_	_
+2	v|like-3S_2	likes	VERB	v	_	0	root	_	_
+3	n|milk_3	milk	NOUN	n	_	2	dobj	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
+
+1	adv|here_1	here	ADV	adv	_	3	advmod	_	_
+2	det;art|the_2	the	DET	det:art	_	3	det	_	_
+3	n|funnel_3	funnel	NOUN	n	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	mod|do-PAST_1	did	AUX	mod	_	3	aux	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	3	nsubj	_	_
+3	v|go_3	go	VERB	v	_	0	root	_	_
+4	adv|down_4	down	ADV	adv	_	3	advmod	_	_
+5	adv|already_5	already	ADV	adv	_	3	advmod	_	_
+6	?	?	PUNCT	?	_	3	punct	_	_
+
+1	v|hold_1	hold	VERB	v	_	0	root	_	_
+2	det;art|the_2	the	DET	det:art	_	3	det	_	_
+3	v|funnel_3	funnel	VERB	v	_	1	dobj	_	_
+4	adv|up_4	up	ADP	adv	_	1	compound:prt	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+1	adv;int|how_1	how	ADV	adv:int	_	0	root	_	_
+2	prep|about_2	about	ADP	prep	_	3	case	_	_
+3	pro;int|what_3	what	PRON	pro:int	_	1	nmod	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
+
+1	co|well_1	well	INTJ	co	_	3	discourse	_	_
+2	cop|be_2	be	VERB	cop	_	3	cop	_	_
+3	adj|sure_3	sure	ADJ	adj	_	0	root	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|take_5	take	VERB	v	_	3	ccomp	_	_
+6	qn|all_6	all	DET	qn	_	8	det:predet	_	_
+7	det;art|the_7	the	DET	det:art	_	8	det	_	_
+8	v|water_8	water	VERB	v	_	5	dobj	_	_
+9	adv|out_9	out	ADV	adv	_	5	compound:prt	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	4	nsubj	_	_
+2	cop|~be_2	's	VERB	cop	_	4	cop	_	_
+3	det;num|five_3	five	NUM	det:num	_	4	nummod	_	_
+4	n|cent-PL_4	cents	NOUN	n	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	4	advmod	_	_
+2	mod|do-PAST_2	did	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|walk_4	walk	VERB	v	_	0	root	_	_
+5	prep|on_5	on	ADP	prep	_	7	case	_	_
+6	pro;dem|this_6	this	PRON	pro:dem	_	7	det	_	_
+7	n|paper_7	paper	NOUN	n	_	4	nmod	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
+
+1	n|move_1	move	VERB	n	_	0	root	_	_
+2	prep|from_2	from	ADP	prep	_	3	case	_	_
+3	adv;int|where_3	where	ADV	adv:int	_	1	nmod	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	3	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	3	cop	_	_
+3	n|spray_3	spray	NOUN	n	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	dobj	_	_
+2	mod|do_2	d	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|call_4	call	VERB	v	_	0	root	_	_
+5	pro;int|what_5	what	PRON	pro:int	_	4	iobj	_	_
+6	pro;per|you_6	you	PRON	pro:per	_	7	nsubj	_	_
+7	v|do_7	do	VERB	v	_	5	acl:relcl:obj	_	_
+8	prep|to_8	to	ADP	prep	_	10	case	_	_
+9	det;art|a_9	a	DET	det:art	_	10	det	_	_
+10	n|bottle_10	bottle	NOUN	n	_	7	nmod	_	_
+11	?	?	PUNCT	?	_	4	punct	_	_
+
+1	mod|do_1	d	AUX	mod	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|tie_3	tie	VERB	v	_	0	root	_	_
+4	det;art|a_4	a	DET	det:art	_	5	det	_	_
+5	n|bottle_5	bottle	NOUN	n	_	3	dobj	_	_
+6	?	?	PUNCT	?	_	3	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	dobj	_	_
+2	mod|do_2	d	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|do_4	do	VERB	v	_	0	root	_	_
+5	prep|to_5	to	ADP	prep	_	7	case	_	_
+6	det;art|a_6	a	DET	det:art	_	7	det	_	_
+7	n|bottle_7	bottle	NOUN	n	_	4	nmod	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
+
+1	v|see_1	see	VERB	v	_	0	root	_	_
+2	pro;per|it_2	it	PRON	pro	_	1	dobj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+1	mod|do_1	d	AUX	mod	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|see_3	see	VERB	v	_	0	root	_	_
+4	pro;per|it_4	it	PRON	pro:per	_	3	dobj	_	_
+5	?	?	PUNCT	?	_	3	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	3	nsubj	_	_
+2	aux|~be_2	's	AUX	aux	_	3	cop	_	_
+3	adj|full_3	full	ADJ	adj	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	v|put-ZERO_1	put	VERB	v	_	0	root	_	_
+2	det;poss|your_2	your	PRON	det:poss	_	3	nmod:poss	_	_
+3	n|finger-PL_3	fingers	NOUN	n	_	1	dobj	_	_
+4	adv|there_4	there	ADV	adv	_	1	advmod	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	6	discourse	_	_
+2	neg|not_2	not	PART	neg	_	6	neg	_	_
+3	prep|in_3	in	ADP	prep	_	6	case	_	_
+4	n;prop|Diandro_4	Diandro	PROPN	n:prop	_	6	nmod:poss	_	_
+5	poss|~s_5	's	PART	poss	_	4	case	_	_
+6	n|bottle_6	bottle	NOUN	n	_	0	root:promoted	_	_
+7	conj|because_7	because	SCONJ	conj	_	10	mark	_	_
+8	pro;dem|that_8	that	PRON	pro:dem	_	9	det	_	_
+9	n|top_9	top	NOUN	n	_	10	nsubj	_	_
+10	v|come-3S_10	comes	VERB	v	_	6	advcl	_	_
+11	adv|off_11	off	ADP	adv	_	10	compound:prt	_	_
+12	adv|very_12	very	ADV	adv	_	13	advmod	_	_
+13	adv|ease-dadj_13	easily	ADV	adv	_	10	advmod	_	_
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+1	co|well_1	well	INTJ	co	_	2	discourse	_	_
+2	v|give_2	give	VERB	v	_	0	root	_	_
+3	pro;obj|him_3	him	PRON	pro:obj	_	2	iobj	_	_
+4	pro;indef|one_4	one	PRON	pro:indef	_	2	dobj	_	_
+5	co|dear_5	dear	NOUN	co	_	2	vocative	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;sub|he_1	he	PRON	pro:sub	_	2	nsubj	_	_
+2	v|have-PAST_2	had	VERB	v	_	0	root	_	_
+3	det;num|one_3	one	NUM	det:num	_	2	dobj	_	_
+4	prep|of_4	of	ADP	prep	_	5	case	_	_
+5	pro;dem|those_5	those	PRON	pro:dem	_	3	nmod	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	det;num|forty_1	forty	NUM	det:num	_	2	nummod	_	_
+2	n|cent-PL_2	cents	NOUN	n	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	adj|red_1	red	ADJ	adj	_	2	amod	_	_
+2	n|eye-PL_2	eyes	NOUN	n	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro	_	2	nsubj	_	_
+2	v|miss-PAST_2	missed	VERB	v	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	4	nsubj	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|want_4	want	VERB	v	_	0	root	_	_
+5	inf|to_5	to	PART	inf	_	6	mark	_	_
+6	v|lose_6	lose	VERB	v	_	4	xcomp	_	_
+7	det;art|the_7	the	DET	det:art	_	8	det	_	_
+8	n|top-PL_8	tops	NOUN	n	_	6	dobj	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+1	qn|no_1	no	DET	qn	_	3	neg	_	_
+2	pro;dem|this_2	this	PRON	pro:dem	_	3	det	_	_
+3	pro;indef|one_3	one	NOUN	pro:indef	_	6	nsubj	_	_
+4	mod|do-3S_4	does	AUX	mod	_	6	aux	_	_
+5	neg|not_5	not	PART	neg	_	6	neg	_	_
+6	v|have_6	have	VERB	v	_	0	root	_	_
+7	n|water_7	water	NOUN	n	_	6	dobj	_	_
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+1	adv|about_1	about	ADV	adv	_	0	root:promoted	_	_
+2	inf|to_2	to	PART	inf	_	3	mark	_	_
+3	v|have_3	have	VERB	v	_	1	xcomp	_	_
+4	det;art|the_4	the	DET	det:art	_	5	det	_	_
+5	n|water_5	water	NOUN	n	_	3	dobj	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|think_2	think	VERB	v	_	0	root	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|miss-PAST_4	missed	VERB	v	_	2	ccomp	_	_
+5	det;art|the_5	the	DET	det:art	_	6	det	_	_
+6	n|bottle_6	bottle	NOUN	n	_	4	dobj	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	3	nsubj	_	_
+2	aux|~be_2	's	AUX	aux	_	3	aux	_	_
+3	part|grow-PRESP_3	growing	VERB	part	_	0	root	_	_
+4	!	!	PUNCT	!	_	3	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|think_4	think	VERB	v	_	0	root	_	_
+5	co|so_5	so	ADV	co	_	4	advmod	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:wh	_	4	dobj	_	_
+2	mod|do-3S_2	does	AUX	mod	_	4	aux	_	_
+3	pro;dem|that_3	that	PRON	pro:dem	_	4	nsubj	_	_
+4	n|spell_4	spell	VERB	v	_	0	root	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	0	root	_	_
+2	cop|be-3S_2	is	AUX	cop	_	1	cop	_	_
+3	v|spray_3	spray	NOUN	v	_	1	nsubj	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;int|what_1	what	DET	pro:int	_	2	det	_	_
+2	n|kind_2	kind	NOUN	n	_	0	root	_	_
+3	aux|be-3S_3	is	AUX	aux	_	2	cop	_	_
+4	pro;per|it_4	it	PRON	pro:per	_	2	nsubj	_	_
+5	?	?	PUNCT	?	_	2	punct	_	_
+
+1	n|chocolate_1	chocolate	NOUN	n	_	2	compound	_	_
+2	n|spray_2	spray	NOUN	n	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	co|thank_you_1	thank_you	VERB	X	_	0	root	_	_
+3	prep|for_3	for	ADP	prep	_	6	case	_	_
+4	det;art|the_4	the	DET	det:art	_	6	det	_	_
+5	n|chocolate_5	chocolate	NOUN	n	_	6	compound	_	_
+6	n|hair_6	hair	NOUN	n	_	1	nmod	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	2	nsubj	_	_
+2	v|say-PAST_2	said	VERB	v	_	0	root	_	_
+3	pro;per|it_3	it	PRON	pro:per	_	6	nsubj	_	_
+4	cop|be-PAST_4	was	AUX	cop	_	6	cop	_	_
+5	n|chocolate_5	chocolate	NOUN	n	_	6	compound	_	_
+6	n|spray_6	spray	NOUN	n	_	2	ccomp	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+1	co|thank_you_1	thank_you	VERB	X	_	0	root	_	_
+3	co|dear_3	dear	NOUN	co	_	1	vocative	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+1	adv|here_1	here	ADV	adv	_	3	advmod	_	_
+2	n;prop|Adam_2	Adam	PROPN	n:prop	_	3	nsubj	_	_
+3	aux|have-3S_3	has	VERB	aux	_	0	root	_	_
+4	pro;dem|that_4	that	PRON	pro:dem	_	5	det	_	_
+5	n|bottle_5	bottle	NOUN	n	_	3	dobj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+1	neg|not_1	not	PART	neg	_	2	neg	_	_
+2	adv|particular-dadj_2	particularly	ADV	adv	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	3	nsubj	_	_
+2	cop|~be_2	's	VERB	cop	_	3	cop	_	_
+3	adj|enough_3	enough	ADJ	adj	_	0	root	_	_
+4	n|thank_you_4	thank_you	VERB	X	_	3	parataxis	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+1	n;prop|Paul_1	Paul	PROPN	n:prop	_	4	vocative	_	_
+2	coord|and_2	and	CONJ	coord	_	3	cc	_	_
+3	n;prop|Diandra_3	Diandra	PROPN	n:prop	_	1	conj	_	_
+4	v|stop_4	stop	VERB	v	_	0	root	_	_
+5	pro;per|it_5	it	PRON	pro:per	_	4	dobj	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	3	expl	_	_
+2	cop|~be_2	's	VERB	cop	_	3	cop	_	_
+3	adv|enough_3	enough	ADJ	adv	_	0	root	_	_
+4	qn|both_4	both	DET	qn	_	6	det	_	_
+5	prep|of_5	of	ADP	prep	_	6	case	_	_
+6	pro;per|you_6	you	PRON	pro:per	_	3	vocative	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	6	discourse	_	_
+2	pro;dem|that_2	that	PRON	pro:dem	_	6	nsubj	_	_
+3	cop|~be_3	's	AUX	cop	_	6	cop	_	_
+4	neg|not_4	not	PART	neg	_	6	neg	_	_
+5	adj|clean_5	clean	ADJ	adj	_	6	amod	_	_
+6	n|water_6	water	NOUN	n	_	0	root	_	_
+7	n|honey_7	honey	NOUN	n	_	6	vocative	_	_
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|put-ZERO_2	put	VERB	v	_	0	root	_	_
+3	pro;dem|that_3	that	PRON	pro:dem	_	2	dobj	_	_
+4	prep|in_4	in	ADP	prep	_	5	case	_	_
+5	adv|there_5	there	ADV	adv	_	2	nmod	_	_
+6	prep|to_6	to	PART	prep	_	7	mark	_	_
+7	n|rinse_7	rinse	NOUN	n	_	2	advcl	_	_
+8	det;art|the_8	the	DET	det:art	_	9	det	_	_
+9	n|bowl_9	bowl	NOUN	n	_	7	dobj	_	_
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|think_4	think	VERB	v	_	0	root	_	_
+5	pro;per|you_5	you	PRON	pro:per	_	6	nsubj	_	_
+6	v|need_6	need	VERB	v	_	4	ccomp	_	_
+7	qn|any_7	any	DET	qn	_	8	det	_	_
+8	qn|more_8	more	ADJ	qn	_	6	dobj:promoted	_	_
+9	n|honey_9	honey	NOUN	n	_	6	vocative	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	4	nsubj	_	_
+2	mod|must_2	must	AUX	mod	_	4	aux	_	_
+3	aux|have_3	have	AUX	aux	_	4	aux	_	_
+4	part|lose-PASTP_4	lost	VERB	part	_	0	root	_	_
+5	pro;per|it_5	it	PRON	pro:per	_	4	dobj	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	2	nsubj	_	_
+2	v|happen-PAST_2	happened	VERB	v	_	0	root	_	_
+3	prep|to_3	to	ADP	prep	_	5	case	_	_
+4	det;art|the_4	the	DET	det:art	_	5	det	_	_
+5	n|funnel_5	funnel	NOUN	n	_	2	nmod	_	_
+6	?	?	PUNCT	?	_	2	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	nmod	_	_
+2	aux|be-PRES_2	are	AUX	aux	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	part|pour-PRESP_4	pouring	VERB	part	_	0	root	_	_
+5	pro;per|it_5	it	PRON	pro:per	_	4	dobj	_	_
+6	prep|into_6	into	ADP	prep	_	1	case	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	3	nsubj	_	_
+2	aux|~be_2	're	AUX	aux	_	3	aux	_	_
+3	part|make-PRESP_3	making	VERB	part	_	0	root	_	_
+4	det;art|a_4	a	DET	det:art	_	5	det	_	_
+5	n|mess_5	mess	NOUN	n	_	3	dobj	_	_
+6	adv|there_6	there	ADV	adv	_	3	advmod	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+1	adv|now_1	now	ADV	adv	_	6	advmod	_	_
+2	pro;dem|that_2	that	PRON	pro:dem	_	6	nsubj	_	_
+3	cop|~be_3	's	AUX	cop	_	6	cop	_	_
+4	neg|not_4	not	PART	neg	_	6	neg	_	_
+5	det;art|the_5	the	DET	det:art	_	6	det	_	_
+6	n|way_6	way	NOUN	n	_	0	root	_	_
+7	pro;per|you_7	you	PRON	pro:per	_	8	nsubj	_	_
+8	n|play_8	play	NOUN	n	_	6	acl:relcl	_	_
+9	aux|be-3S_9	is	AUX	aux	_	6	parataxis	_	_
+10	pro;per|it_10	it	PRON	pro:per	_	9	nsubj	_	_
+11	?	?	PUNCT	?	_	6	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	2	nsubj	_	_
+2	v|have_2	have	VERB	v	_	0	root	_	_
+3	det;art|a_3	a	DET	det:art	_	4	det	_	_
+4	n|funnel_4	funnel	NOUN	n	_	2	dobj	_	_
+5	pro;rel|that_5	that	PRON	pro:rel	_	6	nsubj	_	_
+6	v;obj|let_6	let	VERB	v	_	4	acl:relcl:subj	_	_
+7	pro;obj|~us_7	's	PART	pro:obj	_	6	goeswith	_	_
+8	pro;per|you_8	you	PRON	pro:per	_	6	dobj	_	_
+9	v|know_9	know	VERB	v	_	6	ccomp	_	_
+10	conj|when_10	when	ADV	conj	_	12	mark	_	_
+11	pro;per|you_11	you	PRON	pro:per	_	12	nsubj	_	_
+12	v|have_12	have	VERB	v	_	9	advcl	_	_
+13	adv|enough_13	enough	ADV	adv	_	12	advmod	_	_
+14	prep|in_14	in	ADP	prep	_	16	case	_	_
+15	det;art|the_15	the	DET	det:art	_	16	det	_	_
+16	n|bottle_16	bottle	NOUN	n	_	12	nmod	_	_
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+1	adv;int|where_1	where	ADV	adv:int	_	0	root	_	_
+2	cop|~be_2	's	AUX	cop	_	1	cop	_	_
+3	det;art|the_3	the	DET	det:art	_	5	det	_	_
+4	qn|other_4	other	ADJ	qn	_	5	amod	_	_
+5	n|bottle_5	bottle	NOUN	n	_	1	nsubj	_	_
+6	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;sub|we_1	we	PRON	pro:sub	_	3	nsubj	_	_
+2	mod|~will_2	'll	AUX	mod	_	3	aux	_	_
+3	v|do_3	do	VERB	v	_	0	root	_	_
+4	pro;per|it_4	it	PRON	pro:per	_	3	dobj	_	_
+5	adj|next_5	next	ADJ	adj	_	6	amod	_	_
+6	n|time_6	time	NOUN	n	_	3	nmod:tmod	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+1	post|all_1	all	PRON	post	_	2	nsubj	_	_
+2	v|line-PAST_2	lined	ADJ	v	_	0	root	_	_
+3	adv|up_3	up	ADV	adv	_	2	compound	_	_
+4	coord|and_4	and	CONJ	coord	_	5	cc	_	_
+5	adj|ready_5	ready	ADJ	adj	_	2	conj	_	_
+6	inf|to_6	to	PART	inf	_	7	mark	_	_
+7	v|go_7	go	VERB	v	_	5	xcomp	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+1	v|open_1	open	VERB	v	_	0	root	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	1	dobj	_	_
+3	adv|up_3	up	ADV	adv	_	1	advmod	_	_
+4	coord|and_4	and	CONJ	coord	_	5	cc	_	_
+5	v|see_5	see	VERB	v	_	1	conj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	dobj	_	_
+2	v|have_2	have	AUX	v	_	4	aux	_	_
+3	pro;sub|they_3	they	PRON	pro:sub	_	4	nsubj	_	_
+4	v|get-PAST_4	got	VERB	v	_	0	root	_	_
+5	pro;dem|those_5	those	PRON	pro:dem	_	6	det	_	_
+6	n|man-PL_6	men	NOUN	n	_	4	dislocated	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	co|no_1	no	PART	co	_	2	neg	_	_
+2	v|wonder_2	wonder	NOUN	v	_	0	root	_	_
+3	pro;int|what_3	what	PRON	pro:int	_	2	nsubj	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
+
+1	adv;int|how_1	how	ADV	adv:int	_	2	advmod	_	_
+2	mod|can_2	can	AUX	mod	_	0	root:promoted	_	_
+3	pro;sub|they_3	they	PRON	pro:sub	_	2	nsubj	_	_
+4	?	?	PUNCT	?	_	2	punct	_	_
+
+1	adv;int|how_1	how	ADV	adv:int	_	4	advmod	_	_
+2	mod|can_2	can	AUX	mod	_	4	aux	_	_
+3	n|animal-PL_3	animals	NOUN	n	_	4	nsubj	_	_
+4	n|box_4	box	VERB	n	_	0	root	_	_
+5	pro;refl|themselves_5	themselves	PRON	pro:refl	_	4	dobj	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	6	dobj	_	_
+2	mod|do_2	d	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|think_4	think	VERB	v	_	0	root	_	_
+5	pro;dem|this_5	this	PRON	pro:dem	_	6	nsubj	_	_
+6	v|say-3S_6	says	VERB	v	_	4	ccomp	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	coord|and_1	and	CONJ	coord	_	4	cc	_	_
+2	pro;sub|they_2	they	PRON	pro:sub	_	4	nsubj	_	_
+3	aux|~have_3	've	AUX	aux	_	4	aux	_	_
+4	part|get-PASTP_4	got	VERB	part	_	0	root	_	_
+5	n|animal_5	animal	NOUN	n	_	6	compound	_	_
+6	n|skin-PL_6	skins	NOUN	n	_	4	dobj	_	_
+7	adv|on_7	on	ADV	adv	_	4	advmod	_	_
+8	prep|for_8	for	ADP	prep	_	9	case	_	_
+9	n;pt|clothes_9	clothes	NOUN	n:pt	_	4	nmod	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+1	n|animal_1	animal	NOUN	n	_	2	compound	_	_
+2	n|skin-PL_2	skins	NOUN	n	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	4	discourse	_	_
+2	pro;sub|he_2	he	PRON	pro:sub	_	4	nsubj	_	_
+3	aux|~be_3	's	AUX	aux	_	4	aux	_	_
+4	part|wear-PRESP_4	wearing	VERB	part	_	0	root	_	_
+5	det;art|a_5	an	DET	det:art	_	7	det	_	_
+6	n|animal_6	animal	NOUN	n	_	7	compound	_	_
+7	n|skin_7	skin	NOUN	n	_	4	dobj	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;sub|he_1	he	PRON	pro:sub	_	4	nsubj	_	_
+2	aux|~be_2	's	VERB	aux	_	4	cop	_	_
+3	det;art|a_3	a	DET	det:art	_	4	det	_	_
+4	n|man_4	man	NOUN	n	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	co|well_1	well	INTJ	co	_	4	discourse	_	_
+2	pro;sub|he_2	he	PRON	pro:sub	_	4	nsubj	_	_
+3	mod|might_3	might	AUX	mod	_	4	aux	_	_
+4	v|hit-ZERO_4	hit	VERB	v	_	0	root	_	_
+5	pro;dem|that_5	that	DET	pro:dem	_	6	det	_	_
+6	n|dinosaur_6	dinosaur	NOUN	n	_	4	dobj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+1	adv|sometimes_1	sometimes	ADV	adv	_	3	advmod	_	_
+2	pro;sub|they_2	they	PRON	pro:sub	_	3	nsubj	_	_
+3	v|kill_3	kill	VERB	v	_	0	root	_	_
+4	n|animal-PL_4	animals	NOUN	n	_	3	dobj	_	_
+5	prep|for_5	for	ADP	prep	_	7	case	_	_
+6	det;poss|their_6	their	PRON	det:poss	_	7	nmod:poss	_	_
+7	n|skin-PL_7	skins	NOUN	n	_	3	nmod	_	_
+8	prep|for_8	for	ADP	prep	_	9	case	_	_
+9	n|clothing_9	clothing	NOUN	n	_	7	nmod	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+1	coord|and_1	and	CONJ	coord	_	4	cc	_	_
+2	adv|maybe_2	maybe	ADV	adv	_	4	advmod	_	_
+3	pro;sub|they_3	they	PRON	pro:sub	_	4	nsubj	_	_
+4	v|chop_4	chop	VERB	v	_	0	root	_	_
+5	adv|down_5	down	ADV	adv	_	4	advmod	_	_
+6	n|tree-PL_6	trees	NOUN	n	_	4	dobj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+1	adv;int|how_1	how	ADV	adv:int	_	4	advmod	_	_
+2	mod|could_2	could	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|wear_4	wear	VERB	v	_	0	root	_	_
+5	det;art|a_5	a	DET	det:art	_	6	det	_	_
+6	n|tree_6	tree	NOUN	n	_	4	dobj	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	3	nsubj	_	_
+2	aux|~be_2	's	AUX	aux	_	3	aux	_	_
+3	part|call-PASTP_3	called	VERB	part	_	0	root	_	_
+4	det;art|a_4	a	DET	det:art	_	5	det	_	_
+5	n|pterodactyl_5	pterodactyl	NOUN	n	_	3	xcomp	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	7	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	7	cop	_	_
+3	conj|like_3	like	ADP	conj	_	7	case	_	_
+4	det;art|a_4	a	DET	det:art	_	7	det	_	_
+5	adj|big_5	big	ADJ	adj	_	7	amod	_	_
+6	n;gerund|fly-PRESP_6	flying	VERB	n:gerund	_	7	amod	_	_
+7	n|dinosaur_7	dinosaur	NOUN	n	_	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+1	co|yes_1	yes	INTJ	co	_	4	discourse	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	4	nsubj	_	_
+3	mod|can_3	can	AUX	mod	_	4	aux	_	_
+4	v|take_4	take	VERB	v	_	0	root	_	_
+5	pro;obj|them_5	them	PRON	pro:obj	_	4	dobj	_	_
+6	post|all_6	all	DET	post	_	5	det	_	_
+7	adv|out_7	out	ADP	adv	_	4	compound:prt	_	_
+8	conj|if_8	if	SCONJ	conj	_	10	mark	_	_
+9	pro;per|you_9	you	PRON	pro:per	_	10	nsubj	_	_
+10	v|want_10	want	VERB	v	_	4	advcl	_	_
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	2	nsubj	_	_
+2	mod;aux|have_to_2	have_to	VERB	X	_	0	root	_	_
+4	v|start_4	start	VERB	v	_	2	xcomp	_	_
+5	adv|here_5	here	ADV	adv	_	4	advmod	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	3	discourse	_	_
+2	adv|just_2	just	ADV	adv	_	3	advmod	_	_
+3	v|take_3	take	VERB	v	_	0	root	_	_
+4	det;art|the_4	the	DET	det:art	_	5	det	_	_
+5	n|paper_5	paper	NOUN	n	_	3	dobj	_	_
+6	prep|off_6	off	ADP	prep	_	8	case	_	_
+7	det;art|the_7	the	DET	det:art	_	8	det	_	_
+8	n|bottom_8	bottom	NOUN	n	_	3	nmod	_	_
+9	coord|and_9	and	CONJ	coord	_	13	cc	_	_
+10	adv;tem|then_10	then	ADV	adv:tem	_	13	advmod	_	_
+11	pro;per|it_11	it	PRON	pro:per	_	13	nsubj	_	_
+12	mod|will_12	will	AUX	mod	_	13	aux	_	_
+13	v|come_13	come	VERB	v	_	3	conj	_	_
+14	adv|out_14	out	ADV	adv	_	13	advmod	_	_
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	4	discourse	_	_
+2	co|yes_2	yes	INTJ	co	_	4	discourse	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	mod|can_4	can	AUX	mod	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	mod|can_1	can	AUX	mod	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|shake_3	shake	VERB	v	_	0	root	_	_
+4	pro;obj|him_4	him	PRON	pro:obj	_	3	dobj	_	_
+5	adv|up_5	up	ADV	adv	_	3	advmod	_	_
+6	coord|and_6	and	CONJ	coord	_	7	cc	_	_
+7	adv|down_7	down	ADV	adv	_	5	compound	_	_
+8	?	?	PUNCT	?	_	3	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|do_2	do	VERB	v	_	0	root	_	_
+3	post|too_3	too	ADV	post	_	2	advmod	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+1	mod|do_1	d	AUX	mod	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|have_3	have	VERB	v	_	0	root	_	_
+4	n|seed-PL_4	seeds	NOUN	n	_	3	dobj	_	_
+5	prep|in_5	in	ADP	prep	_	6	case	_	_
+6	pro;poss|yours_6	yours	PRON	pro:poss	_	3	nmod	_	_
+7	?	?	PUNCT	?	_	3	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|get-PAST_2	got	VERB	v	_	0	root	_	_
+3	n|seed-PL_3	seeds	NOUN	n	_	2	dobj	_	_
+4	prep|in_4	in	ADP	prep	_	5	case	_	_
+5	pro;poss|mine_5	mine	PRON	pro:poss	_	2	nmod	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	adv;tem|then_1	then	ADV	adv:tem	_	5	advmod	_	_
+2	pro;int|what_2	what	PRON	pro:int	_	5	dobj	_	_
+3	mod|will_3	will	AUX	mod	_	5	aux	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|do_5	do	VERB	v	_	0	root	_	_
+6	prep|with_6	with	ADP	prep	_	7	case	_	_
+7	pro;per|it_7	it	PRON	pro:per	_	5	nmod	_	_
+8	?	?	PUNCT	?	_	5	punct	_	_
+
+1	cop|be-PRES_1	are	AUX	cop	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	part|go-PRESP_3	going	VERB	part	_	0	root	_	_
+4	inf|to_4	to	PART	inf	_	5	mark	_	_
+5	v|swallow_5	swallow	VERB	v	_	3	xcomp	_	_
+6	pro;per|it_6	it	PRON	pro:per	_	5	dobj	_	_
+7	?	?	PUNCT	?	_	3	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	dobj	_	_
+2	aux|~be_2	're	AUX	aux	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	part|dig-PRESP_4	digging	VERB	part	_	0	root	_	_
+5	prep|for_5	for	ADP	prep	_	1	case	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
+
+1	aux|be_1	aren	AUX	aux	_	4	aux	_	_
+2	neg|~not_2	't	PART	neg	_	4	neg	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	part|go-PRESP_4	going	VERB	part	_	0	root	_	_
+5	inf|to_5	to	PART	inf	_	6	mark	_	_
+6	v|eat_6	eat	VERB	v	_	4	xcomp	_	_
+7	det;poss|your_7	your	PRON	det:poss	_	8	nmod:poss	_	_
+8	n|apple_8	apple	NOUN	n	_	6	dobj	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
+
+1	mod|do_1	do	AUX	mod	_	2	aux	_	_
+2	pro;per|you_2	you	PRON	pro	_	0	root:promoted	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	0	root	_	_
+2	neg|not_2	not	PART	neg	_	1	neg	_	_
+3	?	?	PUNCT	?	_	1	punct	_	_
+
+1	conj|but_1	but	CONJ	conj	_	4	cc	_	_
+2	neg|not_2	not	PART	neg	_	4	neg	_	_
+3	n|boy_3	boy	NOUN	n	_	4	compound	_	_
+4	v|baby-3S_4	babies	NOUN	v	_	0	root	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	0	root	_	_
+2	neg|not_2	not	PART	neg	_	1	neg	_	_
+3	?	?	PUNCT	?	_	1	punct	_	_
+
+1	mod|do-3S_1	does	AUX	mod	_	3	aux	_	_
+2	pro;sub|he_2	he	PRON	pro:sub	_	3	nsubj	_	_
+3	co|like_3	like	VERB	co	_	0	root	_	_
+4	n|apple-PL_4	apples	NOUN	n	_	3	dobj	_	_
+5	?	?	PUNCT	?	_	3	punct	_	_
+
+1	adv|now_1	now	ADV	adv	_	4	advmod	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	4	nsubj	_	_
+3	mod|~will_3	'll	AUX	mod	_	4	aux	_	_
+4	v|have_4	have	VERB	v	_	0	root	_	_
+5	adv|enough_5	enough	ADJ	adv	_	4	dobj:promoted	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+1	co|yes_1	yes	INTJ	co	_	3	discourse	_	_
+2	pro;sub|I_2	I	PRON	pro:sub	_	3	nsubj	_	_
+3	v|think_3	think	VERB	v	_	0	root	_	_
+4	co|so_4	so	ADV	co	_	3	advmod	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;sub|he_1	he	PRON	pro:sub	_	2	nsubj	_	_
+2	aux|have-3S_2	has	VERB	aux	_	0	root	_	_
+3	adj|big_3	big	ADJ	adj	_	4	amod	_	_
+4	n|wing-PL_4	wings	NOUN	n	_	2	dobj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	3	nsubj	_	_
+2	cop|~be_2	's	VERB	cop	_	3	cop	_	_
+3	adj|true_3	true	ADJ	adj	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	mod|can_1	can	AUX	mod	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|fly_3	fly	VERB	v	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	v;obj|let_1	let	VERB	v	_	0	root	_	_
+2	pro;obj|~us_2	's	PRON	pro:obj	_	1	dobj	_	_
+3	v|see_3	see	VERB	v	_	1	xcomp	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|fly_5	fly	VERB	v	_	3	ccomp	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	3	nsubj	_	_
+2	mod|can_2	can	AUX	mod	_	3	aux	_	_
+3	v|fly_3	fly	VERB	v	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	cop|look-3S_1	looks	VERB	cop	_	0	root	_	_
+2	prep|like_2	like	ADP	prep	_	4	case	_	_
+3	det;art|a_3	a	DET	det:art	_	4	det	_	_
+4	n|spear_4	spear	NOUN	n	_	1	nmod	_	_
+5	mod|do_5	doesn	AUX	mod	_	1	parataxis	_	_
+6	neg|~not_6	't	PART	neg	_	5	neg	_	_
+7	pro;per|it_7	it	PRON	pro:per	_	5	nsubj	_	_
+8	?	?	PUNCT	?	_	5	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	2	nsubj	_	_
+2	v|think_2	think	VERB	v	_	0	root	_	_
+3	pro;per|it_3	it	PRON	pro:per	_	6	nsubj	_	_
+4	cop|~be_4	's	VERB	cop	_	6	cop	_	_
+5	det;art|a_5	a	DET	det:art	_	6	det	_	_
+6	n|club_6	club	NOUN	n	_	2	ccomp	_	_
+7	det;art|a_7	a	DET	det:art	_	8	det	_	_
+8	n|stick_8	stick	NOUN	n	_	6	appos	_	_
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+1	adv|much_1	much	ADV	adv	_	2	advmod	_	_
+2	adj|tall-CP_2	taller	ADJ	adj	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	v|do-PAST_1	did	VERB	v	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|do_3	do	VERB	v	_	0	root	_	_
+4	pro;indef|something_4	something	NOUN	pro:indef	_	3	dobj	_	_
+5	?	?	PUNCT	?	_	3	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	4	advmod	_	_
+2	mod|do_2	do	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	co|like_4	like	VERB	co	_	0	root	_	_
+5	pro;dem|that_5	that	DET	pro:dem	_	6	det	_	_
+6	pro;indef|one_6	one	PRON	pro:indef	_	4	dobj	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	adv|here_1	here	ADV	adv	_	2	advmod	_	_
+2	v|come-3S_2	comes	VERB	v	_	0	root	_	_
+3	det;art|the_3	the	DET	det:art	_	5	det	_	_
+4	qn|other_4	other	ADJ	qn	_	5	amod	_	_
+5	pro;indef|one_5	one	NOUN	pro:indef	_	2	nsubj	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	4	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	4	cop	_	_
+3	det;art|a_3	a	DET	det:art	_	4	det	_	_
+4	n|dinosaur_4	dinosaur	NOUN	n	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	co|goodness_1	goodness	INTJ	co	_	5	discourse	_	_
+2	pro;sub|they_2	they	PRON	pro:sub	_	5	nsubj	_	_
+3	aux|~be_3	're	AUX	aux	_	5	cop	_	_
+4	adv|all_4	all	DET	adv	_	5	det	_	_
+5	n|kind-PL_5	kinds	NOUN	n	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+1	adv|maybe_1	maybe	ADV	adv	_	6	advmod	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	6	nsubj	_	_
+3	cop|~be_3	's	VERB	cop	_	6	cop	_	_
+4	det;art|a_4	a	DET	det:art	_	6	det	_	_
+5	part|fly-PRESP_5	flying	ADJ	part	_	6	amod	_	_
+6	n|dinosaur_6	dinosaur	NOUN	n	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+1	pro;sub|he_1	he	PRON	pro:sub	_	3	nsubj	_	_
+2	aux|~be_2	's	AUX	aux	_	3	aux	_	_
+3	part|play-PRESP_3	playing	VERB	part	_	0	root	_	_
+4	qn|all_4	all	DET	qn	_	6	det:predet	_	_
+5	det;art|the_5	the	DET	det:art	_	6	det	_	_
+6	n|part-PL_6	parts	NOUN	n	_	3	dobj	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	3	discourse	_	_
+2	pro;sub|I_2	I	PRON	pro:sub	_	3	nsubj	_	_
+3	v|see_3	see	VERB	v	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	4	nsubj	_	_
+2	cop|~be_2	's	VERB	cop	_	4	cop	_	_
+3	pro;indef|another_3	another	ADJ	pro:indef	_	4	amod	_	_
+4	n;prop|Paul_4	Paul	PROPN	n:prop	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	2	nsubj	_	_
+2	v|happen-3S_2	happens	VERB	v	_	0	root	_	_
+3	conj|when_3	when	SCONJ	conj	_	5	advmod	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|blow_5	blow	VERB	v	_	2	advcl	_	_
+6	det;art|the_6	the	DET	det:art	_	7	det	_	_
+7	n|whistle_7	whistle	NOUN	n	_	5	dobj	_	_
+8	?	?	PUNCT	?	_	2	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|think_4	think	VERB	v	_	0	root	_	_
+5	pro;sub|I_5	I	PRON	pro:sub	_	8	nsubj	_	_
+6	aux|~be_6	'm	AUX	aux	_	8	cop	_	_
+7	adv|very_7	very	ADV	adv	_	8	advmod	_	_
+8	adj|hungry_8	hungry	ADJ	adj	_	4	ccomp	_	_
+9	n|thank_you_9	thank_you	VERB	X	_	4	parataxis	_	_
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+1	mod|do_1	don	VERB	mod	_	0	root	_	_
+2	neg|~not_2	't	PART	neg	_	1	neg	_	_
+3	pro;int|what_3	what	PRON	pro:int	_	1	dobj	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:wh	_	0	root	_	_
+2	cop|be-3S_2	is	VERB	cop	_	1	cop	_	_
+3	pro;dem|that_3	that	PRON	pro:dem	_	1	nsubj	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	4	discourse	_	_
+2	mod|may_2	may	AUX	mod	_	4	aux	_	_
+3	pro;sub|we_3	we	PRON	pro:sub	_	4	nsubj	_	_
+4	cop|look_4	look	VERB	cop	_	0	root	_	_
+5	prep|at_5	at	ADP	prep	_	7	case	_	_
+6	pro;dem|these_6	these	PRON	pro:dem	_	7	det	_	_
+7	det;num|two_7	two	NUM	det:num	_	4	dobj:promoted	_	_
+8	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	4	nsubj	_	_
+2	mod|can_2	can	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	pro;int|what_4	what	PRON	pro:int	_	0	root	_	_
+5	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	5	nsubj	_	_
+2	mod|can_2	can	AUX	mod	_	5	aux	_	_
+3	neg|~not_3	't	PART	neg	_	5	neg	_	_
+4	adv|either_4	either	ADV	adv	_	5	advmod	_	_
+5	v|do_5	do	VERB	v	_	0	root	_	_
+6	pro;per|it_6	it	PRON	pro:per	_	5	dobj	_	_
+7	?	?	PUNCT	?	_	5	punct	_	_
+
+1	adv;int|how_1	how	ADV	adv:int	_	4	advmod	_	_
+2	mod|can_2	can	AUX	mod	_	4	aux	_	_
+3	pro;sub|she_3	she	PRON	pro:sub	_	4	nsubj	_	_
+4	v|write_4	write	VERB	v	_	0	root	_	_
+5	conj|if_5	if	SCONJ	conj	_	7	mark	_	_
+6	pro;per|you_6	you	PRON	pro:per	_	7	nsubj	_	_
+7	v|sit_7	sit	VERB	v	_	4	advcl	_	_
+8	prep|on_8	on	ADP	prep	_	9	case	_	_
+9	n|top_9	top	NOUN	n	_	7	nmod	_	_
+10	prep|of_10	of	ADP	prep	_	11	case	_	_
+11	pro;obj|her_11	her	PRON	pro:obj	_	9	nmod	_	_
+12	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;int|who_1	who	PRON	pro:int	_	2	nsubj	_	_
+2	n|life-PL_2	lives	VERB	n	_	0	root	_	_
+3	prep|in_3	in	ADP	prep	_	5	case	_	_
+4	det;poss|your_4	your	PRON	det:poss	_	5	nmod:poss	_	_
+5	n|barn_5	barn	NOUN	n	_	2	nmod	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	prep|in_1	in	ADP	prep	_	3	case	_	_
+2	det;poss|your_2	your	PRON	det:poss	_	3	nmod:poss	_	_
+3	n|barn_3	barn	NOUN	n	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	4	nsubj	_	_
+2	cop|~be_2	's	VERB	cop	_	4	cop	_	_
+3	det;art|a_3	a	DET	det:art	_	4	det	_	_
+4	n|picture_4	picture	NOUN	n	_	0	root	_	_
+5	prep|of_5	of	ADP	prep	_	7	case	_	_
+6	det;art|a_6	a	DET	det:art	_	7	det	_	_
+7	n|barn_7	barn	NOUN	n	_	4	nmod	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	2	det	_	_
+2	n|man-PL_2	men	NOUN	n	_	5	dobj	_	_
+3	mod|do-PAST_3	did	AUX	mod	_	5	aux	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|have_5	have	VERB	v	_	0	root	_	_
+6	?	?	PUNCT	?	_	5	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	didn	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|see_4	see	VERB	v	_	0	root	_	_
+5	qn|any_5	any	DET	qn	_	6	det	_	_
+6	n|man-PL_6	men	NOUN	n	_	4	dobj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+1	adv|here_1	here	ADV	adv	_	0	root	_	_
+2	n;prop|Paul_2	Paul	PROPN	n:prop	_	1	vocative	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+1	co|yes_1	yes	INTJ	co	_	3	discourse	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	mod|can_3	can	AUX	mod	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|yes_1	yes	INTJ	co	_	3	discourse	_	_
+2	pro;sub|he_2	he	PRON	pro:sub	_	3	nsubj	_	_
+3	mod|can_3	can	AUX	mod	_	0	root:promoted	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	adv;int|where_1	where	ADV	adv:int	_	4	advmod	_	_
+2	mod|do-PAST_2	did	AUX	mod	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	v|learn_4	learn	VERB	v	_	0	root	_	_
+5	adv;int|how_5	how	ADV	adv:int	_	7	advmod	_	_
+6	inf|to_6	to	PART	inf	_	7	mark	_	_
+7	v|do_7	do	VERB	v	_	4	xcomp	_	_
+8	pro;dem|that_8	that	PRON	pro:dem	_	7	dobj	_	_
+9	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	3	nsubj	_	_
+2	cop|~be_2	's	VERB	cop	_	3	cop	_	_
+3	n|right_3	right	ADJ	n	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	v|do-PAST_1	did	AUX	v	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	v|get_3	get	VERB	v	_	0	root	_	_
+4	v|hurt-ZERO_4	hurt	VERB	v	_	3	compound:prt	_	_
+5	adv|very_5	very	ADV	adv	_	6	advmod	_	_
+6	adv|bad-dadj_6	badly	ADV	adv	_	3	advmod	_	_
+7	?	?	PUNCT	?	_	3	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	4	discourse	_	_
+2	pro;sub|I_2	I	PRON	pro:sub	_	4	nsubj	_	_
+3	cop|~be_3	'm	VERB	cop	_	4	cop	_	_
+4	adj|sorry_4	sorry	ADJ	adj	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	3	discourse	_	_
+2	pro;sub|I_2	I	PRON	pro:sub	_	3	nsubj	_	_
+3	v|think-PAST_3	thought	VERB	v	_	0	root	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	cop|be-PAST_5	were	AUX	cop	_	3	xcomp	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;int|who_1	who	PRON	pro:int	_	2	nsubj	_	_
+2	v|do-3S_2	does	VERB	v	_	0	root	_	_
+3	?	?	PUNCT	?	_	2	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	3	nsubj	_	_
+2	aux|~have_2	've	AUX	aux	_	3	aux	_	_
+3	v|hear-PAST_3	heard	VERB	v	_	0	root	_	_
+4	prep|of_4	of	ADP	prep	_	7	case	_	_
+5	det;art|a_5	a	DET	det:art	_	7	det	_	_
+6	part|fly-PRESP_6	flying	VERB	part	_	7	amod	_	_
+7	n|saucer_7	saucer	NOUN	n	_	3	nmod	_	_
+8	coord|and_8	and	CONJ	coord	_	11	cc	_	_
+9	pro;sub|I_9	I	PRON	pro:sub	_	11	nsubj	_	_
+10	aux|~have_10	've	AUX	aux	_	11	aux	_	_
+11	v|hear-PAST_11	heard	VERB	v	_	3	conj	_	_
+12	prep|of_12	of	ADP	prep	_	14	case	_	_
+13	det;art|a_13	a	DET	det:art	_	14	det	_	_
+14	n|dinosaur_14	dinosaur	NOUN	n	_	11	nmod	_	_
+15	conj|but_15	but	SCONJ	conj	_	19	cc	_	_
+16	pro;sub|I_16	I	PRON	pro:sub	_	19	nsubj	_	_
+17	aux|~have_17	've	AUX	aux	_	19	aux	_	_
+18	adv|never_18	never	ADV	adv	_	19	advmod	_	_
+19	v|hear-PAST_19	heard	VERB	v	_	3	conj	_	_
+20	prep|of_20	of	ADP	prep	_	24	case	_	_
+21	det;art|a_21	a	DET	det:art	_	24	det	_	_
+22	part|fly-PRESP_22	flying	VERB	part	_	23	amod	_	_
+23	n|saucer_23	saucer	NOUN	n	_	24	compound	_	_
+24	n|dinosaur_24	dinosaur	NOUN	n	_	19	nmod	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	3	discourse	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	cop|be-PRES_3	are	VERB	cop	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	co|oh_1	oh	INTJ	co	_	5	discourse	_	_
+2	adv;int|where_2	where	ADV	adv:int	_	5	advmod	_	_
+3	mod|do-PAST_3	did	AUX	mod	_	5	aux	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	v|get_5	get	VERB	v	_	0	root	_	_
+6	n|feather_6	feather	NOUN	n	_	7	compound	_	_
+7	n|brain_7	brain	NOUN	n	_	5	dobj	_	_
+8	?	?	PUNCT	?	_	5	punct	_	_
+
+1	n;prop|Diandra_1	Diandra	PROPN	n:prop	_	2	vocative	_	_
+2	v|give_2	give	VERB	v	_	0	root	_	_
+3	pro;obj|me_3	me	PRON	pro:obj	_	2	iobj	_	_
+4	pro;dem|that_4	that	PRON	pro:dem	_	2	dobj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	3	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	3	cop	_	_
+3	adj|dangerous_3	dangerous	ADJ	adj	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;sub|he_1	he	PRON	pro:sub	_	3	nsubj	_	_
+2	mod|can_2	can	AUX	mod	_	3	aux	_	_
+3	v|hurt-ZERO_3	hurt	VERB	v	_	0	root	_	_
+4	pro;refl|himself_4	himself	PRON	pro:refl	_	3	dobj	_	_
+5	prep|with_5	with	ADP	prep	_	6	case	_	_
+6	pro;per|it_6	it	PRON	pro:per	_	3	nmod	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+1	adv;int|where_1	where	ADV	adv:int	_	0	root	_	_
+2	cop|~be_2	's	VERB	cop	_	1	cop	_	_
+3	det;art|the_3	the	DET	det:art	_	4	det	_	_
+4	n;prop|Mommy_4	Mommy	PROPN	n:prop	_	1	nsubj	_	_
+5	?	?	PUNCT	?	_	1	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	3	discourse	_	_
+2	co|no_2	no	INTJ	co	_	1	parataxis:repeat	_	_
+3	v|take_3	take	VERB	v	_	0	root	_	_
+4	pro;per|it_4	it	PRON	pro:per	_	3	dobj	_	_
+5	adv|apart_5	apart	ADP	adv	_	3	compound:prt	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;sub|he_1	he	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|can_2	can	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|do_4	do	VERB	v	_	0	root	_	_
+5	det;art|the_5	the	DET	det:art	_	6	det	_	_
+6	n|puzzle_6	puzzle	NOUN	n	_	4	dobj	_	_
+7	n|dear_7	dear	NOUN	n	_	4	vocative	_	_
+8	adv;int|why_8	why	ADV	adv:int	_	12	advmod	_	_
+9	mod|do_9	don	AUX	mod	_	12	aux	_	_
+10	neg|~not_10	't	PART	neg	_	12	neg	_	_
+11	pro;per|you_11	you	PRON	pro:per	_	12	nsubj	_	_
+12	v|leave_12	leave	VERB	v	_	4	parataxis	_	_
+13	pro;per|it_13	it	PRON	pro:per	_	12	dobj	_	_
+14	v|close-PAST_14	closed	VERB	v	_	12	xcomp	_	_
+15	?	?	PUNCT	?	_	4	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	4	discourse	_	_
+2	pro;sub|he_2	he	PRON	pro:sub	_	4	nsubj	_	_
+3	adv|just_3	just	ADV	adv	_	4	advmod	_	_
+4	v|want-3S_4	wants	VERB	v	_	0	root	_	_
+5	inf|to_5	to	PART	inf	_	6	mark	_	_
+6	v|take_6	take	VERB	v	_	4	ccomp	_	_
+7	pro;per|it_7	it	PRON	pro:per	_	6	dobj	_	_
+8	adv|around_8	around	ADV	adv	_	6	advmod	_	_
+9	v|like_9	like	SCONJ	v	_	12	mark	_	_
+10	n;prop|Paul_10	Paul	PROPN	n:prop	_	12	nsubj	_	_
+11	aux|be-3S_11	is	AUX	aux	_	12	aux	_	_
+12	part|take-PRESP_12	taking	VERB	part	_	6	advcl	_	_
+13	det;num|one_13	one	PRON	det:num	_	12	dobj	_	_
+14	adv|around_14	around	ADV	adv	_	12	advmod	_	_
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+1	conj|if_1	if	SCONJ	conj	_	3	mark	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	mod|can_3	can	VERB	mod	_	0	root	_	_
+4	neg|~not_4	't	PART	neg	_	3	neg	_	_
+5	pro;int|what_5	what	PRON	pro:int	_	3	dobj	_	_
+6	?	?	PUNCT	?	_	3	punct	_	_
+
+1	adj|good_1	good	ADJ	adj	_	0	root	_	_
+2	adv|very_2	very	ADV	adv	_	3	advmod	_	_
+3	adj|good_3	good	ADJ	adj	_	1	parataxis	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+1	pro;int|what_1	what	DET	pro:wh	_	2	det	_	_
+2	n|kind_2	kind	NOUN	n	_	0	root	_	_
+3	prep|of_3	of	ADP	prep	_	4	case	_	_
+4	n|bird_4	bird	NOUN	n	_	2	nmod	_	_
+5	cop|be-3S_5	is	VERB	cop	_	2	cop	_	_
+6	pro;dem|that_6	that	PRON	pro:dem	_	2	nsubj	_	_
+7	?	?	PUNCT	?	_	2	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	5	nsubj	_	_
+2	cop|~be_2	's	VERB	cop	_	5	cop	_	_
+3	neg|not_3	not	PART	neg	_	5	neg	_	_
+4	det;art|a_4	a	DET	det:art	_	5	det	_	_
+5	n|peacock_5	peacock	NOUN	n	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	4	nsubj	_	_
+2	aux|~be_2	're	AUX	aux	_	4	cop	_	_
+3	adv|so_3	so	ADV	adv	_	4	advmod	_	_
+4	adj|busy_4	busy	ADJ	adj	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;sub|I_1	I	PRON	pro:sub	_	4	nsubj	_	_
+2	mod|do_2	didn	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|think_4	think	VERB	v	_	0	root	_	_
+5	pro;per|you_5	you	PRON	pro:per	_	7	nsubj	_	_
+6	mod|~genmod_6	'd	AUX	mod	_	7	aux	_	_
+7	v|get_7	get	VERB	v	_	4	ccomp	_	_
+8	adv|back_8	back	ADV	adv	_	9	advmod	_	_
+9	adv|around_9	around	ADV	adv	_	7	advmod	_	_
+10	prep|to_10	to	ADP	prep	_	11	case	_	_
+11	pro;obj|me_11	me	PRON	pro:obj	_	7	nmod	_	_
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;dem|that_1	that	DET	pro:dem	_	3	det	_	_
+2	adj|poor_2	poor	ADJ	adj	_	3	amod	_	_
+3	n|dinosaur_3	dinosaur	NOUN	n	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+1	adv;int|why_1	why	ADV	adv:int	_	4	advmod	_	_
+2	mod|should_2	should	AUX	mod	_	4	aux	_	_
+3	pro;sub|he_3	he	PRON	pro:sub	_	4	nsubj	_	_
+4	v|do_4	do	VERB	v	_	0	root	_	_
+5	pro;dem|that_5	that	PRON	pro:dem	_	4	dobj	_	_
+6	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	4	nsubj	_	_
+2	mod|do_2	don	AUX	mod	_	4	aux	_	_
+3	neg|~not_3	't	PART	neg	_	4	neg	_	_
+4	v|want_4	want	VERB	v	_	0	root	_	_
+5	pro;obj|him_5	him	PRON	pro:obj	_	4	dobj	_	_
+6	inf|to_6	to	PART	inf	_	7	mark	_	_
+7	v|get_7	get	VERB	v	_	4	xcomp	_	_
+8	part|hurt-PASTP_8	hurt	ADJ	part	_	7	xcomp	_	_
+9	v|do_9	do	AUX	v	_	4	parataxis	_	_
+10	pro;per|you_10	you	PRON	pro:per	_	9	nsubj	_	_
+11	?	?	PUNCT	?	_	4	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	6	dobj	_	_
+2	mod|shall_2	shall	AUX	mod	_	4	aux	_	_
+3	pro;sub|I_3	I	PRON	pro:sub	_	4	nsubj	_	_
+4	v|help_4	help	VERB	v	_	0	root	_	_
+5	pro;per|you_5	you	PRON	pro:per	_	6	nsubj	_	_
+6	v|do_6	do	VERB	v	_	4	ccomp	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	v|help_1	help	VERB	v	_	0	root	_	_
+2	pro;obj|him_2	him	PRON	pro:obj	_	1	dobj	_	_
+3	v|turn_3	turn	VERB	v	_	1	xcomp	_	_
+4	pro;per|it_4	it	PRON	pro:per	_	3	dobj	_	_
+5	prep|around_5	around	ADP	prep	_	3	advmod	_	_
+6	n;prop|Adam_6	Adam	PROPN	n:prop	_	1	vocative	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+1	pro;rel|who_1	who	PRON	pro:rel	_	0	root	_	_
+2	aux|~be_2	's	VERB	aux	_	1	aux	_	_
+3	aux|be-3S_3	is	VERB	aux	_	1	reparandum	_	_
+4	chi|Callie_4	Callie	NOUN	chi	_	1	nsubj	_	_
+5	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;int|who_1	who	PRON	pro:int	_	0	root	_	_
+2	cop|be-3S_2	is	VERB	cop	_	1	cop	_	_
+3	chi|Callie_3	Callie	PROPN	chi	_	1	nsubj	_	_
+4	?	?	PUNCT	?	_	1	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	4	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	4	cop	_	_
+3	det;art|the_3	the	DET	det:art	_	4	det	_	_
+4	n|name_4	name	NOUN	n	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+1	pro;exist|there_1	there	PRON	pro:exist	_	2	expl	_	_
+2	cop|~be_2	's	VERB	cop	_	0	root	_	_
+3	pro;indef|one_3	one	NUM	pro:indef	_	2	nsubj:promoted	_	_
+4	adv|more_4	more	ADJ	adv	_	3	amod	_	_
+5	prep|over_5	over	ADP	prep	_	6	case	_	_
+6	adv|there_6	there	ADV	adv	_	2	nmod	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	2	nsubj	_	_
+2	v|knock-PAST_2	knocked	VERB	v	_	0	root	_	_
+3	det;num|one_3	one	NUM	det:num	_	5	nummod	_	_
+4	n|down_4	down	NOUN	n	_	5	compound	_	_
+5	n|drive-dv_5	driver	NOUN	n	_	2	dobj	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	3	nsubj	_	_
+2	aux|~be_2	's	AUX	aux	_	3	aux	_	_
+3	part|go-PRESP_3	going	VERB	part	_	0	root	_	_
+4	inf|to_4	to	PART	inf	_	5	mark	_	_
+5	mod;aux|have_to_5	have_to	VERB	X	_	3	xcomp	_	_
+7	v|start_7	start	VERB	v	_	5	xcomp	_	_
+8	adv|very_8	very	ADV	adv	_	9	advmod	_	_
+9	adv|care-dadj_9	carefully	ADV	adv	_	7	advmod	_	_
+10	conj|so_10	so	SCONJ	conj	_	14	mark	_	_
+11	pro;per|you_11	you	PRON	pro:per	_	14	nsubj	_	_
+12	mod|will_12	won	AUX	mod	_	14	aux	_	_
+13	neg|~not_13	't	PART	neg	_	14	neg	_	_
+14	v|knock_14	knock	VERB	v	_	7	advcl	_	_
+15	qn|all_15	all	DET	qn	_	17	det:predet	_	_
+16	det;art|the_16	the	DET	det:art	_	17	det	_	_
+17	n|animal-PL_17	animals	NOUN	n	_	14	dobj	_	_
+18	adv|down_18	down	ADV	adv	_	14	advmod	_	_
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+1	pro;per|you_1	you	PRON	pro:per	_	3	nsubj	_	_
+2	adv|almost_2	almost	ADV	adv	_	3	advmod	_	_
+3	pro;int|what_3	what	PRON	pro:int	_	0	root	_	_
+4	?	?	PUNCT	?	_	3	punct	_	_
+
+1	n;prop|Adam_1	Adam	PROPN	n:prop	_	2	vocative	_	_
+2	v|tell_2	tell	VERB	v	_	0	root	_	_
+3	pro;obj|him_3	him	PRON	pro:obj	_	2	iobj	_	_
+4	pro;int|what_4	what	PRON	pro:int	_	2	ccomp	_	_
+5	pro;dem|those_5	those	PRON	pro:dem	_	4	nsubj	_	_
+6	cop|be-PRES_6	are	VERB	cop	_	4	cop	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+1	adv|right_1	right	ADV	adv	_	2	advmod	_	_
+2	adv|here_2	here	ADV	adv	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+1	pro;dem|that_1	that	PRON	pro:dem	_	5	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	5	cop	_	_
+3	neg|not_3	not	PART	neg	_	5	neg	_	_
+4	det;art|a_4	a	DET	det:art	_	5	det	_	_
+5	n|horse_5	horse	NOUN	n	_	0	root	_	_
+6	aux|be-3S_6	is	AUX	aux	_	5	parataxis	_	_
+7	pro;per|it_7	it	PRON	pro:per	_	6	nsubj	_	_
+8	?	?	PUNCT	?	_	5	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	6	discourse	_	_
+2	pro;dem|that_2	that	PRON	pro:dem	_	6	nsubj	_	_
+3	cop|~be_3	's	AUX	cop	_	6	cop	_	_
+4	neg|not_4	not	PART	neg	_	6	neg	_	_
+5	det;art|a_5	a	DET	det:art	_	6	det	_	_
+6	n|horse_6	horse	NOUN	n	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+1	pro;int|what_1	what	PRON	pro:int	_	4	nmod	_	_
+2	aux|~be_2	're	AUX	aux	_	4	aux	_	_
+3	pro;per|you_3	you	PRON	pro:per	_	4	nsubj	_	_
+4	part|tear-PRESP_4	tearing	VERB	part	_	0	root	_	_
+5	pro;dem|that_5	that	PRON	pro:dem	_	4	dobj	_	_
+6	prep|for_6	for	ADP	prep	_	1	case	_	_
+7	?	?	PUNCT	?	_	4	punct	_	_
+
+1	co|no_1	no	INTJ	co	_	7	discourse	_	_
+2	pro;per|it_2	it	PRON	pro:per	_	7	nsubj	_	_
+3	cop|~be_3	's	AUX	cop	_	7	cop	_	_
+4	neg|not_4	not	ADV	neg	_	7	neg	_	_
+5	det;art|a_5	a	DET	det:art	_	7	det	_	_
+6	n|plastic_6	plastic	NOUN	n	_	7	compound	_	_
+7	n|bag_7	bag	NOUN	n	_	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+1	pro;per|it_1	it	PRON	pro:per	_	4	nsubj	_	_
+2	cop|~be_2	's	AUX	cop	_	4	cop	_	_
+3	det;art|the_3	the	DET	det:art	_	4	det	_	_
+4	n|cover_4	cover	NOUN	n	_	0	root	_	_
+5	pro;rel|that_5	that	SCONJ	pro:rel	_	6	mark	_	_
+6	v|come-PAST_6	came	VERB	v	_	4	acl:relcl:subj	_	_
+7	prep|off_7	off	ADP	prep	_	9	case	_	_
+8	det;art|the_8	the	DET	det:art	_	9	det	_	_
+9	n|puzzle_9	puzzle	NOUN	n	_	6	nmod	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+1	cop|be-PAST_1	were	AUX	cop	_	3	aux	_	_
+2	pro;per|you_2	you	PRON	pro:per	_	3	nsubj	_	_
+3	part|talk-PRESP_3	talking	VERB	part	_	0	root	_	_
+4	prep|about_4	about	ADP	prep	_	6	case	_	_
+5	det;art|the_5	the	DET	det:art	_	6	det	_	_
+6	n|dog_6	dog	NOUN	n	_	3	nmod	_	_
+7	coord|or_7	or	CONJ	coord	_	10	cc	_	_
+8	cop|be-PAST_8	were	AUX	cop	_	10	aux	_	_
+9	pro;per|you_9	you	PRON	pro:per	_	10	nsubj	_	_
+10	part|talk-PRESP_10	talking	VERB	part	_	3	conj	_	_
+11	prep|about_11	about	ADP	prep	_	13	case	_	_
+12	det;art|the_12	the	DET	det:art	_	13	det	_	_
+13	n|dinosaur_13	dinosaur	NOUN	n	_	10	nmod	_	_
+14	?	?	PUNCT	?	_	3	punct	_	_
+
+1	pro;rel|which_1	which	DET	pro:rel	_	2	det	_	_
+2	pro;indef|one_2	one	PRON	pro:indef	_	5	dobj	_	_
+3	mod|will-COND_3	would	AUX	mod	_	5	aux	_	_
+4	pro;per|you_4	you	PRON	pro:per	_	5	nsubj	_	_
+5	co|like_5	like	VERB	co	_	0	root	_	_
+6	?	?	PUNCT	?	_	5	punct	_	_
+
+1	co|yes_1	yes	INTJ	co	_	4	discourse	_	_
+2	prep|without_2	without	ADP	prep	_	4	case	_	_
+3	det;art|the_3	the	DET	det:art	_	4	det	_	_
+4	n|dinosaur_4	dinosaur	NOUN	n	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+

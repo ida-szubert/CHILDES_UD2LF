@@ -1,25 +1,25 @@
+commands used from the src directory unless otherwsie stated
+
 if changing CoNLL file:
 	python preprocess.py
 	
-    cat ../LF/Adam.conll.txt | java -cp ./out/production/UDeplambda:lib/* deplambda.others.ConvertConllToGraphParserSentence > Adam.input.txt
-    
-	cp Adam.input.txt ../LF/
+    cat ../LF/conll/full_adam/adam.all.conll.txt | java -cp ./out/production/UDeplambda:lib/* deplambda.others.ConvertConllToGraphParserSentence > ../LF/conll/full_adam/adam.all.input.txt
 
 if changing UDepLambda:
-    recomplie UDepLambda
+    recompile UDepLambda
      
-UD-to-LF conversion of the whole corpus:
-    : > ../LF/conversion_debug.txt
+UD-to-LF conversion of the whole corpus (from UDepLambda directory):
+    : > ../LF/logs/conversion_debug.txt
     
-	cat Adam.input.txt | java -Dfile.encoding="UTF-8" -cp out/production/UDepLambda:lib/* deplambda.others.NlpPipeline  annotators tokenize,ssplit     tokenize.whitespace true     ssplit.eolonly true     languageCode en     deplambda true     deplambda.definedTypesFile lib_data/ud-childes.types.txt     deplambda.treeTransformationsFile lib_data/ud-tree-transformation-rules-childes.proto.txt     deplambda.relationPrioritiesFile lib_data/ud-relation-priorities-childes.proto.txt     deplambda.lambdaAssignmentRulesFile lib_data/ud-lambda-assignment-rules-childes.proto.txt     deplambda.lexicalizePredicates true     deplambda.debugToFile ../LF/conversion_debug.txt     nthreads 1 > ../LF/Adam.lf.json
+	cat ../LF/conll/full_adam/adam.all.input.txt | java -Dfile.encoding="UTF-8" -cp out/production/UDepLambda:lib/* deplambda.others.NlpPipeline  annotators tokenize,ssplit     tokenize.whitespace true     ssplit.eolonly true     languageCode en     deplambda true     deplambda.definedTypesFile lib_data/ud-childes.types.txt     deplambda.treeTransformationsFile lib_data/ud-tree-transformation-rules-childes.proto.txt     deplambda.relationPrioritiesFile lib_data/ud-relation-priorities-childes.proto.txt     deplambda.lambdaAssignmentRulesFile lib_data/ud-lambda-assignment-rules-childes.proto.txt     deplambda.lexicalizePredicates true     deplambda.debugToFile ../LF/logs/conversion_debug.txt     nthreads 1 > ../LF/LF_files/full_adam/adam.all.lf.json
 	
-	python postprocess.py -i ./Adam.lf.json -c ./Adam.input.txt
+	python postprocess.py -i ../LF_files/full_adam/adam.all.lf.json -c ../conll/full_adam/adam.all.input.txt
 
 isolating failed cases:
-    copy failed.txt and unreadable.txt to problematic.txt
-    copy failed_sentences.txt and unreadable_sentences.txt to problematic_sentences.txt
+	: > ../problematic.txt;cat ../logs/failed.txt ../logs/unreadable.txt >>../problematic.txt
+	: > ../problematic_sentences.txt;cat ../logs/failed_sentences.txt ../logs/unreadable_sentences.txt >>../problematic_sentences.txt
     
-    : > ../LF/conversion_debug.txt
+    : > ../LF/logs/conversion_debug.txt
     cat ../LF/problematic.txt | java -Dfile.encoding="UTF-8" -cp out/production/UDepLambda:lib/* deplambda.others.NlpPipeline  annotators tokenize,ssplit     tokenize.whitespace true     ssplit.eolonly true     languageCode en     deplambda true     deplambda.definedTypesFile lib_data/ud-childes.types.txt     deplambda.treeTransformationsFile lib_data/ud-tree-transformation-rules-childes.proto.txt     deplambda.relationPrioritiesFile lib_data/ud-relation-priorities-childes.proto.txt     deplambda.lambdaAssignmentRulesFile lib_data/ud-lambda-assignment-rules-childes.proto.txt     deplambda.lexicalizePredicates true     deplambda.debugToFile ../LF/conversion_debug.txt     nthreads 1 > ../LF/problematic.lf.json
     
     python postprocess.py -i ./problematic.lf.json -c ./problematic.txt
@@ -29,6 +29,8 @@ isolating failed cases:
 adding new transformation types:
    after modifying the protobuf file run
    protoc --java_out=./src/ ./protos/transformation-rules.proto in UDepLambda dir
-
+   
+generate final LFs:
+	python postprocess.py -i ../LF_files/full_adam/adam.all.lf.json -c ../conll/full_adam/adam.all.input.txt -o ../LF_files/full_adam/adam.all_lf.txt
 
 
