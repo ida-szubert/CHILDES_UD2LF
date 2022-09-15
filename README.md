@@ -8,6 +8,8 @@ It consists of the following directories:
 
 Details about both the annotation and the coversion efforts can be found in:
 
+
 [Cross-linguistically Consistent Semantic and Syntactic Annotation of Child-directed Speech](https://arxiv.org/abs/2109.10952)
+
 Ida Szubert, Omri Abend, Nathan Schneider, Samuel Gibbon, Sharon Goldwater, Mark Steedman
 
