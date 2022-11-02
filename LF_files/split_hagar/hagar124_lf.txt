@@ -1,0 +1,348 @@
+Sent: lāma huʔ hirbīc le ʔat ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(and(hirbīc(huʔ,$0),$1($0)),le(ʔat,$0))
+example_end
+
+Sent: ma koʔēv le Yonatan ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(kaʔāv($1,$0),le(yonatan,$0))
+example_end
+
+Sent: biglāl ze huʔ herbīc le ʔat ?
+Sem: lambda $0_{r}.Q(and(and(hirbīc(huʔ,$0),biglāl(ze,$0)),le(ʔat,$0)))
+example_end
+
+Sent: ze meʔōd loʔ yafē .
+Sem: lambda $0_{r}.not(meʔōd(yafē(ze,$0)),$0)
+example_end
+
+Sent: leharbīc , leharbīc le yēled še baḳā ?
+Sem: lambda $0_{r}.Q(and(hirbīc(you,$0),and(hirbīc(you,$0),le(BARE($1,yēled($1)),$0))))
+example_end
+
+Sent: ʔat yodāʕat ma ʕoṣīm kše raʔā yēled boḳē ?
+Sem: lambda $0_{r}.Q(yadāʕ(ʔat,lambda $1_{r}.kše(raʔā(you,lambda $2_{r}.baḳā(BARE($3,yēled($3)),$2),$1),ʕaṣā(_,ma,$1)),$0))
+example_end
+
+Sent: xamudā .
+Sem: BARE($0,xamūd($0))
+example_end
+
+Sent: ma ʔat rocā še ʔanī ʔaḳīn le ʔat leʔeḳōl ?
+Sem: lambda $0_{r}.Q(racā(ʔat,lambda $1_{r}.and(heḳīn(ʔanī,lambda $2_{r}.ʔaḳāl(ʔanī,ma,$2),$1),le(ʔat,$1)),$0))
+example_end
+
+Sent: yōfi , ṭovā .
+Sem: lambda $0_{r}.and(ṭovā($0),yōfi($0))
+example_end
+
+Sent: loʔ marbicīm le Yonatan .
+Sem: lambda $0_{r}.not(and(hirbīc(you,$0),le(yonatan,$0)),$0)
+example_end
+
+Sent: yāʔlla , bōʔi neṣaxēq be lōṭo .
+Sem: lambda $0_{r}.and(and(and(ṣixēq(you,$0),be(BARE($1,lōṭo($1)),$0)),yāʔlla($0)),baʔ(you,$0))
+example_end
+
+Sent: hīne gamāl , ʔanī roʔā gamāl .
+Sem: lambda $0_{r}.and(hīne(BARE($1,gamāl($1)),$0),raʔā(ʔanī,BARE($2,gamāl($2)),$0))
+example_end
+
+Sent: ʔēyfo yeš gamāl ?
+Sem: lambda $0_{r}.Q(and(yeš(BARE($1,gamāl($1)),$0),ʔēyfo($0)))
+example_end
+
+Sent: naḳōn , ʔaz taṣīmi ʔet ha gamāl ʕal ha gamāl .
+Sem: lambda $0_{r}.and(and(ṣam(you,ha($1,gamāl_ʔet($1)),$0),ʕal(ha($2,gamāl($2)),$0)),naḳōn($0))
+example_end
+
+Sent: naxāš leḳ .
+Sem: lambda $0_{r}.halāḳ(you,$0)
+example_end
+
+Sent: Gogo , ʔulāy ʔat rocā qcat mic tapuzīm ʔamitī ?
+Sem: lambda $0_{r}.Q(and(racā(ʔat,qcat($1,and(ʔemēt($1),and_comp(tapūz($1),mic($1)))),$0),ʔulāy($0)))
+example_end
+
+Sent: ʔaz ma naʕaṣē ?
+Sem: lambda $1_{e}.lambda $0_{r}.ʕaṣā(you,$1,$0)
+example_end
+
+Sent: bōʔi neṣaxēq be lōṭo , kol ha zman ʔat ʔomēret bōʔi neṣaxēq be lōṭo , we ʔat biḳlāl loʔ .
+Sem: lambda $0_{r}.and(and(ṣixēq(you,BARE($1,lōṭo_be($1)),$0),loʔ($0)),baʔ(you,$0))
+example_end
+
+Sent: ʔēyfo ha parpār ?
+Sem: lambda $0_{r}.Q(ʔēyfo(ha($1,parpār($1)),$0))
+example_end
+
+Sent: ʔēyfo ha parpār ?
+Sem: lambda $0_{r}.Q(ʔēyfo(ha($1,parpār($1)),$0))
+example_end
+
+Sent: nu be ʔemēt , mi ze ?
+Sem: lambda $1_{e}.lambda $0_{r}.and($1(ze,$0),nu_ʔemēt($0))
+example_end
+
+Sent: ʔēyfo ha naxāš ?
+Sem: lambda $0_{r}.Q(ʔēyfo(ha($1,naxāš($1)),$0))
+example_end
+
+Sent: naḳōn , we tirʔē ma yeš mitāxat le ~ha parpār .
+Sem: lambda $0_{r}.and(raʔā(you,lambda $1_{r}.and(yeš(ma,$1),mitāxat_le(~ha($2,parpār($2)),$1)),$0),naḳōn($0))
+example_end
+
+Sent: naḳōn .
+Sem: lambda $0_{r}.naḳōn($0)
+example_end
+
+Sent: loʔ ʔēyze šṭuyōt .
+Sem: lambda $0_{r}.and(ʔēyze($1,šṭut($1),$0),loʔ($0))
+example_end
+
+Sent: ma pitʔōm , ʔēyfo parpār ?
+Sem: lambda $0_{r}.ʔēyfo(BARE($1,parpār($1)),$0)
+example_end
+
+Sent: nu be ʔemēt Gūgu , ʔēyze šṭuyōt .
+Sem: lambda $0_{r}.and(nu_ʔemēt($0),ʔēyze($1,šṭut($1)))
+example_end
+
+Sent: hīne ha parpār .
+Sem: lambda $0_{r}.hīne(ha($1,parpār($1)),$0)
+example_end
+
+Sent: hīne parpāri be ~ha maqōm .
+Sem: lambda $0_{r}.and(att(parpāri($0),be(~ha($1,maqōm($1)))),hīne($0))
+example_end
+
+Sent: we tirʔē gam ha zēbra po .
+Sem: lambda $0_{r}.and(raʔā(you,$0),po(ha($1,gam($2,zēbra($2),$1)),$0))
+example_end
+
+Sent: ʔavāl lāma ṣamt ʔet hiʔ hafūḳ ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(and(ṣam(you,hiʔ_ʔet,$0),$1($0)),hafūḳ($0))
+example_end
+
+Sent: ʔat be ʔemēt maxziqā , qcat hafūḳ , ʔat maxziqā ʕal ha cad .
+Sem: lambda $0_{r}.and(and(and(hexzīq(ʔat,$0),ʔemēt_be($0)),qcat(hafūḳ($0))),and(hexzīq(ʔat,$0),ʕal(ha($1,cad($1)),$0)))
+example_end
+
+Sent: Hagāri , bōʔi neṣaxēq ʔet ha miṣxāq ha ze ʕim mešulašīm we ribūaʕ .
+Sem: lambda $0_{r}.and(ṣixēq(you,ha($1,att(and(ha($2,ze($2),$1),miṣxāq_ʔet($1)),ʕim(BARE($3,ribūaʕ($3))))),$0),baʔ(you,$0))
+example_end
+
+Sent: ṭov , ʔaz tavīʔi ʔet ha qubiyā .
+Sem: lambda $0_{r}.and(hevīʔ(you,ha($1,qubiyā_ʔet($1)),$0),ṭov($0))
+example_end
+
+Sent: beynatāyim ʔat rocā lehašxīl xaruzīm ?
+Sem: lambda $0_{r}.Q(and(racā(ʔat,lambda $1_{r}.hišxīl(ʔat,BARE($2,xarūz($2)),$1),$0),beynatāyim($0)))
+example_end
+
+Sent: bevaqašā , ʔavāl ma ʔasūr laʕaṣōt ?
+Sem: lambda $1_{e}.lambda $1_{e}.lambda $0_{r}.and(ʔasūr($1,lambda $2_{r}.ʕaṣā($1,$2),$0),bevaqašā($0))
+example_end
+
+Sent: ma ʔasūr ?
+Sem: lambda $1_{e}.lambda $0_{r}.ʔasūr($1,$0)
+example_end
+
+Sent: šney dvarīm ʕim xaruzīm ʔasūr meʔōd laʕaṣōt .
+Sem: lambda $0_{r}.and(ʔasūr(BARE($1,att(šney(davār($1)),ʕim(BARE($2,xarūz($2))))),lambda $3_{r}.ʕaṣā(BARE($4,att(šney(davār($4)),ʕim(BARE($5,xarūz($5))))),$3),$0),meʔōd($0))
+example_end
+
+Sent: ʔat mavṭixā še tašxilī ?
+Sem: lambda $0_{r}.Q(hivṭīax(ʔat,lambda $1_{r}.hišxīl(you,$1),$0))
+example_end
+
+Sent: we loʔ taḳnīsi le ~ha pe ?
+Sem: lambda $0_{r}.Q(not(and(hiḳnīs(you,$0),le(~ha($1,pe($1)),$0)),$0))
+example_end
+
+Sent: we loʔ tizreqī be kol qcawōt ha bāyit ?
+Sem: lambda $0_{r}.Q(not(and(zarāq(you,$0),be(kol($1,and_comp(ha($2,bāyit($2),$1),qacē($1))),$0)),$0))
+example_end
+
+Sent: ʔaz ʔanī ʔetēn le ʔat .
+Sem: lambda $0_{r}.and(natān(ʔanī,$0),le(ʔat,$0))
+example_end
+
+Sent: ma loʔ ʔasūr ?
+Sem: lambda $1_{e}.lambda $0_{r}.not(ʔasūr($1,$0),$0)
+example_end
+
+Sent: lešaxrēr ʔat rocā ?
+Sem: lambda $0_{r}.Q(racā(ʔat,lambda $1_{r}.šixrēr(ʔat,$1),$0))
+example_end
+
+Sent: lešaxrēr ʔet ha xarūz ?
+Sem: lambda $0_{r}.Q(šixrēr(you,ha($1,xarūz_ʔet($1)),$0))
+example_end
+
+Sent: ṭov .
+Sem: lambda $0_{r}.ṭov($0)
+example_end
+
+Sent: ma ze pon ?
+Sem: lambda $1_{e}.lambda $0_{r}.pon($1,$0)
+example_end
+
+Sent: ze picpōn ?
+Sem: lambda $0_{r}.Q(picpōn(ze,$0))
+example_end
+
+Sent: ʔe , ʔanī roʔā kaʔn xaruzīm betōḳ qufsā , ʔanī loʔ yodāʕat le ma ʔat mitkawēnet .
+Sem: lambda $0_{r}.and(and(and(raʔā(ʔanī,BARE($1,att(xarūz($1),betōḳ(BARE($2,qufsā($2))))),$0),kaʔn($0)),not(yadāʕ(ʔanī,lambda $3_{r}.and(hitkawēn(ʔat,$3),le(ma,$3)),$0),$0)),ʔe($0))
+example_end
+
+Sent: tidxefī ʕod !
+Sem: lambda $0_{r}.and(daxāf(you,$0),ʕod($0))
+example_end
+
+Sent: hīne , yafē hiclāxt , ʔat roʔā ?
+Sem: lambda $0_{r}.Q(and(and(and(hiclīax(you,$0),yafē($0)),raʔā(ʔat,$0)),hīne($0)))
+example_end
+
+Sent: yarōq , ʕaḳšāyw yarōq .
+Sem: and(BARE($0,yarōq($0)),BARE($1,ʕaḳšāyw(yarōq($1))))
+example_end
+
+Sent: bewadāʔi .
+Sem: lambda $0_{r}.bewadāʔi($0)
+example_end
+
+Sent: loʔ , ʔat gdolā .
+Sem: lambda $0_{r}.and(gadōl(ʔat,$0),loʔ($0))
+example_end
+
+Sent: raq yeladīm qṭanīm še hištolēl we ʕaṣā balagān zorqīm xaruzīm .
+Sem: lambda $0_{r}.zarāq(raq($1,and(qaṭān($1),yēled($1))),BARE($2,xarūz($2)),$0)
+example_end
+
+Sent: naḳōn , ʔavāl ʔēyze lavān ze ?
+Sem: lambda $0_{r}.Q(and(lavān(ze,$0),naḳōn($0)))
+example_end
+
+Sent: ze kadūr .
+Sem: lambda $0_{r}.kadūr(ze,$0)
+example_end
+
+Sent: ze kadūr .
+Sem: lambda $0_{r}.kadūr(ze,$0)
+example_end
+
+Sent: loʔ , ze loʔ ʕigūl .
+Sem: lambda $0_{r}.and(not(ʕigūl(ze,$0),$0),loʔ($0))
+example_end
+
+Sent: ze ʕigūl , be kol nequdā še ʔat xotēḳet .
+Sem: lambda $0_{r}.and(ʕigūl(ze,$0),kol($1,nequdā($1)))
+example_end
+
+Sent: ʕaḳšāyw ze qašē ken .
+Sem: lambda $0_{r}.and(ʕaḳšāyw(qašē(ze,$0)),ken($0))
+example_end
+
+Sent: meʔōd qašē .
+Sem: BARE($0,meʔōd(qašē($0)))
+example_end
+
+Sent: naḳōn , hīne kadūr yarōq .
+Sem: lambda $0_{r}.and(hīne(BARE($1,and(yarōq($1),kadūr($1))),$0),naḳōn($0))
+example_end
+
+Sent: naḳōn ?
+Sem: lambda $0_{r}.Q(naḳōn($0))
+example_end
+
+Sent: hištaʕālt we hitʕaṭēš .
+Sem: lambda $0_{r}.hitʕaṭēš(you,$0)
+example_end
+
+Sent: yōfi Hagāri , ʔat mašxilā meʔōd yafē xaruzīm .
+Sem: lambda $0_{r}.and(and(hišxīl(ʔat,BARE($1,xarūz($1)),$0),meʔōd(yafē($0))),yōfi($0))
+example_end
+
+Sent: ʔēyzo curā yeš le ~ha xarūz ha ze ?
+Sem: lambda $0_{r}.Q(and(yeš(ʔēyzo($1,curā($1)),$0),le(~ha($2,and(ha($3,ze($3),$2),xarūz($2))),$0)))
+example_end
+
+Sent: ze kadūr , naḳōn , ha curā šel ha xarūz ha ze , hiʔ kadūr .
+Sem: lambda $0_{r}.and(and(kadūr(ze,$0),kadūr(ha($1,att(curā($1),šel(ha($2,and(ha($3,ze($3),$2),xarūz($2)))))),$0)),naḳōn($0))
+example_end
+
+Sent: ma ze , ʔēyze cēvaʕ yeš le ~ha xarūz ha ze ?
+Sem: lambda $1_{e}.lambda $0_{r}.and($1(ze,$0),and(yeš(ʔēyze($2,cēvaʕ($2)),$0),le(~ha($3,and(ha($4,ze($4),$3),xarūz($3))),$0)))
+example_end
+
+Sent: loʔ .
+Sem: lambda $0_{r}.loʔ($0)
+example_end
+
+Sent: naḳōn .
+Sem: lambda $0_{r}.naḳōn($0)
+example_end
+
+Sent: ze kaxōl .
+Sem: lambda $0_{r}.kaxōl(ze,$0)
+example_end
+
+Sent: tistaklī be ~ha maxrōzet šelāḳ .
+Sem: lambda $0_{r}.and(histakēl(you,$0),be(šel($1,~ha($2,maxrōzet($2),$1)),$0))
+example_end
+
+Sent: ʔavāl ha xarūz ha ze yeš yotēr curōt .
+Sem: lambda $0_{r}.yeš(yotēr($1,curā($1)),$0)
+example_end
+
+Sent: tasbīri le ʔanī ʔeyḳ ʔat ma , ʔeyḳ ʔat mašxilā xaruzīm , ʔeyḳ ze maclīax le ʔat ?
+Sem: lambda $0_{r}.Q(and(hisbīr(you,lambda $1_{r}.and(and(hišxīl(ʔat,BARE($2,xarūz($2)),$1),ʔeyḳ($1)),and(and(maclīax(ze,$1),ʔeyḳ($1)),le(ʔat,$1))),$0),le(ʔanī,$0)))
+example_end
+
+Sent: ze ʔadōm , naḳōn .
+Sem: lambda $0_{r}.and(ʔadōm(ze,$0),naḳōn($0))
+example_end
+
+Sent: ʔoy Hagāri , ma yacāʔ le ʔat kaʔn ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(and(and(yacāʔ($1,$0),le(ʔat,$0)),kaʔn($0)),ʔoy($0))
+example_end
+
+Sent: bōʔi naqūm .
+Sem: lambda $0_{r}.and(qam(you,$0),baʔ(you,$0))
+example_end
+
+Sent: ʔat kvar loʔ rocā pīpi , ʔat kvar ʕaṣīt ʔet kol kol ha pīpi .
+Sem: lambda $0_{r}.and(not(and(racā(ʔat,BARE($1,pīpi($1)),$0),kvar($0)),$0),and(ʕaṣā(ʔat,kol(ha($2,pīpi_ʔet($2))),$0),kvar($0)))
+example_end
+
+Sent: ʕaḳšāyw ʔat rocā ʕod pīpi ?
+Sem: lambda $0_{r}.Q(and(racā(ʔat,ʕod($1,pīpi($1)),$0),ʕaḳšāyw($0)))
+example_end
+
+Sent: ʔanī roʔā še yeš po , yeš kaʔn šlulīt .
+Sem: lambda $0_{r}.and(raʔā(ʔanī,lambda $1_{r}.and(yeš(you,$1),po($1)),$0),and(yeš(BARE($2,šlulīt($2)),$0),kaʔn($0)))
+example_end
+
+Sent: ʔaz telḳī le ~ha sir .
+Sem: lambda $0_{r}.and(halāḳ(you,$0),le(~ha($1,sir($1)),$0))
+example_end
+
+Sent: ʔat xošēvet še gam yeš le ʔat qāqi ?
+Sem: lambda $0_{r}.Q(xašāv(ʔat,lambda $1_{r}.and(and(yeš(BARE($2,qāqi($2)),$1),gam($1)),le(ʔat,$1)),$0))
+example_end
+
+Sent: pīpi ʕaṣīt pīpi gadōl .
+Sem: lambda $0_{r}.and(ʕaṣā(BARE($1,pīpi($1)),$0),BARE($2,and(gadōl($2),pīpi($2))))
+example_end
+
+Sent: ʔeyn le ʔat kvar .
+Sem: lambda $0_{r}.and(and(ʔeyn(you,$0),le(ʔat,$0)),kvar($0))
+example_end
+
+Sent: ṭov , be ~ha pāʕam ha baʔā , taṣīmi .
+Sem: lambda $0_{r}.and(and(ṣam(you,$0),be(~ha($1,and(baʔ($1),pāʕam($1))),$0)),ṭov($0))
+example_end
+
+Sent: ze loʔ yarōq .
+Sem: lambda $0_{r}.not(yarōq(ze,$0),$0)
+example_end
+

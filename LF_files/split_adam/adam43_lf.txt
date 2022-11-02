@@ -1,0 +1,244 @@
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what does it say ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-3s_2(v|say_4(pro:per|it_3,$1,$0),$0)
+example_end
+
+Sent: what does it say ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-3s_2(v|say_4(pro:per|it_3,$1,$0),$0)
+example_end
+
+Sent: what are those ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|those_3,$0)
+example_end
+
+Sent: what 's that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: and what is this ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_4,$0)
+example_end
+
+Sent: he 's happy .
+Sem: lambda $0_{r}.adj|happy_3(pro:sub|he_1,$0)
+example_end
+
+Sent: and what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_4,$0)
+example_end
+
+Sent: and what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_4,$0)
+example_end
+
+Sent: and what is this ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_4,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what about this ?
+Sem: att(pro:int|what_1,prep|about_2(pro:dem|this_3))
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: and what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_4,$0)
+example_end
+
+Sent: what kind of flowers are they ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:sub|they_6,att(n|kind_2(pro:sub|they_6,$0),prep|of_3(BARE($2,n|flower-pl_4($2)))))
+example_end
+
+Sent: and what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_4,$0)
+example_end
+
+Sent: there it is .
+Sem: lambda $0_{r}.cop|be-3s_3_there_1_it_2(you,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what are those ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|those_3,$0)
+example_end
+
+Sent: no I don 't think so .
+Sem: lambda $0_{r}.and(not(mod|do_3(and(v|think_5(pro:sub|i_2,$0),co|so_6($0)),$0),$0),co|no_1($0))
+example_end
+
+Sent: oh no .
+Sem: lambda $0_{r}.co|oh_1_no_2($0)
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: don 't you see it ?
+Sem: lambda $0_{r}.Q(not(mod|do_1(v|see_4(pro:per|you_3,pro:per|it_5,$0),$0),$0))
+example_end
+
+Sent: no look .
+Sem: lambda $0_{r}.and(co|look_2(you,$0),co|no_1($0))
+example_end
+
+Sent: what is this .
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: look at it again .
+Sem: lambda $0_{r}.and(and(cop|look_1(you,$0),prep|at_2(pro:per|it_3,$0)),adv|again_4($0))
+example_end
+
+Sent: I think so .
+Sem: lambda $0_{r}.and(v|think_2(pro:sub|i_1,$0),co|so_3($0))
+example_end
+
+Sent: what 's he doing ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|~be_2(part|do-presp_4(pro:sub|he_3,$1,$0),$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: yes I suppose so .
+Sem: lambda $0_{r}.and(and(v|suppose_3(pro:sub|i_2,$0),co|so_4($0)),co|yes_1($0))
+example_end
+
+Sent: bless you .
+Sem: lambda $0_{r}.v|bless_1(you,pro:per|you_2,$0)
+example_end
+
+Sent: bless you .
+Sem: lambda $0_{r}.v|bless_1(you,pro:per|you_2,$0)
+example_end
+
+Sent: what 's this ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: no Paul .
+Sem: lambda $0_{r}.and(n:prop|paul_2($0),co|no_1($0))
+example_end
+
+Sent: that 's very nice .
+Sem: lambda $0_{r}.adv|very_3(adj|nice_4(pro:dem|that_1,$0))
+example_end
+
+Sent: I do too .
+Sem: lambda $0_{r}.and(v|do_2(pro:sub|i_1,$0),post|too_3($0))
+example_end
+
+Sent: don 't do that .
+Sem: lambda $0_{r}.not(mod|do_1(v|do_3(you,pro:dem|that_4,$0),$0),$0)
+example_end
+
+Sent: oh I see .
+Sem: lambda $0_{r}.and(v|see_3(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: oh Paul .
+Sem: lambda $0_{r}.and(n:prop|paul_2($0),co|oh_1($0))
+example_end
+
+Sent: oh alright .
+Sem: lambda $0_{r}.and(co|alright_2($0),co|oh_1($0))
+example_end
+
+Sent: that 's alright .
+Sem: lambda $0_{r}.adj|alright_3(pro:dem|that_1,$0)
+example_end
+
+Sent: oh alright .
+Sem: lambda $0_{r}.and(co|alright_2($0),co|oh_1($0))
+example_end
+
+Sent: what happened to the airplane ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(v|happen-past_2($1,$0),prep|to_3(det:art|the_4($2,n|airplane_5($2)),$0))
+example_end
+
+Sent: oh I 'm sorry .
+Sem: lambda $0_{r}.and(adj|sorry_4(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: oh no .
+Sem: lambda $0_{r}.co|oh_1_no_2($0)
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: I 'm sorry .
+Sem: lambda $0_{r}.adj|sorry_3(pro:sub|i_1,$0)
+example_end
+
+Sent: oh no .
+Sem: lambda $0_{r}.co|oh_1_no_2($0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: are you ready to go to bed ?
+Sem: lambda $0_{r}.Q(adj|ready_3(pro:per|you_2,lambda $1_{r}.and(v|go_5(pro:per|you_2,$1),prep|to_6(BARE($2,n|bed_7($2)),$1)),$0))
+example_end
+
+Sent: no I don 't think so .
+Sem: lambda $0_{r}.and(not(mod|do_3(and(v|think_5(pro:sub|i_2,$0),co|so_6($0)),$0),$0),co|no_1($0))
+example_end
+
+Sent: yes they do .
+Sem: lambda $0_{r}.and(v|do_3(pro:sub|they_2,$0),co|yes_1($0))
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+

@@ -1,0 +1,64 @@
+Sent: Hagāri mesapēret le ʕacmāh sipurīm be ~ha miṭā .
+Sem: lambda $0_{r}.and(and(sipēr(hagāri,BARE($1,sipūr($1)),$0),le(ʕacmāh,$0)),be(~ha($2,miṭā($2)),$0))
+example_end
+
+Sent: saprī ʔet ze .
+Sem: lambda $0_{r}.sipēr(you,ze_ʔet,$0)
+example_end
+
+Sent: tesaprī ʔet huʔ be qol ram še gam ʔīmaʔ tišmāʕ .
+Sem: lambda $0_{r}.še(šamāʕ(gam(ʔīmaʔ),$0),and(sipēr(you,huʔ_ʔet,$0),be(BARE($1,and(ram($1),qol($1))),$0)))
+example_end
+
+Sent: hayā lānu hayōm ṭiyūl meʔōd qašē .
+Sem: lambda $0_{r}.and(and(hayā(BARE($1,and(meʔōd(qašē($1)),ṭiyūl($1))),$0),lan(you,$0)),hayōm($0))
+example_end
+
+Sent: mi zoʔt ʔāya ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(ʔāya,$0)
+example_end
+
+Sent: še tihiyī le ʔat kōax le bilūy .
+Sem: lambda $0_{r}.and(hayā(BARE($1,att(kōax($1),le(BARE($2,bilūy($2))))),$0),le(ʔat,$0))
+example_end
+
+Sent: Dūdu , ma ʔat rocā še ʔanī ʔetēn le ʔat ?
+Sem: lambda $0_{r}.Q(racā(ʔat,lambda $1_{r}.and(natān(ʔanī,ma,$1),le(ʔat,$1)),$0))
+example_end
+
+Sent: yeš le ʔat qāqi ?
+Sem: lambda $0_{r}.Q(and(yeš(BARE($1,qāqi($1)),$0),le(ʔat,$0)))
+example_end
+
+Sent: ʔat moridā ʔet ha miḳnās ?
+Sem: lambda $0_{r}.Q(horīd(ʔat,ha($1,miḳnās_ʔet($1)),$0))
+example_end
+
+Sent: ʔanī ʔeʕezōr le ʔat .
+Sem: lambda $0_{r}.and(ʕazār(ʔanī,$0),le(ʔat,$0))
+example_end
+
+Sent: tagīdi le ʔanī , ma ʕim ha qāqi ?
+Sem: lambda $0_{r}.and(higīd(you,$0),le(ʔanī,$0))
+example_end
+
+Sent: leʔān huʔ halāḳ , ha qāqi ha ze ?
+Sem: lambda $0_{r}.Q(and(halāḳ(huʔ,$0),leʔān($0)))
+example_end
+
+Sent: ʔat ṣamt be ~ha beyt šimūš qāqi ?
+Sem: lambda $0_{r}.Q(and(ṣam(ʔat,BARE($1,qāqi($1)),$0),be(~ha($2,and_comp(šimūš($2),bāyit($2))),$0)))
+example_end
+
+Sent: tni le ʔanī lirʔōt .
+Sem: lambda $0_{r}.and(natān(you,lambda $1_{r}.raʔā(you,$1),$0),le(ʔanī,$0))
+example_end
+
+Sent: naḳōn .
+Sem: lambda $0_{r}.naḳōn($0)
+example_end
+
+Sent: naḳōn , we šel mi ʔat xaverā ?
+Sem: lambda $1_{e}.lambda $0_{r}.and($1(ʔat,xavēr(ʔat,$0)),naḳōn($0))
+example_end
+

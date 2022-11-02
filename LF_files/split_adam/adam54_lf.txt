@@ -1,0 +1,176 @@
+Sent: oh Paul .
+Sem: lambda $0_{r}.and(n:prop|paul_2($0),co|oh_1($0))
+example_end
+
+Sent: hello Adam .
+Sem: lambda $0_{r}.co|hello_1($0)
+example_end
+
+Sent: what happened to it ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(v|happen-past_2($1,$0),prep|to_3(pro:per|it_4,$0))
+example_end
+
+Sent: you did .
+Sem: lambda $0_{r}.v|do-past_2(pro:per|you_1,$0)
+example_end
+
+Sent: yes I suppose so .
+Sem: lambda $0_{r}.and(and(v|suppose_3(pro:sub|i_2,$0),co|so_4($0)),co|yes_1($0))
+example_end
+
+Sent: what color is this ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_4,n|color_2(pro:dem|this_4,$0))
+example_end
+
+Sent: no thank_you Adam .
+Sem: qn|no_1($0,n|thank_you_2($0))
+example_end
+
+Sent: one two .
+Sem: BARE($0,det:num|one_1($0))
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: what did you say ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|say_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: this way .
+Sem: pro:dem|this_1($0,n|way_2($0))
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: no Paul .
+Sem: lambda $0_{r}.and(n:prop|paul_2($0),co|no_1($0))
+example_end
+
+Sent: I 'll try .
+Sem: lambda $0_{r}.mod|~will_2(v|try_3(pro:sub|i_1,$0),$0)
+example_end
+
+Sent: you almost did it ?
+Sem: lambda $0_{r}.Q(and(mod|do-past_3(pro:per|you_1,pro:per|it_4,$0),adv|almost_2($0)))
+example_end
+
+Sent: careful Adam !
+Sem: BARE($0,co|careful_1($0))
+example_end
+
+Sent: oh I see .
+Sem: lambda $0_{r}.and(v|see_3(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: that 's not a hammer .
+Sem: lambda $0_{r}.not(det:art|a_4(pro:dem|that_1,n|hammer_5(pro:dem|that_1,$0)),$0)
+example_end
+
+Sent: how are you ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(aux|be-pres_2(pro:per|you_3,$0),$1($0))
+example_end
+
+Sent: what 's that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what is it ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:per|it_3,$0)
+example_end
+
+Sent: what is that song ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3($2,n|song_4($2)),$0)
+example_end
+
+Sent: who 's there ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(aux|~be_2($1,$0),adv|there_3($0))
+example_end
+
+Sent: who is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: here 's one .
+Sem: lambda $0_{r}.and(cop|~be_2(pro:indef|one_3,$0),pro:exist|here_1($0))
+example_end
+
+Sent: here 's another one .
+Sem: lambda $0_{r}.and(cop|~be_2(qn|another_3($1,pro:indef|one_4($1)),$0),pro:exist|here_1($0))
+example_end
+
+Sent: wait a minute .
+Sem: lambda $0_{r}.v|wait_1(you,det:art|a_2($1,n|minute_3($1)),$0)
+example_end
+
+Sent: look here .
+Sem: lambda $0_{r}.and(cop|look_1(you,$0),adv|here_2($0))
+example_end
+
+Sent: here 's one .
+Sem: lambda $0_{r}.and(cop|~be_2(pro:indef|one_3,$0),pro:exist|here_1($0))
+example_end
+
+Sent: yes you did .
+Sem: lambda $0_{r}.and(v|do-past_3(pro:per|you_2,$0),co|yes_1($0))
+example_end
+
+Sent: who is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what d you mean ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(adj|mean_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: may I see that ?
+Sem: lambda $0_{r}.Q(mod|may_1(v|see_3(pro:sub|i_2,pro:dem|that_4,$0),$0))
+example_end
+
+Sent: I think so .
+Sem: lambda $0_{r}.and(v|think_2(pro:sub|i_1,$0),co|so_3($0))
+example_end
+
+Sent: who is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: here 's one .
+Sem: lambda $0_{r}.and(cop|~be_2(pro:indef|one_3,$0),pro:exist|here_1($0))
+example_end
+
+Sent: here 's one .
+Sem: lambda $0_{r}.and(cop|~be_2(pro:indef|one_3,$0),pro:exist|here_1($0))
+example_end
+
+Sent: that 's what ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_1,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: I think so .
+Sem: lambda $0_{r}.and(v|think_2(pro:sub|i_1,$0),co|so_3($0))
+example_end
+
+Sent: alright Adam .
+Sem: lambda $0_{r}.co|alright_1($0)
+example_end
+

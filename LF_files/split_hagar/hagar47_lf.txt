@@ -1,0 +1,156 @@
+Sent: Hagāri , ʔat rocā leʔeḳōl māšehu ?
+Sem: lambda $0_{r}.Q(racā(ʔat,lambda $1_{r}.ʔaḳāl(ʔat,māšehu,$1),$0))
+example_end
+
+Sent: ʔulāy naqnīq ?
+Sem: BARE($0,Q(ʔulāy(BARE($1,naqnīq($1)),$0)))
+example_end
+
+Sent: Hagāri , ʔat rocā ʔulāy leʔeḳōl māšehu ?
+Sem: lambda $0_{r}.Q(and(racā(ʔat,lambda $1_{r}.ʔaḳāl(ʔat,māšehu,$1),$0),ʔulāy($0)))
+example_end
+
+Sent: Gōlgi ?
+Sem: BARE($0,Q(gōlgi($0)))
+example_end
+
+Sent: ʔoy wa ʔavōy , ma qarā ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(qarā($1,$0),ʔavōy($0))
+example_end
+
+Sent: ma ʔābaʔle ʕoṣē ?
+Sem: lambda $1_{e}.lambda $0_{r}.ʕaṣā(ʔābaʔ,$1,$0)
+example_end
+
+Sent: ʔulāy Hagāri teṣaxēq ʕim ha bubā be ~ha bāyit šel Hagāri ?
+Sem: lambda $0_{r}.Q(and(and(and(ṣixēq(hagāri,$0),ʔulāy($0)),ʕim(ha($1,bubā($1)),$0)),be(hagāri's($2,~ha($3,bāyit($3),$2)),$0)))
+example_end
+
+Sent: ʔay .
+Sem: lambda $0_{r}.ʔay($0)
+example_end
+
+Sent: mi gar kaʔn betōḳ ha bāyit ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(and(gar($1,$0),kaʔn($0)),betōḳ(ha($2,bāyit($2)),$0))
+example_end
+
+Sent: Hagāri , ʔat histakālt ʕal ha qišūṭ šel ha bāyit ?
+Sem: lambda $0_{r}.Q(and(histakēl(ʔat,$0),ʕal(bāyit's($1,ha($2,qišūṭ($2),$1)),$0)))
+example_end
+
+Sent: ʔēyfo yeš ribūaʕ ?
+Sem: lambda $0_{r}.Q(and(yeš(BARE($1,ribūaʕ($1)),$0),ʔēyfo($0)))
+example_end
+
+Sent: harʔī le ʔanī .
+Sem: lambda $0_{r}.and(herʔā(you,$0),le(ʔanī,$0))
+example_end
+
+Sent: ze loʔ ribūaʕ , ze malbēn .
+Sem: lambda $0_{r}.ribūaʕ(ze,$0)
+example_end
+
+Sent: ʔavāl ze ribūaʕ .
+Sem: lambda $0_{r}.ribūaʕ(ze,$0)
+example_end
+
+Sent: ze malbēn .
+Sem: lambda $0_{r}.malbēn(ze,$0)
+example_end
+
+Sent: loʔ , ze malbēn .
+Sem: lambda $0_{r}.and(malbēn(ze,$0),loʔ($0))
+example_end
+
+Sent: loʔ , ze malbēn .
+Sem: lambda $0_{r}.and(malbēn(ze,$0),loʔ($0))
+example_end
+
+Sent: ze ribūaʕ .
+Sem: lambda $0_{r}.ribūaʕ(ze,$0)
+example_end
+
+Sent: raq ze ribūaʕ .
+Sem: lambda $0_{r}.ribūaʕ(raq(ze),$0)
+example_end
+
+Sent: ze merubāʕ .
+Sem: lambda $0_{r}.merubāʕ(ze,$0)
+example_end
+
+Sent: ze loʔ ribūaʕ , ze merubāʕ .
+Sem: lambda $0_{r}.ribūaʕ(ze,$0)
+example_end
+
+Sent: gam ze merubāʕ .
+Sem: lambda $0_{r}.merubāʕ(gam(ze),$0)
+example_end
+
+Sent: ʔat rocā ?
+Sem: lambda $0_{r}.Q(racā(ʔat,$0))
+example_end
+
+Sent: nispōr .
+Sem: lambda $0_{r}.safār(you,$0)
+example_end
+
+Sent: štāyim .
+Sem: BARE($0,štāyim($0))
+example_end
+
+Sent: ze ʔadōm .
+Sem: lambda $0_{r}.ʔadōm(ze,$0)
+example_end
+
+Sent: ha gav šel ha bāyit .
+Sem: bāyit's($0,ha($1,gav($1),$0))
+example_end
+
+Sent: ʔoy , tirʔī kāma ribuʕīm merubaʕīm yeš kaʔn .
+Sem: lambda $2_{<<e,e>,e>}.lambda $0_{r}.and(raʔā(you,lambda $1_{r}.and(yeš($2($3,and(merubāʕ($3),ribūaʕ($3))),$1),kaʔn($1)),$0),ʔoy($0))
+example_end
+
+Sent: ʔavāl tirʔī ma yeš kaʔn lemāṭa .
+Sem: lambda $0_{r}.raʔā(you,lambda $1_{r}.and(and(yeš(ma,$1),kaʔn($1)),lemāṭa($1)),$0)
+example_end
+
+Sent: ma ze ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(ze,$0)
+example_end
+
+Sent: naḳōn .
+Sem: BARE($0,naḳōn($0))
+example_end
+
+Sent: xavāl še torīdi ʔet huʔ .
+Sem: lambda $0_{r}.horīd(you,huʔ_ʔet,$0)
+example_end
+
+Sent: ʕaḳšāyw ʔeyn mešulāš yotēr .
+Sem: lambda $0_{r}.and(and(ʔeyn(BARE($1,mešulāš($1)),$0),ʕaḳšāyw($0)),yotēr($0))
+example_end
+
+Sent: Hagāri qarʕā ʔet ha mešulāš , ʔaz ʔeyn mešulāš .
+Sem: lambda $0_{r}.and(qarāʕ(hagāri,BARE($1,mešulāš_ʔet($1)),$0),and(ʔeyn(BARE($2,mešulāš($2)),$0),ʔaz($0)))
+example_end
+
+Sent: ʔoy wa ʔavōy .
+Sem: lambda $0_{r}.ʔavōy($0)
+example_end
+
+Sent: Hagāri , ʔat horēset ʔet ha ciyūr šel ʔat .
+Sem: lambda $0_{r}.harās(ʔat,ʔat($1,ha($2,ciyūr_ʔet($2),$1)),$0)
+example_end
+
+Sent: lāma ʔat ʕoṣā ʔet ze ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(ʕaṣā(ʔat,ze_ʔet,$0),$1($0))
+example_end
+
+Sent: ʔat meqalqēlet .
+Sem: lambda $0_{r}.qilqēl(ʔat,$0)
+example_end
+
+Sent: ʕaḳšāyw ha bāyit šel Hagāri mequlqāl .
+Sem: lambda $0_{r}.ʕaḳšāyw(mequlqāl(hagāri's($1,ha($2,bāyit($2),$1)),$0))
+example_end
+

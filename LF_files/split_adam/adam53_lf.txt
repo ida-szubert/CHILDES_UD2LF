@@ -1,0 +1,148 @@
+Sent: come on .
+Sem: lambda $0_{r}.and(v|come_1(you,$0),adv|on_2($0))
+example_end
+
+Sent: what is this .
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: what 's that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: it is .
+Sem: lambda $0_{r}.cop|be-3s_2(pro:per|it_1,$0)
+example_end
+
+Sent: don 't do that .
+Sem: lambda $0_{r}.not(mod|do_1(v|do_3(you,pro:dem|that_4,$0),$0),$0)
+example_end
+
+Sent: yes dear .
+Sem: lambda $0_{r}.and(co|dear_2($0),co|yes_1($0))
+example_end
+
+Sent: a whale ?
+Sem: BARE($0,Q(det:art|a_1($1,n|whale_2($1),$0)))
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: what d you see ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(v|see_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: please don 't .
+Sem: lambda $0_{r}.and(not(mod|do_2(you,$0),$0),co|please_1($0))
+example_end
+
+Sent: yes they do .
+Sem: lambda $0_{r}.and(v|do_3(pro:sub|they_2,$0),co|yes_1($0))
+example_end
+
+Sent: shame on you .
+Sem: BARE($0,att(n|shame_1($0),prep|on_2(pro:per|you_3)))
+example_end
+
+Sent: and what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_4,$0)
+example_end
+
+Sent: what did you say ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|say_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: oh I see .
+Sem: lambda $0_{r}.and(v|see_3(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: what d you need ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(v|need_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: look here .
+Sem: lambda $0_{r}.and(cop|look_1(you,$0),adv|here_2($0))
+example_end
+
+Sent: what is this .
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: oh alright .
+Sem: lambda $0_{r}.and(co|alright_2($0),co|oh_1($0))
+example_end
+
+Sent: here it is ?
+Sem: lambda $0_{r}.Q(and(cop|be-3s_3(pro:per|it_2,$0),adv|here_1($0)))
+example_end
+
+Sent: why would you do that ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.mod|will-cond_2(and(v|do_4(pro:per|you_3,pro:dem|that_5,$0),$1($0)),$0)
+example_end
+
+Sent: you almost did .
+Sem: lambda $0_{r}.and(v|do-past_3(pro:per|you_1,$0),adv|almost_2($0))
+example_end
+
+Sent: shame on you .
+Sem: BARE($0,att(n|shame_1($0),prep|on_2(pro:per|you_3)))
+example_end
+
+Sent: where 's the cat ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.and(cop|~be_2(det:art|the_3($1,n|cat_4($1)),$0),$2($0))
+example_end
+
+Sent: no Adam !
+Sem: lambda $0_{r}.co|no_1($0)
+example_end
+
+Sent: oh Adam .
+Sem: lambda $0_{r}.and(n:prop|adam_2($0),co|oh_1($0))
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: yes it did .
+Sem: lambda $0_{r}.and(v|do-past_3(pro:per|it_2,$0),co|yes_1($0))
+example_end
+
+Sent: thank_you Adam .
+Sem: lambda $0_{r}.co|thank_you_1(you,$0)
+example_end
+
+Sent: oh I forgot .
+Sem: lambda $0_{r}.and(v|forget-past_3(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: what shall we do ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|shall_2(v|do_4(pro:sub|we_3,$1,$0),$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: no it doesn 't .
+Sem: lambda $0_{r}.co|no_1($0)
+example_end
+
+Sent: what is it ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:per|it_3,$0)
+example_end
+
+Sent: you did .
+Sem: lambda $0_{r}.v|do-past_2(pro:per|you_1,$0)
+example_end
+

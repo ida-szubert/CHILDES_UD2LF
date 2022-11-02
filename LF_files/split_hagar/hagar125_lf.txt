@@ -1,0 +1,60 @@
+Sent: loʔ loʔ loʔ loʔ , ze raʕayōn raʕ .
+Sem: lambda $0_{r}.and(and(raʕayōn(ze,$0),raʕ(ze,$0)),loʔ($0))
+example_end
+
+Sent: ze raʕayōn raʕ !
+Sem: lambda $0_{r}.and(raʕayōn(ze,$0),raʕ(ze,$0))
+example_end
+
+Sent: loʔ lidrōḳ gam ʕal ha cēvaʕ .
+Sem: lambda $0_{r}.not(and(darāḳ(you,$0),gam(ʕal(ha($1,cēvaʕ($1)),$0))),$0)
+example_end
+
+Sent: ʔeyn le ʔat raʕayōn yotēr macxīq ?
+Sem: lambda $0_{r}.Q(and(ʔeyn(BARE($1,and(yotēr(macxīq($1)),raʕayōn($1))),$0),le(ʔat,$0)))
+example_end
+
+Sent: raʕayōn ʔaxēr , raʕayōn ʔaxēr .
+Sem: BARE($0,and(ʔaxēr($0),raʕayōn($0)))
+example_end
+
+Sent: raʕayōn ʔaxēr .
+Sem: BARE($0,and(ʔaxēr($0),raʕayōn($0)))
+example_end
+
+Sent: ma ʕim ha yēled we ʕim ha yēled ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(ha($2,ha($3,yēled_ʕim($3),$2)),$0)
+example_end
+
+Sent: ʔulāy tecayrī yēled we yēled .
+Sem: lambda $0_{r}.and(ciyēr(you,BARE($1,yēled($1)),$0),ʔulāy($0))
+example_end
+
+Sent: be ~ha ʔambāṭya .
+Sem: be(~ha($0,ʔambāṭya($0)))
+example_end
+
+Sent: Hagāri , ʔanī ʔeḳʕās .
+Sem: lambda $0_{r}.kaʕās(ʔanī,$0)
+example_end
+
+Sent: mi nafāl ?
+Sem: lambda $1_{e}.lambda $0_{r}.nafāl($1,$0)
+example_end
+
+Sent: mi qibēl makā ?
+Sem: lambda $1_{e}.lambda $0_{r}.qibēl($1,BARE($2,makā($2)),$0)
+example_end
+
+Sent: ʔābaʔ .
+Sem: BARE($0,ʔābaʔ($0))
+example_end
+
+Sent: loʔ .
+Sem: lambda $0_{r}.loʔ($0)
+example_end
+
+Sent: wandalīsimo .
+Sem: BARE($0,wandalīsimo($0))
+example_end
+

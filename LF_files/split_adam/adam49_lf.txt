@@ -1,0 +1,136 @@
+Sent: what color is that ?
+Sem: lambda $1_{<<e,e>,e>}.lambda $0_{r}.pro:dem|that_4($1($2,n|color_2($2)),$0)
+example_end
+
+Sent: what color is that ?
+Sem: lambda $1_{<<e,e>,e>}.lambda $0_{r}.pro:dem|that_4($1($2,n|color_2($2)),$0)
+example_end
+
+Sent: what color is that ?
+Sem: lambda $1_{<<e,e>,e>}.lambda $0_{r}.pro:dem|that_4($1($2,n|color_2($2)),$0)
+example_end
+
+Sent: it 's hard .
+Sem: lambda $0_{r}.adj|hard_3(pro:per|it_1,$0)
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: try it .
+Sem: lambda $0_{r}.v|try_1(you,pro:per|it_2,$0)
+example_end
+
+Sent: there it is .
+Sem: lambda $0_{r}.cop|be-3s_3_there_1_it_2(you,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: what d you think it looks like ?
+Sem: lambda $0_{r}.Q(mod|do_2(v|think_4(pro:per|you_3,lambda $1_{r}.and(cop|look-3s_6(pro:per|it_5,$1),prep|like_7(pro:int|what_1,$1)),$0),$0))
+example_end
+
+Sent: try it .
+Sem: lambda $0_{r}.v|try_1(you,pro:per|it_2,$0)
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: Robin 's .
+Sem: poss|~s_2(n:prop|robin_1)
+example_end
+
+Sent: blow again .
+Sem: lambda $0_{r}.and(n|blow_1(you,$0),adv|again_2($0))
+example_end
+
+Sent: well Adam .
+Sem: lambda $0_{r}.and(n:prop|adam_2($0),co|well_1($0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: I 'm all finished .
+Sem: lambda $0_{r}.adv|all_3(part|finish-pastp_4(pro:sub|i_1,$0))
+example_end
+
+Sent: Adam Smith ?
+Sem: BARE($0,Q(n:prop|smith_2_adam_1($0)))
+example_end
+
+Sent: what did you say ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|say_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: oh I 'm sorry .
+Sem: lambda $0_{r}.and(adj|sorry_4(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: you did .
+Sem: lambda $0_{r}.v|do-past_2(pro:per|you_1,$0)
+example_end
+
+Sent: I 'm sorry .
+Sem: lambda $0_{r}.adj|sorry_3(pro:sub|i_1,$0)
+example_end
+
+Sent: oh what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.and($1(pro:dem|that_4,$0),co|oh_1($0))
+example_end
+
+Sent: who is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: can you say thank_you ?
+Sem: lambda $0_{r}.Q(mod|can_1(v|say_3(pro:per|you_2,BARE($1,n|thank_you_4($1)),$0),$0))
+example_end
+
+Sent: what color is that ?
+Sem: lambda $1_{<<e,e>,e>}.lambda $0_{r}.pro:dem|that_4($1($2,n|color_2($2)),$0)
+example_end
+
+Sent: oh Adam .
+Sem: lambda $0_{r}.and(n:prop|adam_2($0),co|oh_1($0))
+example_end
+
+Sent: you 're welcome .
+Sem: lambda $0_{r}.adj|welcome_3(pro:per|you_1,$0)
+example_end
+
+Sent: that 's nice .
+Sem: lambda $0_{r}.adj|nice_3(pro:dem|that_1,$0)
+example_end
+
+Sent: what did you say Adam ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|say_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: oh I 'm sorry .
+Sem: lambda $0_{r}.and(adj|sorry_4(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: what is that Adam ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:rel|that_3,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+

@@ -1,0 +1,188 @@
+Sent: count them .
+Sem: lambda $0_{r}.v|count_1(you,pro:obj|them_2,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: one two three four five .
+Sem: BARE($0,det:num|one_1(det:num|two_2(det:num|three_3(det:num|four_4(det:num|five_5($0))))))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: one two .
+Sem: BARE($0,det:num|one_1($0))
+example_end
+
+Sent: like this .
+Sem: prep|like_1(pro:dem|this_2)
+example_end
+
+Sent: count them .
+Sem: lambda $0_{r}.v|count_1(you,pro:obj|them_2,$0)
+example_end
+
+Sent: look here .
+Sem: lambda $0_{r}.and(cop|look_1(you,$0),adv|here_2($0))
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: what did you make ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|make_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: I can 't see .
+Sem: lambda $0_{r}.not(mod|can_2(v|see_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: oh Paul .
+Sem: lambda $0_{r}.and(n:prop|paul_2($0),co|oh_1($0))
+example_end
+
+Sent: yes you did .
+Sem: lambda $0_{r}.and(v|do-past_3(pro:per|you_2,$0),co|yes_1($0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: there it is .
+Sem: lambda $0_{r}.cop|be-3s_3_there_1_it_2(you,$0)
+example_end
+
+Sent: good for you Adam .
+Sem: BARE($0,adj|good_1($0))
+example_end
+
+Sent: you did .
+Sem: lambda $0_{r}.v|do-past_2(pro:per|you_1,$0)
+example_end
+
+Sent: yes I see .
+Sem: lambda $0_{r}.and(v|see_3(pro:sub|i_2,$0),co|yes_1($0))
+example_end
+
+Sent: you 're a big boy .
+Sem: lambda $0_{r}.det:art|a_3(pro:per|you_1,and(n|boy_5(pro:per|you_1,$0),adj|big_4(pro:per|you_1,$0)))
+example_end
+
+Sent: it 's your turn .
+Sem: lambda $0_{r}.det:poss|your_3(pro:per|it_1,n|turn_4(pro:per|it_1,$0))
+example_end
+
+Sent: like that ?
+Sem: Q(prep|like_1(pro:dem|that_2))
+example_end
+
+Sent: oh Paul .
+Sem: lambda $0_{r}.and(n:prop|paul_2($0),co|oh_1($0))
+example_end
+
+Sent: whose house ?
+Sem: lambda $0_{<<e,e>,e>}.$0($1,n|house_2($1))
+example_end
+
+Sent: yes you are a big boy .
+Sem: lambda $0_{r}.and(det:art|a_4(pro:per|you_2,and(n|boy_6(pro:per|you_2,$0),adj|big_5(pro:per|you_2,$0))),co|yes_1($0))
+example_end
+
+Sent: you don 't remember ?
+Sem: lambda $0_{r}.Q(not(mod|do_2(v|remember_4(pro:per|you_1,$0),$0),$0))
+example_end
+
+Sent: that 's it .
+Sem: lambda $0_{r}.pro:dem|that_1(pro:per|it_3,$0)
+example_end
+
+Sent: d you like that ?
+Sem: lambda $0_{r}.Q(mod|do_1(v|like_3(pro:per|you_2,pro:dem|that_4,$0),$0))
+example_end
+
+Sent: why are you doing that ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.aux|be-pres_2(and(part|do-presp_4(pro:per|you_3,pro:dem|that_5,$0),$1($0)),$0)
+example_end
+
+Sent: no no !
+Sem: lambda $0_{r}.and(co|no_2($0),co|no_1($0))
+example_end
+
+Sent: you 're silly .
+Sem: lambda $0_{r}.adj|silly_3(pro:per|you_1,$0)
+example_end
+
+Sent: oh you are .
+Sem: lambda $0_{r}.and(cop|be-pres_3(pro:per|you_2,$0),co|oh_1($0))
+example_end
+
+Sent: don 't do that .
+Sem: lambda $0_{r}.not(mod|do_1(v|do_3(you,pro:dem|that_4,$0),$0),$0)
+example_end
+
+Sent: no no !
+Sem: lambda $0_{r}.and(co|no_2($0),co|no_1($0))
+example_end
+
+Sent: that 's what ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_1,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: you almost did .
+Sem: lambda $0_{r}.and(v|do-past_3(pro:per|you_1,$0),adv|almost_2($0))
+example_end
+
+Sent: is that right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_2,$0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: don 't you remember ?
+Sem: lambda $0_{r}.Q(not(mod|do_1(v|remember_4(pro:per|you_3,$0),$0),$0))
+example_end
+
+Sent: I think so .
+Sem: lambda $0_{r}.and(v|think_2(pro:sub|i_1,$0),co|so_3($0))
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: no no !
+Sem: lambda $0_{r}.and(co|no_2($0),co|no_1($0))
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: what 's your name ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(det:poss|your_3($2,n|name_4($2)),$0)
+example_end
+
+Sent: what d you want to play ?
+Sem: lambda $2_{e}.lambda $0_{r}.mod|do_2(v|want_4(pro:per|you_3,lambda $1_{r}.v|play_6(pro:per|you_3,$2,$1),$0),$0)
+example_end
+
+Sent: I see you .
+Sem: lambda $0_{r}.v|see_2(pro:sub|i_1,pro:per|you_3,$0)
+example_end
+

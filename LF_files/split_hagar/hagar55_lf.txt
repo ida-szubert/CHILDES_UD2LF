@@ -1,0 +1,48 @@
+Sent: Hagāri , ʔat rocā lesadēr ʔet ze le Bīndi ?
+Sem: lambda $0_{r}.Q(racā(ʔat,lambda $1_{r}.and(sidēr(ʔat,ze_ʔet,$1),le(bīndi,$1)),$0))
+example_end
+
+Sent: ma yeš le ʔat be ~ha yad ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(and(yeš($1,$0),le(ʔat,$0)),be(~ha($2,yad($2)),$0))
+example_end
+
+Sent: todā rabā , ma ʔat notēnet le ʔanī ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(and(natān(ʔat,$1,$0),le(ʔanī,$0)),todā_rabā($0))
+example_end
+
+Sent: ma ze ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(ze,$0)
+example_end
+
+Sent: Hagāri , Bīndi loʔ ʔohēv še ʔat ʕoṣā le huʔ kaḳ .
+Sem: lambda $0_{r}.not(ʔahāv(bīndi,lambda $1_{r}.and(and(ʕaṣā(ʔat,$1),le(huʔ,$1)),kaḳ($1)),$0),$0)
+example_end
+
+Sent: day Hagāri , huʔ rocē še naṣīm le huʔ ʔet ze be kos ʕim māyim .
+Sem: lambda $0_{r}.and(racā(huʔ,lambda $1_{r}.and(and(ṣam(_,ze_ʔet,$1),le(huʔ,$1)),be(BARE($2,att(kos($2),ʕim(BARE($3,māyim($3))))),$1)),$0),day($0))
+example_end
+
+Sent: huʔ yoʔḳāl kše huʔ yircē , ṭov ?
+Sem: lambda $0_{r}.Q(and(kše(racā(huʔ,$0),ʔaḳāl(huʔ,$0)),ṭov($0)))
+example_end
+
+Sent: taḳīni ʔulāy ʕaḳšāyw kos te le Bīndi , ṭov ?
+Sem: lambda $0_{r}.Q(and(and(and(and(heḳīn(you,BARE($1,and_comp(te($1),kos($1))),$0),ʔulāy($0)),ʕaḳšāyw($0)),le(bīndi,$0)),ṭov($0)))
+example_end
+
+Sent: ʔat ṣāma sukār ?
+Sem: lambda $0_{r}.Q(ṣam(ʔat,BARE($1,sukār($1)),$0))
+example_end
+
+Sent: day Hagāri ʔal taʕaṣī le huʔ , huʔ norāʔ mefaxēd me ʔatēm .
+Sem: lambda $0_{r}.and(and(not(and(ʕaṣā(you,$0),le(huʔ,$0)),$0),and(and(pixēd(huʔ,$0),norāʔ($0)),me(ʔatēm,$0))),day($0))
+example_end
+
+Sent: day !
+Sem: lambda $0_{r}.day($0)
+example_end
+
+Sent: ze ʔal taʕaṣī le Bīndi .
+Sem: lambda $0_{r}.not(and(ʕaṣā(you,ze,$0),le(bīndi,$0)),$0)
+example_end
+

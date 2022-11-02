@@ -1,0 +1,32 @@
+Sent: ma ze ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(ze,$0)
+example_end
+
+Sent: Hagāri , loʔ yocʔīm le ~ha gag , ʕaḳšāyw meṣaxqīm kaʔn .
+Sem: lambda $0_{r}.and(not(and(yacāʔ(you,$0),le(~ha($1,gag($1)),$0)),$0),and(and(ṣixēq(you,$0),ʕaḳšāyw($0)),kaʔn($0)))
+example_end
+
+Sent: Hagār , ʔat xolā .
+Sem: lambda $0_{r}.xolē(ʔat,$0)
+example_end
+
+Sent: ʔat yodāʕat še ʔat xolā Hagāri ?
+Sem: lambda $0_{r}.Q(yadāʕ(ʔat,lambda $1_{r}.xolē(ʔat,$1),$0))
+example_end
+
+Sent: mi ze ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(ze,$0)
+example_end
+
+Sent: ʔīmaʔ loʔ holēḳet le ~ha gag .
+Sem: lambda $0_{r}.not(and(halāḳ(ʔīmaʔ,$0),le(~ha($1,gag($1)),$0)),$0)
+example_end
+
+Sent: ʔat rocā sipūr ?
+Sem: lambda $0_{r}.Q(racā(ʔat,BARE($1,sipūr($1)),$0))
+example_end
+
+Sent: loʔ meṣaxqīm ʕaḳšāyw be ~ha gag .
+Sem: lambda $0_{r}.not(and(and(ṣixēq(you,$0),ʕaḳšāyw($0)),be(~ha($1,gag($1)),$0)),$0)
+example_end
+

@@ -1,0 +1,1176 @@
+Sent: shall we close the door ?
+Sem: lambda $0_{r}.Q(mod|shall_1(v|close_3(pro:sub|we_2,det:art|the_4($1,n|door_5($1)),$0),$0))
+example_end
+
+Sent: I was talking to your Mother .
+Sem: lambda $0_{r}.aux|be-past_2(and(part|talk-presp_3(pro:sub|i_1,$0),prep|to_4(det:poss|your_5($1,n:prop|mother_6($1)),$0)),$0)
+example_end
+
+Sent: you must have been so hungry Adam .
+Sem: lambda $0_{r}.aux|have_3(mod|must_2(adv|so_5(adj|hungry_6(pro:per|you_1,$0)),$0),$0)
+example_end
+
+Sent: what did you have for lunch at school today ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(and(and(and(v|have_4(pro:per|you_3,$1,$0),prep|for_5(BARE($2,n|lunch_6($2)),$0)),prep|at_7(BARE($3,n|school_8($3)),$0)),adv:tem|today_9($0)),$0)
+example_end
+
+Sent: if I were you ?
+Sem: lambda $0_{r}.Q(pro:per|you_4(pro:sub|i_2,$0))
+example_end
+
+Sent: why does your tummy cry ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.mod|do-3s_2(and(v|cry_5(det:poss|your_3($1,n|tummy_4($1)),$0),$2($0)),$0)
+example_end
+
+Sent: to eat ?
+Sem: lambda $0_{r}.Q(v|eat_2(you,$0))
+example_end
+
+Sent: you had two lunches already .
+Sem: lambda $0_{r}.and(v|have-past_2(pro:per|you_1,BARE($1,det:num|two_3(n|lunch-pl_4($1))),$0),adv|already_5($0))
+example_end
+
+Sent: why d you want something to eat ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.mod|do_2(and(v|want_4(pro:per|you_3,lambda $1_{r}.v|eat_7(pro:indef|something_5,$1),$0),$2($0)),$0)
+example_end
+
+Sent: oh you 're not peeking .
+Sem: lambda $0_{r}.and(not(aux|~be_3(part|peek-presp_5(pro:per|you_2,$0),$0),$0),co|oh_1($0))
+example_end
+
+Sent: don 't you peek then until you ask her .
+Sem: lambda $0_{r}.not(conj|until_6(v|ask_8(pro:per|you_7,_,pro:obj|her_9,$0),mod|do_1(and(and(v|peek_4(you,$0),pro:per|you_3($0)),adv:tem|then_5($0)),$0)),$0)
+example_end
+
+Sent: did you show Urs your art gallery ?
+Sem: lambda $0_{r}.v|do-past_1(v|show_3(pro:per|you_2,det:poss|your_5($1,and_comp(n|art_6($1),n|gallery_7($1))),n:prop|ursula_4,$0),$0)
+example_end
+
+Sent: that 's very nice .
+Sem: lambda $0_{r}.adv|very_3(adj|nice_4(pro:dem|that_1,$0))
+example_end
+
+Sent: did you show her your basket ?
+Sem: lambda $0_{r}.v|do-past_1(v|show_3(pro:per|you_2,det:poss|your_5($1,n|basket_6($1)),det:poss|her_4,$0),$0)
+example_end
+
+Sent: where 's the hole Adam ?
+Sem: lambda $0_{r}.Q(adv:int|where_1(det:art|the_3($1,n|hole_4($1)),$0))
+example_end
+
+Sent: where 's one hole ?
+Sem: lambda $0_{r}.Q(adv:int|where_1(BARE($1,det:num|one_3(n|hole_4($1))),$0))
+example_end
+
+Sent: oh you mean one place to put things .
+Sem: lambda $0_{r}.and(v|mean_3(pro:per|you_2,BARE($1,rel(det:num|one_4(n|place_5($1)),lambda $2_{r}.v|put-zero_7(_,BARE($3,n|thing-pl_8($3)),$2))),$0),co|oh_1($0))
+example_end
+
+Sent: what are they ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:sub|they_3,$0)
+example_end
+
+Sent: so you can turn the train around in two places .
+Sem: lambda $0_{r}.and(mod|can_3(and(and(v|turn_4(pro:per|you_2,det:art|the_5($1,n|train_6($1)),$0),adv|around_7($0)),prep|in_8(BARE($2,det:num|two_9(n|place-pl_10($2))),$0)),$0),co|so_1($0))
+example_end
+
+Sent: did you tell Urs what we did Sunday Adam ?
+Sem: lambda $1_{e}.lambda $0_{r}.v|do-past_1(v|tell_3(pro:per|you_2,$1,n:prop|ursula_4,$0),$0)
+example_end
+
+Sent: what else did you do ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_3(v|do_5(pro:per|you_4,$1,$0),$0)
+example_end
+
+Sent: you did nothing ?
+Sem: lambda $0_{r}.Q(v|do-past_2(pro:per|you_1,pro:indef|nothing_3,$0))
+example_end
+
+Sent: you have_to attach it with train tracks .
+Sem: lambda $0_{r}.mod:aux|have_to_2(pro:per|you_1,lambda $1_{r}.v|attach_4(pro:per|you_1,$1),$0)
+example_end
+
+Sent: the train track 's in the box .
+Sem: lambda $0_{r}.prep|in_5(det:art|the_6($1,n|box_7($1)),det:art|the_1($2,and_comp(n|train_2($2),n|track_3($2))),$0)
+example_end
+
+Sent: you could guess .
+Sem: lambda $0_{r}.mod|could_2(v|guess_3(pro:per|you_1,$0),$0)
+example_end
+
+Sent: well you 're close .
+Sem: lambda $0_{r}.and(adj|close_4(pro:per|you_2,$0),co|well_1($0))
+example_end
+
+Sent: but it 's something that goes along with the train .
+Sem: lambda $0_{r}.pro:indef|something_4(pro:per|it_2,$0)
+example_end
+
+Sent: must be a railroad crossing sign .
+Sem: det:art|a_3($0,and_comp(and_comp(n|railroad_4($0),part|cross-presp_5($0)),n|sign_6($0)))
+example_end
+
+Sent: what did you tell me ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|tell_4(pro:per|you_3,$1,pro:obj|me_5,$0),$0)
+example_end
+
+Sent: a sponge .
+Sem: det:art|a_1($0,n|sponge_2($0))
+example_end
+
+Sent: maybe to clean the track .
+Sem: lambda $0_{r}.and(v|clean_3(you,det:art|the_4($1,n|track_5($1)),$0),adv|maybe_1($0))
+example_end
+
+Sent: the other set of wheels must have come off .
+Sem: lambda $0_{r}.v|have_7(mod|must_6(and(v|come_8(det:art|the_1($1,att(and(qn|other_2($1),n|set_3($1)),prep|of_4(BARE($2,n|wheel-pl_5($2))))),$0),adv|off_9($0)),$0),$0)
+example_end
+
+Sent: perhaps the wheels are down in the box .
+Sem: lambda $0_{r}.adv|down_5(co|perhaps_1(prep|in_6(det:art|the_7($1,n|box_8($1)),det:art|the_2($2,n|wheel-pl_3($2)),$0)))
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: the black tracks don 't belong to the same set .
+Sem: lambda $0_{r}.not(mod|do_4(and(v|belong_6(det:art|the_1($1,and_comp(n|black_2($1),n|track-pl_3($1))),$0),prep|to_7(det:art|the_8($2,and(adj|same_9($2),n|set_10($2))),$0)),$0),$0)
+example_end
+
+Sent: why don 't you know how ?
+Sem: lambda $2_{<r,t>}.lambda $1_{<r,t>}.lambda $0_{r}.not(mod|do_2(and(and(v|know_5(pro:per|you_4,$0),$1($0)),$2($0)),$0),$0)
+example_end
+
+Sent: what bag dear ?
+Sem: lambda $0_{<<e,e>,e>}.$0($1,n|bag_2($1))
+example_end
+
+Sent: why d you need a bag ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.mod|do_2(and(v|need_4(pro:per|you_3,det:art|a_5($1,n|bag_6($1)),$0),$2($0)),$0)
+example_end
+
+Sent: you almost stepped on your finger .
+Sem: lambda $0_{r}.and(and(part|step-pastp_3(pro:per|you_1,$0),adv|almost_2($0)),prep|on_4(det:poss|your_5($1,n|finger_6($1)),$0))
+example_end
+
+Sent: a finger toe .
+Sem: det:art|a_1($0,and_comp(n|finger_2($0),n|toe_3($0)))
+example_end
+
+Sent: what 's a finger toe ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(det:art|a_3($2,and_comp(n|finger_4($2),n|toe_5($2))),$0)
+example_end
+
+Sent: finger people .
+Sem: BARE($0,and_comp(v|finger_1($0),n|person-pl_2($0)))
+example_end
+
+Sent: what kind of people are those ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|those_6,att(n|kind_2(pro:dem|those_6,$0),prep|of_3(BARE($2,n|person-pl_4($2)))))
+example_end
+
+Sent: what did you say ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|say_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: oh when you used to be in Italy .
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.and(and(v|use-past_4(pro:per|you_3,lambda $1_{r}.and(cop|be_6(pro:per|you_3,$1),prep|in_7(n:prop|italy_8,$1)),$0),$2($0)),co|oh_1($0))
+example_end
+
+Sent: oh when did you go to Italy ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(mod|do-past_3(and(and(v|go_5(pro:per|you_4,$0),$1($0)),prep|to_6(n:prop|italy_7,$0)),$0),co|oh_1($0))
+example_end
+
+Sent: what did you see in Italy ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(and(v|see_4(pro:per|you_3,$1,$0),prep|in_5(n:prop|italy_6,$0)),$0)
+example_end
+
+Sent: lions and Italy tigers ?
+Sem: BARE($0,Q(and_comp(n:prop|italy_3($0),n|tiger-pl_4($0))))
+example_end
+
+Sent: Italian tigers ?
+Sem: BARE($0,Q(and(n:prop|italian_1($0),n|tiger-pl_2($0))))
+example_end
+
+Sent: how are they different ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(adj|different_4(pro:sub|they_3,$0))
+example_end
+
+Sent: what d you mean ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(adj|mean_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: do you know an Italian song ?
+Sem: lambda $0_{r}.Q(mod|do_1(v|know_3(pro:per|you_2,det:art|a_4($1,and(n:prop|italian_5($1),n|song_6($1))),$0),$0))
+example_end
+
+Sent: do you know anything about Italy at all ?
+Sem: lambda $0_{r}.Q(mod|do_1(v|know_3(pro:per|you_2,att(att(pro:indef|anything_4,prep|about_5(n:prop|italy_6)),prep|at_7(BARE($1,pro:indef|all_8($1)))),$0),$0))
+example_end
+
+Sent: what d you know about Italy ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(and(v|know_4(pro:per|you_3,$1,$0),prep|about_5(n:prop|italy_6,$0)),$0)
+example_end
+
+Sent: somebody told you about Italy ?
+Sem: lambda $0_{r}.Q(and(v|tell-past_2(pro:indef|somebody_1,_,pro:per|you_3,$0),prep|about_4(n:prop|italy_5,$0)))
+example_end
+
+Sent: could you tell us about Italy please ?
+Sem: lambda $0_{r}.Q(and(mod|could_1(and(v|tell_3(pro:per|you_2,_,pro:obj|us_4,$0),prep|about_5(n:prop|italy_6,$0)),$0),co|please_7($0)))
+example_end
+
+Sent: I 'd like to know .
+Sem: lambda $0_{r}.mod|~genmod_2(v|like_3(pro:sub|i_1,lambda $1_{r}.v|know_5(pro:sub|i_1,$1),$0),$0)
+example_end
+
+Sent: come on let 's finish the train .
+Sem: lambda $0_{r}.and(v:obj|let_3(you,lambda $1_{r}.v|finish_5(pro:obj|~us_4,det:art|the_6($2,n|train_7($2)),$1),$0),and(v|come_1(you,$0),adv|on_2($0)))
+example_end
+
+Sent: a motor boat on the street ?
+Sem: BARE($0,Q(det:art|a_1($1,att(and_comp(n|motor_2($1),n|boat_3($1)),prep|on_4(det:art|the_5($2,n|street_6($2)))),$0)))
+example_end
+
+Sent: what was a motor boat doing out on the street ?
+Sem: lambda $2_{e}.lambda $0_{r}.cop|be-past_2(and(part|do-presp_6(det:art|a_3($1,and_comp(n|motor_4($1),n|boat_5($1))),$2,$0),adv|out_7(prep|on_8(det:art|the_9($3,n|street_10($3)),$0))),$0)
+example_end
+
+Sent: I didn 't hear a motor boat .
+Sem: lambda $0_{r}.not(mod|do_2(v|hear_4(pro:sub|i_1,det:art|a_5($1,and_comp(n|motor_6($1),n|boat_7($1))),$0),$0),$0)
+example_end
+
+Sent: I thought you were putting them together .
+Sem: lambda $0_{r}.v|think-past_2(pro:sub|i_1,lambda $1_{r}.aux|be-past_4(and(part|put-presp_5(pro:per|you_3,pro:obj|them_6,$1),adv|together_7($1)),$1),$0)
+example_end
+
+Sent: I should think so .
+Sem: lambda $0_{r}.mod|should_2(and(v|think_3(pro:sub|i_1,$0),co|so_4($0)),$0)
+example_end
+
+Sent: did you go outside at nursery school ?
+Sem: lambda $0_{r}.Q(mod|do-past_1(and(and(v|go_3(pro:per|you_2,$0),adv|outside_4($0)),prep|at_5(BARE($1,and_comp(n|nursery_6($1),n|school_7($1))),$0)),$0))
+example_end
+
+Sent: what did you do outside ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(and(v|do_4(pro:per|you_3,$1,$0),adv|outside_5($0)),$0)
+example_end
+
+Sent: what did you do ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|do_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: you rode on the Dodge car ?
+Sem: lambda $0_{r}.Q(and(v|ride-past_2(pro:per|you_1,$0),prep|on_3(det:art|the_4($1,and_comp(n:prop|dodge_5($1),n|car_6($1))),$0)))
+example_end
+
+Sent: oh it was a small one ?
+Sem: lambda $0_{r}.Q(and(det:art|a_4(pro:per|it_2,and(pro:indef|one_6(pro:per|it_2,$0),adj|small_5(pro:per|it_2,$0))),co|oh_1($0)))
+example_end
+
+Sent: a small tricycle ?
+Sem: BARE($0,Q(det:art|a_1($1,and(adj|small_2($1),n|tricycle_3($1)),$0)))
+example_end
+
+Sent: well people are born all over the world .
+Sem: lambda $0_{r}.and(cop|be-pres_3(and(adj|born_4(BARE($1,n|person-pl_2($1)),$0),adv|all_5(prep|over_6(det:art|the_7($2,n|world_8($2)),$0))),$0),co|well_1($0))
+example_end
+
+Sent: you were born in America .
+Sem: lambda $0_{r}.cop|be-past_2(and(adj|born_3(pro:per|you_1,$0),prep|in_4(n:prop|america_5,$0)),$0)
+example_end
+
+Sent: no you were born in Boston .
+Sem: lambda $0_{r}.and(cop|be-past_3(and(adj|born_4(pro:per|you_2,$0),prep|in_5(n:prop|boston_6,$0)),$0),co|no_1($0))
+example_end
+
+Sent: because your mother and father live in Boston .
+Sem: lambda $0_{r}.and(adj|live_6(det:poss|your_2($1,n|father_5($1)),$0),prep|in_7(n:prop|boston_8,$0))
+example_end
+
+Sent: Italian people yes .
+Sem: lambda $0_{r}.and(and(n:prop|italian_1($0),n|person-pl_2($0)),co|yes_3($0))
+example_end
+
+Sent: how do you flash them ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.mod|do_2(and(v|flash_4(pro:per|you_3,pro:obj|them_5,$0),$1($0)),$0)
+example_end
+
+Sent: it doesn 't seem to .
+Sem: lambda $0_{r}.not(mod|do_2(cop|seem_4(pro:per|it_1,$0),$0),$0)
+example_end
+
+Sent: I think that 's a different train .
+Sem: lambda $0_{r}.v|think_2(pro:sub|i_1,lambda $1_{r}.det:art|a_5(pro:dem|that_3,and(n|train_7(pro:dem|that_3,$1),adj|different_6(pro:dem|that_3,$1))),$0)
+example_end
+
+Sent: don 't you think so ?
+Sem: lambda $0_{r}.Q(not(mod|do_1(and(v|think_4(pro:per|you_3,$0),co|so_5($0)),$0),$0))
+example_end
+
+Sent: what comes first on the train ?
+Sem: lambda $1_{e}.lambda $0_{r}.and(and(v|come-3s_2($1,$0),adv|first_3($0)),prep|on_4(det:art|the_5($2,n|train_6($2)),$0))
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: well it could be that way .
+Sem: lambda $0_{r}.and(mod|could_3(pro:dem|that_5(pro:per|it_2,n|way_6(pro:per|it_2,$0)),$0),co|well_1($0))
+example_end
+
+Sent: no turn it around .
+Sem: lambda $0_{r}.and(and(n|turn_2(you,pro:per|it_3,$0),adv|around_4($0)),qn|no_1($0))
+example_end
+
+Sent: on the side .
+Sem: prep|on_1(det:art|the_2($0,n|side_3($0)))
+example_end
+
+Sent: this way .
+Sem: pro:dem|this_1($0,n|way_2($0))
+example_end
+
+Sent: it says stop and go .
+Sem: lambda $0_{r}.v|say-3s_2(pro:per|it_1,lambda $1_{r}.v|go_5(you,$1),$0)
+example_end
+
+Sent: for the cars that are waiting to cross the track maybe .
+Sem: adv|maybe_11(det:art|the_2($0,n|car-pl_3($0)))
+example_end
+
+Sent: well yes they do .
+Sem: lambda $0_{r}.and(and(v|do_4(pro:sub|they_3,$0),co|well_1($0)),co|yes_2($0))
+example_end
+
+Sent: when there 's a train track across a street you have_to cross part of the train track .
+Sem: lambda $3_{<r,t>}.lambda $0_{r}.and(mod:aux|have_to_11(pro:per|you_10,lambda $1_{r}.adj|cross_13(pro:per|you_10,$1),$0),and(and(cop|~be_3(det:art|a_4($2,and_comp(n|train_5($2),n|track_6($2))),$0),$3($0)),prep|across_7(det:art|a_8($4,n|street_9($4)),$0)))
+example_end
+
+Sent: because they have a factory .
+Sem: lambda $0_{r}.v|have_3(pro:sub|they_2,det:art|a_4($1,n|factory_5($1)),$0)
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: are you doing it very carefully ?
+Sem: lambda $0_{r}.Q(cop|be-pres_1(and(part|do-presp_3(pro:per|you_2,pro:per|it_4,$0),adv|very_5(adv|care-dadj_6($0))),$0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: I think that doesn 't go there .
+Sem: lambda $0_{r}.v|think_2(pro:sub|i_1,lambda $1_{r}.not(mod|do_4(and(v|go_6(pro:dem|that_3,$1),adv|there_7($1)),$1),$1),$0)
+example_end
+
+Sent: it 's stopped ?
+Sem: lambda $0_{r}.Q(aux|~be_2(part|stop-pastp_3(pro:per|it_1,$0),$0))
+example_end
+
+Sent: here 's a piece that isn 't broken .
+Sem: lambda $0_{r}.pro:exist|here_1(det:art|a_3($1,n|piece_4($1)),$0)
+example_end
+
+Sent: you need some more track .
+Sem: lambda $0_{r}.v|need_2(pro:per|you_1,qn|some_3($1,and(qn|more_4($1),n|track_5($1))),$0)
+example_end
+
+Sent: here 's a piece .
+Sem: lambda $0_{r}.pro:exist|here_1(det:art|a_3($1,n|piece_4($1)),$0)
+example_end
+
+Sent: put it under the bridge .
+Sem: lambda $0_{r}.and(v|put-zero_1(you,pro:per|it_2,$0),prep|under_3(det:art|the_4($1,n|bridge_5($1)),$0))
+example_end
+
+Sent: it needs another piece of track .
+Sem: lambda $0_{r}.v|need-3s_2(pro:per|it_1,qn|another_3($1,att(n|piece_4($1),prep|of_5(BARE($2,n|track_6($2))))),$0)
+example_end
+
+Sent: are you too tired ?
+Sem: lambda $0_{r}.Q(adv|too_3(part|tire-pastp_4(pro:per|you_2,$0)))
+example_end
+
+Sent: I thought you said something about Italy .
+Sem: lambda $0_{r}.v|think-past_2(pro:sub|i_1,lambda $1_{r}.and(v|say-past_4(pro:per|you_3,pro:indef|something_5,$1),prep|about_6(n:prop|italy_7,$1)),$0)
+example_end
+
+Sent: oh no .
+Sem: lambda $0_{r}.co|oh_1_no_2($0)
+example_end
+
+Sent: I didn 't say I don 't have it .
+Sem: lambda $0_{r}.not(mod|do_2(v|say_4(pro:sub|i_1,lambda $1_{r}.not(mod|do_6(v|have_8(pro:sub|i_5,pro:per|it_9,$1),$1),$1),$0),$0),$0)
+example_end
+
+Sent: did I ?
+Sem: lambda $0_{r}.Q(v|do-past_1(pro:sub|i_2,$0))
+example_end
+
+Sent: let 's put this one on .
+Sem: lambda $0_{r}.v:obj|let_1(you,lambda $1_{r}.and(v|put-zero_3(pro:obj|~us_2,pro:dem|this_4($2,pro:indef|one_5($2)),$1),adv|on_6($1)),$0)
+example_end
+
+Sent: it 's hard .
+Sem: lambda $0_{r}.adj|hard_3(pro:per|it_1,$0)
+example_end
+
+Sent: you need some more track don 't you ?
+Sem: lambda $0_{r}.Q(and(v|need_2(pro:per|you_1,qn|some_3($1,and(qn|more_4($1),n|track_5($1))),$0),not(mod|do_6(pro:per|you_8,$0),$0)))
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: what 're you doing Adam ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|~be_2(part|do-presp_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: they don 't fit on that set .
+Sem: lambda $0_{r}.not(mod|do_2(and(v|fit-zero_4(pro:sub|they_1,$0),prep|on_5(pro:dem|that_6($1,v|set-zero_7($1)),$0)),$0),$0)
+example_end
+
+Sent: no but it doesn 't fit .
+Sem: lambda $0_{r}.and(not(mod|do_4(v|fit-zero_6(pro:per|it_3,$0),$0),$0),co|no_1($0))
+example_end
+
+Sent: a meeting ?
+Sem: BARE($0,Q(det:art|a_1($1,n:gerund|meet-presp_2($1),$0)))
+example_end
+
+Sent: I don 't hear Paul .
+Sem: lambda $0_{r}.not(mod|do_2(v|hear_4(pro:sub|i_1,n:prop|paul_5,$0),$0),$0)
+example_end
+
+Sent: no that was someone on the street dear .
+Sem: lambda $0_{r}.and(att(pro:indef|someone_4(pro:dem|that_2,$0),prep|on_5(det:art|the_6($1,n|street_7($1)))),qn|no_1($0))
+example_end
+
+Sent: talking I suppose .
+Sem: lambda $0_{r}.v|suppose_3(pro:sub|i_2,lambda $1_{r}.part|talk-presp_1(you,$1),$0)
+example_end
+
+Sent: oh Adam why did you do that ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(mod|do-past_4(and(v|do_6(pro:per|you_5,pro:dem|that_7,$0),$1($0)),$0),co|oh_1($0))
+example_end
+
+Sent: no I don 't think that 's the wrong way .
+Sem: lambda $0_{r}.and(not(mod|do_3(v|think_5(pro:sub|i_2,lambda $1_{r}.det:art|the_8(pro:dem|that_6,and(n|way_10(pro:dem|that_6,$1),adj|wrong_9(pro:dem|that_6,$1))),$0),$0),$0),co|no_1($0))
+example_end
+
+Sent: if you don 't put that down that 's part of my bed .
+Sem: lambda $0_{r}.conj|if_1(not(mod|do_3(and(v|put-zero_5(pro:per|you_2,pro:dem|that_6,$0),n|down_7($0)),$0),$0),att(n|part_10(pro:rel|that_8,$0),prep|of_11(det:poss|my_12($1,n|bed_13($1)))))
+example_end
+
+Sent: why d you want to shoot ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.mod|do_2(and(v|want_4(pro:per|you_3,lambda $1_{r}.co|shoot_6(pro:per|you_3,$1),$0),$2($0)),$0)
+example_end
+
+Sent: shoot cows ?
+Sem: BARE($0,Q(and_comp(n|shoot_1($0),n|cow-pl_2($0))))
+example_end
+
+Sent: poor cows .
+Sem: BARE($0,and(adj|poor_1($0),n|cow-pl_2($0)))
+example_end
+
+Sent: then what will you do for milk ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|will_3(and(and(v|do_5(pro:per|you_4,$1,$0),adv:tem|then_1($0)),prep|for_6(BARE($2,n|milk_7($2)),$0)),$0)
+example_end
+
+Sent: your automatic rifle .
+Sem: det:poss|your_1($0,and(adj|automatic_2($0),n|rifle_3($0)))
+example_end
+
+Sent: no you can 't play with this this is part of my automatic bed .
+Sem: lambda $0_{r}.and(and(not(mod|can_3(and(v|play_5(pro:per|you_2,$0),prep|with_6(pro:dem|this_7,$0)),$0),$0),att(n|part_10(pro:dem|this_8,$0),prep|of_11(det:poss|my_12($1,and(n|automatic_13($1),n|bed_14($1)))))),co|no_1($0))
+example_end
+
+Sent: no no Adam you don 't hit anybody with that .
+Sem: lambda $0_{r}.and(not(mod|do_5(and(v|hit-zero_7(pro:per|you_4,pro:indef|anybody_8,$0),prep|with_9(pro:dem|that_10,$0)),$0),$0),co|no_1($0))
+example_end
+
+Sent: Adam don 't break it dear .
+Sem: lambda $0_{r}.not(mod|do_2(v|break_4(you,pro:per|it_5,$0),$0),$0)
+example_end
+
+Sent: because it 's not yours .
+Sem: lambda $0_{r}.not(pro:poss|yours_5(pro:per|it_2,$0),$0)
+example_end
+
+Sent: why would you want to pull that anyway ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.and(mod|will-cond_2(and(v|want_4(pro:per|you_3,lambda $1_{r}.v|pull_6(pro:per|you_3,pro:dem|that_7,$1),$0),$2($0)),$0),adv|anyway_8($0))
+example_end
+
+Sent: automatic bow and arrow ?
+Sem: BARE($0,Q(and(adj|automatic_1($0),n|arrow_4($0))))
+example_end
+
+Sent: oh what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.and($1(pro:dem|that_4,$0),co|oh_1($0))
+example_end
+
+Sent: why d you need to flash the light ?
+Sem: lambda $3_{<r,t>}.lambda $0_{r}.mod|do_2(and(v|need_4(pro:per|you_3,lambda $1_{r}.v|flash_6(pro:per|you_3,det:art|the_7($2,n|light_8($2)),$1),$0),$3($0)),$0)
+example_end
+
+Sent: lights flash ?
+Sem: lambda $0_{r}.Q(n|flash_2(BARE($1,v|light-3s_1($1)),$0))
+example_end
+
+Sent: winter stop ?
+Sem: BARE($0,Q(and_comp(n|winter_1($0),n|stop_2($0))))
+example_end
+
+Sent: you did .
+Sem: lambda $0_{r}.v|do-past_2(pro:per|you_1,$0)
+example_end
+
+Sent: no no !
+Sem: lambda $0_{r}.and(co|no_2($0),co|no_1($0))
+example_end
+
+Sent: it 's not round ?
+Sem: lambda $0_{r}.Q(not(v|round_4(pro:per|it_1,$0),$0))
+example_end
+
+Sent: you know how to put that in .
+Sem: lambda $0_{r}.v|know_2(pro:per|you_1,lambda $1_{r}.and(and(v|put-zero_5(_,det:dem|that_6,$1),adv:int|how_3($1)),adv|in_7($1)),$0)
+example_end
+
+Sent: it 's what ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:per|it_1,$0)
+example_end
+
+Sent: it 's stopped ?
+Sem: lambda $0_{r}.Q(aux|~be_2(part|stop-pastp_3(pro:per|it_1,$0),$0))
+example_end
+
+Sent: the sheriff ?
+Sem: BARE($0,Q(det:art|the_1($1,n|sheriff_2($1),$0)))
+example_end
+
+Sent: no no !
+Sem: lambda $0_{r}.and(co|no_2($0),co|no_1($0))
+example_end
+
+Sent: don 't do that Adam .
+Sem: lambda $0_{r}.not(mod|do_1(v|do_3(you,det:dem|that_4,$0),$0),$0)
+example_end
+
+Sent: that 's no shovel .
+Sem: lambda $0_{r}.not(n|shovel_4(pro:dem|that_1,$0),$0)
+example_end
+
+Sent: Adam you 're silly .
+Sem: lambda $0_{r}.adj|silly_4(pro:per|you_2,$0)
+example_end
+
+Sent: are you silly ?
+Sem: lambda $0_{r}.co|silly_3($0)
+example_end
+
+Sent: why don 't you go get your cards .
+Sem: lambda $3_{<r,t>}.lambda $0_{r}.not(mod|do_2(and(v|go_5(pro:per|you_4,lambda $1_{r}.v|get_6(pro:per|you_4,det:poss|your_7($2,n|card-pl_8($2)),$1),$0),$3($0)),$0),$0)
+example_end
+
+Sent: yes you knocked that down .
+Sem: lambda $0_{r}.and(and(v|knock-past_3(pro:per|you_2,pro:rel|that_4,$0),adv|down_5($0)),co|yes_1($0))
+example_end
+
+Sent: put it back up there .
+Sem: lambda $0_{r}.and(and(v|put-zero_1(you,pro:per|it_2,$0),adv|back_3($0)),adv|up_4(adv|there_5($0)))
+example_end
+
+Sent: you may break that .
+Sem: lambda $0_{r}.mod|may_2(v|break_3(pro:per|you_1,pro:dem|that_4,$0),$0)
+example_end
+
+Sent: put it up on the dresser .
+Sem: lambda $0_{r}.and(and(v|put-zero_1(you,pro:per|it_2,$0),adv|up_3($0)),prep|on_4(det:art|the_5($1,n|dresser_6($1)),$0))
+example_end
+
+Sent: what are you going to do with that ?
+Sem: lambda $2_{e}.lambda $0_{r}.aux|be-pres_2(part|go-presp_4(pro:per|you_3,lambda $1_{r}.and(v|do_6(pro:per|you_3,$2,$1),prep|with_7(pro:dem|that_8,$1)),$0),$0)
+example_end
+
+Sent: that 's enough being silly .
+Sem: lambda $0_{r}.adj|enough_3(adj|silly_5(pro:dem|that_1,$0))
+example_end
+
+Sent: story about George Washington .
+Sem: BARE($0,att(n|story_1($0),prep|about_2(n:prop|washington_4_george_3)))
+example_end
+
+Sent: did she tell you ?
+Sem: lambda $0_{r}.Q(mod|do-past_1(v|tell_3(pro:sub|she_2,_,pro:per|you_4,$0),$0))
+example_end
+
+Sent: she did ?
+Sem: lambda $0_{r}.Q(v|do-past_2(pro:sub|she_1,$0))
+example_end
+
+Sent: let 's have a race .
+Sem: lambda $0_{r}.v:obj|let_1(you,lambda $1_{r}.v|have_3(pro:obj|~us_2,det:art|a_4($2,n|race_5($2)),$1),$0)
+example_end
+
+Sent: have a race ?
+Sem: lambda $0_{r}.Q(v|have_1(you,det:art|a_2($1,n|race_3($1)),$0))
+example_end
+
+Sent: mine didn 't .
+Sem: lambda $0_{r}.not(mod|do_2(n|mine_1,$0),$0)
+example_end
+
+Sent: your horse is for riding Adam .
+Sem: lambda $0_{r}.and(cop|be-3s_3(det:poss|your_1($1,n|horse_2($1)),$0),prep|for_4(BARE($2,n:gerund|ride-presp_5($2)),$0))
+example_end
+
+Sent: you 're trying to do what ?
+Sem: lambda $2_{e}.lambda $0_{r}.aux|~be_2(part|try-presp_3(pro:per|you_1,lambda $1_{r}.v|do_5(pro:per|you_1,$2,$1),$0),$0)
+example_end
+
+Sent: don 't break it anymore dear .
+Sem: lambda $0_{r}.not(mod|do_1(and(v|break_3(you,pro:per|it_4,$0),adv|anymore_5($0)),$0),$0)
+example_end
+
+Sent: what did I do to those ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(and(v|do_4(pro:sub|i_3,$1,$0),prep|to_5(pro:dem|those_6,$0)),$0)
+example_end
+
+Sent: I put glue on them .
+Sem: lambda $0_{r}.and(v|put-zero_2(pro:sub|i_1,BARE($1,n|glue_3($1)),$0),prep|on_4(pro:obj|them_5,$0))
+example_end
+
+Sent: you put it together .
+Sem: lambda $0_{r}.and(v|put-zero_2(pro:per|you_1,pro:per|it_3,$0),adv|together_4($0))
+example_end
+
+Sent: why did you do that ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.mod|do-past_2(and(v|do_4(pro:per|you_3,pro:dem|that_5,$0),$1($0)),$0)
+example_end
+
+Sent: playing the banjo .
+Sem: lambda $0_{r}.part|play-presp_1(you,det:art|the_2($1,n|banjo_3($1)),$0)
+example_end
+
+Sent: no you play the banjo .
+Sem: lambda $0_{r}.and(v|play_3(pro:per|you_2,det:art|the_4($1,n|banjo_5($1)),$0),co|no_1($0))
+example_end
+
+Sent: they 're wrong ?
+Sem: lambda $0_{r}.Q(adj|wrong_3(pro:sub|they_1,$0))
+example_end
+
+Sent: why are they wrong ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(adj|wrong_4(pro:sub|they_3,$0))
+example_end
+
+Sent: would you like to do a puzzle ?
+Sem: lambda $0_{r}.Q(mod|will-cond_1(v|like_3(pro:per|you_2,lambda $1_{r}.v|do_5(pro:per|you_2,det:art|a_6($2,n|puzzle_7($2)),$1),$0),$0))
+example_end
+
+Sent: what puzzle would you like to do ?
+Sem: lambda $2_{<<e,e>,e>}.lambda $0_{r}.mod|will-cond_3(v|like_5(pro:per|you_4,lambda $1_{r}.v|do_7(pro:per|you_4,$2($3,n|puzzle_2($3)),$1),$0),$0)
+example_end
+
+Sent: what puzzle is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_4,n|puzzle_2(pro:dem|that_4,$0))
+example_end
+
+Sent: I don 't know what puzzle that is .
+Sem: lambda $2_{e}.lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,lambda $1_{r}.$2(pro:rel|that_7,n|puzzle_6(pro:rel|that_7,$1)),$0),$0),$0)
+example_end
+
+Sent: you have_to look .
+Sem: lambda $0_{r}.mod:aux|have_to_2(pro:per|you_1,lambda $1_{r}.cop|look_4(pro:per|you_1,$1),$0)
+example_end
+
+Sent: why d you think that 's the wrong place in Italy when you 're not in Italy ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.conj|when_12(not(and(cop|~be_14(pro:per|you_13,$0),prep|in_16(n:prop|italy_17,$0)),$0),v|do_2(and(v|think_4(pro:per|you_3,lambda $1_{r}.det:art|the_7(pro:dem|that_5,att(and(n|place_9(pro:dem|that_5,$1),adj|wrong_8(pro:dem|that_5,$1)),prep|in_10(n:prop|italy_11))),$0),$2($0)),$0))
+example_end
+
+Sent: you have_to take them apart Adam .
+Sem: lambda $0_{r}.mod:aux|have_to_2(pro:per|you_1,lambda $1_{r}.v|take_4(pro:per|you_1,$1),$0)
+example_end
+
+Sent: you have a broken leg .
+Sem: lambda $0_{r}.v|have_2(pro:per|you_1,det:art|a_3($1,and(part|break-pastp_4($1),n|leg_5($1))),$0)
+example_end
+
+Sent: how did you get a broken leg ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.mod|do-past_2(and(v|get_4(pro:per|you_3,det:art|a_5($1,and(part|break-pastp_6($1),n|leg_7($1))),$0),$2($0)),$0)
+example_end
+
+Sent: no Adam you 've got parts of the sign on the floor there .
+Sem: lambda $0_{r}.and(aux|~have_4(and(and(part|get-pastp_5(pro:per|you_3,BARE($1,att(n|part-pl_6($1),prep|of_7(det:art|the_8($2,n|sign_9($2))))),$0),prep|on_10(det:art|the_11($3,n|floor_12($3)),$0)),adv|there_13($0)),$0),co|no_1($0))
+example_end
+
+Sent: no no !
+Sem: lambda $0_{r}.and(co|no_2($0),co|no_1($0))
+example_end
+
+Sent: here 's one .
+Sem: lambda $0_{r}.and(cop|~be_2(pro:indef|one_3,$0),pro:exist|here_1($0))
+example_end
+
+Sent: can 't you take them out ?
+Sem: lambda $0_{r}.Q(not(mod|can_1(and(v|take_4(pro:per|you_3,pro:obj|them_5,$0),adv|out_6($0)),$0),$0))
+example_end
+
+Sent: have you ever seen a stretching man ?
+Sem: lambda $0_{r}.Q(aux|have_1(and(part|see-pastp_4(pro:per|you_2,det:art|a_5($1,and(part|stretch-presp_6($1),n|man_7($1))),$0),adv|ever_3($0)),$0))
+example_end
+
+Sent: you have ?
+Sem: lambda $0_{r}.Q(v|have_2(pro:per|you_1,$0))
+example_end
+
+Sent: where is a stretching office ?
+Sem: lambda $0_{r}.Q(adv:int|where_1(det:art|a_3($1,and_comp(part|stretch-presp_4($1),n|office_5($1))),$0))
+example_end
+
+Sent: stretching arm .
+Sem: lambda $0_{r}.part|stretch-presp_1(you,BARE($1,n|arm_2($1)),$0)
+example_end
+
+Sent: can you think about it ?
+Sem: lambda $0_{r}.Q(mod|can_1(and(v|think_3(pro:per|you_2,$0),prep|about_4(pro:per|it_5,$0)),$0))
+example_end
+
+Sent: Mr Package ?
+Sem: BARE($0,Q(n:prop|mr_1_package_2($0)))
+example_end
+
+Sent: does it look like anything you 've seen before ?
+Sem: lambda $0_{r}.Q(mod|do-3s_1(and(cop|look_3(_,pro:per|it_2,$0),conj|like_4(pro:indef|anything_5,$0)),$0))
+example_end
+
+Sent: he 's working with his father .
+Sem: lambda $0_{r}.aux|~be_2(and(part|work-presp_3(pro:sub|he_1,$0),prep|with_4(det:poss|his_5($1,n|father_6($1)),$0)),$0)
+example_end
+
+Sent: he 's making something .
+Sem: lambda $0_{r}.aux|~be_2(part|make-presp_3(pro:sub|he_1,pro:indef|something_4,$0),$0)
+example_end
+
+Sent: look at the things you can make .
+Sem: lambda $0_{r}.cop|look_1(you,det:art|the_3($1,n|thing-pl_4_at_2($1)),$0)
+example_end
+
+Sent: what is this .
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: you have_to have wood .
+Sem: lambda $0_{r}.mod:aux|have_to_2(pro:per|you_1,lambda $1_{r}.v|have_4(pro:per|you_1,$1),$0)
+example_end
+
+Sent: those are nice Adam .
+Sem: lambda $0_{r}.adj|nice_3(pro:dem|those_1,$0)
+example_end
+
+Sent: what will I do with that ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|will_2(and(v|do_4(pro:sub|i_3,$1,$0),prep|with_5(pro:dem|that_6,$0)),$0)
+example_end
+
+Sent: I 'll let you use this .
+Sem: lambda $0_{r}.mod|~will_2(v|let-zero_3(pro:sub|i_1,lambda $1_{r}.v|use_5(pro:per|you_4,pro:dem|this_6,$1),$0),$0)
+example_end
+
+Sent: it 's called a level .
+Sem: lambda $0_{r}.aux|~be_2(part|call-pastp_3(_,det:art|a_4($1,n|level_5($1)),pro:per|it_1,$0),$0)
+example_end
+
+Sent: it 's a drill .
+Sem: lambda $0_{r}.det:art|a_3(pro:per|it_1,n|drill_4(pro:per|it_1,$0))
+example_end
+
+Sent: you can make holes with it .
+Sem: lambda $0_{r}.mod|can_2(and(v|make_3(pro:per|you_1,BARE($1,n|hole-pl_4($1)),$0),prep|with_5(pro:per|it_6,$0)),$0)
+example_end
+
+Sent: I think I might have something .
+Sem: lambda $0_{r}.v|think_2(pro:sub|i_1,lambda $1_{r}.mod|might_4(v|have_5(pro:sub|i_3,BARE($2,pro:indef|something_6($2)),$1),$1),$0)
+example_end
+
+Sent: what are you making ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|be-pres_2(part|make-presp_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: why don 't you want to cut it ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.not(mod|do_2(and(v|want_5(pro:per|you_4,lambda $1_{r}.v|cut-zero_7(pro:per|you_4,pro:per|it_8,$1),$0),$2($0)),$0),$0)
+example_end
+
+Sent: no you try it .
+Sem: lambda $0_{r}.and(v|try_3(pro:per|you_2,pro:per|it_4,$0),co|no_1($0))
+example_end
+
+Sent: don 't put your fingers down there because it 's very sharp .
+Sem: lambda $0_{r}.not(conj|because_8(adv|very_11(adj|sharp_12(pro:per|it_9,$0)),mod|do_1(and(v|put-zero_3(you,det:poss|your_4($1,n|finger-pl_5($1)),$0),adv|down_6(adv|there_7($0))),$0)),$0)
+example_end
+
+Sent: no I don 't want to do it .
+Sem: lambda $0_{r}.and(not(mod|do_3(v|want_5(pro:sub|i_2,lambda $1_{r}.v|do_7(pro:sub|i_2,pro:per|it_8,$1),$0),$0),$0),co|no_1($0))
+example_end
+
+Sent: I 'm not a little boy .
+Sem: lambda $0_{r}.not(det:art|a_4(pro:sub|i_1,and(n|boy_6(pro:sub|i_1,$0),adj|little_5(pro:sub|i_1,$0))),$0)
+example_end
+
+Sent: a drill .
+Sem: det:art|a_1($0,n|drill_2($0))
+example_end
+
+Sent: makes a hole for a screw .
+Sem: lambda $0_{r}.and(v|make-3s_1(you,det:art|a_2($1,n|hole_3($1)),$0),prep|for_4(det:art|a_5($2,n|screw_6($2)),$0))
+example_end
+
+Sent: it 's a file .
+Sem: lambda $0_{r}.det:art|a_3(pro:per|it_1,n|file_4(pro:per|it_1,$0))
+example_end
+
+Sent: look at the edge and you see something like teeth and when you pull them back and forth they cut the wood .
+Sem: lambda $0_{r}.coord|and_5(conj|when_12(and(v|pull_14(pro:per|you_13,pro:obj|them_15,$0),adv|forth_18($0)),v|cut-zero_20(pro:sub|they_19,det:art|the_21($1,n|wood_22($1)),$0)),and(v|see_7(pro:per|you_6,BARE($2,att(pro:indef|something_8($2),prep|like_9(BARE($3,n|tooth-pl_10($3))))),$0),prep|at_2(det:art|the_3($4,n|edge_4($4)),$0)))
+example_end
+
+Sent: here 's a nail would you like to try ?
+Sem: lambda $0_{r}.and(pro:exist|here_1(det:art|a_3($1,n|nail_4($1)),$0),Q(mod|will-cond_5(v|like_7(pro:per|you_6,lambda $2_{r}.v|try_9(pro:per|you_6,$2),$0),$0)))
+example_end
+
+Sent: I 'll hold it .
+Sem: lambda $0_{r}.mod|~will_2(v|hold_3(pro:sub|i_1,pro:per|it_4,$0),$0)
+example_end
+
+Sent: you do it .
+Sem: lambda $0_{r}.v|do_2(pro:per|you_1,pro:per|it_3,$0)
+example_end
+
+Sent: you almost caught me .
+Sem: lambda $0_{r}.and(v|catch-past_3(pro:per|you_1,pro:obj|me_4,$0),adv|almost_2($0))
+example_end
+
+Sent: why would you hold it with that ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.mod|will-cond_2(and(and(v|hold_4(pro:per|you_3,pro:per|it_5,$0),$1($0)),prep|with_6(pro:dem|that_7,$0)),$0)
+example_end
+
+Sent: you have_to learn .
+Sem: lambda $0_{r}.mod:aux|have_to_2(pro:per|you_1,lambda $1_{r}.v|learn_4(pro:per|you_1,$1),$0)
+example_end
+
+Sent: well you have_to learn how .
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.and(and(mod:aux|have_to_3(pro:per|you_2,lambda $1_{r}.v|learn_5(pro:per|you_2,$1),$0),$2($0)),co|well_1($0))
+example_end
+
+Sent: if you had a big what ?
+Sem: lambda $1_{e}.lambda $0_{r}.v|have-past_3(pro:per|you_2,$1,$0)
+example_end
+
+Sent: don 't hit my fingers .
+Sem: lambda $0_{r}.not(mod|do_1(v|hit-zero_3(you,det:poss|my_4($1,n|finger-pl_5($1)),$0),$0),$0)
+example_end
+
+Sent: you do it .
+Sem: lambda $0_{r}.v|do_2(pro:per|you_1,pro:per|it_3,$0)
+example_end
+
+Sent: I 'll hold it while you turn .
+Sem: lambda $0_{r}.conj|while_5(v|turn_7(pro:per|you_6,$0),mod|~will_2(v|hold_3(pro:sub|i_1,pro:per|it_4,$0),$0))
+example_end
+
+Sent: it won 't move .
+Sem: lambda $0_{r}.not(mod|will_2(v|move_4(pro:per|it_1,$0),$0),$0)
+example_end
+
+Sent: where 's the fish ?
+Sem: lambda $0_{r}.Q(adv:int|where_1(det:art|the_3($1,n|fish_4($1)),$0))
+example_end
+
+Sent: oh I 'm watching the fish .
+Sem: lambda $0_{r}.and(aux|~be_3(part|watch-presp_4(pro:sub|i_2,det:art|the_5($1,n|fish_6($1)),$0),$0),co|oh_1($0))
+example_end
+
+Sent: the fish stopped ?
+Sem: lambda $0_{r}.Q(v|stop-past_3(det:art|the_1($1,n|fish_2($1)),$0))
+example_end
+
+Sent: why did he stop ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.mod|do-past_2(and(v|stop_4(pro:sub|he_3,$0),$1($0)),$0)
+example_end
+
+Sent: you turn it dear .
+Sem: lambda $0_{r}.v|turn_2(pro:per|you_1,pro:per|it_3,$0)
+example_end
+
+Sent: first you mark with a pencil .
+Sem: lambda $0_{r}.and(and(v|mark_3(pro:per|you_2,$0),adv|first_1($0)),prep|with_4(det:art|a_5($1,n|pencil_6($1)),$0))
+example_end
+
+Sent: oh you can 't put it back on once you 've cut it off .
+Sem: lambda $0_{r}.and(not(adv|once_9(aux|~have_11(and(v|cut-zero_12(pro:per|you_10,pro:per|it_13,$0),adv|off_14($0)),$0),mod|can_3(and(and(v|put-zero_5(pro:per|you_2,pro:per|it_6,$0),adv|back_7($0)),adv|on_8($0)),$0)),$0),co|oh_1($0))
+example_end
+
+Sent: well I can 't finish it by myself .
+Sem: lambda $0_{r}.and(not(mod|can_3(and(v|finish_5(pro:sub|i_2,pro:per|it_6,$0),prep|by_7(pro:refl|myself_8,$0)),$0),$0),co|well_1($0))
+example_end
+
+Sent: maybe you can drill a hole too .
+Sem: lambda $0_{r}.mod|can_3(and(and(v|drill_4(pro:per|you_2,det:art|a_5($1,n|hole_6($1)),$0),adv|maybe_1($0)),adv|too_7($0)),$0)
+example_end
+
+Sent: on this part .
+Sem: prep|on_1(pro:dem|this_2($0,n|part_3($0)))
+example_end
+
+Sent: turn around .
+Sem: lambda $0_{r}.and(n|turn_1(you,$0),adv|around_2($0))
+example_end
+
+Sent: yes that 's sharp .
+Sem: lambda $0_{r}.and(adj|sharp_4(pro:dem|that_2,$0),co|yes_1($0))
+example_end
+
+Sent: you 'll cut your fingers .
+Sem: lambda $0_{r}.mod|~will_2(part|cut-pastp_3(pro:per|you_1,det:poss|your_4($1,n|finger-pl_5($1)),$0),$0)
+example_end
+
+Sent: no I 'm not going to do it .
+Sem: lambda $0_{r}.and(not(cop|~be_3(part|go-presp_5(pro:sub|i_2,lambda $1_{r}.v|do_7(pro:sub|i_2,pro:per|it_8,$1),$0),$0),$0),co|no_1($0))
+example_end
+
+Sent: did you try marking with this ?
+Sem: lambda $0_{r}.Q(v|do-past_1(v|try_3(pro:per|you_2,lambda $1_{r}.and(part|mark-presp_4(you,$1),prep|with_5(pro:dem|this_6,$1)),$0),$0))
+example_end
+
+Sent: I have a blue one .
+Sem: lambda $0_{r}.v|have_2(pro:sub|i_1,det:art|a_3($1,and(n|blue_4($1),pro:indef|one_5($1))),$0)
+example_end
+
+Sent: why don 't you write with it first ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.not(mod|do_2(and(and(and(v|write_5(pro:per|you_4,$0),$1($0)),prep|with_6(pro:per|it_7,$0)),adv|first_8($0)),$0),$0)
+example_end
+
+Sent: I 'll hold this while you draw a straight line .
+Sem: lambda $0_{r}.n|while_5(v|draw_7(pro:per|you_6,det:art|a_8($1,and(adj|straight_9($1),n|line_10($1))),$0),mod|~will_2(v|hold_3(pro:sub|i_1,pro:dem|this_4,$0),$0))
+example_end
+
+Sent: but you have_to hold your pencil against there .
+Sem: lambda $0_{r}.mod:aux|have_to_3(pro:per|you_2,lambda $1_{r}.v|hold_5(pro:per|you_2,$1),$0)
+example_end
+
+Sent: watch your fingers .
+Sem: lambda $0_{r}.v|watch_1(you,det:poss|your_2($1,n|finger-pl_3($1)),$0)
+example_end
+
+Sent: don 't cut your thumb Adam .
+Sem: lambda $0_{r}.not(mod|do_1(v|cut-zero_3(you,det:poss|your_4($1,n|thumb_5($1)),$0),$0),$0)
+example_end
+
+Sent: oh no you cut it .
+Sem: lambda $0_{r}.and(and(v|cut-zero_4(pro:per|you_3,pro:per|it_5,$0),co|oh_1($0)),co|no_2($0))
+example_end
+
+Sent: are you sure ?
+Sem: lambda $0_{r}.Q(adj|sure_3(pro:per|you_2,$0))
+example_end
+
+Sent: a wrench .
+Sem: det:art|a_1($0,v|wrench_2($0))
+example_end
+
+Sent: screw it .
+Sem: lambda $0_{r}.v|screw_1(you,pro:per|it_2,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: you hurt yourself .
+Sem: lambda $0_{r}.v|hurt-zero_2(pro:per|you_1,pro:refl|yourself_3,$0)
+example_end
+
+Sent: you could drill a hole through that .
+Sem: lambda $0_{r}.mod|could_2(and(v|drill_3(pro:per|you_1,det:art|a_4($1,n|hole_5($1)),$0),prep|through_6(pro:dem|that_7,$0)),$0)
+example_end
+
+Sent: now you can drill right through there .
+Sem: lambda $0_{r}.n|can_3(and(and(n|drill_4(pro:per|you_2,$0),adv|now_1($0)),adj|right_5(adj|through_6(adv|there_7($0)))),$0)
+example_end
+
+Sent: you can screw that on .
+Sem: lambda $0_{r}.mod|can_2(and(v|screw_3(pro:per|you_1,pro:dem|that_4,$0),adv|on_5($0)),$0)
+example_end
+
+Sent: where 's your screwdriver ?
+Sem: lambda $2_{<r,t>}.lambda $0_{r}.and(cop|~be_2(det:poss|your_3($1,n|screw+driver_4($1)),$0),$2($0))
+example_end
+
+Sent: did you look behind you ?
+Sem: lambda $0_{r}.Q(v|do-past_1(and(cop|look_3(pro:per|you_2,$0),adv|behind_4(pro:per|you_5,$0)),$0))
+example_end
+
+Sent: why did you knock it ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.mod|do-past_2(and(v|knock_4(pro:per|you_3,pro:per|it_5,$0),$1($0)),$0)
+example_end
+
+Sent: did you try cutting that ?
+Sem: lambda $0_{r}.Q(v|do-past_1(v|try_3(pro:per|you_2,lambda $1_{r}.part|cut-presp_4(pro:per|you_2,pro:dem|that_5,$1),$0),$0))
+example_end
+
+Sent: watch your fingers Adam .
+Sem: lambda $0_{r}.v|watch_1(you,det:poss|your_2($1,n|finger-pl_3($1)),$0)
+example_end
+
+Sent: no dear .
+Sem: lambda $0_{r}.co|no_1($0)
+example_end
+
+Sent: I can 't use that while you 're there .
+Sem: lambda $0_{r}.not(n|while_6(adv|there_9(pro:per|you_7,$0),mod|can_2(v|use_4(pro:sub|i_1,pro:dem|that_5,$0),$0)),$0)
+example_end
+
+Sent: turn that .
+Sem: lambda $0_{r}.v|turn_1(you,pro:dem|that_2,$0)
+example_end
+
+Sent: what are you going to put in there anyway ?
+Sem: lambda $2_{e}.lambda $0_{r}.and(aux|be-pres_2(part|go-presp_4(pro:per|you_3,lambda $1_{r}.and(v|put-zero_6(pro:per|you_3,$2,$1),adv|there_8($1)),$0),$0),adv|anyway_9($0))
+example_end
+
+Sent: what would you want to put ?
+Sem: lambda $2_{e}.lambda $0_{r}.mod|will-cond_2(v|want_4(pro:per|you_3,lambda $1_{r}.v|put-zero_6(pro:per|you_3,$2,$1),$0),$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: are you getting a runny nose ?
+Sem: lambda $0_{r}.Q(cop|be-pres_1(part|get-presp_3(pro:per|you_2,det:art|a_4($1,and(adj|run-dv_5($1),n|nose_6($1))),$0),$0))
+example_end
+
+Sent: can you pull it out now ?
+Sem: lambda $0_{r}.Q(mod|can_1(and(and(v|pull_3(pro:per|you_2,pro:per|it_4,$0),adv|out_5($0)),adv|now_6($0)),$0))
+example_end
+
+Sent: that 's a level .
+Sem: lambda $0_{r}.det:art|a_3(pro:dem|that_1,n|level_4(pro:dem|that_1,$0))
+example_end
+
+Sent: to see if something is straight .
+Sem: lambda $0_{r}.v|see_2(you,lambda $1_{r}.adv|straight_6(pro:indef|something_4,$1),$0)
+example_end
+
+Sent: some water .
+Sem: qn|some_1($0,n|water_2($0))
+example_end
+
+Sent: where 's your saw ?
+Sem: lambda $0_{r}.Q(adv:int|where_1(det:poss|your_3($1,n|saw_4($1)),$0))
+example_end
+
+Sent: you can make a door that opens .
+Sem: lambda $0_{r}.mod|can_2(v|make_3(pro:per|you_1,det:art|a_4($1,n|door_5($1)),$0),$0)
+example_end
+
+Sent: can I take a message ?
+Sem: lambda $0_{r}.Q(mod|can_1(v|take_3(pro:sub|i_2,det:art|a_4($1,n|message_5($1)),$0),$0))
+example_end
+
+Sent: can you cut along here Adam ?
+Sem: lambda $0_{r}.Q(mod|can_1(and(v|cut-zero_3(pro:per|you_2,$0),prep|along_4(adv|here_5($0))),$0))
+example_end
+
+Sent: shall we do it together ?
+Sem: lambda $0_{r}.Q(mod|shall_1(and(v|do_3(pro:sub|we_2,pro:per|it_4,$0),adv|together_5($0)),$0))
+example_end
+
+Sent: that 's it .
+Sem: lambda $0_{r}.pro:dem|that_1(pro:per|it_3,$0)
+example_end
+
+Sent: there 's a door .
+Sem: lambda $0_{r}.cop|~be_2(det:art|a_3($1,n|door_4($1)),$0)
+example_end
+
+Sent: you did .
+Sem: lambda $0_{r}.v|do-past_2(pro:per|you_1,$0)
+example_end
+
+Sent: a car ?
+Sem: BARE($0,Q(det:art|a_1($1,n|car_2($1),$0)))
+example_end
+
+Sent: is that a garage ?
+Sem: lambda $0_{r}.Q(det:art|a_3(pro:rel|that_2,n|garage_4(pro:rel|that_2,$0)))
+example_end
+
+Sent: I think you have a car up there on the shelf that might just fit in there .
+Sem: lambda $0_{r}.v|think_2(pro:sub|i_1,lambda $1_{r}.and(and(v|have_4(pro:per|you_3,det:art|a_5($2,n|car_6($2)),$1),adv|up_7(adv|there_8($1))),prep|on_9(det:art|the_10($3,n|shelf_11($3)),$1)),$0)
+example_end
+
+Sent: on the top shelf .
+Sem: prep|on_1(det:art|the_2($0,and_comp(n|top_3($0),n|shelf_4($0))))
+example_end
+
+Sent: on the other side .
+Sem: prep|on_1(det:art|the_2($0,and(qn|other_3($0),n|side_4($0))))
+example_end
+
+Sent: maybe Paul took it .
+Sem: lambda $0_{r}.and(v|take-past_3(n:prop|paul_2,pro:per|it_4,$0),adv|maybe_1($0))
+example_end
+
+Sent: one named Joe ?
+Sem: BARE($0,Q(pro:indef|one_1($0)))
+example_end
+
+Sent: how does that go ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.mod|do-3s_2(and(v|go_4(det:dem|that_3,$0),$1($0)),$0)
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: the magnet ?
+Sem: BARE($0,Q(det:art|the_1($1,n|magnet_2($1),$0)))
+example_end
+
+Sent: I looked for it at home too .
+Sem: lambda $0_{r}.and(and(and(cop|look-past_2(pro:sub|i_1,$0),prep|for_3(pro:per|it_4,$0)),prep|at_5(BARE($1,n|home_6($1)),$0)),post|too_7($0))
+example_end
+
+Sent: in June ?
+Sem: Q(prep|in_1(n:prop|june_2))
+example_end
+
+Sent: begins with a .
+Sem: lambda $0_{r}.and(v|begin-3s_1(you,$0),prep|with_2(BARE($1,n:let|a_3($1)),$0))
+example_end
+
+Sent: look what 's happening .
+Sem: lambda $0_{r}.co|look_1(you,lambda $1_{r}.aux|~be_3(part|happen-presp_4(pro:int|what_2,$1),$1),$0)
+example_end
+
+Sent: you take another color .
+Sem: lambda $0_{r}.v|take_2(pro:per|you_1,qn|another_3($1,n|color_4($1)),$0)
+example_end
+
+Sent: I 'll change .
+Sem: lambda $0_{r}.mod|~will_2(v|change_3(pro:sub|i_1,$0),$0)
+example_end
+
+Sent: you take this .
+Sem: lambda $0_{r}.v|take_2(pro:per|you_1,pro:dem|this_3,$0)
+example_end
+

@@ -1,0 +1,104 @@
+Sent: oh what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.and($1(pro:dem|that_4,$0),co|oh_1($0))
+example_end
+
+Sent: what is it ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:per|it_3,$0)
+example_end
+
+Sent: what else did you see .
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_3(v|see_5(pro:per|you_4,$1,$0),$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: I think so .
+Sem: lambda $0_{r}.and(v|think_2(pro:sub|i_1,$0),co|so_3($0))
+example_end
+
+Sent: that 's a horse .
+Sem: lambda $0_{r}.det:art|a_3(pro:dem|that_1,n|horse_4(pro:dem|that_1,$0))
+example_end
+
+Sent: oh I 'm sorry .
+Sem: lambda $0_{r}.and(adj|sorry_4(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: where 's the box ?
+Sem: lambda $0_{r}.Q(adv:int|where_1(det:art|the_3($1,n|box_4($1)),$0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: I don 't think so .
+Sem: lambda $0_{r}.not(mod|do_2(and(v|think_4(pro:sub|i_1,$0),co|so_5($0)),$0),$0)
+example_end
+
+Sent: I don 't think so .
+Sem: lambda $0_{r}.not(mod|do_2(and(v|think_4(pro:sub|i_1,$0),co|so_5($0)),$0),$0)
+example_end
+
+Sent: yes it is .
+Sem: lambda $0_{r}.and(cop|be-3s_3(pro:per|it_2,$0),co|yes_1($0))
+example_end
+
+Sent: what did he do ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|do_4(pro:sub|he_3,$1,$0),$0)
+example_end
+
+Sent: what 's happening now ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|~be_2(and(part|happen-presp_3($1,$0),adv|now_4($0)),$0)
+example_end
+
+Sent: let me see it .
+Sem: lambda $0_{r}.v|let-zero_1(you,lambda $1_{r}.v|see_3(pro:obj|me_2,pro:per|it_4,$1),$0)
+example_end
+
+Sent: oh no .
+Sem: lambda $0_{r}.co|oh_1_no_2($0)
+example_end
+
+Sent: you 'll break it .
+Sem: lambda $0_{r}.mod|~will_2(v|break_3(pro:per|you_1,pro:per|it_4,$0),$0)
+example_end
+
+Sent: where is that ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(cop|be-3s_2(pro:dem|that_3,$0),$1($0))
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: why would you do that ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.mod|will-cond_2(and(v|do_4(pro:per|you_3,pro:dem|that_5,$0),$1($0)),$0)
+example_end
+
+Sent: no no !
+Sem: lambda $0_{r}.and(co|no_2($0),co|no_1($0))
+example_end
+
+Sent: alright Adam .
+Sem: lambda $0_{r}.co|alright_1($0)
+example_end
+
+Sent: you may break it dear .
+Sem: lambda $0_{r}.mod|may_2(v|break_3(pro:per|you_1,pro:per|it_4,$0),$0)
+example_end
+
+Sent: alright Adam .
+Sem: lambda $0_{r}.co|alright_1($0)
+example_end
+
+Sent: I 'm sorry .
+Sem: lambda $0_{r}.adj|sorry_3(pro:sub|i_1,$0)
+example_end
+
+Sent: like this .
+Sem: prep|like_1(pro:dem|this_2)
+example_end
+

@@ -1,0 +1,136 @@
+Sent: are you finished ?
+Sem: lambda $0_{r}.Q(cop|be-pres_1(v|finish-past_3(pro:per|you_2,$0),$0))
+example_end
+
+Sent: what d you think ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(v|think_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: what d you think ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(v|think_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: what are you writing ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|be-pres_2(part|write-presp_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: a snail ?
+Sem: BARE($0,Q(det:art|a_1($1,n|snail_2($1),$0)))
+example_end
+
+Sent: it is .
+Sem: lambda $0_{r}.cop|be-3s_2(pro:per|it_1,$0)
+example_end
+
+Sent: try again .
+Sem: lambda $0_{r}.and(v|try_1(you,$0),adv|again_2($0))
+example_end
+
+Sent: I don 't think so .
+Sem: lambda $0_{r}.not(mod|do_2(and(v|think_4(pro:sub|i_1,$0),co|so_5($0)),$0),$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: is it a hat ?
+Sem: lambda $0_{r}.Q(det:art|a_3(pro:per|it_2,n|hat_4(pro:per|it_2,$0)))
+example_end
+
+Sent: isn 't that pretty ?
+Sem: lambda $0_{r}.Q(not(adv|pretty_4(pro:dem|that_3,$0),$0))
+example_end
+
+Sent: that 's very nice .
+Sem: lambda $0_{r}.adv|very_3(adj|nice_4(pro:dem|that_1,$0))
+example_end
+
+Sent: I don 't think so .
+Sem: lambda $0_{r}.not(mod|do_2(and(v|think_4(pro:sub|i_1,$0),co|so_5($0)),$0),$0)
+example_end
+
+Sent: no no !
+Sem: lambda $0_{r}.and(co|no_2($0),co|no_1($0))
+example_end
+
+Sent: what 's this ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: you don 't have what ?
+Sem: lambda $1_{e}.lambda $0_{r}.not(mod|do_2(v|have_4(pro:per|you_1,$1,$0),$0),$0)
+example_end
+
+Sent: no he 's not .
+Sem: lambda $0_{r}.and(not(aux|~be_3(pro:sub|he_2,$0),$0),co|no_1($0))
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: what 're you doing ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|~be_2(part|do-presp_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: that 's a good idea .
+Sem: lambda $0_{r}.det:art|a_3(pro:dem|that_1,and(n|idea_5(pro:dem|that_1,$0),adj|good_4(pro:dem|that_1,$0)))
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: I don 't think so .
+Sem: lambda $0_{r}.not(mod|do_2(and(v|think_4(pro:sub|i_1,$0),co|so_5($0)),$0),$0)
+example_end
+
+Sent: a fence .
+Sem: det:art|a_1($0,n|fence_2($0))
+example_end
+
+Sent: like that ?
+Sem: Q(prep|like_1(pro:dem|that_2))
+example_end
+
+Sent: that 's a good idea .
+Sem: lambda $0_{r}.det:art|a_3(pro:dem|that_1,and(n|idea_5(pro:dem|that_1,$0),adj|good_4(pro:dem|that_1,$0)))
+example_end
+
+Sent: a mouse .
+Sem: det:art|a_1($0,n|mouse_2($0))
+example_end
+
+Sent: is that yours ?
+Sem: lambda $0_{r}.Q(pro:poss|yours_3(pro:dem|that_2,$0))
+example_end
+
+Sent: bless you .
+Sem: lambda $0_{r}.v|bless_1(you,pro:per|you_2,$0)
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: I see .
+Sem: lambda $0_{r}.v|see_2(pro:sub|i_1,$0)
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: I don 't think so .
+Sem: lambda $0_{r}.not(mod|do_2(and(v|think_4(pro:sub|i_1,$0),co|so_5($0)),$0),$0)
+example_end
+
+Sent: thank_you Adam .
+Sem: lambda $0_{r}.co|thank_you_1(you,$0)
+example_end
+
+Sent: no Diandra .
+Sem: lambda $0_{r}.co|no_1($0)
+example_end
+

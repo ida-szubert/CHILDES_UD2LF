@@ -1,0 +1,36 @@
+Sent: ma ze ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(ze,$0)
+example_end
+
+Sent: nu tesaprī le ʔanī , yeš le ʔat liḳlūḳ ʕal ha lēxem ?
+Sem: lambda $0_{r}.Q(and(and(and(sipēr(you,$0),le(ʔanī,$0)),and(and(yeš(BARE($1,liḳlūḳ($1)),$0),le(ʔat,$0)),ʕal(ha($2,lēxem($2)),$0))),nu($0)))
+example_end
+
+Sent: ʔeyn yotēr ?
+Sem: lambda $0_{r}.Q(and(ʔeyn(you,$0),yotēr($0)))
+example_end
+
+Sent: ʔat rocā še ʔīmaʔ tistakēl we torīdi ?
+Sem: lambda $0_{r}.Q(racā(ʔat,lambda $1_{r}.horīd(ʔīmaʔ,$1),$0))
+example_end
+
+Sent: ʕod yeš liḳluḳīm .
+Sem: lambda $0_{r}.and(yeš(BARE($1,liḳlūḳ($1)),$0),ʕod($0))
+example_end
+
+Sent: ze loʔ liḳlūḳ ?
+Sem: lambda $0_{r}.Q(not(liḳlūḳ(ze,$0),$0))
+example_end
+
+Sent: ma ze ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(ze,$0)
+example_end
+
+Sent: rocā ligmōr ?
+Sem: lambda $0_{r}.Q(racā(you,lambda $1_{r}.gamār(you,$1),$0))
+example_end
+
+Sent: bevaqašā .
+Sem: lambda $0_{r}.bevaqašā($0)
+example_end
+

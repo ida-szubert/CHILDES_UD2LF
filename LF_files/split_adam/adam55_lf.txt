@@ -1,0 +1,108 @@
+Sent: here 's some paper .
+Sem: lambda $0_{r}.pro:exist|here_1(qn|some_3($1,n|paper_4($1)),$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: here they are .
+Sem: lambda $0_{r}.adv|here_1(pro:sub|they_2,$0)
+example_end
+
+Sent: yes you do .
+Sem: lambda $0_{r}.and(v|do_3(pro:per|you_2,$0),co|yes_1($0))
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: I do ?
+Sem: lambda $0_{r}.Q(v|do_2(pro:sub|i_1,$0))
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: turn it around .
+Sem: lambda $0_{r}.and(v|turn_1(you,pro:per|it_2,$0),adv|around_3($0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: I don 't think so .
+Sem: lambda $0_{r}.not(mod|do_2(and(v|think_4(pro:sub|i_1,$0),co|so_5($0)),$0),$0)
+example_end
+
+Sent: I don 't know .
+Sem: lambda $0_{r}.not(mod|do_2(v|know_4(pro:sub|i_1,$0),$0),$0)
+example_end
+
+Sent: yes thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|yes_1($0))
+example_end
+
+Sent: oh I see .
+Sem: lambda $0_{r}.and(v|see_3(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: a cat .
+Sem: det:art|a_1($0,n|cat_2($0))
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: I think so .
+Sem: lambda $0_{r}.and(v|think_2(pro:sub|i_1,$0),co|so_3($0))
+example_end
+
+Sent: I see them .
+Sem: lambda $0_{r}.v|see_2(pro:sub|i_1,pro:obj|them_3,$0)
+example_end
+
+Sent: what 's her name ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(det:poss|her_3($2,n|name_4($2)),$0)
+example_end
+
+Sent: what are you doing ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|be-pres_2(part|do-presp_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: yes it is .
+Sem: lambda $0_{r}.and(cop|be-3s_3(pro:per|it_2,$0),co|yes_1($0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: I do ?
+Sem: lambda $0_{r}.Q(v|do_2(pro:sub|i_1,$0))
+example_end
+
+Sent: shall I help you ?
+Sem: lambda $0_{r}.Q(mod|shall_1(v|help_3(pro:sub|i_2,pro:per|you_4,$0),$0))
+example_end
+
+Sent: squeeze it .
+Sem: lambda $0_{r}.v|squeeze_1(you,pro:per|it_2,$0)
+example_end
+
+Sent: that 's it .
+Sem: lambda $0_{r}.pro:dem|that_1(pro:per|it_3,$0)
+example_end
+

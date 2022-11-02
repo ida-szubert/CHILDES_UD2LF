@@ -1,0 +1,192 @@
+Sent: oh I 'm sorry .
+Sem: lambda $0_{r}.and(adj|sorry_4(pro:sub|i_2,$0),co|oh_1($0))
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: what 's that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: what 's this ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: what 's this one ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3($2,pro:indef|one_4($2)),$0)
+example_end
+
+Sent: what are these ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|these_3,$0)
+example_end
+
+Sent: what 's this ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: and this ?
+Sem: BARE($0,Q(pro:dem|this_2($0)))
+example_end
+
+Sent: what about this ?
+Sem: att(pro:int|what_1,prep|about_2(pro:dem|this_3))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: oh Adam .
+Sem: lambda $0_{r}.and(n:prop|adam_2($0),co|oh_1($0))
+example_end
+
+Sent: here 's another one .
+Sem: lambda $0_{r}.and(cop|~be_2(qn|another_3($1,pro:indef|one_4($1)),$0),pro:exist|here_1($0))
+example_end
+
+Sent: you 're too big ?
+Sem: lambda $0_{r}.Q(adv|too_3(adj|big_4(pro:per|you_1,$0)))
+example_end
+
+Sent: what is that ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|that_3,$0)
+example_end
+
+Sent: on the other side .
+Sem: prep|on_1(det:art|the_2($0,and(qn|other_3($0),n|side_4($0))))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: what d you hear ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(v|hear_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: oh you did ?
+Sem: lambda $0_{r}.Q(and(v|do-past_3(pro:per|you_2,$0),co|oh_1($0)))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: one more what ?
+Sem: att(BARE($0,det:num|one_1(pro:int|what_3($0))),BARE($1,adv|more_2($1)))
+example_end
+
+Sent: there it is .
+Sem: lambda $0_{r}.cop|be-3s_3_there_1_it_2(you,$0)
+example_end
+
+Sent: is that right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_2,$0))
+example_end
+
+Sent: now let go .
+Sem: lambda $0_{r}.and(v|let-zero_2_go_3(you,$0),adv|now_1($0))
+example_end
+
+Sent: can you fix it ?
+Sem: lambda $0_{r}.Q(mod|can_1(v|fix_3(pro:per|you_2,pro:per|it_4,$0),$0))
+example_end
+
+Sent: oh no .
+Sem: lambda $0_{r}.co|oh_1_no_2($0)
+example_end
+
+Sent: what does that say ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-3s_2(v|say_4(pro:dem|that_3,$1,$0),$0)
+example_end
+
+Sent: that 's alright .
+Sem: lambda $0_{r}.adj|alright_3(pro:dem|that_1,$0)
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: yes you did .
+Sem: lambda $0_{r}.and(v|do-past_3(pro:per|you_2,$0),co|yes_1($0))
+example_end
+
+Sent: that 's alright .
+Sem: lambda $0_{r}.adj|alright_3(pro:dem|that_1,$0)
+example_end
+
+Sent: oh my_goodness .
+Sem: lambda $0_{r}.and(co|my_goodness_2($0),co|oh_1($0))
+example_end
+
+Sent: what did you say ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do-past_2(v|say_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: it 's what ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:per|it_1,$0)
+example_end
+
+Sent: you have ?
+Sem: lambda $0_{r}.Q(v|have_2(pro:per|you_1,$0))
+example_end
+
+Sent: what are those ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|those_3,$0)
+example_end
+
+Sent: good morning .
+Sem: BARE($0,and(adj|good_1($0),n|morning_2($0)))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: come on .
+Sem: lambda $0_{r}.and(v|come_1(you,$0),adv|on_2($0))
+example_end
+
+Sent: who are you ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:per|you_3,$0)
+example_end
+
+Sent: oh my_goodness .
+Sem: lambda $0_{r}.and(co|my_goodness_2($0),co|oh_1($0))
+example_end
+
+Sent: careful Adam !
+Sem: BARE($0,co|careful_1($0))
+example_end
+
+Sent: oh Paul .
+Sem: lambda $0_{r}.and(n:prop|paul_2($0),co|oh_1($0))
+example_end
+
+Sent: you blow it .
+Sem: lambda $0_{r}.v|blow_2(pro:per|you_1,pro:per|it_3,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: you 'll break it .
+Sem: lambda $0_{r}.mod|~will_2(v|break_3(pro:per|you_1,pro:per|it_4,$0),$0)
+example_end
+

@@ -1,0 +1,40 @@
+Sent: ma ʔat ʕoṣā ?
+Sem: lambda $1_{e}.lambda $0_{r}.ʕaṣā(ʔat,$1,$0)
+example_end
+
+Sent: leʔān ʔat holēḳet ?
+Sem: lambda $0_{r}.Q(and(halāḳ(ʔat,$0),leʔān($0)))
+example_end
+
+Sent: leʔān ʔat holēḳet ?
+Sem: lambda $0_{r}.Q(and(halāḳ(ʔat,$0),leʔān($0)))
+example_end
+
+Sent: mahēr mahēr lašēvet ʕal ha sir , torīdi ʔet ha miḳnās .
+Sem: lambda $0_{r}.and(and(and(yašāv(you,$0),mahēr($0)),ʕal(ha($1,sir($1)),$0)),horīd(you,ha($2,miḳnās_ʔet($2)),$0))
+example_end
+
+Sent: kmo gdolā lehorīd miḳnasāyim .
+Sem: lambda $0_{r}.and(horīd(you,BARE($1,miḳnās($1)),$0),kmo(BARE($2,gadōl($2)),$0))
+example_end
+
+Sent: xxx ʔet ha baqbūq ha ze , šel mi ze ha baqbūq ha ze ?
+Sem: ha($0,and(ha($1,ze($1),$0),baqbūq($0)))
+example_end
+
+Sent: lāma Hagāri boḳā ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(baḳā(hagāri,$0),$1($0))
+example_end
+
+Sent: loʔ lagāʕat be xuṭ ha xašmāl .
+Sem: lambda $0_{r}.not(nagāʕ(you,BARE($1,and_comp(ha($2,xašmāl($2),$1),xuṭ_be($1))),$0),$0)
+example_end
+
+Sent: xuc mi ze xxx mutār le ʔat lagāʕat , ʔavāl loʔ be xuṭ ha xašmāl .
+Sem: lambda $0_{r}.mutār(you,$0)
+example_end
+
+Sent: ʔanī ʔanī kisēʔ , ʔaz ma ʔat ?
+Sem: lambda $0_{r}.kisēʔ(ʔanī,$0)
+example_end
+

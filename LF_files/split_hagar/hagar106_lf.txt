@@ -1,0 +1,80 @@
+Sent: ma qāqi we pīpi ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(BARE($2,pīpi($2)),$0)
+example_end
+
+Sent: ʔat ʕoṣā ?
+Sem: lambda $0_{r}.Q(ʕaṣā(ʔat,$0))
+example_end
+
+Sent: ʔat ʕoṣā pīpi ʕal ha qāqi ?
+Sem: lambda $0_{r}.Q(and(ʕaṣā(ʔat,BARE($1,pīpi($1)),$0),ʕal(ha($2,qāqi($2)),$0)))
+example_end
+
+Sent: we taʕaṣī sēndwiç , ʔaxār kaḳ qāqi ʕal ha pīpi ?
+Sem: lambda $0_{r}.Q(and(ʕaṣā(you,BARE($1,sēndwiç($1)),$0),ʔaxār_kaḳ(BARE($2,att(qāqi($2),ʕal(ha($3,pīpi($3))))))))
+example_end
+
+Sent: ʔēyze yōfi .
+Sem: ʔēyze($0,yōfi($0))
+example_end
+
+Sent: Hagāri maḳnisā ʔet ha bēreḳ le toḳ ha xulcā , naḳōn ?
+Sem: lambda $0_{r}.Q(and(and(hiḳnīs(hagāri,ha($1,bēreḳ_ʔet($1)),$0),le_toḳ(ha($2,xulcā($2)),$0)),naḳōn($0)))
+example_end
+
+Sent: še loʔ yihiyē le ʔat qar , yafē meʔōd .
+Sem: BARE($0,qar($0))
+example_end
+
+Sent: nu , ʔulāy gamārnu Hagār ?
+Sem: lambda $0_{r}.Q(and(and(gamār(you,$0),ʔulāy($0)),nu($0)))
+example_end
+
+Sent: ʕod loʔ hitxīla .
+Sem: lambda $0_{r}.not(and(hitxīl(you,$0),ʕod($0)),$0)
+example_end
+
+Sent: ʔēyze yōfi .
+Sem: ʔēyze($0,yōfi($0))
+example_end
+
+Sent: ma , ze hakōl Hagāri ?
+Sem: lambda $0_{r}.hakōl(ze,$0)
+example_end
+
+Sent: ʔanāxnu nenagēv ʔet ha ṭūsiq šel Hagāri yafē yafē .
+Sem: lambda $0_{r}.and(nigēv(ʔanī,hagāri's($1,ha($2,ṭūsiq_ʔet($2),$1)),$0),yafē($0))
+example_end
+
+Sent: ṭov !
+Sem: lambda $0_{r}.ṭov($0)
+example_end
+
+Sent: ʔetmōl halāḳt le Bōbi ?
+Sem: lambda $0_{r}.Q(and(and(halāḳ(you,$0),ʔetmōl($0)),le(bōbi,$0)))
+example_end
+
+Sent: ʔat beṭuxā Hagāri ?
+Sem: lambda $0_{r}.Q(baṭūax(ʔat,$0))
+example_end
+
+Sent: ʔat mamšiḳā be maʕaṣē ?
+Sem: lambda $0_{r}.Q(and(himšīḳ(ʔat,$0),be(BARE($1,maʕaṣē($1)),$0)))
+example_end
+
+Sent: loʔ Hagāri .
+Sem: lambda $0_{r}.loʔ($0)
+example_end
+
+Sent: bōʔi nenagēv .
+Sem: lambda $0_{r}.nigēv(you,$0)
+example_end
+
+Sent: ṭov ?
+Sem: lambda $0_{r}.Q(ṭov($0))
+example_end
+
+Sent: lehavīʔ magēvet ?
+Sem: lambda $0_{r}.Q(hevīʔ(you,BARE($1,magēvet($1)),$0))
+example_end
+

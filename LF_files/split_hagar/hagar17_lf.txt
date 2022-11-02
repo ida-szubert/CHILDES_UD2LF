@@ -1,0 +1,20 @@
+Sent: mi coʕēq ?
+Sem: lambda $1_{e}.lambda $0_{r}.caʕāq($1,$0)
+example_end
+
+Sent: šafān coʕēq ?
+Sem: lambda $0_{r}.Q(caʕāq(BARE($1,šafān($1)),$0))
+example_end
+
+Sent: Hagāri coʕēqet ?
+Sem: lambda $0_{r}.Q(caʕāq(hagāri,$0))
+example_end
+
+Sent: loʔ .
+Sem: lambda $0_{r}.loʔ($0)
+example_end
+
+Sent: ha bubā coʕēqet ?
+Sem: lambda $0_{r}.Q(caʕāq(ha($1,bubā($1)),$0))
+example_end
+

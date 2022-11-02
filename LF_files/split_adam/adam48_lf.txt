@@ -1,0 +1,180 @@
+Sent: oh Adam .
+Sem: lambda $0_{r}.and(n:prop|adam_2($0),co|oh_1($0))
+example_end
+
+Sent: what 're you doing ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|~be_2(part|do-presp_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: that 's enough Adam .
+Sem: lambda $0_{r}.adj|enough_3(pro:dem|that_1,$0)
+example_end
+
+Sent: what 're you doing ?
+Sem: lambda $1_{e}.lambda $0_{r}.aux|~be_2(part|do-presp_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: what is this .
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:dem|this_3,$0)
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: you do it .
+Sem: lambda $0_{r}.v|do_2(pro:per|you_1,pro:per|it_3,$0)
+example_end
+
+Sent: a book ?
+Sem: BARE($0,Q(det:art|a_1($1,n|book_2($1),$0)))
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: did you finish the puzzle ?
+Sem: lambda $0_{r}.Q(v|do-past_1(v|finish_3(pro:per|you_2,det:art|the_4($1,n|puzzle_5($1)),$0),$0))
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: is that right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_2,$0))
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: oh you are .
+Sem: lambda $0_{r}.and(cop|be-pres_3(pro:per|you_2,$0),co|oh_1($0))
+example_end
+
+Sent: oh Adam .
+Sem: lambda $0_{r}.and(n:prop|adam_2($0),co|oh_1($0))
+example_end
+
+Sent: you did .
+Sem: lambda $0_{r}.v|do-past_2(pro:per|you_1,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: you don 't remember ?
+Sem: lambda $0_{r}.Q(not(mod|do_2(v|remember_4(pro:per|you_1,$0),$0),$0))
+example_end
+
+Sent: I see .
+Sem: lambda $0_{r}.v|see_2(pro:sub|i_1,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: here 's another one .
+Sem: lambda $0_{r}.and(cop|~be_2(qn|another_3($1,pro:indef|one_4($1)),$0),pro:exist|here_1($0))
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: see what happens .
+Sem: lambda $0_{r}.v|see_1(you,lambda $1_{r}.v|happen-3s_3(pro:int|what_2,$1),$0)
+example_end
+
+Sent: say thank_you .
+Sem: lambda $0_{r}.v|say_1(you,BARE($1,n|thank_you_2($1)),$0)
+example_end
+
+Sent: what 're you going to draw ?
+Sem: lambda $2_{e}.lambda $0_{r}.aux|~be_2(part|go-presp_4(pro:per|you_3,lambda $1_{r}.v|draw_6(pro:per|you_3,$2,$1),$0),$0)
+example_end
+
+Sent: that 's nice .
+Sem: lambda $0_{r}.adj|nice_3(pro:dem|that_1,$0)
+example_end
+
+Sent: that 's a what ?
+Sem: lambda $1_{e}.lambda $0_{r}.det:art|a_3(pro:dem|that_1,$1(pro:dem|that_1,$0))
+example_end
+
+Sent: what is that Adam ?
+Sem: lambda $1_{e}.lambda $0_{r}.$1(pro:rel|that_3,$0)
+example_end
+
+Sent: that 's a good idea .
+Sem: lambda $0_{r}.det:art|a_3(pro:dem|that_1,and(n|idea_5(pro:dem|that_1,$0),adj|good_4(pro:dem|that_1,$0)))
+example_end
+
+Sent: where are they ?
+Sem: lambda $1_{<r,t>}.lambda $0_{r}.and(cop|be-pres_2(pro:sub|they_3,$0),$1($0))
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: oh thank_you .
+Sem: lambda $0_{r}.and(n|thank_you_2($0),co|oh_1($0))
+example_end
+
+Sent: that 's all !
+Sem: lambda $0_{r}.pro:indef|all_3(pro:dem|that_1,$0)
+example_end
+
+Sent: there it is .
+Sem: lambda $0_{r}.cop|be-3s_3_there_1_it_2(you,$0)
+example_end
+
+Sent: that 's right ?
+Sem: lambda $0_{r}.Q(n|right_3(pro:dem|that_1,$0))
+example_end
+
+Sent: oh yes .
+Sem: lambda $0_{r}.and(co|yes_2($0),co|oh_1($0))
+example_end
+
+Sent: which one ?
+Sem: lambda $0_{<<e,e>,e>}.$0($1,pro:indef|one_2($1))
+example_end
+
+Sent: show me .
+Sem: lambda $0_{r}.v|show_1(you,pro:obj|me_2,$0)
+example_end
+
+Sent: this one ?
+Sem: BARE($0,Q(pro:dem|this_1($1,pro:indef|one_2($1),$0)))
+example_end
+
+Sent: this one ?
+Sem: BARE($0,Q(pro:dem|this_1($1,pro:indef|one_2($1),$0)))
+example_end
+
+Sent: what color is that ?
+Sem: lambda $1_{<<e,e>,e>}.lambda $0_{r}.pro:dem|that_4($1($2,n|color_2($2)),$0)
+example_end
+
+Sent: what d you need ?
+Sem: lambda $1_{e}.lambda $0_{r}.mod|do_2(v|need_4(pro:per|you_3,$1,$0),$0)
+example_end
+
+Sent: what other one ?
+Sem: lambda $0_{<<e,e>,e>}.$0($1,and(qn|other_2($1),pro:indef|one_3($1)))
+example_end
+
+Sent: you did .
+Sem: lambda $0_{r}.v|do-past_2(pro:per|you_1,$0)
+example_end
+
